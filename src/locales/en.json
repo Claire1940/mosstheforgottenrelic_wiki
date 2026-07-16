@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Moss: The Forgotten Relic Wiki - Walkthrough & Puzzles",
+      "description": "Explore the complete Moss: The Forgotten Relic walkthrough, puzzle solutions, collectibles, bosses, controls, platforms, achievements, and performance tips.",
+      "keywords": "Moss The Forgotten Relic, walkthrough, puzzles, collectibles, bosses, achievements, Steam",
+      "ogTitle": "Moss: The Forgotten Relic Wiki - Walkthrough & Puzzles",
+      "ogDescription": "Explore the complete Moss: The Forgotten Relic walkthrough, puzzle solutions, collectibles, bosses, controls, platforms, achievements, and performance tips.",
+      "twitterTitle": "Moss: The Forgotten Relic Wiki - Walkthrough & Puzzles",
+      "twitterDescription": "Explore the complete Moss: The Forgotten Relic walkthrough, puzzle solutions, collectibles, bosses, platforms, achievements, and performance tips."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Storybook Puzzle Adventure",
+    "title": "Moss: The Forgotten Relic Wiki",
+    "description": "Guide Quill and the Reader through a living fantasy storybook filled with environmental puzzles, hidden secrets, light combat, and two connected adventures.",
+    "getFreeCodesCTA": "Play Free Demo",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jul 16, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "$19.99",
+        "label": "Launch Price"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "100K+",
+        "label": "Steam Wishlists"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "2 Games + DLC",
+        "label": "Complete Adventure"
       }
     }
   },
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Begin Your Journey in Moss: The Forgotten Relic?",
+    "description": "Join the Moss community on Discord for walkthroughs, puzzle solutions, collectible guides, and the latest updates!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Moss: The Forgotten Relic Wiki",
+    "description": "Your complete resource hub for Moss: The Forgotten Relic walkthroughs, puzzle solutions, collectibles, combat, achievements, and performance guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Moss: The Forgotten Relic Wiki. Not affiliated with Polyarc Games.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

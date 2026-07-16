@@ -5,7 +5,7 @@ import { routing } from '@/i18n/routing'
 export const dynamic = 'force-static'
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.mosstheforgottenrelic.wiki'
   const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Lucid Blocks Wiki'
 
   const lines: string[] = []
