@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Moss : La relique oubliée - Suite : Guide et Astuces",
+  description: "Explorez le guide ultime sur écran plat pour Moss : La relique oubliée, incluant le Livre I, le Jardin du Crépuscule et le guide complet de la suite Livre II.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/150228/fff?text=Walkthrough+and+Puzzles",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Moss : La relique oubliée",
+  keywords: "Moss : La relique oubliée, Moss Book II, guide, soluce, écran plat, Quill, VR"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Collection Ultime** : La **suite de Moss : La relique oubliée** et le jeu original sont entièrement intégrés dans cette version unique sans VR.
+- **Progression Fluide** : Terminez le Livre I et les portails du Jardin du Crépuscule avant de commencer le contenu de la suite (Livre II).
+- **Double Contrôle** : Apprenez à gérer les mouvements de Quill avec les commandes de gauche tout en utilisant les interactions du Lecteur avec les commandes de droite.
+- **Nouvelles Capacités** : Débloquez le marteau, le chakram et les pouvoirs de la nature dans le Livre II pour résoudre les énigmes complexes de fin de jeu.
+</Callout>
+
+<Section icon={Map} title="Date de sortie, prix et plateformes prises en charge">
+
+Sortie le 16 juillet 2026, l'arrivée de la collection tant attendue de la **suite de Moss : La relique oubliée** apporte l'une des aventures de livre de contes les plus appréciées sur les plateformes à écran plat. Lancé au prix abordable de 19,99 $, ce pack est une réimagination complète de la franchise. Il supprime entièrement l'obligation d'un casque VR, permettant aux joueurs sur PC, consoles et appareils portables de vivre l'intégralité du voyage de Quill et du Lecteur.
+
+Le pack combine *Moss*, le *DLC Jardin du Crépuscule* et la suite *Moss : Livre II* en une seule expérience continue et unifiée. Pour rendre la transition vers les écrans plats fluide, le développeur Polyarc Games a repensé les commandes de zéro et implémenté une caméra de suivi intelligente (Smart Follow Camera). Cette caméra dynamique s'ajuste automatiquement pour garder Quill au centre de l'attention lors des phases intenses de plateforme et de combat, éliminant les angles morts que les joueurs pourraient autrement rencontrer sans casque VR.
+
+| Plateforme | Prix de lancement | VR requise | Détails clés des performances |
+| :--- | :--- | :--- | :--- |
+| **Steam / PC** | 19,99 $ | Non | Supporte le clavier, la souris et les manettes. Steam Cloud activé. |
+| **Steam Deck** | 19,99 $ | Non | Officiellement vérifié. Utilise l'achat Steam standard. |
+| **PlayStation 5** | 19,99 $ | Non | Commandes repensées, visuels améliorés, caméra de suivi intelligente. |
+| **Xbox Series X/S** | 19,99 $ | Non | Optimisé pour la 4K et 60fps+. Supporte le Smart Delivery. |
+| **Nintendo Switch 2** | 19,99 $ | Non | Édition native, 60fps en modes portable et docké. |
+
+<Callout type="info" title="Avis de mise à niveau gratuite">
+Les joueurs Nintendo Switch reçoivent une mise à niveau gratuite vers la version native Nintendo Switch 2 sans frais supplémentaires, garantissant l'accès au profil de performance amélioré à 60fps.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guide du débutant : Système de double contrôle">
+
+Jouer sans casque VR introduit une configuration unique à double contrôle. Vous devez guider Quill, la courageuse souris protagoniste, tout en agissant simultanément en tant que Lecteur, une présence magique géante capable de manipuler l'environnement. Cette dynamique coopérative est centrale tant pour les énigmes environnementales que pour les combats.
+
+Gérer ces deux rôles nécessite une division claire de l'attention. Sur les manettes standards, le stick analogique gauche et les boutons de façade gèrent les mouvements de Quill, ses sauts, ses esquives et ses coups d'épée. Le stick analogique droit contrôle le curseur du Lecteur, vous permettant de saisir des objets, de soigner Quill et d'immobiliser les ennemis. Apprendre à coordonner ces entrées est essentiel pour survivre aux défis de plus en plus difficiles de la campagne de la suite.
+
+<CardGrid cols={3}>
+  <Card title="Actions de Quill">
+    - **Combat de mêlée** : Coups d'épée rapides et esquives directionnelles.
+    - **Agilité** : Grimper sur les corniches marquées, sauter par-dessus les vides et rester en équilibre.
+    - **Retour en arrière** : Utiliser les armes nouvellement débloquées pour ouvrir d'anciens chemins.
+  </Card>
+  <Card title="Pouvoirs du Lecteur">
+    - **Manipulation** : Saisir des blocs, faire pivoter des engrenages et actionner des interrupteurs.
+    - **Soutien** : Soigner Quill pendant le combat en la maintenant directement.
+    - **Contrôle de foule** : Étourdir ou maintenir les ennemis de l'Arcane en place.
+  </Card>
+  <Card title="Tactiques de synergie">
+    - **Préparation du chemin** : Déplacer les obstacles avant d'envoyer Quill en avant.
+    - **Travail d'équipe au combat** : Maintenir un ennemi avec le Lecteur pendant que Quill attaque.
+    - **Résolution d'énigmes** : Positionner les ennemis sur des plaques de pression pour ouvrir des portes.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de sécurité au combat">
+Déplacez toujours Quill vers un coin sûr ou utilisez le Lecteur pour immobiliser l'ennemi le plus dangereux de la pièce avant de tenter de canaliser la magie de soin.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Suite de Moss : La relique oubliée : Guide et Progression">
+
+Pour profiter au maximum de l'histoire, vous devriez jouer les campagnes dans leur ordre chronologique prévu. Le jeu vous permet de sauter directement dans la suite (Livre II) depuis le menu principal, mais cela gâcherait les événements du premier jeu et contournerait la courbe d'apprentissage naturelle.
+
+L'itinéraire idéal commence par le Livre I, fait un détour par les portails du Jardin du Crépuscule dès qu'ils apparaissent dans les ruines, puis transitionne vers l'imposante campagne du Livre II. Le Livre II introduit des dioramas plus vastes, des énigmes complexes à plusieurs étapes et des combats de boss redoutables qui nécessitent d'utiliser tout l'équipement amélioré de Quill.
+
+| Phase de la campagne | Contenu inclus | Objectif principal | Mécaniques clés introduites |
+| :--- | :--- | :--- | :--- |
+| **Ouverture Livre I** | Chapitres 1-2 | Rencontrer Quill et commencer le voyage | Plateformes de base, interrupteurs simples |
+| **Temples Livre I** | Chapitres 3-5 | Explorer les ruines et trouver les portails | Plateformes mobiles, contrôle des ennemis |
+| **Jardin du Crépuscule** | 3 Portails | Gagner des améliorations et de l'équipement | Révélation de chemins cachés, nouvel équipement |
+| **Final Livre I** | Chapitres 6-7 | Terminer la mission de sauvetage | Plateformes rapides, boss Sarffog |
+| **Livre II (Suite)** | Chapitres 1-4 | Rassembler des alliés et trouver le Verre | Harmonisation Nature, croissance de lierre |
+| **Final Livre II** | Chapitres 5-9 | Vaincre la menace de l'Arcane | Armes chargées, énigmes de miroirs |
+
+<Steps>
+  <Step num="1" title="Terminer la campagne du Livre I">
+    Suivez le voyage à travers le Temple de la Bourbe, la Cité Abandonnée et le Château pour secourir Sir Argus et vaincre le serpent Sarffog.
+  </Step>
+  <Step num="2" title="Vider les portails du Jardin du Crépuscule">
+    Entrez dans les trois portails cachés dispersés dans les chapitres 3, 4 et 5 pour débloquer des améliorations d'équipement précoces et l'armure du Commandant Refondu.
+  </Step>
+  <Step num="3" title="Lancer la suite (Livre II)">
+    Sélectionnez le Livre II dans le menu pour transférer votre progression et commencer la campagne de la suite, en commençant au Verre du Roi.
+  </Step>
+  <Step num="4" title="Maîtriser les armes avancées de la suite">
+    Acquérez le chakram et le marteau lourd dans le Livre II pour contourner de nouveaux types d'obstacles et vaincre les ennemis Forgés en armure.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sécurité de la sauvegarde automatique">
+Le jeu sauvegarde automatiquement fréquemment à chaque transition de pièce. Si Quill tombe lors d'une séquence de plateforme difficile, elle réapparaîtra instantanément à l'entrée de la pièce actuelle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armes de la suite et capacités du Lecteur">
+
+La campagne de la suite, *Moss : Livre II*, élargit considérablement l'arsenal de Quill. Alors que le premier jeu repose presque entièrement sur le combat à l'épée de base, la suite introduit des armes spécialisées et des pouvoirs de déplacement assistés par le Lecteur. Ces outils ne servent pas seulement à vaincre les ennemis ; ils sont également utilisés pour résoudre des énigmes environnementales et révéler des chemins cachés lors de vos retours en arrière.
+
+Chaque arme dispose d'une capacité chargée unique qui nécessite un travail d'équipe. En maintenant le bouton d'arme enfoncé, le Lecteur peut intervenir et charger l'outil équipé de Quill avec de l'énergie magique. Cela débloque des attaques dévastatrices et des techniques de déplacement, comme foncer à travers de larges gouffres ou lancer une lame tournoyante pour frapper des interrupteurs éloignés.
+
+| Arme / Pouvoir | Catégorie | Comment débloquer | Utilisation principale en combat et énigme |
+| :--- | :--- | :--- | :--- |
+| **Ruée à l'épée** | Amélioration mêlée | Sanctuaire du Conservatoire (Livre II) | Chargez l'épée pour foncer à travers les ennemis et franchir de larges gouffres. |
+| **Chakram chargé** | Arme à distance | Voyage de Sahima (Livre II) | Lancez une lame qui revient pour frapper des cibles et interrupteurs lointains. |
+| **Marteau de Cariel** | Arme lourde | Fonderie (Livre II) | Brisez les barrières lourdes et déployez un Piège à Marteau ciblé au sol. |
+| **Harmonisation Nature** | Pouvoir du Lecteur | Royaume des Sprites (Livre II) | Faites pousser des murs de lierre et étendez des ponts de racines sur les gouffres. |
+| **Révélation Plateforme**| Pouvoir du Lecteur | Progression de l'histoire (Livre II) | Exposez des chemins de verre invisibles et des plateformes cachées pour Quill. |
+
+<Callout type="warning" title="Retour en arrière requis">
+De nombreux objets de collection dans les premières zones du Livre II sont verrouillés derrière des barrières nécessitant des armes de fin de jeu. Prévoyez de revisiter les premiers chapitres une fois votre arsenal complet.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guide des objets de collection et secrets cachés">
+
+Pour les complétistes, la collection offre une multitude de secrets cachés répartis sur les deux campagnes. Trouver ces objets vous récompense par de magnifiques vitraux, des détails sur l'univers et des ensembles d'armures optionnels puissants qui changent l'apparence de Quill.
+
+Les Fragments Oubliés apparaissent sous forme de morceaux de parchemins brillants cachés sur des rebords élevés, derrière des éléments de décor au premier plan ou le long de chemins secondaires optionnels. La Poussière de Relique s'obtient en brisant des contenants décoratifs comme des barils, des pots et des caisses. Accumuler suffisamment de Poussière de Relique vous permet d'ouvrir les portes scellées des trois Sanctuaires de Reliques, qui abritent les récompenses d'armures ultimes du jeu.
+
+<Checklist
+  id="collectible-checklist"
+  title="Objectifs pour les complétistes :"
+  items={[
+    "Trouver les 31 Fragments Oubliés dans le Livre I",
+    "Localiser et terminer les trois portails du Jardin du Crépuscule",
+    "Collecter les 48 Fragments de vitraux dans le Livre II",
+    "Briser chaque récipient de poussière pour ouvrir les trois Sanctuaires de Reliques",
+    "Débloquer tous les ensembles d'armures optionnels pour Quill"
+  ]}
+/>
+
+<Callout type="info" title="Suivi de la progression">
+Utilisez le menu de Sélection de Chapitre dans le Livre I et l'écran des Objectifs dans le Livre II pour identifier rapidement les pièces contenant des fragments de parchemin manquants ou des sanctuaires non ouverts.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce que Moss : La relique oubliée inclut la suite ?",
+    answer: "Oui, cette version est une collection complète qui regroupe le Moss original, le DLC Jardin du Crépuscule et la suite Moss : Livre II en une seule campagne unifiée."
+  },
+  {
+    question: "Un casque VR est-il requis pour jouer à cette version ?",
+    answer: "Non, cette version est conçue spécifiquement pour les écrans plats standards. Elle propose des commandes à la manette repensées et une caméra de suivi intelligente pour remplacer toutes les interactions VR."
+  },
+  {
+    question: "Qu'est-ce que la fonctionnalité 'Passer le combat' ?",
+    answer: "Passer le combat est une option d'accessibilité qui permet aux joueurs de contourner les affrontements et les combats de boss difficiles, leur permettant de se concentrer entièrement sur l'histoire et les énigmes."
+  },
+  {
+    question: "Comment le jeu se comporte-t-il sur Nintendo Switch 2 ?",
+    answer: "Le jeu tourne dans une résolution native nette et maintient un 60fps fluide en modes portable et docké, avec des temps de chargement rapides entre les zones."
+  }
+]} />
+
+<Callout type="success" title="Verdict Final">
+Avec des commandes sur écran plat améliorées et une caméra de suivi dynamique, cette version est le moyen définitif de découvrir la suite de Moss : La relique oubliée et le voyage complet de Quill.
+</Callout>
+
+</Section>

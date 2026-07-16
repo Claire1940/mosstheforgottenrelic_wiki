@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Moss: The Forgotten Relic Vollversion-Demo: Komplette Komplettlösung & Taktiken",
+  description: "Meistern Sie die Mechaniken, Rätsel und Bosskämpfe in der Vollversion-Demo von Moss: The Forgotten Relic. Lernen Sie Waffentaktiken, Optimierungstipps und Geheimnisse.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Full+Demo+Walkthrough",
+  date: "2026-07-16",
+  author: "Moss: The Forgotten Relic Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Hauptziel**: Navigieren Sie durch die überwucherten Ruinen, um den Hammer von Caryll zu bergen und sich dem Aschenritter in der **Vollversion-Demo von Moss: The Forgotten Relic** zu stellen.
+- **Schlüsselmechanik**: Wechseln Sie nahtlos zwischen Schwertkampf für Geschwindigkeit und Hammerschlägen für schwere Rätsel.
+- **Beste Strategie**: Nutzen Sie Gedankenkontrolle bei kleineren Arkan-Gegnern, um unerreichbare Druckplatten auszulösen.
+- **Wichtiger Tipp**: Spielen Sie mit einem Controller, um präzise Sprungpassagen und das richtige Timing beim Ausweichen in den Bossphasen zu gewährleisten.
+- **Beste Wahl**: Priorisieren Sie die Verbesserung der Hammer-Aufladegeschwindigkeit, um gepanzerte Ziele effizient zu bekämpfen.
+</Callout>
+
+<Section icon={Sparkles} title="Demo-Übersicht & Performance-Optimierung">
+
+Die Veröffentlichung des Early-Access-Builds bietet Spielern einen umfassenden Einblick in das bevorstehende Abenteuer. Diese Vorschau bietet etwa dreißig Minuten hochglanzpoliertes Rätsel-Platforming und Kämpfe und zeigt die Reise der heldenhaften Maus Quill und ihres Gefährten, dem Leser. Die Geschichte beginnt damit, dass Onkel Argus Quill vor der drohenden Gefahr durch Sarbog und die arkanen Mächte warnt, die in den Thronsaal eindringen. 
+
+Um Spielern den Einstieg in diese Vorschau zu erleichtern, finden Sie hier eine Übersicht über das Kernerlebnis, die technische Performance und die optimalen Einstellungen für ein flüssiges Spielerlebnis.
+
+**Video-Highlights:**
+- **Performance-Showcase**: Das Spiel läuft mit konstanten 144 FPS bei minimaler GPU-Auslastung.
+- **Kampfmechaniken**: Demonstration des Übergangs von einfachen Schwertstreichen zum schweren Hammer von Caryll.
+- **Rätsellösungen**: Schritt-für-Schritt-Lösung der Druckplatten- und Gedankenkontroll-Rätsel.
+- **Bosskampf**: Eine vollständige Analyse der finalen Konfrontation mit dem gewaltigen Wächter.
+
+<YouTubeEmbed videoId="qBdmCMY6X3U" title="Moss: The Forgotten Relic Gameplay-Komplettlösung - VOLLVERSION-DEMO" />
+
+Das Spiel ist hervorragend optimiert und behält selbst auf bescheideneren Hardwarekonfigurationen konstante Bildraten bei. Um die beste visuelle Klarheit und Eingabereaktionszeit zu erzielen, verwenden Sie die unten empfohlenen Einstellungen.
+
+| Einstellung | Empfohlener Wert | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| Bildratenbegrenzung | 144 FPS / Unbegrenzt | Sichert extrem flüssige Animationen bei schnellen Platforming-Sequenzen |
+| Eingabemethode | Gamepad / Controller | Entscheidend für präzise Richtungssprünge und Angriffswinkel |
+| Auflösung | Native Monitorauflösung | Hebt die detailreichen Miniaturumgebungen und die wilde Pflanzenwelt hervor |
+| V-Sync | Aktiviert (oder G-Sync/FreeSync) | Verhindert Screen-Tearing bei schnellen Kamerabewegungen |
+
+<Callout type="tip" title="Controller-Empfehlung">
+Das Entwicklerteam empfiehlt dringend, mit einem Controller statt mit Tastatur und Maus zu spielen. Der Analogstick ermöglicht präzise Bewegungsanpassungen beim Gehen auf schmalen Vorsprüngen und bei engen Sprüngen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Grundlegende Gameplay-Mechaniken & Steuerung">
+
+Der Erfolg im Spiel hängt davon ab, Quills duales Waffensystem zu meistern. Während das Schwert schnelle Angriffe und hohe Mobilität bietet, führt der neu eingeführte Hammer von Caryll wuchtige Kämpfe und Umweltmanipulationen ein. Spieler müssen lernen, diese beiden Spielstile je nach den angetroffenen Gegnern und Rätseln auszubalancieren.
+
+| Waffe | Hauptsächliche Nutzung | Stärken | Schwächen |
+| :--- | :--- | :--- | :--- |
+| Schwert | Schneller Kampf und Schneiden von Pflanzen | Extrem schnell, kurze Erholungsphasen, ermöglicht schnelles Ausweichen | Geringer Schaden gegen gepanzerte Ziele, kann keine schweren Schalter auslösen |
+| Hammer von Caryll | Schwerer Kampf und Rätselaktivierung | Hoher Schaden, zertrümmert Rüstungen, aktiviert mechanische Fallen | Langsame Ausholbewegung, macht Quill anfällig für schnelle Gegenangriffe |
+
+Um sich mit diesen Mechaniken vertraut zu machen, lassen sich die Kernsysteme des Gameplays in drei verschiedene Kategorien einteilen:
+
+<CardGrid cols={3}>
+  <Card title="Erkundung & Platforming">
+    - **Pflanzen schneiden**, um versteckte Pfade freizulegen und grüne Vorratspartikel zu sammeln.
+    - **Über Abgründe springen** mit schwungbasierten Sprüngen.
+    - **Plattformen manipulieren** mit dem spirituellen Zug des Lesers, um riesige Klüfte zu überbrücken.
+  </Card>
+  <Card title="Arkaner Kampf">
+    - **Ausweichrolle**, um eingehenden Angriffen von aggressiven Arkan-Käfern zu entgehen.
+    - **Schwertangriffe verketten**, um ungepanzerte Gegner schnell auszuschalten.
+    - **Hammerangriffe aufladen**, um Schilde zu zertrümmern und massiven Flächenschaden zu verursachen.
+  </Card>
+  <Card title="Gedankenkontrolle">
+    - **Kleine Gegner anvisieren** mit dem Einfluss des Lesers.
+    - **Kontrollierte Gegner** auf leuchtende Bodenplatten steuern, um versiegelte Tore zu öffnen.
+    - **Bedrohungen ablenken**, während Quill sich für einen verheerenden Flankenangriff positioniert.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ressourcenmanagement">
+Schneiden Sie immer hohes Gras ab und zerschlagen Sie zerbrechliche Töpfe, die in den Umgebungen verstreut sind. Diese enthalten grün leuchtende Vorratspartikel, die Quills Gesundheit wiederherstellen und ihre Spezialfähigkeiten aufladen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Komplettlösung & Rätsellösungen">
+
+Die Demo führt die Spieler durch eine Reihe miteinander verbundener Kammern, die in einem üppigen Gewächshaus und einer verborgenen Kammer mit legendären Relikten gipfeln. Das Verständnis für die Navigation in diesen Umgebungen ist der Schlüssel zum Abschluss der Prüfung.
+
+| Rätsel-Hindernis | Erforderliche Schlüsselmechanik | Lösungsstrategie |
+| :--- | :--- | :--- |
+| Versiegeltes Steintor | Hebel ziehen / Plattform ausrichten | Ziehen Sie den leuchtenden Hebel und verschieben Sie dann die schwebende Steinplattform, um die Lücke zu schließen, bevor der Timer abläuft. |
+| Schriftrolle auf erhöhtem Vorsprung | Schwung-Sprung | Verschieben Sie die Schiebeplattform zur Mitte, klettern Sie auf die linke Struktur und führen Sie einen Diagonalsprung aus, um das Sammlerstück zu erreichen. |
+| Doppelte Druckplatte | Gegner-Gedankenkontrolle | Stellen Sie sich mit Quill auf eine Platte und nutzen Sie dann die Macht des Lesers, um einen nahen Käfer zu greifen und ihn auf der zweiten Platte festzuhalten. |
+
+Um die **Vollversion-Demo von Moss: The Forgotten Relic** systematisch abzuschließen, folgen Sie diesen aufeinanderfolgenden Schritten:
+
+<Steps>
+  <Step num="1" title="Flucht aus den Startruinen">
+    Beginnen Sie, indem Sie mit Onkel Argus durch die zerfallenden Steinkorridore navigieren. Benutzen Sie Ihr Schwert, um überwucherte Ranken zu entfernen, die den Durchgang blockieren. Schieben Sie die erste Steinplattform nach rechts, um eine Brücke zu bauen, sodass Quill über den Abgrund springen und den Hebel für das Haupttor ziehen kann.
+  </Step>
+  <Step num="2" title="Den Hammer von Caryll bergen">
+    Begeben Sie sich tief in das alte Gewölbe, in dem der legendäre Hammer ruht. Lesen Sie die Inschrift auf dem Sockel, um die Waffe freizuschalten. Benutzen Sie den Hammer nach dem Erhalt, um die rissige Steinbarriere zu zertrümmern, die den Ausgang blockiert.
+  </Step>
+  <Step num="3" title="Die Druckplatten im Gewächshaus lösen">
+    Betreten Sie das überwucherte Gewächshaus voller wilder Pflanzen. Suchen Sie die beiden Druckplatten auf der unteren Ebene. Locken Sie einen Arkan-Käfer in die Nähe der rechten Platte, nutzen Sie die Kontrollfähigkeit des Lesers, um den Käfer auf dem Schalter festzuhalten, und führen Sie Quill schnell durch das geöffnete Eisentor auf der linken Seite.
+  </Step>
+  <Step num="4" title="Die Hammerfallen aktivieren">
+    Suchen Sie die großen mechanischen Hammerfallen, die in den Wänden eingelassen sind. Schlagen Sie mit einem voll aufgeladenen Hammerangriff auf die leuchtend gelben Energieknoten, um Energie zu übertragen und die beweglichen Plattformen zu aktivieren, die zum oberen Heiligtum führen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Vorsicht beim Gehen">
+Die Sprungpassagen im Gewächshausbereich können unbarmherzig sein. Wenn Quill in tiefes Wasser oder über die Kartengrenzen stürzt, erleidet sie erheblichen Schaden und erscheint wieder am Anfang des aktuellen Raums.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Boss-Guide: Besiegen des Aschenritters">
+
+Der Höhepunkt der Demo stellt Quill vor den furchterregenden Aschenritter, einen gewaltigen gepanzerten Wächter, der zuvor das Bataillon von Onkel Argus dezimiert hat. Diese Begegnung stellt Ihre Fähigkeit auf die Probe, schweren Angriffen auszuweichen und in kurzen Phasen der Verwundbarkeit zuzuschlagen.
+
+| Bossphase | Gefahrenstufe | Boss-Angriffsmuster | Konterstrategie |
+| :--- | :--- | :--- | :--- |
+| Phase 1 | Moderat | Einarmige, fegende Angriffe über die Plattform | Führen Sie einen Doppelsprung über den fegenden Arm aus und führen Sie dann schnelle Schwertangriffe gegen die ungeschützte Hand aus. |
+| Phase 2 | Hoch | Faustschläge von oben, die Schockwellen erzeugen | Passen Sie das Timing Ihrer Ausweichrolle an, um der Schockwelle zu entgehen, und wechseln Sie dann sofort zum Hammer, um den leuchtenden Handgelenkknoten zu treffen. |
+| Phase 3 | Extrem | Kombinierte Feger und kontinuierliche Bodenschläge | Bleiben Sie in Bewegung, meiden Sie die Mitte der Arena und nutzen Sie voll aufgeladene Hammerschläge, wenn der Boss sich nach einem Schlag ausruht. |
+
+Der Schlüssel zu diesem Kampf ist Geduld. Versuchen Sie nicht, Ihre Angriffe zu überstürzen, da die Erholungsanimationen des Aschenritters kurz sind.
+
+<Callout type="tip" title="Timing für Hammer-Aufladung">
+Versuchen Sie voll aufgeladene Hammerschläge nur dann, wenn die Hand des Wächters nach einem schweren Schlag völlig bewegungslos auf dem Boden liegt. Der Versuch, den Hammer während seiner fegenden Phasen aufzuladen, setzt Sie völlig ungeschützt Angriffen mit hohem Schaden aus.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Demo-Sammlerstücke & Geheimnisse">
+
+Für Komplettierungssammler verbirgt die Demo mehrere wertvolle Geheimnisse, die eine gründliche Erkundung belohnen. Um diese Gegenstände zu finden, müssen die Spieler über den Hauptweg hinausschauen und die Umgebung nutzen, um versteckte Nischen zu erreichen.
+
+Die wichtigsten Sammlerstücke in dieser Vorschau sind **Versteckte Schriftrollen**. Diese leuchtenden Pergamentrollen sind in schwer zugänglichen Bereichen versteckt und erfordern oft kreatives Platforming oder den geschickten Einsatz von beweglichen Steinblöcken.
+
+<Checklist
+  id="demo-achievements"
+  title="Checkliste für den vollständigen Abschluss der Demo:"
+  items={[
+    "Finden und sammeln Sie alle 3 versteckten Schriftrollen, die in den Ruinen und im Gewächshaus verborgen sind.",
+    "Besiegen Sie den Hinterhalt der Arkan-Käfer, ohne Schaden zu nehmen.",
+    "Führen Sie ein Gedankenkontroll-Rätsel erfolgreich beim ersten Versuch aus.",
+    "Stellen Sie sich dem Aschenritter-Wächter am Ende der Demo und besiegen Sie ihn."
+  ]}
+/>
+
+<Callout type="info" title="Fundorte der Schriftrollen">
+- **Schriftrolle 1**: Befindet sich auf einem hohen Steinvorsprung im Startraum. Schieben Sie die Plattform ganz nach links, um sie zu erreichen.
+- **Schriftrolle 2**: Versteckt hinter einer zerstörbaren Holzwand im Gewächshaus. Benutzen Sie den Hammer, um die Barriere zu zertrümmern.
+- **Schriftrolle 3**: Positioniert auf einer schwebenden Plattform kurz vor dem Betreten der Arena des Aschenritters.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+Zum Abschluss dieses Guides finden Sie hier Antworten auf die häufigsten Fragen, auf die Spieler während des Spielens der Vorschau gestoßen sind.
+
+<FAQ items={[
+  {
+    question: "Wie lange dauert die Vollversion-Demo von Moss: The Forgotten Relic?",
+    answer: "Die Demo bietet etwa 30 bis 45 Minuten Spielzeit, je nachdem, wie gründlich Sie die Umgebungen nach versteckten Schriftrollen und Geheimnissen durchsuchen."
+  },
+  {
+    question: "Werden meine Demo-Speicherstände in das vollständige Spiel übernommen?",
+    answer: "Der Entwickler hat die Übernahme von Speicherdaten bisher nicht bestätigt. Da die Demo eine frühe Testversion mit potenziellen Balance-Änderungen darstellt, sollten Sie mit einem Neuanfang bei der offiziellen Veröffentlichung rechnen."
+  },
+  {
+    question: "Wie wechsle ich zwischen dem Schwert und dem Hammer?",
+    answer: "Sie können die Waffen sofort über die zugewiesene Taste auf Ihrem Controller wechseln. Der Wechsel erfolgt nahtlos und kann sogar mitten in einer Kombo durchgeführt werden, um schnelle Schwertstreiche mit einem schweren Hammer-Finisher zu verbinden."
+  },
+  {
+    question: "Gibt es in der Demo einen Koop-Modus?",
+    answer: "Nein, die Demo ist eine reine Einzelspieler-Erfahrung, bei der Sie sowohl Quill (die Maus) als auch den Leser (die spirituelle Einheit, die die Umgebung manipuliert) steuern."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Die Vorschau präsentiert ein unglaublich poliertes, visuell beeindruckendes und hochgradig optimiertes Rätsel-Abenteuer. Mit einer präzisen Steuerung, lohnenden Rätseln und befriedigenden Kampfmechaniken legt sie die Messlatte für die Vollversion sehr hoch.
+</Callout>
+
+</Section>

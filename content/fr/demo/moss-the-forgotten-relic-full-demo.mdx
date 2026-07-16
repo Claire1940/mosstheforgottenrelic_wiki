@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Démo complète de Moss : La relique oubliée : Guide complet et tactiques",
+  description: "Maîtrisez les mécaniques, les énigmes et les combats de boss dans la démo complète de Moss : La relique oubliée. Apprenez les tactiques d'armes, les conseils d'optimisation et les secrets.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Full+Demo+Walkthrough",
+  date: "2026-07-16",
+  author: "Équipe Wiki de Moss : La relique oubliée",
+  keywords: "Moss, La relique oubliée, démo, guide, solution, Chevalier de Cendre, Marteau de Caryll"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Naviguez dans les ruines envahies par la végétation pour récupérer le Marteau de Caryll et affronter le Chevalier de Cendre dans la **démo complète de Moss : La relique oubliée**.
+- **Mécanique clé** : Alternez de manière fluide entre le combat à l'épée pour la rapidité et les coups de marteau pour les énigmes lourdes.
+- **Meilleure stratégie** : Utilisez le contrôle mental sur les petits ennemis Arcaniques pour activer des plaques de pression hors de portée.
+- **Conseil critique** : Jouez avec une manette pour garantir des phases de plateforme précises et un timing d'esquive optimal lors des combats de boss.
+- **Meilleur choix** : Priorisez l'amélioration de la vitesse de charge du marteau pour traiter efficacement les cibles blindées.
+</Callout>
+
+<Section icon={Sparkles} title="Aperçu de la démo et optimisation des performances">
+
+La sortie de la version en accès anticipé offre aux joueurs un aperçu substantiel de l'aventure à venir. Cet aperçu propose environ trente minutes de jeu de plateforme, d'énigmes et de combat très soignés, mettant en scène le voyage de l'héroïque souris, Quill, et de son compagnon, le Lecteur. Le récit commence avec l'Oncle Argus avertissant Quill de la menace imminente de Sarbog et des forces Arcaniques envahissant la salle du trône.
+
+Pour aider les joueurs à bien débuter cet aperçu, voici une analyse de l'expérience de base, détaillant les performances techniques et les paramètres optimaux pour une partie fluide.
+
+**Points forts de la vidéo :**
+- **Démonstration des performances** : Le jeu tourne à 144 FPS constants avec une charge GPU minimale.
+- **Mécaniques de combat** : Démonstration de la transition entre les coups d'épée de base et le lourd Marteau de Caryll.
+- **Solutions des énigmes** : Résolution étape par étape des plaques de pression et des énigmes de contrôle mental.
+- **Rencontre avec le boss** : Une analyse complète de la confrontation finale avec le colossal Gardien.
+
+<YouTubeEmbed videoId="qBdmCMY6X3U" title="Moss : La relique oubliée Gameplay Walkthrough - FULL DEMO" />
+
+Le jeu est exceptionnellement bien optimisé, maintenant des taux de rafraîchissement constants même sur des configurations matérielles modestes. Pour obtenir la meilleure clarté visuelle et réactivité, utilisez les paramètres recommandés ci-dessous.
+
+| Paramètre | Valeur recommandée | Impact sur le gameplay |
+| :--- | :--- | :--- |
+| Limite de FPS | 144 FPS / Illimité | Assure des animations ultra-fluides lors des séquences de plateforme rapides |
+| Entrée de commande | Manette / Controller | Crucial pour les sauts directionnels précis et les angles d'attaque |
+| Résolution | Résolution native du moniteur | Met en valeur les environnements miniatures détaillés et la flore sauvage |
+| V-Sync | Activé (ou G-Sync/FreeSync) | Élimine les déchirements d'écran lors des transitions rapides de caméra |
+
+<Callout type="tip" title="Recommandation de manette">
+L'équipe de développement conseille vivement de jouer avec une manette plutôt qu'avec un clavier et une souris. Le stick analogique permet des ajustements de mouvement précis lors de la marche sur des corniches étroites et des sauts serrés.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de jeu de base et commandes">
+
+Le succès dans le jeu repose sur la maîtrise du système de double arme de Quill. Alors que l'épée offre des frappes rapides et une grande mobilité, le nouveau Marteau de Caryll introduit des combats à fort impact et une manipulation de l'environnement. Les joueurs doivent apprendre à équilibrer ces deux styles de jeu en fonction des ennemis et des énigmes rencontrés.
+
+| Arme | Utilisation principale | Points forts | Points faibles |
+| :--- | :--- | :--- | :--- |
+| Épée | Combat rapide et coupe de feuillage | Extrêmement rapide, peu de temps de récupération, permet une esquive rapide | Faibles dégâts contre les cibles blindées, ne peut pas activer les interrupteurs lourds |
+| Marteau de Caryll | Combat lourd et activation d'énigmes | Dégâts élevés, brise les armures, active les pièges mécaniques | Temps de préparation lent, laisse Quill vulnérable aux contre-attaques rapides |
+
+Pour aider à naviguer dans ces mécaniques, les systèmes de jeu de base peuvent être divisés en trois catégories distinctes :
+
+<CardGrid cols={3}>
+  <Card title="Exploration et plateforme">
+    - **Coupez le feuillage** pour découvrir des passages cachés et collecter des particules de ravitaillement vertes.
+    - **Sautez par-dessus les vides** en utilisant des sauts basés sur l'élan.
+    - **Manipulez les plateformes** en utilisant la traction spirituelle du Lecteur pour franchir d'immenses gouffres.
+  </Card>
+  <Card title="Combat arcanique">
+    - **Faites une roulade d'esquive** pour échapper aux attaques des scarabées arcaniques agressifs.
+    - **Enchaînez les coups d'épée** pour éliminer rapidement les ennemis sans armure.
+    - **Chargez les attaques de marteau** pour écraser les boucliers et infliger des dégâts de zone massifs.
+  </Card>
+  <Card title="Contrôle mental">
+    - **Ciblez les petits ennemis** avec l'influence du Lecteur.
+    - **Guidez les ennemis contrôlés** sur les plaques de sol lumineuses pour déverrouiller les portes scellées.
+    - **Distrayez les menaces** pendant que Quill se positionne pour un flanc dévastateur.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Gestion des ressources">
+Coupez toujours les hautes herbes et cassez les pots fragiles disséminés dans les environnements. Ils contiennent des particules de ravitaillement vertes lumineuses qui restaurent la santé de Quill et chargent ses capacités spéciales.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guide de progression et solutions des énigmes">
+
+La démo guide les joueurs à travers une série de chambres interconnectées, culminant dans une serre luxuriante et un coffre caché contenant des reliques légendaires. Comprendre comment naviguer dans ces environnements est la clé pour terminer l'épreuve.
+
+| Obstacle d'énigme | Mécanique clé requise | Stratégie de solution |
+| :--- | :--- | :--- |
+| Porte de pierre scellée | Levier / Alignement de plateforme | Tirez le levier lumineux, puis faites glisser la plateforme de pierre flottante pour combler le vide avant la fin du temps imparti. |
+| Parchemin sur corniche élevée | Saut avec élan | Déplacez la plateforme coulissante au point médian, montez sur la structure de gauche et effectuez un saut diagonal pour atteindre l'objet. |
+| Double plaque de pression | Contrôle mental d'ennemi | Placez Quill sur une plaque, puis utilisez le pouvoir du Lecteur pour saisir un scarabée à proximité et le maintenir sur la deuxième plaque. |
+
+Pour terminer la **démo complète de Moss : La relique oubliée** systématiquement, suivez ces étapes séquentielles :
+
+<Steps>
+  <Step num="1" title="S'échapper des ruines de départ">
+    Commencez par naviguer dans les couloirs de pierre en ruine avec l'Oncle Argus. Utilisez votre épée pour dégager les lianes envahissantes bloquant l'entrée. Faites glisser la première plateforme de pierre vers la droite pour créer un pont, permettant à Quill de sauter par-dessus le vide et de tirer le levier de la porte principale.
+  </Step>
+  <Step num="2" title="Récupérer le Marteau de Caryll">
+    Progressez profondément dans l'ancien coffre-fort où repose le marteau légendaire. Lisez l'inscription sur le piédestal pour déverrouiller l'arme. Une fois acquise, utilisez le marteau pour briser la barrière de pierre fissurée bloquant la sortie.
+  </Step>
+  <Step num="3" title="Résoudre les plaques de pression de la serre">
+    Entrez dans la serre envahie remplie de plantes sauvages. Localisez les doubles plaques de pression au niveau inférieur. Attirez un scarabée arcanique près de la plaque de droite, utilisez la capacité de contrôle du Lecteur pour maintenir le scarabée en place sur l'interrupteur, et guidez rapidement Quill à travers la porte de fer ouverte sur la gauche.
+  </Step>
+  <Step num="4" title="Activer les pièges à marteau">
+    Localisez les grands pièges à marteau mécaniques encastrés dans les murs. Frappez les nœuds d'énergie jaune lumineux avec une attaque de marteau entièrement chargée pour transférer l'énergie, activant ainsi les plateformes mobiles qui mènent au sanctuaire supérieur.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Attention où vous marchez">
+Les phases de plateforme dans la section de la serre peuvent être impitoyables. Si Quill tombe dans l'eau profonde ou hors des limites de la carte, elle subira des dégâts importants et réapparaîtra au début de la salle actuelle.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide du boss : Vaincre le Chevalier de Cendre">
+
+Le point culminant de la démo oppose Quill au redoutable Chevalier de Cendre, un gardien en armure massive qui a précédemment décimé le bataillon de l'Oncle Argus. Cette rencontre teste votre capacité à esquiver les attaques lourdes et à frapper pendant de courtes fenêtres de vulnérabilité.
+
+| Phase du boss | Niveau de danger | Modèle d'attaque du boss | Contre-stratégie |
+| :--- | :--- | :--- | :--- |
+| Phase 1 | Modéré | Balayages d'un seul bras sur la plateforme | Double-sautez par-dessus le bras qui balaie, puis effectuez des frappes d'épée rapides contre la main exposée. |
+| Phase 2 | Élevé | Coups de poing verticaux provoquant des ondes de choc | Chronométrez votre roulade d'esquive pour contourner l'onde de choc, puis passez immédiatement au marteau pour frapper le nœud du poignet lumineux. |
+| Phase 3 | Extrême | Balayages combinés et coups au sol continus | Restez mobile, évitez le centre de l'arène et utilisez des frappes de marteau chargées lorsque le boss se repose après un coup. |
+
+La clé de ce combat est la patience. N'essayez pas de précipiter vos attaques, car les animations de récupération du Chevalier de Cendre sont brèves.
+
+<Callout type="tip" title="Timing de charge du marteau">
+N'essayez des frappes de marteau entièrement chargées que lorsque la main du Gardien est complètement immobile au sol après un coup lourd. Tenter de charger le marteau pendant ses phases de balayage vous laissera complètement exposé à des attaques infligeant de gros dégâts.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objets de collection et secrets de la démo">
+
+Pour les complétistes, la démo cache plusieurs secrets précieux qui récompensent l'exploration approfondie. Trouver ces objets nécessite de regarder au-delà du chemin principal et d'utiliser l'environnement pour atteindre des alcôves cachées.
+
+Les principaux objets de collection de cet aperçu sont les **Parchemins cachés**. Ces rouleaux de parchemin lumineux sont nichés dans des zones difficiles d'accès, nécessitant souvent des phases de plateforme créatives ou l'utilisation judicieuse de blocs de pierre mobiles.
+
+<Checklist
+  id="demo-achievements"
+  title="Liste de contrôle de complétion de la démo :"
+  items={[
+    "Localisez et collectez les 3 Parchemins cachés dans les ruines et la serre.",
+    "Battez l'embuscade des scarabées arcaniques sans subir de dégâts.",
+    "Réussissez une énigme de contrôle mental dès la première tentative.",
+    "Affrontez et battez le Chevalier de Cendre à la fin de la démo."
+  ]}
+/>
+
+<Callout type="info" title="Emplacements des parchemins">
+- **Parchemin 1** : Situé sur une haute corniche de pierre dans la salle de départ. Faites glisser la plateforme complètement vers la gauche pour l'atteindre.
+- **Parchemin 2** : Caché derrière un mur en bois destructible dans la serre. Utilisez le marteau pour briser la barrière.
+- **Parchemin 3** : Positionné sur une plateforme flottante juste avant d'entrer dans l'arène du Chevalier de Cendre.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire aux questions">
+
+Pour conclure ce guide, voici les réponses aux questions les plus courantes rencontrées par les joueurs lors de cet aperçu.
+
+<FAQ items={[
+  {
+    question: "Quelle est la durée de la démo complète de Moss : La relique oubliée ?",
+    answer: "La démo offre environ 30 à 45 minutes de contenu, selon le soin que vous apportez à l'exploration des environnements pour trouver les parchemins cachés et les secrets."
+  },
+  {
+    question: "Mes fichiers de sauvegarde de la démo sont-ils transférés vers le jeu complet ?",
+    answer: "Le développeur n'a pas confirmé le transfert des données de sauvegarde. Comme la démo représente une version de test précoce avec des changements d'équilibrage potentiels, attendez-vous à repartir de zéro lors de la sortie officielle."
+  },
+  {
+    question: "Comment changer d'arme entre l'épée et le marteau ?",
+    answer: "Vous pouvez changer d'arme instantanément en utilisant le bouton désigné sur votre manette. Le changement est fluide et peut même être effectué en plein combo pour enchaîner des coups d'épée rapides avec un coup de marteau final lourd."
+  },
+  {
+    question: "Y a-t-il un mode coopératif disponible dans la démo ?",
+    answer: "Non, la démo est strictement une expérience solo où vous contrôlez à la fois Quill (la souris) et le Lecteur (l'entité spirituelle manipulant l'environnement)."
+  }
+]} />
+
+<Callout type="success" title="Verdict final">
+Cet aperçu présente un jeu d'aventure et d'énigmes incroyablement soigné, visuellement époustouflant et hautement optimisé. Avec des commandes précises, des énigmes gratifiantes et des mécaniques de combat satisfaisantes, il place la barre très haut pour la version complète.
+</Callout>
+
+</Section>

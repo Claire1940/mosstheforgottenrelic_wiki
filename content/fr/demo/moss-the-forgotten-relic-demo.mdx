@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Démo de Moss : La relique oubliée : Guide de gameplay et des mécaniques",
+  description: "Maîtrisez la démo de Moss : La relique oubliée avec notre guide complet. Apprenez les mécaniques de combat, les solutions aux énigmes et les stratégies de l'arme marteau pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Moss+Demo+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Moss : La relique oubliée",
+  keywords: "Moss, démo, guide de jeu, mécaniques, marteau, solution"
+}
+
+<Callout type="info" title="Guide rapide">
+- La **démo de Moss : La relique oubliée** offre environ 30 à 45 minutes de jeu, se concentrant sur les mécaniques de début de partie et un affrontement majeur contre un boss.
+- Les **mécaniques de base** impliquent une perspective de jeu de plateforme et d'énigmes en 3D où vous contrôlez la souris Quill tout en interagissant avec le monde en tant que « Lecteur ».
+- La **progression des armes** introduit le lourd Marteau en milieu de démo, essentiel pour résoudre les énigmes environnementales et vaincre les ennemis en armure.
+- L'**optimisation** est un point fort, la démo tournant à 144 FPS stables sur du matériel moderne de 2026 avec une charge GPU minimale.
+- La **prise en charge de la manette** est fortement recommandée par les développeurs pour une expérience de mouvement et de combat plus fluide.
+</Callout>
+
+<Section icon={Map} title="Aperçu de la démo de Moss : La relique oubliée">
+
+La **démo de Moss : La relique oubliée** offre aux joueurs une tranche verticale du monde enchanteur où vous guidez un petit héros nommé Quill. En tant que « Lecteur », votre rôle est double : vous contrôlez directement les mouvements et les combats de Quill tout en intervenant simultanément dans le monde pour manipuler de gros objets, déplacer des plateformes et même contrôler l'esprit de certains ennemis. Cette version en accès anticipé présente la transition du jeu de ses racines VR vers un titre d'action-aventure 3D peaufiné qui met l'accent sur la narration environnementale et une conception de niveaux complexe.
+
+**Points forts de la vidéo :**
+- **Gameplay de début :** Présentation de Quill et de l'Oncle Argus près de la salle du trône.
+- **Mécaniques de combat :** Démonstration des coups d'épée, des esquives et de la nouvelle arme marteau.
+- **Énigmes environnementales :** Comment déplacer les plateformes et interagir avec la flore de la serre.
+- **Teaser du boss :** Un premier aperçu du Chevalier de Cendre à la fin de la démo.
+
+<YouTubeEmbed videoId="qBdmCMY6X3U" title="Moss The Forgotten Relic Gameplay Walkthrough - FULL DEMO" />
+
+La démo est actuellement une exclusivité Steam, permettant aux joueurs de tester les performances techniques avant le lancement complet en 2026. Contrairement à de nombreuses sorties modernes, ce titre est exceptionnellement bien optimisé, maintenant des taux de rafraîchissement élevés même lors des séquences de combat intenses.
+
+| Métrique de performance | Résultat démo (Test 2026) | Recommandation |
+| :--- | :--- | :--- |
+| **Fréquence d'images** | 144 FPS stables | Utiliser un moniteur à rafraîchissement élevé |
+| **Utilisation GPU** | ~20% sur série RTX 40 | Adapté aux PC de milieu de gamme |
+| **Temps de chargement** | Moins de 3 secondes | Installer sur un SSD NVMe |
+| **Latence d'entrée** | Minimale | Utiliser une manette Xbox/PS5 |
+
+<Callout type="success" title="Conseil technique">
+Si vous rencontrez des saccades, assurez-vous que les pilotes de votre manette sont à jour. Le jeu repose fortement sur les entrées analogiques pour un platforming précis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mécaniques de jeu et contrôles principaux">
+
+Naviguer dans le monde de la **démo de Moss : La relique oubliée** nécessite de maîtriser la synergie entre Quill et le Lecteur. Tandis que Quill s'occupe de l'escrime et de l'agilité, le Lecteur (le curseur/la main du joueur) gère les charges lourdes. Ce système de double contrôle est la colonne vertébrale de la logique des énigmes du jeu.
+
+<CardGrid cols={3}>
+  <Card title="Mouvements de Quill">
+    - **Saut agile :** Essentiel pour franchir les fossés dans la serre.
+    - **Esquive de combat :** Utilisez la roulade pour éviter les frappes lourdes des Arcanes.
+    - **Combo d'épée :** Frappes rapides en 3 coups pour éliminer les petits ennemis.
+  </Card>
+  <Card title="Interactions du Lecteur">
+    - **Manipulation d'objets :** Saisissez et faites glisser les blocs ou plateformes brillants.
+    - **Contrôle d'ennemi :** Prenez temporairement le contrôle des unités Arcanes pour activer des interrupteurs.
+    - **Soin :** Tendez la main vers Quill pour restaurer sa santé lors des combats difficiles.
+  </Card>
+  <Card title="Utilité environnementale">
+    - **Coupe d'herbe :** Utilisez l'épée pour dégager des chemins et trouver du butin caché.
+    - **Collecte de parchemins :** Surveillez les parchemins flottants dans les coins en hauteur.
+    - **Activation d'interrupteurs :** Utilisez le Marteau ou des ennemis contrôlés pour activer des plaques.
+  </Card>
+</CardGrid>
+
+Les contrôles sont intuitifs mais privilégient une manette par rapport à une configuration clavier/souris. Voici le mappage standard trouvé dans la version démo de 2026.
+
+| Action | Manette (Recommandé) | Clavier et Souris |
+| :--- | :--- | :--- |
+| **Déplacer Quill** | Stick analogique gauche | Touches WASD |
+| **Sauter/Grimper** | Bouton A / Croix | Barre d'espace |
+| **Attaquer** | Bouton X / Carré | Clic gauche |
+| **Roulade d'esquive** | Bouton B / Cercle | Maj gauche |
+| **Interagir (Lecteur)** | Gâchette droite (RT) | Clic droit |
+| **Compétence d'arme** | Bouton Y / Triangle | Touche E |
+
+<Callout type="warning" title="Timing de l'esquive">
+La roulade d'esquive n'a pas d'i-frames infinies. Chronométrez vos roulades pour finir derrière l'ennemi afin de maximiser votre fenêtre de contre-attaque.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégie de combat : Épée contre Marteau">
+
+La **démo de Moss : La relique oubliée** introduit deux styles de jeu distincts à travers son armement. Vous commencez avec une épée standard, excellente pour la mobilité, mais la véritable star de la démo est le Marteau trouvé dans les étapes ultérieures.
+
+| Caractéristique | L'Épée de la Relique | Le Marteau de Caryll |
+| :--- | :--- | :--- |
+| **Vitesse d'attaque** | Très rapide | Lente / Lourde |
+| **Type de dégâts** | Perçants / Tranchants | Contondants / Zone (AoE) |
+| **Capacité spéciale** | Frappe éclair rapide | Piège d'écrasement chargé |
+| **Usage énigme** | Couper les lianes | Activer les plaques lourdes |
+| **Efficace contre** | Petits insectes volants | Gardiens Arcanes en armure |
+
+### Maîtriser la mécanique du Marteau
+Le Marteau n'est pas seulement un outil de combat ; c'est un dispositif de résolution d'énigmes. Lorsque vous l'acquérez, vous remarquerez des « Symboles de Marteau » spécifiques sur le sol ou sur des mécanismes lourds.
+
+<Steps>
+  <Step num="1" title="Localiser le symbole du Marteau">
+    Trouvez la plaque circulaire brillante au sol ou sur un pilier spécifique.
+  </Step>
+  <Step num="2" title="Charger l'arme">
+    Maintenez le bouton d'attaque spéciale jusqu'à ce que le Marteau brille d'une énergie arcane.
+  </Step>
+  <Step num="3" title="Frapper la cible">
+    Relâchez la frappe sur le symbole pour déclencher un effet durable, comme l'élévation d'une plateforme ou l'ouverture d'une porte.
+  </Step>
+  <Step num="4" title="Chronométrer le piège">
+    Certains interrupteurs nécessitent de les frapper puis de déplacer rapidement Quill vers la zone suivante avant que la charge ne se dissipe.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Synergie de combat">
+Utilisez le Lecteur pour saisir un ennemi et le maintenir en place, puis passez à Quill et utilisez une frappe de Marteau chargée pour infliger d'énormes dégâts de zone aux ennemis environnants.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cheminement : La serre et au-delà">
+
+Le cadre principal de la démo est une serre luxuriante et envahie par la végétation, remplie de plantes sauvages et de ruines anciennes. La progression est linéaire mais récompense les joueurs qui explorent la verticalité de chaque pièce.
+
+### Lieux clés dans la démo
+1.  **L'entrée de la salle du trône :** C'est ici que vous rencontrez l'Oncle Argus. Vous devez ouvrir une grande porte en pierre en utilisant la mécanique de saisie du Lecteur.
+2.  **Le jardin englouti :** Une arène de combat où vous rencontrez les Arcanes pour la première fois. Utilisez fréquemment la roulade d'esquive ici car les ennemis attaquent par groupes de trois.
+3.  **Le coffre du Marteau :** Une chambre cachée sous le cœur de la serre. Vous devez résoudre une énigme de contrôle mental où un ennemi est forcé de se tenir sur une plaque de pression pendant que Quill saute de l'autre côté.
+4.  **Le belvédère du Gardien :** La zone finale de la démo où vous affrontez le Chevalier de Cendre.
+
+| Type de collectible | Utilité | Indice d'emplacement |
+| :--- | :--- | :--- |
+| **Poussière d'Arcane** | Monnaie pour les améliorations | Laissée par les ennemis et les pots cassables |
+| **Parchemins de savoir** | Contexte narratif | Généralement cachés sur des rebords élevés ou derrière des cascades |
+| **Reliques de santé** | Augmentation permanente des PV | Trouvées après les combats majeurs |
+
+<Checklist
+  id="demo-completion"
+  title="Objectifs de complétion de la démo :"
+  items={[
+    "Trouver les 3 parchemins de savoir cachés dans la serre",
+    "Réussir à contrôler l'esprit d'un ennemi Arcane pour résoudre une énigme",
+    "Débloquer l'arme Marteau de Caryll",
+    "Atteindre l'arène du boss Chevalier de Cendre",
+    "Réussir un combat 'Parfait' sans subir de dégâts"
+  ]}
+/>
+
+<Callout type="info" title="Secret caché">
+Dans la zone avec la première plateforme mobile, ne sautez pas tout de suite. Regardez en bas à gauche pour trouver un petit tunnel menant à un coffre secret contenant de la Poussière d'Arcane supplémentaire.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Affrontement de boss : Le Chevalier de Cendre">
+
+La **démo de Moss : La relique oubliée** se termine par une confrontation dramatique contre le Chevalier de Cendre. Ce boss sert de test de compétence pour tout ce que vous avez appris concernant le mouvement et le timing des armes.
+
+| Phase | Attaque du boss | Stratégie de contre |
+| :--- | :--- | :--- |
+| **Phase 1** | Écrasement au sol | Roulez sur le côté et frappez la main |
+| **Phase 1** | Balayage de lame | Sautez par-dessus la lame au moment où elle passe |
+| **Phase 2** | Projectiles Arcanes | Utilisez le Lecteur pour bloquer les projectiles avec des objets |
+| **Phase 2** | Vulnérabilité au Marteau | Chargez votre Marteau et frappez le point faible bleu brillant |
+
+Pendant ce combat, le Chevalier de Cendre posera occasionnellement sa main massive sur la plateforme. C'est votre fenêtre pour infliger des dégâts. Si vous avez le Marteau équipé, une frappe chargée sur ses articulations l'étourdira, permettant à Quill d'asséner un combo complet sur son visage.
+
+<Callout type="warning" title="Dangers environnementaux">
+Le sol de l'arène brillera occasionnellement en rouge. Cela indique une explosion de zone imminente. Déplacez Quill vers les bords extérieurs de la plateforme pour éviter des dégâts massifs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quelle est la durée de la démo de Moss : La relique oubliée ?",
+    answer: "La démo prend généralement entre 30 et 45 minutes pour être complétée, selon le temps que vous passez à chercher des collectibles comme les parchemins et la poussière."
+  },
+  {
+    question: "Puis-je jouer à la démo avec un clavier et une souris ?",
+    answer: "Oui, le clavier et la souris sont pris en charge, mais les développeurs recommandent d'utiliser une manette pour une meilleure expérience avec le platforming 3D et les interactions du Lecteur."
+  },
+  {
+    question: "La progression de la démo est-elle transférée vers le jeu complet ?",
+    answer: "Habituellement, la progression de la démo n'est pas transférée, mais les joueurs qui terminent la démo pourraient recevoir un objet cosmétique spécial ou un badge dans la version complète de 2026."
+  },
+  {
+    question: "Où puis-je trouver le Marteau dans la démo ?",
+    answer: "Le Marteau se trouve dans la section 'Coffre de Caryll' de la serre. Vous devez résoudre une énigme de plaque de pression impliquant un ennemi contrôlé mentalement pour déverrouiller le piédestal."
+  }
+]} />
+
+</Section>

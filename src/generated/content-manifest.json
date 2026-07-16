@@ -1,1 +1,714 @@
-{}
+{
+  "de": {
+    "demo": [
+      {
+        "slug": "moss-the-forgotten-relic-demo-ps5",
+        "file": "moss-the-forgotten-relic-demo-ps5"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-demo",
+        "file": "moss-the-forgotten-relic-demo"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-full-demo",
+        "file": "moss-the-forgotten-relic-full-demo"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-steam-next-fest",
+        "file": "moss-the-forgotten-relic-steam-next-fest"
+      }
+    ],
+    "features": [
+      {
+        "slug": "moss-the-forgotten-relic-co-op",
+        "file": "moss-the-forgotten-relic-co-op"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-multiplayer",
+        "file": "moss-the-forgotten-relic-multiplayer"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-quill",
+        "file": "moss-the-forgotten-relic-quill"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-sign-language",
+        "file": "moss-the-forgotten-relic-sign-language"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "moss-the-forgotten-relic-book-1",
+        "file": "moss-the-forgotten-relic-book-1"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-clearing",
+        "file": "moss-the-forgotten-relic-clearing"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-demo-walkthrough",
+        "file": "moss-the-forgotten-relic-demo-walkthrough"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-gameplay-walkthrough",
+        "file": "moss-the-forgotten-relic-gameplay-walkthrough"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-gameplay",
+        "file": "moss-the-forgotten-relic-gameplay"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-mire-temple",
+        "file": "moss-the-forgotten-relic-mire-temple"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "moss-the-forgotten-relic-mac",
+        "file": "moss-the-forgotten-relic-mac"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-meta-quest",
+        "file": "moss-the-forgotten-relic-meta-quest"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-nintendo-switch",
+        "file": "moss-the-forgotten-relic-nintendo-switch"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-platforms",
+        "file": "moss-the-forgotten-relic-platforms"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-ps5",
+        "file": "moss-the-forgotten-relic-ps5"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-steam",
+        "file": "moss-the-forgotten-relic-steam"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2",
+        "file": "moss-the-forgotten-relic-switch-2"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-vr",
+        "file": "moss-the-forgotten-relic-vr"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-xbox-series-x",
+        "file": "moss-the-forgotten-relic-xbox-series-x"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-xbox",
+        "file": "moss-the-forgotten-relic-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "moss-the-forgotten-relic-cost",
+        "file": "moss-the-forgotten-relic-cost"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-physical-copy",
+        "file": "moss-the-forgotten-relic-physical-copy"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-physical-release",
+        "file": "moss-the-forgotten-relic-physical-release"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-ps5-release-date",
+        "file": "moss-the-forgotten-relic-ps5-release-date"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-release-date",
+        "file": "moss-the-forgotten-relic-release-date"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-release-date",
+        "file": "moss-the-forgotten-relic-switch-2-release-date"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "moss-the-forgotten-relic-reddit",
+        "file": "moss-the-forgotten-relic-reddit"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-trailer",
+        "file": "moss-the-forgotten-relic-trailer"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "moss-the-forgotten-relic-metacritic",
+        "file": "moss-the-forgotten-relic-metacritic"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-preview",
+        "file": "moss-the-forgotten-relic-preview"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-rating",
+        "file": "moss-the-forgotten-relic-rating"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-review",
+        "file": "moss-the-forgotten-relic-review"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-review",
+        "file": "moss-the-forgotten-relic-switch-2-review"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "moss-the-forgotten-relic-new-game",
+        "file": "moss-the-forgotten-relic-new-game"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-remake",
+        "file": "moss-the-forgotten-relic-remake"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-sequel",
+        "file": "moss-the-forgotten-relic-sequel"
+      }
+    ]
+  },
+  "en": {
+    "demo": [
+      {
+        "slug": "moss-the-forgotten-relic-demo-ps5",
+        "file": "moss-the-forgotten-relic-demo-ps5"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-demo",
+        "file": "moss-the-forgotten-relic-demo"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-full-demo",
+        "file": "moss-the-forgotten-relic-full-demo"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-steam-next-fest",
+        "file": "moss-the-forgotten-relic-steam-next-fest"
+      }
+    ],
+    "features": [
+      {
+        "slug": "moss-the-forgotten-relic-co-op",
+        "file": "moss-the-forgotten-relic-co-op"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-multiplayer",
+        "file": "moss-the-forgotten-relic-multiplayer"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-quill",
+        "file": "moss-the-forgotten-relic-quill"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-sign-language",
+        "file": "moss-the-forgotten-relic-sign-language"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "moss-the-forgotten-relic-book-1",
+        "file": "moss-the-forgotten-relic-book-1"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-clearing",
+        "file": "moss-the-forgotten-relic-clearing"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-demo-walkthrough",
+        "file": "moss-the-forgotten-relic-demo-walkthrough"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-gameplay-walkthrough",
+        "file": "moss-the-forgotten-relic-gameplay-walkthrough"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-gameplay",
+        "file": "moss-the-forgotten-relic-gameplay"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-mire-temple",
+        "file": "moss-the-forgotten-relic-mire-temple"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "moss-the-forgotten-relic-mac",
+        "file": "moss-the-forgotten-relic-mac"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-meta-quest",
+        "file": "moss-the-forgotten-relic-meta-quest"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-nintendo-switch",
+        "file": "moss-the-forgotten-relic-nintendo-switch"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-platforms",
+        "file": "moss-the-forgotten-relic-platforms"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-ps5",
+        "file": "moss-the-forgotten-relic-ps5"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-steam",
+        "file": "moss-the-forgotten-relic-steam"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2",
+        "file": "moss-the-forgotten-relic-switch-2"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-vr",
+        "file": "moss-the-forgotten-relic-vr"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-xbox-series-x",
+        "file": "moss-the-forgotten-relic-xbox-series-x"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-xbox",
+        "file": "moss-the-forgotten-relic-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "moss-the-forgotten-relic-cost",
+        "file": "moss-the-forgotten-relic-cost"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-physical-copy",
+        "file": "moss-the-forgotten-relic-physical-copy"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-physical-release",
+        "file": "moss-the-forgotten-relic-physical-release"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-ps5-release-date",
+        "file": "moss-the-forgotten-relic-ps5-release-date"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-release-date",
+        "file": "moss-the-forgotten-relic-release-date"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-release-date",
+        "file": "moss-the-forgotten-relic-switch-2-release-date"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "moss-the-forgotten-relic-reddit",
+        "file": "moss-the-forgotten-relic-reddit"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-trailer",
+        "file": "moss-the-forgotten-relic-trailer"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "moss-the-forgotten-relic-metacritic",
+        "file": "moss-the-forgotten-relic-metacritic"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-preview",
+        "file": "moss-the-forgotten-relic-preview"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-rating",
+        "file": "moss-the-forgotten-relic-rating"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-review",
+        "file": "moss-the-forgotten-relic-review"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-review",
+        "file": "moss-the-forgotten-relic-switch-2-review"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "moss-the-forgotten-relic-new-game",
+        "file": "moss-the-forgotten-relic-new-game"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-remake",
+        "file": "moss-the-forgotten-relic-remake"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-sequel",
+        "file": "moss-the-forgotten-relic-sequel"
+      }
+    ]
+  },
+  "fr": {
+    "demo": [
+      {
+        "slug": "moss-the-forgotten-relic-demo-ps5",
+        "file": "moss-the-forgotten-relic-demo-ps5"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-demo",
+        "file": "moss-the-forgotten-relic-demo"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-full-demo",
+        "file": "moss-the-forgotten-relic-full-demo"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-steam-next-fest",
+        "file": "moss-the-forgotten-relic-steam-next-fest"
+      }
+    ],
+    "features": [
+      {
+        "slug": "moss-the-forgotten-relic-co-op",
+        "file": "moss-the-forgotten-relic-co-op"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-multiplayer",
+        "file": "moss-the-forgotten-relic-multiplayer"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-quill",
+        "file": "moss-the-forgotten-relic-quill"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-sign-language",
+        "file": "moss-the-forgotten-relic-sign-language"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "moss-the-forgotten-relic-book-1",
+        "file": "moss-the-forgotten-relic-book-1"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-clearing",
+        "file": "moss-the-forgotten-relic-clearing"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-demo-walkthrough",
+        "file": "moss-the-forgotten-relic-demo-walkthrough"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-gameplay-walkthrough",
+        "file": "moss-the-forgotten-relic-gameplay-walkthrough"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-gameplay",
+        "file": "moss-the-forgotten-relic-gameplay"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-mire-temple",
+        "file": "moss-the-forgotten-relic-mire-temple"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "moss-the-forgotten-relic-mac",
+        "file": "moss-the-forgotten-relic-mac"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-meta-quest",
+        "file": "moss-the-forgotten-relic-meta-quest"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-nintendo-switch",
+        "file": "moss-the-forgotten-relic-nintendo-switch"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-platforms",
+        "file": "moss-the-forgotten-relic-platforms"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-ps5",
+        "file": "moss-the-forgotten-relic-ps5"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-steam",
+        "file": "moss-the-forgotten-relic-steam"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2",
+        "file": "moss-the-forgotten-relic-switch-2"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-vr",
+        "file": "moss-the-forgotten-relic-vr"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-xbox-series-x",
+        "file": "moss-the-forgotten-relic-xbox-series-x"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-xbox",
+        "file": "moss-the-forgotten-relic-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "moss-the-forgotten-relic-cost",
+        "file": "moss-the-forgotten-relic-cost"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-physical-copy",
+        "file": "moss-the-forgotten-relic-physical-copy"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-physical-release",
+        "file": "moss-the-forgotten-relic-physical-release"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-ps5-release-date",
+        "file": "moss-the-forgotten-relic-ps5-release-date"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-release-date",
+        "file": "moss-the-forgotten-relic-release-date"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-release-date",
+        "file": "moss-the-forgotten-relic-switch-2-release-date"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "moss-the-forgotten-relic-reddit",
+        "file": "moss-the-forgotten-relic-reddit"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-trailer",
+        "file": "moss-the-forgotten-relic-trailer"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "moss-the-forgotten-relic-metacritic",
+        "file": "moss-the-forgotten-relic-metacritic"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-preview",
+        "file": "moss-the-forgotten-relic-preview"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-rating",
+        "file": "moss-the-forgotten-relic-rating"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-review",
+        "file": "moss-the-forgotten-relic-review"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-review",
+        "file": "moss-the-forgotten-relic-switch-2-review"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "moss-the-forgotten-relic-new-game",
+        "file": "moss-the-forgotten-relic-new-game"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-remake",
+        "file": "moss-the-forgotten-relic-remake"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-sequel",
+        "file": "moss-the-forgotten-relic-sequel"
+      }
+    ]
+  },
+  "ja": {
+    "demo": [
+      {
+        "slug": "moss-the-forgotten-relic-demo-ps5",
+        "file": "moss-the-forgotten-relic-demo-ps5"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-demo",
+        "file": "moss-the-forgotten-relic-demo"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-full-demo",
+        "file": "moss-the-forgotten-relic-full-demo"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-steam-next-fest",
+        "file": "moss-the-forgotten-relic-steam-next-fest"
+      }
+    ],
+    "features": [
+      {
+        "slug": "moss-the-forgotten-relic-co-op",
+        "file": "moss-the-forgotten-relic-co-op"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-multiplayer",
+        "file": "moss-the-forgotten-relic-multiplayer"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-quill",
+        "file": "moss-the-forgotten-relic-quill"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-sign-language",
+        "file": "moss-the-forgotten-relic-sign-language"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "moss-the-forgotten-relic-book-1",
+        "file": "moss-the-forgotten-relic-book-1"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-clearing",
+        "file": "moss-the-forgotten-relic-clearing"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-demo-walkthrough",
+        "file": "moss-the-forgotten-relic-demo-walkthrough"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-gameplay-walkthrough",
+        "file": "moss-the-forgotten-relic-gameplay-walkthrough"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-gameplay",
+        "file": "moss-the-forgotten-relic-gameplay"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-mire-temple",
+        "file": "moss-the-forgotten-relic-mire-temple"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "moss-the-forgotten-relic-mac",
+        "file": "moss-the-forgotten-relic-mac"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-meta-quest",
+        "file": "moss-the-forgotten-relic-meta-quest"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-nintendo-switch",
+        "file": "moss-the-forgotten-relic-nintendo-switch"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-platforms",
+        "file": "moss-the-forgotten-relic-platforms"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-ps5",
+        "file": "moss-the-forgotten-relic-ps5"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-steam",
+        "file": "moss-the-forgotten-relic-steam"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2",
+        "file": "moss-the-forgotten-relic-switch-2"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-vr",
+        "file": "moss-the-forgotten-relic-vr"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-xbox-series-x",
+        "file": "moss-the-forgotten-relic-xbox-series-x"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-xbox",
+        "file": "moss-the-forgotten-relic-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "moss-the-forgotten-relic-cost",
+        "file": "moss-the-forgotten-relic-cost"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-physical-copy",
+        "file": "moss-the-forgotten-relic-physical-copy"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-physical-release",
+        "file": "moss-the-forgotten-relic-physical-release"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-ps5-release-date",
+        "file": "moss-the-forgotten-relic-ps5-release-date"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-release-date",
+        "file": "moss-the-forgotten-relic-release-date"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-release-date",
+        "file": "moss-the-forgotten-relic-switch-2-release-date"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "moss-the-forgotten-relic-reddit",
+        "file": "moss-the-forgotten-relic-reddit"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-trailer",
+        "file": "moss-the-forgotten-relic-trailer"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "moss-the-forgotten-relic-metacritic",
+        "file": "moss-the-forgotten-relic-metacritic"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-preview",
+        "file": "moss-the-forgotten-relic-preview"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-rating",
+        "file": "moss-the-forgotten-relic-rating"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-review",
+        "file": "moss-the-forgotten-relic-review"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-review",
+        "file": "moss-the-forgotten-relic-switch-2-review"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "moss-the-forgotten-relic-new-game",
+        "file": "moss-the-forgotten-relic-new-game"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-remake",
+        "file": "moss-the-forgotten-relic-remake"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-sequel",
+        "file": "moss-the-forgotten-relic-sequel"
+      }
+    ]
+  }
+}

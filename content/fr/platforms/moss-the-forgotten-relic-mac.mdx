@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Moss : La relique oubliée sur Mac : Guide d'installation et conseils de performance",
+  description: "Découvrez comment optimiser et exécuter Moss : La relique oubliée sur macOS. Retrouvez les paramètres de compatibilité, les tests de performance et les guides d'installation étape par étape.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mac+Setup+Guide",
+  date: "2026-07-16",
+  author: "L'équipe du Wiki de Moss : La relique oubliée"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Compatibilité macOS** : Jouez à **Moss : La relique oubliée sur Mac** en utilisant un logiciel de traduction comme CrossOver 26 ou le Game Porting Toolkit d'Apple.
+- **Configuration matérielle requise** : Les puces Apple Silicon (séries M1, M2 ou M3) sont recommandées pour obtenir des taux de rafraîchissement stables.
+- **Configuration des commandes** : Connectez une manette sans fil compatible via Bluetooth pour une expérience de jeu optimale.
+- **Objectif de performance** : Visez des réglages moyens en résolution 1080p pour maintenir un taux fluide de 60 FPS sur les puces Apple Silicon de base.
+</Callout>
+
+<Section icon={Shield} title="Aperçu de la compatibilité">
+
+Faire tourner des jeux modernes sur macOS nécessite souvent d'utiliser des couches de traduction, en particulier lorsqu'une version native n'est pas immédiatement disponible au lancement. Le jeu présente des environnements très détaillés et des calculs physiques complexes qui exigent de solides performances matérielles. Bien que les versions consoles mettent en valeur l'optimisation native du moteur, les joueurs sur Mac peuvent obtenir d'excellents résultats en tirant parti des utilitaires de traduction modernes conçus pour Apple Silicon.
+
+Les puces Apple Silicon utilisent une architecture de mémoire unifiée qui permet au processeur (CPU) et au processeur graphique (GPU) de partager les ressources de manière dynamique. Cette architecture aide à combler le fossé entre les graphismes de niveau console et le matériel Mac, offrant un processus de traduction fluide lors de l'exécution d'applications basées sur Windows. Cependant, la compatibilité dépend fortement de la configuration du logiciel de traduction et de la version spécifique de macOS installée sur votre appareil.
+
+**Points forts de la vidéo :**
+- Détails officiels de la sortie présentant les environnements atmosphériques et les mécaniques d'énigmes.
+- Démonstration visuelle des systèmes de combat et des interactions entre les personnages.
+- Teasers des éléments narratifs impliquant les mystérieuses reliques anciennes.
+
+<YouTubeEmbed videoId="kCycfD8-NAQ" title="Moss The Forgotten Relic • Release Date Trailer • PS5" />
+
+| Configuration requise | Spécifications minimales | Spécifications recommandées |
+| :--- | :--- | :--- |
+| **Processeur** | Apple Silicon M1 | Apple Silicon M3 ou supérieur |
+| **Mémoire** | 8 Go de RAM unifiée | 16 Go de RAM unifiée ou plus |
+| **Version du système** | macOS Sonoma 14 | macOS Sequoia 15 ou ultérieur |
+| **Stockage** | 15 Go d'espace SSD | 15 Go d'espace SSD NVMe |
+| **Graphismes** | GPU Apple 8 cœurs | GPU Apple 10 cœurs ou supérieur |
+
+<Callout type="warning" title="Limitations de la plateforme">
+Le support natif de macOS n'est pas officiellement disponible au lancement. L'exécution du jeu nécessite des couches de compatibilité ou des logiciels de virtualisation pour traduire les appels d'API Windows.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Méthodes d'installation pour macOS">
+
+Pour exécuter le jeu avec succès sur macOS, vous devez choisir une couche de traduction adaptée à votre niveau de confort technique et à votre configuration matérielle. Différents outils offrent des niveaux variables d'optimisation, de facilité d'utilisation et de compatibilité.
+
+<CardGrid cols={3}>
+  <Card title="CrossOver 26">
+    - **Processus d'installation le plus simple**
+    - Taux de compatibilité élevés
+    - Licence logicielle commerciale
+  </Card>
+  <Card title="Game Porting Toolkit">
+    - **Outil de développement gratuit**
+    - Excellent potentiel de performance
+    - Configuration complexe en ligne de commande
+  </Card>
+  <Card title="Whisky (Wrapper Wine)">
+    - **Interface graphique conviviale**
+    - Open-source et gratuit
+    - Saccades occasionnelles dues à la compilation des shaders
+  </Card>
+</CardGrid>
+
+L'utilisation d'une application wrapper comme Whisky simplifie l'installation du Game Porting Toolkit d'Apple, le rendant accessible sans utiliser la ligne de commande. Suivez ces étapes pour configurer votre environnement.
+
+<Steps>
+  <Step num="1" title="Installer Whisky ou CrossOver">
+    Téléchargez et installez votre couche de traduction préférée. Whisky est recommandé pour son interface gratuite et conviviale construite sur le Game Porting Toolkit d'Apple.
+  </Step>
+  <Step num="2" title="Créer une bouteille Windows">
+    Créez une nouvelle bouteille Windows 10 ou Windows 11 dans l'application. Assurez-vous que DXVK et MSync ou ESync sont activés dans les paramètres de la bouteille pour des performances optimales.
+  </Step>
+  <Step num="3" title="Installer Steam dans la bouteille">
+    Téléchargez l'installateur Windows de Steam (.exe) et lancez-le via votre couche de traduction. Connectez-vous à votre compte et téléchargez directement le client du jeu.
+  </Step>
+  <Step num="4" title="Configurer les arguments de lancement">
+    Faites un clic droit sur le jeu dans Steam, sélectionnez Propriétés, et ajoutez des arguments de lancement comme `-dx12` ou `-windowed` si vous rencontrez des plantages au démarrage.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pré-mise en cache des shaders">
+Activez la fonction de pré-mise en cache des shaders de Steam pour réduire les saccades initiales en jeu pendant le chargement des ressources lors des premiers niveaux.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimisation des performances et paramètres graphiques">
+
+Ajuster vos paramètres graphiques est essentiel pour maintenir un taux de rafraîchissement élevé lors des séquences de combat intenses et des phases de résolution d'énigmes. Les GPU Apple Silicon gèrent efficacement le rendu des textures, mais les effets de post-traitement lourds peuvent introduire des goulets d'étranglement de performance.
+
+Pour maximiser l'efficacité de votre matériel, baissez les paramètres exigeants tels que les ombres dynamiques et les effets volumétriques. L'utilisation de technologies de mise à l'échelle de la résolution ou d'upscaling spatial peut également apporter un boost significatif à votre taux de rafraîchissement global.
+
+| Paramètre | Valeur recommandée | Impact sur les performances |
+| :--- | :--- | :--- |
+| **Résolution** | 1920x1080 (Mise à l'échelle) | Gain de performance élevé |
+| **Qualité des ombres** | Moyenne | Gain de performance modéré |
+| **Anti-aliasing** | AA temporel ou FXAA | Faible impact sur les performances |
+| **Qualité des textures** | Élevée (si 16 Go de RAM) | Faible impact sur les puces modernes |
+| **V-Sync** | Activé | Prévient les déchirements d'écran |
+
+Les performances varient selon la génération spécifique de votre processeur Apple Silicon. Consultez les tests de performance ci-dessous pour définir des attentes réalistes pour votre configuration système.
+
+| Puce Apple | FPS moyen | Évaluation de l'expérience |
+| :--- | :--- | :--- |
+| **M1 de base (8 Go)** | 35-45 FPS | Jouable (★★★☆☆) |
+| **M1 Pro / Max** | 60 FPS (Stable) | Excellent (★★★★☆) |
+| **M2 / M3 de base** | 50-55 FPS | Très bon (★★★★☆) |
+| **M3 Pro / Max** | 90+ FPS | Exceptionnel (★★★★★) |
+
+<Callout type="info" title="Étranglement thermique">
+Les modèles MacBook Air ne disposent pas de ventilateurs de refroidissement actifs. Si vous constatez des chutes de framerate après 30 minutes de jeu, envisagez d'utiliser un support de refroidissement pour ordinateur portable ou de baisser la résolution.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configuration de la manette et des commandes">
+
+Naviguer sur des plateformes difficiles et s'engager dans des combats nécessite des commandes précises. Bien que les configurations clavier/souris soient prises en charge via les couches de traduction, l'utilisation d'une manette de jeu dédiée offre une disposition beaucoup plus intuitive.
+
+macOS intègre un support Bluetooth natif pour les manettes de console modernes, leur permettant de s'interfacer directement avec le système de configuration d'entrée de Steam sans nécessiter de pilotes tiers.
+
+| Action | Manette Xbox | Manette PlayStation |
+| :--- | :--- | :--- |
+| **Mouvement** | Stick analogique gauche | Stick analogique gauche |
+| **Interagir** | Bouton A | Bouton Croix |
+| **Combat / Attaque** | Bouton X | Bouton Carré |
+| **Esquiver / Esquive** | Bouton B | Bouton Cercle |
+| **Menu Pause** | Bouton Menu | Bouton Options |
+
+Avant de lancer le jeu, assurez-vous que votre manette est correctement jumelée avec votre Mac via le menu Réglages Système. Une fois jumelée, Steam Input traduira les signaux pour correspondre à l'environnement Windows virtuel.
+
+<Callout type="success" title="Compatibilité de la manette">
+Les manettes DualSense et Xbox Wireless sont prises en charge nativement par macOS et sont transmises de manière transparente à Steam dans CrossOver ou Whisky.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle finale et FAQ">
+
+Avant de vous lancer dans l'aventure, passez en revue cette liste de contrôle finale pour vous assurer que votre environnement de traduction est entièrement optimisé et prêt pour le jeu.
+
+<Checklist
+  id="mac-setup-checklist"
+  title="Liste de contrôle post-installation :"
+  items={[
+    "Vérifier les fichiers du jeu dans Steam pour s'assurer qu'aucun téléchargement n'est corrompu",
+    "S'assurer que macOS est mis à jour au moins à la version 14.4 pour la stabilité de la traduction",
+    "Connecter la manette via Bluetooth avant de lancer la couche de traduction",
+    "Activer l'affichage de l'overlay HUD dans Whisky pour surveiller les FPS en temps réel et les métriques thermiques"
+  ]}
+/>
+
+Consultez ces questions fréquemment posées pour résoudre les problèmes courants rencontrés lors de la configuration du jeu sur les systèmes macOS.
+
+<FAQ items={[
+  {
+    question: "Puis-je jouer à Moss : La relique oubliée sur Mac nativement sans outils tiers ?",
+    answer: "Actuellement, il n'y a pas de version macOS native disponible. Vous devez utiliser des couches de traduction comme CrossOver, Whisky ou le Game Porting Toolkit d'Apple pour exécuter le jeu sur les Mac Apple Silicon."
+  },
+  {
+    question: "Une connexion Internet active est-elle requise pour exécuter le jeu via des couches de traduction ?",
+    answer: "Une connexion Internet est requise pour la configuration initiale, la connexion à Steam et le téléchargement du jeu. Une fois installé, Steam peut être configuré en mode hors ligne pour jouer sans connexion active."
+  },
+  {
+    question: "Comment résoudre les problèmes de grésillement ou de retard audio sur mon Mac ?",
+    answer: "Les problèmes audio sont fréquents dans les wrappers basés sur Wine. Vous pouvez résoudre ce problème en changeant le moteur de synchronisation audio pour MSync ou en ajustant la taille du tampon audio dans la configuration du wrapper."
+  }
+]} />
+
+<Callout type="warning" title="Synchronisation des données de sauvegarde">
+Assurez-vous toujours que la synchronisation Steam Cloud est entièrement terminée avant de fermer le wrapper de votre couche de traduction afin d'éviter toute corruption des fichiers de sauvegarde locaux.
+</Callout>
+
+</Section>

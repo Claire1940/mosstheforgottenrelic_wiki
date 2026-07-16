@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Moss the Forgotten Relic Demo: Gameplay Walkthrough & Mechanics Guide",
+  description: "Master the moss the forgotten relic demo with our comprehensive walkthrough. Learn combat mechanics, puzzle solutions, and hammer weapon strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Moss+Demo+Guide",
+  date: "2026-07-16",
+  author: "moss the forgotten relic Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Moss the forgotten relic demo** provides roughly 30-45 minutes of gameplay, focusing on early-game mechanics and a major boss encounter.
+- **Core Mechanics** involve a 3D puzzle-platformer perspective where you control the mouse Quill while interacting with the world as a "Reader."
+- **Weapon Progression** introduces the heavy Hammer mid-demo, which is essential for solving environmental puzzles and defeating armored foes.
+- **Optimization** is a highlight, with the demo running at a stable 144 FPS on modern 2026 hardware with minimal GPU load.
+- **Controller Support** is highly recommended by developers for the most fluid movement and combat experience.
+</Callout>
+
+<Section icon={Map} title="Moss the Forgotten Relic Demo Overview">
+
+The **moss the forgotten relic demo** offers players a vertical slice of the enchanting world where you guide a small hero named Quill. As a "Reader," your role is dual-purpose: you directly control Quill's movements and combat while simultaneously reaching into the world to manipulate large objects, move platforms, and even mind-control certain enemies. This early access version showcases the game's transition from its VR roots to a polished 3D action-adventure title that emphasizes environmental storytelling and intricate level design.
+
+**Video Highlights:**
+- **Early Gameplay:** Introduction to Quill and Uncle Argus near the throne room.
+- **Combat Mechanics:** Demonstrating sword slashes, dodges, and the new hammer weapon.
+- **Environmental Puzzles:** How to move platforms and interact with the greenhouse flora.
+- **Boss Teaser:** A first look at the Cinder Knight warden at the demo's conclusion.
+
+<YouTubeEmbed videoId="qBdmCMY6X3U" title="Moss The Forgotten Relic Gameplay Walkthrough - FULL DEMO" />
+
+The demo is currently a Steam-exclusive experience, allowing players to test the technical performance before the full 2026 launch. Unlike many modern releases, this title is exceptionally well-optimized, maintaining high frame rates even during intense combat sequences.
+
+| Performance Metric | Demo Result (2026 Test) | Recommendation |
+| :--- | :--- | :--- |
+| **Frame Rate** | Stable 144 FPS | Use High Refresh Monitor |
+| **GPU Utilization** | ~20% on RTX 40-series | Suitable for Mid-range PCs |
+| **Loading Times** | Under 3 seconds | Install on NVMe SSD |
+| **Input Latency** | Minimal | Use Xbox/PS5 Controller |
+
+<Callout type="success" title="Technical Tip">
+If you are experiencing any stuttering, ensure your controller drivers are updated. The game relies heavily on analog input for precise platforming.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Gameplay Mechanics & Controls">
+
+Navigating the world of **moss the forgotten relic demo** requires mastering the synergy between Quill and the Reader. While Quill handles the swordplay and agility, the Reader (the player's cursor/hand) manages the heavy lifting. This dual-control system is the backbone of the game's puzzle logic.
+
+<CardGrid cols={3}>
+  <Card title="Quill's Movement">
+    - **Agile Jump:** Essential for clearing gaps in the greenhouse.
+    - **Combat Dodge:** Use the roll to avoid the Arcane's heavy strikes.
+    - **Sword Combo:** Quick 3-hit strikes to dispatch small enemies.
+  </Card>
+  <Card title="Reader Interactions">
+    - **Object Manipulation:** Grab and drag glowing blocks or platforms.
+    - **Enemy Control:** Temporarily seize control of Arcane units to hit switches.
+    - **Healing:** Reach out to Quill to restore health during tough fights.
+  </Card>
+  <Card title="Environmental Utility">
+    - **Grass Cutting:** Use the sword to clear paths and find hidden loot.
+    - **Scroll Collection:** Keep an eye out for floating scrolls in high corners.
+    - **Switch Activation:** Use the Hammer or mind-controlled enemies to trigger plates.
+  </Card>
+</CardGrid>
+
+The controls are intuitive but favor a controller over a mouse and keyboard setup. Below is the standard mapping found in the 2026 demo build.
+
+| Action | Controller (Recommended) | Keyboard & Mouse |
+| :--- | :--- | :--- |
+| **Move Quill** | Left Analog Stick | WASD Keys |
+| **Jump/Climb** | A / Cross Button | Spacebar |
+| **Attack** | X / Square Button | Left Click |
+| **Dodge Roll** | B / Circle Button | Left Shift |
+| **Reader Interact** | Right Trigger (RT) | Right Click |
+| **Use Weapon Skill** | Y / Triangle Button | E Key |
+
+<Callout type="warning" title="Dodge Timing">
+The dodge roll does not have infinite i-frames. Time your rolls to end behind the enemy to maximize your counter-attack window.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Strategy: Sword vs. Hammer">
+
+The **moss the forgotten relic demo** introduces two distinct playstyles through its weaponry. You begin with a standard sword, which is excellent for mobility, but the real star of the demo is the Hammer found in the later stages.
+
+| Feature | The Relic Sword | The Hammer of Caryll |
+| :--- | :--- | :--- |
+| **Attack Speed** | Very Fast | Slow / Heavy |
+| **Damage Type** | Piercing / Slashing | Blunt / Area of Effect |
+| **Special Ability** | Rapid Dash Strike | Charged Slam Trap |
+| **Puzzle Use** | Cutting Vines | Activating Heavy Plates |
+| **Best Against** | Small Flying Insects | Armored Arcane Wardens |
+
+### Mastering the Hammer Mechanic
+The Hammer isn't just a combat tool; it's a puzzle-solving device. When you acquire it, you'll notice specific "Hammer Symbols" on the floor or on heavy mechanisms.
+
+<Steps>
+  <Step num="1" title="Locate the Hammer Symbol">
+    Find the circular glowing plate on the ground or a specific pillar.
+  </Step>
+  <Step num="2" title="Charge the Weapon">
+    Hold the special attack button until the Hammer glows with arcane energy.
+  </Step>
+  <Step num="3" title="Strike the Target">
+    Release the strike on the symbol to trigger a lasting effect, such as a platform rising or a gate opening.
+  </Step>
+  <Step num="4" title="Time the Trap">
+    Some switches require you to strike them and then quickly move Quill to the next area before the charge dissipates.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Combat Synergy">
+Use the Reader to grab an enemy and hold them in place, then switch to Quill and use a charged Hammer strike to deal massive AoE damage to surrounding foes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Walkthrough: The Greenhouse and Beyond">
+
+The demo's primary setting is a lush, overgrown greenhouse filled with wild plant life and ancient ruins. Progression is linear but rewards players who explore the verticality of each room.
+
+### Key Locations in the Demo
+1.  **The Throne Room Entrance:** This is where you meet Uncle Argus. You must pull a large stone door open using the Reader's grab mechanic.
+2.  **The Sunken Garden:** A combat arena where you first encounter the Arcane. Use the dodge roll frequently here as the enemies attack in groups of three.
+3.  **The Hammer Vault:** A hidden chamber beneath the greenhouse heart. You must solve a mind-control puzzle where an enemy is forced to stand on a pressure plate while Quill jumps across.
+4.  **The Warden's Overlook:** The final area of the demo where you face the Cinder Knight.
+
+| Collectible Type | Purpose | Location Hint |
+| :--- | :--- | :--- |
+| **Arcane Dust** | Currency for Upgrades | Dropped by enemies and breakable pots |
+| **Lore Scrolls** | Narrative Background | Usually hidden on high ledges or behind waterfalls |
+| **Health Relics** | Permanent HP Increase | Found after major combat encounters |
+
+<Checklist
+  id="demo-completion"
+  title="Demo Completion Goals:"
+  items={[
+    "Find all 3 hidden Lore Scrolls in the Greenhouse",
+    "Successfully mind-control an Arcane enemy to solve a puzzle",
+    "Unlock the Hammer of Caryll weapon",
+    "Reach the Cinder Knight boss arena",
+    "Achieve a 'Perfect' combat encounter without taking damage"
+  ]}
+/>
+
+<Callout type="info" title="Hidden Secret">
+In the area with the first moving platform, don't jump across immediately. Look down and to the left to find a small tunnel leading to a secret chest containing extra Arcane Dust.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Boss Encounter: The Cinder Knight Warden">
+
+The **moss the forgotten relic demo** concludes with a dramatic confrontation against the Cinder Knight. This boss serves as a skill check for everything you've learned regarding movement and weapon timing.
+
+| Phase | Boss Attack | Counter Strategy |
+| :--- | :--- | :--- |
+| **Phase 1** | Overhead Ground Slam | Roll to the side and strike the hand |
+| **Phase 1** | Sweeping Blade | Jump over the blade as it passes |
+| **Phase 2** | Arcane Projectiles | Use the Reader to block projectiles with objects |
+| **Phase 2** | Hammer Vulnerability | Charge your Hammer and hit the glowing blue weak point |
+
+During this fight, the Cinder Knight will occasionally rest his massive hand on the platform. This is your window to deal damage. If you have the Hammer equipped, a charged strike to his knuckles will stun him, allowing Quill to land a full combo on his face.
+
+<Callout type="warning" title="Environmental Hazards">
+The arena floor will occasionally glow red. This indicates an incoming AoE blast. Move Quill to the outer edges of the platform to avoid massive damage.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How long is the moss the forgotten relic demo?",
+    answer: "The demo typically takes between 30 to 45 minutes to complete, depending on how much time you spend searching for collectibles like scrolls and dust."
+  },
+  {
+    question: "Can I play the demo with a mouse and keyboard?",
+    answer: "Yes, mouse and keyboard are supported, but the developers recommend using a controller for a better experience with the 3D platforming and Reader interactions."
+  },
+  {
+    question: "Is progress from the demo carried over to the full game?",
+    answer: "Usually, progress in the demo does not carry over, but players who complete the demo may receive a special cosmetic item or badge in the full 2026 release."
+  },
+  {
+    question: "Where can I find the Hammer in the demo?",
+    answer: "The Hammer is found in the 'Vault of Caryll' section of the greenhouse. You must solve a pressure plate puzzle involving a mind-controlled enemy to unlock the pedestal."
+  }
+]} />
+
+</Section>

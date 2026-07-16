@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Moss : La relique oubliée sur Steam : Guide complet et configuration",
+  description: "Maîtrisez Moss : La relique oubliée sur Steam. Optimisez vos paramètres, résolvez des énigmes environnementales complexes, trouvez les parchemins cachés et battez les boss.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/150228/fff?text=Moss+Steam+Guide",
+  date: "2026-07-16",
+  author: "L'équipe du Wiki de Moss : La relique oubliée"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Sortie Steam** : Jouez à la nouvelle version non-VR optimisée de **moss the forgotten relic steam** à partir du 16 juillet 2026.
+- **Double commande** : Guidez Quill à l'aide des touches de déplacement standard tout en manipulant les objets de l'environnement en tant que Lecteur.
+- **DLC intégrés** : Profitez de l'aventure complète contenant le Livre I, le Livre II et l'extension du Jardin crépusculaire.
+- **Conseils d'optimisation** : Obtenez des performances stables sur PC et Steam Deck grâce à notre configuration graphique vérifiée.
+</Callout>
+
+<Section icon={Map} title="Lancement et plateformes de Moss : La relique oubliée sur Steam">
+
+Polyarc Games lance officiellement l'édition **moss the forgotten relic steam** le 16 juillet 2026, au prix de base de 19,99 $. Cette sortie représente une étape majeure pour la franchise, ayant accumulé plus de 100 000 listes de souhaits sur Steam avant son lancement. Contrairement aux versions précédentes de la série, cette version est une réinvention dédiée aux écrans plats, conçue spécifiquement pour les moniteurs standards et les consoles portables. Elle supprime complètement l'obligation de posséder un casque de réalité virtuelle tout en intégrant des techniques de rendu avancées et des schémas de contrôle révisés.
+
+Cette compilation rassemble trois contenus majeurs : la campagne originale de Moss, l'extension du Jardin crépusculaire et la suite complète Moss : Livre II. Les joueurs peuvent vivre toute l'histoire de Quill et du Lecteur dans un seul et même ensemble.
+
+| Plateforme | Date de sortie | Prix | Caractéristiques clés |
+| :--- | :--- | :--- | :--- |
+| **Steam** | 16 juil. 2026 | 19,99 $ | Prise en charge du clavier, Steam Cloud, Succès, résolution 4K |
+| **Steam Deck** | 16 juil. 2026 | 19,99 $ | Officiellement vérifié, commandes portables natives, interface optimisée |
+| **PlayStation 5** | 16 juil. 2026 | 19,99 $ | Présentation de la caméra repensée, retours haptiques améliorés, non-VR |
+| **Xbox Series X/S** | 16 juil. 2026 | 19,99 $ | Smart Delivery, 4K Ultra HD, 60 FPS+, sauvegardes cloud |
+| **Nintendo Switch** | 16 juil. 2026 | 19,99 $ | Mise à niveau gratuite vers la version native Switch 2, mode portable |
+
+<Callout type="info" title="Aucun casque VR requis">
+Cette édition pour écran plat a été conçue dès le départ pour les manettes standard et les commandes clavier-souris. Vous n'avez pas besoin d'un casque PlayStation VR, HTC Vive ou Oculus Rift pour y jouer.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Système de double commande et guide du débutant">
+
+La mécanique centrale de cette aventure repose sur le partenariat unique entre deux entités distinctes : Quill, une jeune souris courageuse qui gère les phases de plateforme et le combat au corps à corps, et le Lecteur, une présence magique géante contrôlée directement par le joueur. Pour réussir dans ce monde, vous devez coordonner les deux personnages simultanément.
+
+Quill se contrôle à l'aide des touches directionnelles standard pour courir, sauter, esquiver et attaquer. Pendant ce temps, le Lecteur utilise le curseur de la souris ou le stick analogique de la manette pour saisir des blocs lourds, faire pivoter des mécanismes anciens, soigner Quill pendant les combats et immobiliser les forces hostiles des Arcanes.
+
+| Action | Clavier et Souris | Manette (Xbox / PS) | Contexte de jeu |
+| :--- | :--- | :--- | :--- |
+| **Déplacement de Quill** | ZQSD / WASD | Stick analogique gauche | Contrôle la marche, la course et l'escalade de Quill |
+| **Saut de Quill** | Barre d'espace | Bouton A / Croix | Utilisé pour les plateformes et franchir de petits fossés |
+| **Attaque de Quill** | Clic gauche | Bouton X / Carré | Effectue des coups d'épée basiques et des combos au corps à corps |
+| **Esquive de Quill** | Maj | Bouton B / Rond | Évite les attaques ennemies et permet de sortir des zones de danger |
+| **Interaction du Lecteur** | Clic droit + Glisser | Gâchette droite + Stick | Déplace les blocs, soigne Quill et contrôle les unités des Arcanes |
+
+<Steps>
+  <Step num="1" title="Sélectionnez le Livre I pour commencer">
+    Commencez votre voyage en sélectionnant le Livre I dans le menu principal. Cela vous présentera Quill et les mécaniques d'énigmes fondamentales dans le bon ordre narratif.
+  </Step>
+  <Step num="2" title="Maîtrisez la double commande des personnages">
+    Entraînez-vous à déplacer Quill avec votre main gauche tout en contrôlant simultanément le curseur magique du Lecteur avec votre main droite pour surmonter les obstacles.
+  </Step>
+  <Step num="3" title="Analysez l'environnement">
+    Recherchez des marques d'éraflures sur les rebords et les murs. Ces indicateurs visuels signalent les surfaces grimpables et les objets d'énigme déplaçables.
+  </Step>
+  <Step num="4" title="Utilisez les ennemis des Arcanes">
+    Ne détruisez pas tous les ennemis immédiatement. Utilisez le curseur du Lecteur pour maintenir les unités des Arcanes ressemblant à des scarabées et placez-les sur les plaques de pression actives.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Lisez l'environnement">
+Gardez un œil sur les indices visuels en arrière-plan. Les développeurs ont peint à la main des éraflures sur les murs et les rebords pour indiquer exactement où Quill peut grimper ou sauter.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guide complet et progression des chapitres">
+
+Le récit est structuré comme un livre de contes vivant. Pour une expérience des plus cohérentes, les joueurs doivent d'abord terminer le Livre I, entrer dans les portails du Jardin crépusculaire dès qu'ils apparaissent, puis passer directement au monde étendu du Livre II.
+
+Le jeu propose une sauvegarde automatique régulière au début de chaque écran de diorama. Si Quill tombe au combat ou rate un saut de plateforme, elle réapparaîtra immédiatement à l'entrée de la pièce actuelle sans aucune perte de progression.
+
+| Livre & Section | Chapitres inclus | Objectif principal | Aspect principal du gameplay |
+| :--- | :--- | :--- | :--- |
+| **Livre I : Introduction** | Chapitres 1 à 2 | Établir le lien avec le Lecteur, quitter la maison | Mouvements de base, interrupteurs simples, premiers combats |
+| **Livre I : Les Ruines** | Chapitres 3 à 5 | Traverser le Temple de la Fange, trouver les portails | Plaques de pression, plateformes mobiles, résolution d'énigmes |
+| **Le Jardin crépusculaire** | Portails 1 à 3 | Terminer les épreuves optionnelles, obtenir de l'équipement | Salles de défi avancées, révélation de chemins cachés |
+| **Livre I : Final** | Chapitres 6 à 7 | Traverser le Domaine de Sarffog | Plateformes au rythme effréné, séquences de poursuite, combat de boss |
+| **Livre II : Première moitié** | Chapitres 1 à 4 | Rassembler des alliés, obtenir le pouvoir de la Nature | Faire pousser des lianes d'escalade, gérer des dioramas plus grands |
+| **Livre II : Seconde moitié** | Chapitres 5 à 9 | Naviguer dans le Pinnacle, vaincre Tylan | Énigmes d'armes chargées, orientation de miroirs, boss finaux |
+
+<Callout type="warning" title="Accès au Jardin crépusculaire">
+Assurez-vous d'entrer dans les portails cachés des chapitres 3, 4 et 5 du Livre I. Terminer ces épreuves tôt vous récompensera avec de l'équipement avancé qui facilitera grandement les derniers chapitres.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armes, capacités de déplacement et stratégies de combat">
+
+Au fil de l'aventure, les outils de combat de Quill et les capacités magiques du Lecteur se développent considérablement. Le Livre II introduit plusieurs armes qui peuvent être changées à la volée, vous permettant de résoudre des énigmes environnementales complexes et de vaincre des ennemis en armure.
+
+Le Lecteur peut également apporter une aide directe pendant les combats. En saisissant un ennemi, vous pouvez l'empêcher d'attaquer Quill ou même le forcer à tirer sur ses propres alliés.
+
+<CardGrid cols={3}>
+  <Card title="L'Épée de corps à corps">
+    - **Arme principale** pour un combat rapide et à courte portée.
+    - Améliorée dans le Livre II avec la puissante capacité de **Ruée à l'épée**.
+    - Essentielle pour couper les cordes et franchir de larges fossés.
+  </Card>
+  <Card title="Le Chakram à distance">
+    - Obtenu pendant le voyage de Sahima dans le Livre II.
+    - Parfait pour activer des interrupteurs éloignés et des cibles distantes.
+    - Peut être chargé avec l'aide du Lecteur pour infliger de lourds dégâts.
+  </Card>
+  <Card title="Le Marteau lourd de Cariel">
+    - Des frappes lentes et écrasantes, idéales pour les ennemis en armure.
+    - Déclenche le **Piège de marteau** pour ralentir les cibles rapides.
+    - Détruit les barricades lourdes qui bloquent les chemins optionnels.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Accessibilité des combats">
+Si vous trouvez les combats ou les affrontements de boss trop difficiles, vous pouvez activer l'option Passer les combats depuis le menu de pause à tout moment pour vous concentrer uniquement sur l'histoire et les énigmes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objets de collection, performances techniques et FAQ">
+
+Pour les complétistes, le jeu propose des dizaines d'objets de collection cachés. Trouver ces objets nécessite une exploration approfondie de chaque diorama. Regardez derrière les structures au premier plan, examinez les rebords surélevés et utilisez les pouvoirs du Lecteur pour révéler des chemins cachés.
+
+Sur le plan technique, la version Steam est hautement optimisée, ne nécessitant que 15 Go d'espace de stockage. Elle est officiellement vérifiée sur Steam Deck, fonctionnant à un taux stable de 60 images par seconde sur console portable avec une lisibilité du texte et une attribution des touches optimisées.
+
+<Checklist
+  id="moss-collectibles-tracker"
+  title="Principaux objets de collection et secrets :"
+  items={[
+    "Collectionnez 31 parchemins de fragments oubliés dans le Livre I pour restaurer le vitrail",
+    "Localisez les 3 portails du Jardin crépusculaire cachés dans les chapitres 3, 4 et 5",
+    "Rassemblez 48 fragments de vitraux à travers les 6 royaumes majeurs du Livre II",
+    "Brisez chaque caisse et tonneau pour collecter de la poussière de relique afin de déverrouiller des sanctuaires d'armures secrets",
+    "Utilisez la sélection de chapitre pour récupérer les objets manqués après avoir terminé l'histoire principale"
+  ]}
+/>
+
+<Callout type="tip" title="Paramètres graphiques pour Steam Deck">
+Pour une autonomie optimale sur Steam Deck, réglez la résolution en jeu sur 1280x800, activez le FSR et bloquez le taux de rafraîchissement du système à 60 Hz. Cela garantit une expérience parfaitement fluide.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Est-ce que Moss : La relique oubliée nécessite un casque VR sur Steam ?",
+    answer: "Non, cette version est une réinvention complète sur écran plat des jeux originaux et est entièrement jouable avec une manette ou un clavier et une souris."
+  },
+  {
+    question: "Puis-je jouer au Livre II immédiatement sans terminer le Livre I ?",
+    answer: "Oui, les deux livres sont débloqués dès le début, mais il est fortement recommandé de jouer d'abord au Livre I pour comprendre l'histoire et maîtriser les mécaniques d'énigmes."
+  },
+  {
+    question: "Quel est le but de l'option d'accessibilité Passer les combats ?",
+    answer: "L'option Passer les combats vous permet de contourner les séquences de combat difficiles et les affrontements de boss pour vous concentrer entièrement sur l'histoire et les énigmes. Cependant, vous devez toujours interagir avec les ennemis nécessaires à la résolution d'énigmes environnementales."
+  },
+  {
+    question: "Combien de temps faut-il pour terminer l'ensemble du jeu sur Steam ?",
+    answer: "Une partie standard du Livre I, du Livre II et du DLC du Jardin crépusculaire prend environ 9 à 10 heures. Récupérer tous les objets de collection et débloquer tous les succès ajoute plusieurs heures supplémentaires."
+  }
+]} />
+
+</Section>

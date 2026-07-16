@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Moss : La relique oubliée Remake : Guide complet et configuration",
+  description: "Maîtrisez le remake de Moss : La relique oubliée grâce à notre guide sur les énigmes, le combat, les objets de collection et les conseils de performance pour PC, PS5 et Switch 2.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a472a/fff?text=Moss+Remake+Guide",
+  date: "2026-07-16",
+  author: "Équipe Wiki de Moss : La relique oubliée",
+  keywords: "Moss la relique oubliée remake, guide, solution, énigmes, combat, Quill"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Moss : La relique oubliée Remake** est une collection améliorée non-VR comprenant le Livre I, le Livre II et le DLC Jardin du Crépuscule.
+- **Les contrôles doubles** sont essentiels ; vous devez gérer simultanément les mouvements de Quill et la manipulation de l'environnement par le Lecteur.
+- **La disponibilité des plateformes** inclut Steam (Vérifié sur Steam Deck), PS5, Xbox Series X|S, et une version native pour Nintendo Switch 2.
+- **Passer le combat** est une nouvelle fonctionnalité d'accessibilité permettant aux joueurs de se concentrer entièrement sur les énigmes et l'histoire.
+- **Le prix de lancement** est fixé à 19,99 $, offrant plus de 10 heures de jeu pour les complétistes.
+</Callout>
+
+Le remake de **Moss : La relique oubliée** marque une étape importante pour Polyarc Games, apportant pour la première fois les aventures VR bien-aimées de la souris Quill sur les plateformes à écran plat. Sortie le 16 juillet 2026, cette version est plus qu'un simple portage ; c'est une réimagination qui combine *Moss*, *Moss : Livre II* et l'extension *Jardin du Crépuscule* en une seule expérience narrative cohérente. En supprimant l'exigence VR, les développeurs ont implémenté une « Caméra de suivi intelligente » et retravaillé le système de contrôle pour garantir que le lien entre le joueur (le Lecteur) et Quill reste aussi tactile et magique que jamais.
+
+<Section icon={Map} title="Détails du lancement et comparaison des plateformes">
+
+Le remake de **Moss : La relique oubliée** est conçu pour être accessible sur tout le matériel de jeu moderne. Que vous jouiez sur un PC haut de gamme ou sur la console portable Nintendo Switch 2, le jeu conserve son esthétique de livre de contes avec des textures et des éclairages améliorés. Le prix de 19,99 $ est particulièrement agressif, étant donné qu'il inclut deux jeux complets et tout le contenu additionnel précédemment sorti pour la VR.
+
+| Plateforme | Fonctionnalités | Performance | Notes |
+| :--- | :--- | :--- | :--- |
+| **Steam** | Sauvegardes Cloud, Succès | 4K / 120 FPS | **Vérifié sur Steam Deck** |
+| **PS5** | Contrôles repensés | 4K / 60 FPS | Retours haptiques améliorés |
+| **Xbox Series X|S** | Smart Delivery | 4K / 60 FPS | Support Quick Resume |
+| **Switch 2** | Édition native | 1080p / 60 FPS | Mise à jour gratuite depuis Switch 1 |
+| **Switch 1** | Sortie numérique | 720p / 30 FPS | Performance portable solide |
+
+<Callout type="success" title="Proposition de valeur">
+À 19,99 $, cette collection offre environ 9 à 10 heures de contenu narratif principal, ce qui peut s'étendre à 15 heures si vous visez le 100 % avec tous les parchemins et la poussière de relique.
+</Callout>
+
+La transition vers les plateformes non-VR a nécessité une refonte totale du système d'interaction. Sur PC, les joueurs peuvent utiliser une souris pour manipuler l'environnement, tandis que les joueurs sur console utilisent le stick analogique droit pour guider le curseur du Lecteur. Cela permet un mouvement précis des blocs et des ennemis pendant que Quill est au milieu d'un combo de combat.
+
+</Section>
+
+<Section icon={Sparkles} title="Guide du débutant : Maîtriser les contrôles doubles">
+
+Commencer votre voyage dans le remake de **Moss : La relique oubliée** nécessite un changement d'état d'esprit. Vous ne jouez pas seulement la souris ; vous êtes une présence spectrale géante qui existe au sein du monde. Le succès dépend de la façon dont vous coordonnez ces deux rôles distincts.
+
+**Points forts de la vidéo :**
+- Mécaniques de base de mouvement et de saut pour Quill.
+- Comment le Lecteur interagit avec les objets brillants.
+- Logique des énigmes de début de jeu impliquant des blocs mobiles.
+
+<Steps>
+  <Step num="1" title="Commencez par le Livre I">
+    Bien que vous puissiez passer directement au Livre II, il est fortement recommandé de commencer par le Livre I. Il sert de tutoriel au « langage d'énigmes » du jeu, vous apprenant à identifier les corniches escaladables et les mécanismes interactifs.
+  </Step>
+  <Step num="2" title="Identifiez les objets du Lecteur">
+    Les objets que le Lecteur peut manipuler auront une lueur magique ténue. Utilisez votre curseur pour saisir ces blocs, statues ou portes. Si une plateforme se réinitialise automatiquement, vous devez maintenir le bouton d'interaction enfoncé pendant que Quill traverse.
+  </Step>
+  <Step num="3" title="Lisez les indices visuels">
+    Cherchez les marques de griffures blanches sur les corniches et les murs. Elles indiquent où Quill peut s'agripper et grimper. Si une corniche est trop haute, il y a presque certainement un bloc à proximité que le Lecteur peut mettre en position.
+  </Step>
+  <Step num="4" title="Gérez le combat et les soins">
+    Quill a une jauge de santé limitée. Lorsqu'elle halète ou que les bords de l'écran deviennent rouges, utilisez le curseur du Lecteur pour « saisir » Quill. Cela déclenche une lueur de soin qui restaure sa santé en quelques secondes.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Conscience environnementale">
+Faites toujours pivoter la caméra ou regardez derrière les décors au premier plan. La « Caméra de suivi intelligente » du remake est excellente, mais certains parchemins sont intentionnellement cachés derrière des piliers ou à l'intérieur de caisses cassables faciles à manquer.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cheminement et progression par chapitre">
+
+L'histoire du remake de **Moss : La relique oubliée** est divisée en deux livres et un jardin secret. Suivre l'ordre correct vous assure d'avoir les capacités nécessaires pour atteindre toutes les zones cachées.
+
+| Livre / Section | Objectif principal | Nouvelle mécanique clé |
+| :--- | :--- | :--- |
+| **Livre I : Ouverture** | Trouver Messire Argus | Plateforme de base / Épée |
+| **Jardin du Crépuscule** | Terminer les épreuves | Révélation de chemins cachés |
+| **Livre I : Final** | Vaincre Sarffog | Énigmes avancées du Lecteur |
+| **Livre II : Début** | Rassembler les alliés | Harmonisation avec la nature (Lianes) |
+| **Livre II : Milieu** | Forger les armes | Marteau et Chakram |
+| **Livre II : Fin** | Vaincre Tylan | Changement de personnage |
+
+<Callout type="info" title="Portails du Jardin du Crépuscule">
+Il y a trois portails vers le Jardin du Crépuscule cachés dans le Livre I (Le Temple de la Bourbe, Le Dernier Répit et La Cité Abandonnée). Les terminer tôt confère à Quill une armure spéciale et une amélioration d'arme qui facilitent grandement les combats ultérieurs.
+</Callout>
+
+À mesure que vous progressez dans le Livre II, les diaporamas deviennent nettement plus grands. Vous devrez souvent dégager un chemin dans une partie de la pièce, déplacer Quill vers un levier, puis utiliser le Lecteur pour modifier l'environnement de l'autre côté de l'écran. Le remake gère ces transitions en douceur, sans écrans de chargement entre les pièces d'un même chapitre.
+
+</Section>
+
+<Section icon={Swords} title="Armes, capacités et stratégie de combat">
+
+Le combat dans le remake de **Moss : La relique oubliée** est une danse entre l'agilité de Quill et le contrôle de foule du Lecteur. Tandis que Quill utilise son épée pour infliger des dégâts, le Lecteur peut saisir les ennemis pour les étourdir ou même les forcer à tirer sur leurs propres alliés.
+
+<CardGrid cols={3}>
+  <Card title="L'Épée">
+    L'arme principale de Quill. Dans le Livre II, vous débloquez la **Ruée à l'épée**, vous permettant de foncer à travers les ennemis ou de franchir de grands gouffres autrement infranchissables.
+  </Card>
+  <Card title="Le Chakram">
+    Une arme à distance obtenue dans le Livre II. Elle peut être chargée par le Lecteur pour frapper plusieurs interrupteurs ou ennemis distants en un seul lancer.
+  </Card>
+  <Card title="Le Marteau de Cariel">
+    Une arme lourde pour écraser les ennemis blindés « Forgés ». La capacité **Piège au marteau** permet au Lecteur de placer une zone magique qui écrase tout ce qui y pénètre.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Manipulation des ennemis">
+Ne tuez pas tous les ennemis à vue. De nombreuses énigmes nécessitent de garder un « Bombardier » ou un « Hurleur » en vie pour que le Lecteur puisse les traîner sur une plaque de pression ou utiliser leurs projectiles pour toucher un interrupteur éloigné.
+</Callout>
+
+Pour les joueurs qui trouvent le combat frustrant ou qui veulent simplement profiter de la narration, le remake inclut une option **Passer le combat**. Elle apparaît lors des rencontres majeures et vous permet de contourner le combat tout en faisant avancer l'histoire. Cependant, vous devrez toujours utiliser les ennemis pour les énigmes environnementales.
+
+</Section>
+
+<Section icon={Shield} title="Solutions des énigmes environnementales">
+
+Les énigmes sont le cœur du remake de **Moss : La relique oubliée**. La plupart des obstacles nécessitent une logique de « travail à l'envers » : identifiez la sortie, voyez ce qui la bloque, et remontez la ligne de puissance ou le chemin jusqu'à un objet mobile.
+
+| Type d'énigme | Interaction requise | Stratégie pro |
+| :--- | :--- | :--- |
+| **Plaques de pression** | Déplacer un bloc ou un ennemi | Utiliser le Lecteur pour maintenir les ennemis en place |
+| **Ponts rotatifs** | Glisser / faire pivoter (Lecteur) | Placer Quill sur le pont *avant* de le faire pivoter |
+| **Lianes de la nature** | Harmonisation avec la nature | Chercher des plantes dormantes près des corniches |
+| **Rayons de miroir** | Réflexion de la lumière | Aligner les miroirs en partant de la source vers l'extérieur |
+| **Plateformes de verre** | Capacité de révélation | Chercher des distorsions magiques dans l'air |
+
+<Steps>
+  <Step num="1" title="Analysez le diaporama">
+    Avant de déplacer Quill, scannez toute la pièce. Identifiez tous les objets interactifs (brillant en bleu ou vert) et cherchez la sortie.
+  </Step>
+  <Step num="2" title="Dégagez le chemin">
+    Utilisez le Lecteur pour déplacer les blocs ou statues qui obstruent le niveau du sol. Cela donne à Quill plus d'espace pour esquiver si des ennemis apparaissent.
+  </Step>
+  <Step num="3" title="Exécutez la séquence">
+    Beaucoup d'énigmes sont chronométrées. Vous pourriez avoir besoin d'actionner un levier avec Quill, puis de saisir rapidement une plateforme avec le Lecteur pour lui faire traverser avant que la porte ne se ferme.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Harmonisation avec la nature">
+Dans le Livre II, le pouvoir d'harmonisation avec la nature vous permet de faire pousser des lianes. C'est essentiel pour revenir dans les zones du Livre I via la Sélection de Chapitre afin de trouver des parchemins auparavant inaccessibles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objets de collection et liste de complétion">
+
+Pour ceux qui recherchent le trophée Platine ou le 100 % sur Steam, le remake de **Moss : La relique oubliée** propose des dizaines de secrets cachés. Collecter ces fragments fournit non seulement des informations sur l'univers (lore), mais restaure également les magnifiques vitraux de la cathédrale.
+
+<Checklist
+  id="completion-goals"
+  title="Étapes de fin de jeu :"
+  items={[
+    "Trouver les 31 Fragments oubliés dans le Livre I",
+    "Collecter les 48 Fragments de vitraux dans le Livre II",
+    "Découvrir les trois Sanctuaires de reliques et débloquer l'armure secrète",
+    "Terminer le Jardin du Crépuscule et vaincre le Commandant Refondu",
+    "Casser chaque caisse et pot pour maximiser la Poussière de relique pour les Sanctuaires"
+  ]}
+/>
+
+<Callout type="success" title="Utilisation de la Poussière de relique">
+La poussière de relique n'est pas seulement là pour faire joli. Dans le Livre II, vous rencontrerez des portes scellées appelées Sanctuaires de reliques. Elles nécessitent une quantité spécifique de poussière pour s'ouvrir, abritant les ensembles d'armures les plus puissants du jeu.
+</Callout>
+
+Si vous manquez un parchemin, ne vous inquiétez pas. Le menu de **Sélection de Chapitre** affiche clairement combien de fragments et de conteneurs de poussière il reste dans chaque section spécifique. Vous pouvez revenir à n'importe quel chapitre avec toutes vos capacités actuelles, ce qui rend le processus de nettoyage beaucoup plus rapide.
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Ai-je besoin d'un casque VR pour jouer au remake de Moss : La relique oubliée ?",
+    answer: "Non. Ce remake est spécifiquement conçu pour le jeu sur écran plat sur PC, PS5, Xbox et Nintendo Switch. Il ne prend pas en charge les casques VR."
+  },
+  {
+    question: "Qu'est-ce qui est inclus dans le prix de 19,99 $ ?",
+    answer: "Le prix comprend les versions complètes de Moss (Livre I), Moss : Livre II et l'extension Jardin du Crépuscule, le tout avec des visuels améliorés et des contrôles retravaillés."
+  },
+  {
+    question: "Comment fonctionne la fonction Passer le combat ?",
+    answer: "Dans les salles de combat ou lors des combats de boss, une invite optionnelle apparaîtra vous permettant de passer la rencontre. C'est idéal pour les joueurs qui préfèrent les éléments d'énigme et d'histoire."
+  },
+  {
+    question: "Y a-t-il une mise à jour gratuite pour les joueurs Nintendo Switch ?",
+    answer: "Oui. Polyarc a confirmé que toute personne achetant la version Nintendo Switch recevra gratuitement la version native Nintendo Switch 2."
+  }
+]} />
+
+</Section>

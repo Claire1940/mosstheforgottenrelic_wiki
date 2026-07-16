@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Moss: The Forgotten Relic Buch 1: Komplettlösung & Rätsel-Guide",
+  description: "Meistern Sie Moss: The Forgotten Relic Buch 1 mit unserer vollständigen Komplettlösung. Finden Sie alle Schriftrollen, lösen Sie Umgebungsrätsel und besiegen Sie Bosse ohne VR.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/081a11/fff?text=Book+1+Walkthrough",
+  date: "2026-07-16",
+  author: "Moss: The Forgotten Relic Wiki-Team",
+  keywords: "Moss, Buch 1, Komplettlösung, Rätsel, Guide, ohne VR, Quill, Sammelobjekte"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptabenteuer**: Beginnen Sie mit Buch 1, um die grundlegenden dualen Steuerungsmechaniken zu erlernen.
+- **Keine VR erforderlich**: Spielen Sie mit Standard-Controllern oder Maus und Tastatur auf modernen Plattformen.
+- **Duale Steuerung**: Steuern Sie Quill mit dem linken Stick oder den Tasten, während Sie als Leser die Welt manipulieren.
+- **Sammelobjekte**: Suchen Sie nach 31 Schriftrollen (Vergessene Fragmente) und zerstören Sie Behälter für Reliktstaub.
+- **Kampf überspringen**: Nutzen Sie das integrierte Barrierefreiheitsmenü, um schwierige Kampfarena-Abschnitte zu umgehen.
+</Callout>
+
+Die Veröffentlichung der erweiterten Nicht-VR-Sammlung bringt die magische Geschichte von Quill und dem Leser auf Flachbildschirme und macht **Moss: The Forgotten Relic Buch 1** einem breiteren Publikum als je zuvor zugänglich. Ursprünglich für Virtual Reality konzipiert, passt diese neu interpretierte Edition die Steuerung für zwei Charaktere an Standard-Controller und Tastatur-Setups an. Spieler können die tapfere Maus Quill durch wunderschöne, diorama-artige Umgebungen führen, während sie gleichzeitig als riesiger, spektraler Leser die Welt manipulieren. Dieser Guide deckt alles ab, was Sie wissen müssen, um das erste Buch abzuschließen, jedes Rätsel zu lösen und jedes versteckte Geheimnis zu finden.
+
+<Section icon={Sparkles} title="Moss: The Forgotten Relic Buch 1: Release- und Plattform-Guide">
+
+Das Spiel wurde am 16. Juli 2026 zu einem Standardpreis von 19,99 $ veröffentlicht und bündelt die verbesserten Nicht-VR-Versionen beider Hauptspiele sowie die Erweiterung „Zwielichtgarten“ (Twilight Garden). Diese Zusammenstellung bietet eine neu gestaltete Kamerapräsentation, handgefertigte Zwischensequenzen und optimierte Steuerungen, die speziell auf das Spielen am Bildschirm zugeschnitten sind.
+
+| Plattform | Leistung | Features |
+| :--- | :--- | :--- |
+| Steam | Verifizierte 60 FPS | Cloud-Speicherstände, Erfolge, Tastaturunterstützung |
+| PlayStation 5 | Natives 4K 60 FPS | Überarbeitete Kamera, DualSense-Feedback |
+| Xbox Series X|S | Optimiertes 4K 60 FPS | Smart Delivery, Cloud-Speicherstände |
+| Nintendo Switch 2 | Native 60 FPS | Gestochen scharfer Handheld-Modus, kostenloses Upgrade |
+
+Der Standard-Kauf auf Steam ist offiziell für das Steam Deck verifiziert und erfordert keine separate Handheld-Edition. Darüber hinaus erhalten Spieler, die das Spiel auf der ursprünglichen Nintendo Switch erwerben, ein kostenloses Upgrade auf die native Nintendo Switch 2-Version ohne zusätzliche Kosten.
+
+<Callout type="tip" title="Keine VR benötigt">
+Standard-Controller und Tastatur-Setups werden auf allen Plattformen vollständig unterstützt. Sie benötigen kein VR-Headset, um die komplette Geschichte von Quill zu erleben.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Meisterung des Dual-Control-Systems">
+
+Der Erfolg in Buch 1 erfordert die gleichzeitige Koordination von zwei verschiedenen Rollen. Sie steuern Quills physische Aktionen, während Sie die magischen Kräfte des Lesers einsetzen, um die Umgebung umzugestalten. Diese Partnerschaft ist das Herzstück jedes Rätsels und jeder Kampfbegegnung.
+
+<CardGrid cols={3}>
+  <Card title="Quills Aktionen">
+    - **Agile Bewegung**: Rennen, Springen und Klettern an markierten Kanten.
+    - **Schwertkampf**: Schnelle Schläge ausführen und gegnerischen Angriffen ausweichen.
+    - **Ausweichen**: Rollen, um Distanz zu schaffen und schweren Flächenangriffen zu entgehen.
+  </Card>
+  <Card title="Aktionen des Lesers">
+    - **Objektmanipulation**: Leuchtende Blöcke greifen und schwere Steintore verschieben.
+    - **Gegnerkontrolle**: Arkan-Käfer greifen und festhalten, um ihre Angriffe zu deaktivieren.
+    - **Aktive Heilung**: Den Cursor über Quill halten, um ihre Gesundheit wiederherzustellen.
+  </Card>
+  <Card title="Duale Synergie">
+    - **Wegerstellung**: Eine Plattform festhalten, während Quill darüber klettert.
+    - **Kampfunterstützung**: Einen gefährlichen Feind festhalten, damit Quill sicher zuschlagen kann.
+    - **Rätsellösung**: Quill auf Druckplatten führen, während Blöcke bewegt werden.
+  </Card>
+</CardGrid>
+
+Bevor Sie einen belebten Raum betreten, identifizieren Sie, welche Aktionen zu Quill gehören und welche den Cursor des Lesers erfordern. Achten Sie auf Kratzspuren an Vorsprüngen, Wänden und beweglichen Oberflächen, da diese visuellen Hinweise zeigen, wo Quill klettern kann oder wo Blöcke positioniert werden müssen.
+
+<Callout type="warning" title="Heilung im Kampf">
+Um Quill zu heilen, muss der Leser sie direkt mit dem Interaktions-Cursor festhalten. Weichen Sie immer in eine sichere Ecke aus, bevor Sie eine Heilung einleiten, um nicht von feindlichen Angriffen unterbrochen zu werden.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Buch 1 Komplettlösung und Kapitelreihenfolge">
+
+Die Kampagne von Buch 1 ist in sieben Hauptkapitel unterteilt, zusammen mit der integrierten Erweiterung „Zwielichtgarten“. Für den reibungslosesten Fortschritt sollten Sie die Portale des Zwielichtgartens abschließen, sobald sie erscheinen, um verbesserte Ausrüstung freizuschalten, bevor Sie das finale Schloss erreichen.
+
+| Kapitel | Hauptziel | Wichtigstes Rätsel-Element |
+| :--- | :--- | :--- |
+| Kapitel 1 & 2 | Quill treffen und aus der Heimat fliehen | Grundlegendes Springen und Blockziehen |
+| Kapitel 3 | Den Sumpftempel erkunden | Überflutete Ruinen, Druckplatten |
+| Kapitel 4 | Die Letzte Ruhe durchqueren | Rotierende Statuen und Zeitschalter |
+| Kapitel 5 | Die verlassene Stadt durchqueren | Manipulation von Arkan-Feinden |
+| Kapitel 6 & 7 | Sarffog besiegen und das Schloss stürmen | Verfolgungsjagden, finaler Bosskampf |
+
+Die Portale zum Zwielichtgarten erscheinen als leuchtende, kreisförmige Risse in den Kapiteln 3, 4 und 5. Das Betreten dieser Risse führt Sie in eigenständige Herausforderungsräume, die einzigartige Ausrüstung belohnen.
+
+<Steps>
+  <Step num="1" title="Das Portal finden">
+    Suchen Sie in den Kapiteln 3, 4 oder 5 nach Nebenpfaden, um ein leuchtendes, kreisförmiges Portal zu finden, das hinter der Hauptszenerie versteckt ist.
+  </Step>
+  <Step num="2" title="Den Garten betreten">
+    Interagieren Sie mit dem Portal über den Cursor des Lesers, um Quill in das Reich des Zwielichtgartens zu transportieren.
+  </Step>
+  <Step num="3" title="Die Prüfungen abschließen">
+    Lösen Sie die eigenständigen Rätselkammern und besiegen Sie den Wächter „Recast Commander“.
+  </Step>
+  <Step num="4" title="Belohnung einfordern">
+    Schalten Sie verbesserte Rüstung und ein neues Schwert frei, das verborgene Pfade in den Hauptkapiteln enthüllt.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Erweiterungsausrüstung">
+Der Abschluss der Prüfungen im Zwielichtgarten wird dringend empfohlen. Das verbesserte Schwert und die Rüstung werden in das Hauptspiel übernommen, was die letzten Kapitel und Bosse erheblich erleichtert.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lösungen für Umgebungsrätsel">
+
+Die meisten Hindernisse in der Umgebung folgen einer einfachen Regel: Quill kümmert sich um die Fortbewegung, während der Leser das Raumlayout verändert. Wenn Sie feststecken, schauen Sie sich die Ausgangstür an und arbeiten Sie sich rückwärts vor, um die Blöcke, Schalter oder Feinde zu identifizieren, die zum Freimachen des Weges erforderlich sind.
+
+| Rätseltyp | Leser-Interaktion | Quill-Aktion |
+| :--- | :--- | :--- |
+| Bewegliche Blöcke | Blöcke zu zerkratzten Kanten ziehen | Klettern, um höhere Plattformen zu erreichen |
+| Rotierende Statuen | Getriebemechanismen drehen | Überqueren, bevor die Plattform zurückgesetzt wird |
+| Druckplatten | Arkan-Feinde greifen und festhalten | Auf der Platte stehen oder durch Tore rennen |
+| Leuchtende Schalter | Schalter mit dem Schwert schlagen | Den Dash durch bewegliche Barrieren zeitlich abpassen |
+
+Bei Rätseln mit Druckplatten sollten Sie nicht sofort alle Feinde besiegen. Betäuben und ziehen Sie einen käferartigen Arkan-Feind auf die Platte, um Tore offen zu halten, sodass Quill zum nächsten Abschnitt gelangen kann.
+
+<Callout type="info" title="Kampf-überspringen-Funktion">
+Wenn eine Kampfarena oder eine Bossbegegnung zu schwierig wird, öffnen Sie das Pausenmenü, um die Option „Kampf überspringen“ zu nutzen. Dies ermöglicht es Ihnen, den Kampf zu umgehen, während die Rätselelemente der Umgebung intakt bleiben.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Schriftrollen, Staub und geheime Orte">
+
+Buch 1 enthält 31 versteckte Schriftrollen (Vergessene Fragmente). Das Finden dieser Rollen stellt die Buntglaskunstwerke wieder her, die zwischen den Kapiteln angezeigt werden. Zusätzlich setzt das Zerstören von Fässern, Kisten und Töpfen Reliktstaub frei, der für das Freischalten optionaler Bereiche später in der Kampagne unerlässlich ist.
+
+<Checklist
+  id="book1-collectibles"
+  title="Abschlussziele für Buch 1:"
+  items={[
+    "Sammeln Sie alle 31 Schriftrollen (Vergessene Fragmente) in den 7 Kapiteln",
+    "Zerstören Sie jedes Fass, jede Kiste und jeden Topf, um Reliktstaub zu ernten",
+    "Finden und betreten Sie alle 3 Portale zum Zwielichtgarten",
+    "Schalten Sie die Buntglaskunstwerke im Kapitelauswahlmenü frei"
+  ]}
+/>
+
+Schriftrollen sind typischerweise in Ecken im Vordergrund, auf oberen Vorsprüngen oder auf Wegen versteckt, die hinter der Hauptszenerie liegen. Bevor Sie den Raum wechseln, schwenken Sie die Kamera immer an den Rändern des Dioramas entlang, um nach versteckten Pfaden zu suchen.
+
+<Callout type="tip" title="Kapitelauswahl nutzen">
+Sie müssen das gesamte Spiel nicht neu starten, wenn Sie eine Schriftrolle verpasst haben. Nutzen Sie das Kapitelauswahlmenü, um Ihren Fortschritt pro Kapitel zu überprüfen und direkt zurückzuspringen, um fehlende Gegenstände einzusammeln.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Benötigt Moss: The Forgotten Relic Buch 1 ein VR-Headset?",
+    answer: "Nein. Diese Version ist eine Neuinterpretation für den Flachbildschirm, die speziell für Standard-Controller und Tastatur/Maus-Setups auf PC und Konsolen entwickelt wurde."
+  },
+  {
+    question: "Wie viele Schriftrollen sind in Buch 1 versteckt?",
+    answer: "Es gibt 31 Schriftrollen (Vergessene Fragmente), die über die sieben Kapitel von Buch 1 verteilt sind und Buntglaskunstwerke freischalten."
+  },
+  {
+    question: "Was ist der Vorteil beim Sammeln von Reliktstaub?",
+    answer: "Reliktstaub wird durch das Zerstören von Kisten und Fässern gesammelt und dazu verwendet, versiegelte Reliktschreine zu öffnen, die optionale Rüstungssets enthalten."
+  },
+  {
+    question: "Kann ich Buch 2 direkt aus dem Hauptmenü spielen?",
+    answer: "Ja, beide Spiele sind von Anfang an freigeschaltet. Es wird jedoch dringend empfohlen, zuerst Buch 1 zu spielen, um die Geschichte und die Kernmechaniken zu verstehen."
+  }
+]} />
+
+<Callout type="info" title="Fortschritt der Geschichte">
+Ihr Fortschritt, Ihre Sammelobjekte und Ihre freigeschaltete Ausrüstung aus Buch 1 bilden die Grundlage für die größeren Herausforderungen, neuen Waffen und fortgeschrittenen Rätsel, die in Buch II auf Sie warten.
+</Callout>
+
+</Section>

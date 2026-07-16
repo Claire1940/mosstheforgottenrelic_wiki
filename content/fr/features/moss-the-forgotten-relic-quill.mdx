@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Moss : La relique oubliée - Quill : Conseils de mouvement, combat et énigmes",
+  description: "Maîtrisez les commandes de Quill, les énigmes environnementales, les armes, les objets de collection et les stratégies de boss dans cette aventure sur écran plat.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Moss+The+Forgotten+Relic+Quill",
+  date: "2026-07-16",
+  author: "Équipe du Wiki de Moss : La relique oubliée",
+  keywords: "moss, la relique oubliée, quill, guide, combat, énigmes, solutions"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Système de double commande** : Apprenez à gérer les mouvements de **Quill** tout en manipulant simultanément l'environnement en tant que Lecteur.
+- **Pas de VR requise** : Ce remaster pour écran plat combine Moss, l'extension Jardin du Crépuscule et Moss : Livre II en une seule aventure cohérente, adaptée à la manette.
+- **Combat et évasion** : Combinez des coups d'épée rapides, des esquives directionnelles et les soins assistés par le Lecteur pour survivre aux rencontres difficiles avec l'Arcane.
+- **Énigmes environnementales** : Utilisez les interactions du Lecteur pour déplacer des blocs, aligner des plateformes, faire pousser des vignes et contrôler les ennemis pour libérer le passage.
+- **Suivi des objets de collection** : Partez à la recherche des parchemins de fragments oubliés et des contenants de poussière de relique à travers tous les chapitres pour terminer le jeu à 100 %.
+</Callout>
+
+<Section icon={Map} title="Sortie, plateformes et mise en place de l'histoire">
+
+Le lancement officiel de Moss : La relique oubliée le 16 juillet 2026 apporte pour la première fois l'aventure de livre de contes acclamée par la critique sur les plateformes à écran plat. Cette édition spéciale regroupe l'intégralité de Moss, l'extension Jardin du Crépuscule et Moss : Livre II dans un seul ensemble fluide. En supprimant l'exigence de la VR, les joueurs peuvent vivre le voyage de la courageuse souris héroïne en utilisant des configurations standard de manette ou de clavier et souris.
+
+Dans cette édition réimaginée, vous jouez un double rôle. Vous contrôlez **Quill**, la jeune souris courageuse destinée à la grandeur, tout en agissant en tant que Lecteur, une présence géante et puissante capable de manipuler directement l'environnement. Ensemble, vous devez naviguer dans des forêts profondes, des temples anciens et des châteaux en ruine pour sauver Sir Argus et vaincre la menace grandissante de l'Arcane. Le jeu propose des visuels améliorés, des transitions cinématiques artisanales et une caméra intelligente « Smart Follow » conçue pour garder l'action parfaitement cadrée sans nécessiter le suivi de tête VR.
+
+| Plateforme | Date de sortie | Prix de lancement | Détails clés |
+| :--- | :--- | :--- | :--- |
+| **Steam** | 16 juillet 2026 | 19,99 $ | PC Windows, manette, succès, sauvegardes cloud |
+| **Steam Deck** | 16 juillet 2026 | 19,99 $ | **Officiellement vérifié**, l'achat standard fonctionne |
+| **PlayStation 5** | 16 juillet 2026 | 19,99 $ | Commandes repensées, nouvelle caméra, visuels améliorés |
+| **Xbox Series X/S** | 16 juillet 2026 | 19,99 $ | Optimisé 4K, 60 FPS+, Smart Delivery, sauvegardes cloud |
+| **Nintendo Switch** | 16 juillet 2026 | 19,99 $ | Sortie numérique, mise à niveau gratuite vers la version Switch 2 |
+| **Nintendo Switch 2** | 16 juillet 2026 | 19,99 $ | Édition native, 60 FPS portable/docké, 10,3 Go |
+
+<Callout type="info" title="Note sur la mise à niveau de la plateforme">
+Les joueurs qui achètent l'édition numérique sur Nintendo Switch reçoivent une mise à niveau native gratuite vers la version Nintendo Switch 2 sans frais supplémentaires, assurant une transition de performance fluide entre les générations de matériel.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Quill : Commandes et style de jeu double">
+
+Naviguer dans le monde nécessite une solide compréhension de la manière de diviser votre attention entre vos deux personnages. Tandis que Quill s'occupe de la plateforme immédiate et du combat à l'épée, le Lecteur est responsable de soulever des blocs lourds, de tourner des engrenages et de tenir les ennemis à distance. Cette dynamique coopérative est au cœur de la conception du jeu, et la maîtriser tôt permet d'éviter des redémarrages inutiles.
+
+Le schéma de commande a été reconstruit pour paraître naturel sur des entrées standard. Sur une manette, le stick gauche guide les mouvements physiques de Quill, tandis que le stick droit contrôle le curseur magique du Lecteur. Sur PC, les joueurs peuvent utiliser les commandes ZQSD standard ainsi que des mouvements de souris précis pour le curseur.
+
+| Action | Entrée Manette | Entrée Clavier et Souris | Détails de la mécanique |
+| :--- | :--- | :--- | :--- |
+| **Mouvement de Quill** | Stick analogique gauche | Touches ZQSD | Mouvement direct, escalade et plateforme |
+| **Attaque de Quill** | Bouton d'action (X/Carré) | Clic gauche | Coups d'épée rapides, combos et frappes chargées |
+| **Esquive de Quill** | Bouton d'action (A/Croix) | Espace | Éviter les attaques au corps à corps et les zones de projectiles |
+| **Curseur du Lecteur** | Stick analogique droit | Mouvement de la souris | Survoler les objets interactifs et les unités de l'Arcane |
+| **Interaction Lecteur** | Gâchette (RT/R2) | Clic droit | Saisir, glisser, pivoter les blocs, soigner Quill, tenir les ennemis |
+
+<Steps>
+  <Step num="1" title="Commencer par le Livre I">
+    Commencez votre aventure en sélectionnant le Livre I dans le menu principal. Cette campagne d'introduction vous enseigne progressivement le langage interactif du monde, vous permettant de vous familiariser avec les doubles commandes avant que les énigmes et les combats ne gagnent en complexité.
+  </Step>
+  <Step num="2" title="Séparez vos commandes">
+    Entraînez-vous à déplacer Quill avec votre main gauche tout en visant avec le curseur du Lecteur avec votre main droite. Essayez de courir sur un pont tout en faisant pivoter simultanément une plateforme devant vous pour développer votre mémoire musculaire.
+  </Step>
+  <Step num="3" title="Lisez l'environnement">
+    Observez attentivement les corniches, les murs et les piliers. Des marques d'égratignures jaunâtres et de la peinture usée indiquent les surfaces que Quill peut saisir, escalader ou entre lesquelles elle peut sauter. Si une corniche n'a pas ces marques, elle est généralement hors de portée.
+  </Step>
+  <Step num="4" title="Préparez l'itinéraire d'abord">
+    Avant d'envoyer Quill se précipiter dans une nouvelle pièce, faites une pause et étudiez la disposition. Identifiez les blocs mobiles, les plaques de pression et les portes. Positionnez vos plateformes et vos blocs à l'avance pour minimiser les erreurs de plateforme.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Soin en combat">
+Lorsque Quill subit des dégâts, sa santé ne se régénère pas automatiquement. Pour la soigner, guidez le curseur du Lecteur sur Quill et maintenez la touche d'interaction. Cela canalise une lumière bleue apaisante qui restaure sa santé. Esquivez toujours vers un coin sûr avant de tenter de soigner.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armes, capacités et améliorations de déplacement">
+
+À mesure que vous progressez du Livre I à travers le Jardin du Crépuscule et vers le Livre II, l'arsenal de Quill et les capacités magiques du Lecteur s'étendent considérablement. Ces améliorations ne servent pas seulement à vaincre des ennemis plus coriaces ; ce sont des outils essentiels pour résoudre des énigmes environnementales et débloquer des zones auparavant inaccessibles lors de vos retours en arrière.
+
+Le Livre II introduit notamment des mécaniques de changement d'arme qui permettent à Quill de s'adapter à la volée à différents types d'ennemis et mécanismes d'énigmes. Apprendre quand utiliser chaque arme et comment les combiner avec les charges assistées par le Lecteur est la clé pour maîtriser les chapitres de fin de jeu.
+
+<CardGrid cols={3}>
+  <Card title="L'Épée et la Ruée à l'épée">
+    - **Outil de mêlée principal** disponible dans les deux livres.
+    - Combos rapides au corps à corps et attaques défensives larges.
+    - **Ruée à l'épée** : Chargez l'épée avec l'aide du Lecteur pour foncer à travers de larges fossés et frapper les ennemis alignés.
+  </Card>
+  <Card title="Le Chakram et la Portée">
+    - **Arme à distance** obtenue pendant le Livre II.
+    - Parfait pour frapper des cibles éloignées, des interrupteurs et des ennemis volants.
+    - **Chakram chargé** : Lancez et plantez l'arme dans des surfaces lointaines, puis rappelez-la pour déclencher des mécanismes à distance.
+  </Card>
+  <Card title="Le Marteau de Cariel">
+    - **Arme lourde** acquise dans la Fonderie durant le Livre II.
+    - Frappes lentes à fort impact qui brisent les armures lourdes et les boucliers.
+    - **Piège à marteau** : Positionnez une projection de marteau magique qui s'abat lorsque les ennemis entrent dans la zone désignée.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Harmonie avec la nature">
+Acquise dans le Royaume des Sprites durant le Livre II, l'Harmonie avec la nature permet au Lecteur de faire pousser du lierre grimpant et d'étendre des chemins végétaux à travers de profonds gouffres. Cherchez toujours des bulbes verts dormants sur les murs lors de vos explorations, car ils indiquent des chemins verticaux cachés.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Solutions aux énigmes environnementales">
+
+Les énigmes dans Moss : La relique oubliée nécessitent un effort coopératif entre l'agilité physique de Quill et la manipulation environnementale du Lecteur. Si vous vous retrouvez bloqué dans une pièce, la meilleure approche consiste à identifier votre destination finale, à localiser le mécanisme qui y est relié et à travailler à rebours pour trouver le déclencheur initial.
+
+De nombreuses énigmes utilisent les ennemis de l'Arcane (semblables à des scarabées) comme outils interactifs. Au lieu de vaincre chaque menace immédiatement, observez leur comportement pour voir s'ils peuvent vous aider à vider la pièce.
+
+| Type d'énigme | Mécanique centrale | Solution principale | Conseil d'expert |
+| :--- | :--- | :--- | :--- |
+| **Bloc mobile** | Glissement d'objet | Faites glisser les blocs sous les corniches marquées | Ajustez le bloc près de la corniche pour grimper plus facilement |
+| **Plateforme rotative** | Contrôle de mécanisme | Maintenez et faites pivoter avec le Lecteur pendant que Quill traverse | Continuez à tenir le mécanisme s'il se réinitialise automatiquement |
+| **Plaque de pression** | Activation par le poids | Faites glisser un ennemi de l'Arcane sur la plaque d'interrupteur | Maintenez l'ennemi avec le Lecteur pour qu'il ne puisse pas bouger |
+| **Chemin caché** | Interaction de révélation | Utilisez la capacité de révélation sur les zones magiques marquées | Revenez dans les premières zones une fois la révélation débloquée |
+| **Croissance de vigne** | Harmonie avec la nature | Faites pousser du lierre pour relier les murs verticaux | Reliez les racines à travers les fossés pour ouvrir de nouveaux passages |
+
+<Callout type="info" title="Contrôle de l'Arcane">
+Le Lecteur peut saisir et contrôler certains ennemis de l'Arcane. Une fois tenus, vous pouvez les faire glisser sur des plaques de pression pour garder les portes ouvertes ou diriger leurs attaques à distance vers des interrupteurs éloignés que Quill ne peut pas atteindre.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objets de collection, secrets et progression des chapitres">
+
+Pour les joueurs cherchant à terminer l'aventure à 100 %, le jeu propose une multitude de secrets cachés répartis dans les deux livres et l'extension Jardin du Crépuscule. Trouver ces objets vous récompense par de magnifiques vitraux, des fragments d'histoire et des ensembles d'armures optionnels puissants.
+
+Les principaux objets de collection sont les Parchemins de fragments oubliés et la Poussière de relique. Alors que les parchemins sont généralement cachés dans des angles morts de la caméra, la poussière de relique s'obtient en brisant des barils, des caisses et des pots éparpillés dans les dioramas.
+
+<Checklist
+  id="relic-collectibles"
+  title="Liste de contrôle pour les complétistes :"
+  items={[
+    "Collectez les 31 Parchemins de fragments oubliés à travers les six chapitres du Livre I.",
+    "Localisez et entrez dans les trois portails cachés du Jardin du Crépuscule dans le Livre I pour gagner de l'équipement optionnel.",
+    "Rassemblez les 48 Fragments de vitraux répartis dans les six royaumes du Livre II.",
+    "Brisez chaque contenant environnemental pour collecter la Poussière de relique et ouvrir les trois Sanctuaires de reliques scellés.",
+    "Utilisez la Sélection de chapitre après avoir terminé l'histoire pour récupérer les secrets manqués avec toutes les capacités débloquées."
+  ]}
+/>
+
+<Callout type="tip" title="Vérifier la progression">
+Vous n'avez pas besoin de deviner quels objets vous avez manqués. Dans le Livre I, ouvrez le menu de sélection de chapitre pour voir le détail des parchemins collectés par chapitre. Dans le Livre II, utilisez l'écran des Objectifs en jeu pour vérifier votre progression de fragments et de poussière en temps réel.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stratégies de boss et optimisation du combat">
+
+Les combats dans le jeu mettent l'accent sur le positionnement, l'esquive et le travail d'équipe plutôt que sur le martèlement de boutons. Quill est petite et peut facilement être submergée par des groupes de forces de l'Arcane et des Forgés. Utilisez les esquives directionnelles pour éviter les marqueurs d'avertissement rouges, et utilisez le Lecteur pour contrôler les foules de cibles dangereuses.
+
+Les combats de boss servent de grands spectacles qui testent tout ce que vous avez appris. Chaque boss présente des phases distinctes qui nécessitent un mélange de plateforme, de changement d'arme et de manipulation environnementale.
+
+| Nom du Boss | Rencontre principale | Schéma d'attaque clé | Contre-stratégie |
+| :--- | :--- | :--- | :--- |
+| **Sarffog** | Final du Livre I | Lance un souffle enflammé sur le chemin de Quill | Attendez que le feu passe, déplacez-vous vite entre les abris |
+| **Le Gardien** | Fonderie du Livre II | Frappe avec ses poings, libère des ondes de chaleur | Esquivez les marqueurs d'impact, sautez par-dessus les ondes |
+| **Tylan** | Sommet du Livre II | Attaques au sol, plongeons aériens, poursuites | Utilisez le Piège à marteau, frappez la cloche, attaquez quand il est étourdi |
+
+<Callout type="warning" title="Accessibilité : Passer le combat">
+Si vous trouvez une arène de combat ou une rencontre de boss trop difficile, le jeu propose une option « Passer le combat ». Lorsque l'invite apparaît, vous pouvez choisir d'ignorer le combat et de continuer l'histoire. Notez que les ennemis nécessaires à la résolution d'énigmes devront toujours être gérés.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Ai-je besoin d'un casque VR pour jouer à Moss : La relique oubliée ?",
+    answer: "Non. Cette version est spécifiquement repensée pour le jeu sur écran plat standard sur PC, PlayStation 5, Xbox et Nintendo Switch, en utilisant des manettes standard ou des commandes clavier et souris."
+  },
+  {
+    question: "Comment soigner Quill pendant les batailles intenses ?",
+    answer: "Déplacez le curseur du Lecteur sur Quill et maintenez le bouton d'interaction (Gâchette droite sur manette, Clic droit sur souris). Cela canalise la magie de soin. Il est plus sûr d'esquiver loin des ennemis avant de soigner."
+  },
+  {
+    question: "Quel est l'avantage de collecter de la Poussière de relique ?",
+    answer: "La poussière de relique est ramassée en brisant des caisses et des barils. En collecter suffisamment vous permet d'ouvrir les Sanctuaires de reliques scellés dans le Livre II, qui contiennent des ensembles d'armures optionnels puissants pour Quill."
+  },
+  {
+    question: "Combien de temps faut-il pour terminer l'ensemble du pack ?",
+    answer: "Une partie standard de l'histoire principale à travers le Livre I, le Jardin du Crépuscule et le Livre II prend environ 9 à 10 heures. La collecte complète de tous les parchemins, de la poussière et des secrets peut prolonger le temps de jeu de plusieurs heures."
+  }
+]} />
+
+</Section>

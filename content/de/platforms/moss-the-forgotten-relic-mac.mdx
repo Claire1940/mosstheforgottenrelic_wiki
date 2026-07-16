@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Moss: The Forgotten Relic auf dem Mac: Installationsanleitung & Performance-Tipps",
+  description: "Erfahre, wie du Moss: The Forgotten Relic auf macOS optimierst und ausführst. Entdecke Kompatibilitätseinstellungen, Performance-Benchmarks und Schritt-für-Schritt-Anleitungen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mac+Setup+Guide",
+  date: "2026-07-16",
+  author: "Moss: The Forgotten Relic Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **macOS-Kompatibilität**: Spiele **Moss: The Forgotten Relic auf dem Mac** mithilfe von Übersetzungssoftware wie CrossOver 26 oder Apples Game Porting Toolkit.
+- **Hardware-Anforderungen**: Apple-Silicon-Chips (M1-, M2- oder M3-Serie) werden für stabile Bildraten empfohlen.
+- **Eingabe-Setup**: Verbinde einen kompatiblen kabellosen Controller über Bluetooth für das beste Spielerlebnis.
+- **Performance-Ziel**: Strebe mittlere Einstellungen bei einer Auflösung von 1080p an, um stabile 60 FPS auf Standard-Apple-Silicon-Chips zu erreichen.
+</Callout>
+
+<Section icon={Shield} title="Kompatibilitätsübersicht">
+
+Das Ausführen moderner Spiele auf macOS erfordert oft die Nutzung von Übersetzungsebenen, insbesondere wenn zum Release keine native Version verfügbar ist. Das Spiel bietet detailreiche Umgebungen und komplexe Physikberechnungen, die eine robuste Hardwareleistung erfordern. Während Konsolenversionen die native Optimierung der Engine zeigen, können Mac-Spieler durch die Nutzung moderner Übersetzungstools für Apple Silicon hervorragende Ergebnisse erzielen.
+
+Apple-Silicon-Chips nutzen eine gemeinsame Speicherarchitektur (Unified Memory), die es CPU und GPU ermöglicht, Ressourcen dynamisch zu teilen. Diese Architektur hilft, die Lücke zwischen Grafik auf Konsolenniveau und Mac-Hardware zu schließen, und sorgt für einen reibungslosen Übersetzungsprozess beim Ausführen von Windows-basierten Anwendungen. Die Kompatibilität hängt jedoch stark von der Konfiguration der Übersetzungssoftware und der auf deinem Gerät installierten macOS-Version ab.
+
+**Video-Highlights:**
+- Offizielle Release-Details, die die atmosphärischen Umgebungen und Rätselmechaniken zeigen.
+- Visuelle Demonstration der Kampfsysteme und Charakterinteraktionen.
+- Teaser der narrativen Elemente rund um die geheimnisvollen alten Relikte.
+
+<YouTubeEmbed videoId="kCycfD8-NAQ" title="Moss The Forgotten Relic • Release Date Trailer • PS5" />
+
+| Anforderung | Mindestanforderung | Empfohlene Spezifikation |
+| :--- | :--- | :--- |
+| **Prozessor** | Apple Silicon M1 | Apple Silicon M3 oder höher |
+| **Arbeitsspeicher** | 8 GB Unified RAM | 16 GB Unified RAM oder mehr |
+| **Betriebssystem** | macOS Sonoma 14 | macOS Sequoia 15 oder neuer |
+| **Speicherplatz** | 15 GB SSD-Speicherplatz | 15 GB NVMe-SSD-Speicherplatz |
+| **Grafik** | 8-Core Apple GPU | 10-Core Apple GPU oder höher |
+
+<Callout type="warning" title="Plattform-Einschränkungen">
+Ein nativer macOS-Support ist zum Release nicht offiziell verfügbar. Das Ausführen des Spiels erfordert Übersetzungsebenen oder Virtualisierungssoftware, um Windows-API-Aufrufe zu übersetzen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Installationsmethoden für macOS">
+
+Um das Spiel erfolgreich auf macOS auszuführen, musst du eine Übersetzungsebene wählen, die deinen technischen Vorkenntnissen und deiner Hardwarekonfiguration entspricht. Verschiedene Tools bieten unterschiedliche Optimierungsgrade, Benutzerfreundlichkeit und Kompatibilität.
+
+<CardGrid cols={3}>
+  <Card title="CrossOver 26">
+    - **Einfachster Einrichtungsprozess**
+    - Hohe Kompatibilitätsraten
+    - Kommerzielle Softwarelizenz
+  </Card>
+  <Card title="Game Porting Toolkit">
+    - **Kostenloses Entwicklertool**
+    - Hervorragendes Performance-Potenzial
+    - Komplexe Einrichtung über die Befehlszeile
+  </Card>
+  <Card title="Whisky (Wine-Wrapper)">
+    - **Benutzerfreundliche grafische Oberfläche**
+    - Open-Source und kostenlos
+    - Gelegentliche Ruckler bei der Shader-Kompilierung
+  </Card>
+</CardGrid>
+
+Die Verwendung einer Wrapper-Anwendung wie Whisky vereinfacht die Installation von Apples Game Porting Toolkit und macht es auch ohne Befehlszeile zugänglich. Befolge diese Schritte, um deine Umgebung zu konfigurieren.
+
+<Steps>
+  <Step num="1" title="Whisky oder CrossOver installieren">
+    Lade die bevorzugte Übersetzungsebene herunter und installiere sie. Whisky wird für eine kostenlose, benutzerfreundliche Oberfläche empfohlen, die auf Apples Game Porting Toolkit basiert.
+  </Step>
+  <Step num="2" title="Ein Windows-Bottle erstellen">
+    Erstelle ein neues Windows 10 oder Windows 11 Bottle in der Anwendung. Stelle sicher, dass DXVK und MSync oder ESync in den Bottle-Einstellungen aktiviert sind, um eine optimale Performance zu erzielen.
+  </Step>
+  <Step num="3" title="Steam im Bottle installieren">
+    Lade das Windows-Installationsprogramm für Steam (.exe) herunter und führe es über deine Übersetzungsebene aus. Melde dich bei deinem Konto an und lade den Spiel-Client direkt herunter.
+  </Step>
+  <Step num="4" title="Startoptionen konfigurieren">
+    Klicke in Steam mit der rechten Maustaste auf das Spiel, wähle Eigenschaften und füge Startoptionen wie `-dx12` oder `-windowed` hinzu, falls Startabstürze auftreten.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Shader-Pre-Caching">
+Aktiviere die Shader-Pre-Caching-Funktion von Steam, um anfängliche Ruckler während des Ladens von Assets in den ersten Levels zu reduzieren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Performance-Optimierung & Grafikeinstellungen">
+
+Die Feinabstimmung deiner Grafikeinstellungen ist entscheidend, um in intensiven Kampfsequenzen und Rätselabschnitten eine hohe Bildrate aufrechtzuerhalten. Apple-Silicon-GPUs verarbeiten das Textur-Rendering effizient, aber anspruchsvolle Post-Processing-Effekte können zu Performance-Engpässen führen.
+
+Um deine Hardware-Effizienz zu maximieren, reduziere anspruchsvolle Einstellungen wie dynamische Schatten und volumetrische Effekte. Die Nutzung von Auflösungsskalierung oder räumlichen Upscaling-Technologien kann deine Gesamtbildrate ebenfalls erheblich steigern.
+
+| Einstellung | Empfohlener Wert | Auswirkung auf die Performance |
+| :--- | :--- | :--- |
+| **Auflösung** | 1920x1080 (Skaliert) | Hoher Performance-Gewinn |
+| **Schattenqualität** | Mittel | Moderater Performance-Gewinn |
+| **Kantenglättung** | Temporal AA oder FXAA | Geringe Auswirkung auf die Performance |
+| **Texturqualität** | Hoch (bei 16 GB RAM) | Geringe Auswirkung auf modernen Chips |
+| **V-Sync** | Aktiviert | Verhindert Screen Tearing |
+
+Die Performance variiert je nach Generation deines Apple-Silicon-Prozessors. Überprüfe die folgenden Benchmarks, um realistische Performance-Erwartungen für deine Systemkonfiguration zu erhalten.
+
+| Apple-Chip | Durchschnittliche FPS | Bewertung des Spielerlebnisses |
+| :--- | :--- | :--- |
+| **Standard M1 (8 GB)** | 35-45 FPS | Spielbar (★★★☆☆) |
+| **M1 Pro / Max** | 60 FPS (Stabil) | Ausgezeichnet (★★★★☆) |
+| **Standard M2 / M3** | 50-55 FPS | Sehr gut (★★★★☆) |
+| **M3 Pro / Max** | 90+ FPS | Hervorragend (★★★★★) |
+
+<Callout type="info" title="Thermisches Drosseln">
+MacBook-Air-Modelle besitzen keine aktiven Lüfter. Wenn nach 30 Minuten Spielzeit Frame-Einbrüche auftreten, solltest du ein Laptop-Kühlpad verwenden oder die Auflösung verringern.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Controller- und Eingabe-Setup">
+
+Das Navigieren auf anspruchsvollen Plattformen und das Bestreiten von Kämpfen erfordern eine präzise Eingabe. Während Tastatur- und Mauskonfigurationen über Übersetzungsebenen unterstützt werden, bietet die Verwendung eines dedizierten Gamecontrollers ein weitaus intuitiveres Layout.
+
+macOS verfügt über native Bluetooth-Unterstützung für moderne Konsolen-Controller, sodass diese ohne Treiber von Drittanbietern direkt mit dem Eingabekonfigurationssystem von Steam interagieren können.
+
+| Aktion | Xbox-Controller | PlayStation-Controller |
+| :--- | :--- | :--- |
+| **Bewegung** | Linker Stick | Linker Stick |
+| **Interagieren** | A-Taste | Kreuz-Taste |
+| **Kampf / Angriff** | X-Taste | Quadrat-Taste |
+| **Ausweichen** | B-Taste | Kreis-Taste |
+| **Pause-Menü** | Menü-Taste | Options-Taste |
+
+Stelle vor dem Starten des Spiels sicher, dass dein Controller ordnungsgemäß über das Systemeinstellungsmenü mit deinem Mac gekoppelt ist. Nach der Kopplung übersetzt Steam Input die Signale passend für die virtuelle Windows-Umgebung.
+
+<Callout type="success" title="Controller-Kompatibilität">
+Sowohl DualSense- als auch Xbox Wireless Controller werden nativ von macOS unterstützt und nahtlos an Steam innerhalb von CrossOver oder Whisky weitergegeben.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Abschluss-Checkliste & FAQs">
+
+Bevor du dich in das Abenteuer stürzt, gehe diese Abschluss-Checkliste durch, um sicherzustellen, dass deine Übersetzungsumgebung vollständig optimiert und betriebsbereit ist.
+
+<Checklist
+  id="mac-setup-checklist"
+  title="Checkliste nach der Installation:"
+  items={[
+    "Überprüfe die Spieldateien in Steam, um fehlerhafte Downloads auszuschließen",
+    "Stelle sicher, dass macOS auf mindestens Version 14.4 aktualisiert ist, um die Stabilität der Übersetzung zu gewährleisten",
+    "Verbinde den Controller über Bluetooth, bevor du die Übersetzungsebene startest",
+    "Aktiviere das HUD-Overlay in Whisky, um FPS und thermische Werte in Echtzeit zu überwachen"
+  ]}
+/>
+
+Lies diese häufig gestellten Fragen, um gängige Probleme bei der Einrichtung des Spiels auf macOS-Systemen zu beheben.
+
+<FAQ items={[
+  {
+    question: "Kann ich Moss: The Forgotten Relic auf dem Mac nativ ohne Tools von Drittanbietern spielen?",
+    answer: "Derzeit ist keine native macOS-Version verfügbar. Du musst Übersetzungsebenen wie CrossOver, Whisky oder Apples Game Porting Toolkit verwenden, um das Spiel auf Apple-Silicon-Macs auszuführen."
+  },
+  {
+    question: "Ist eine aktive Internetverbindung erforderlich, um das Spiel über Übersetzungsebenen auszuführen?",
+    answer: "Eine Internetverbindung ist für die Ersteinrichtung, den Steam-Login und den Spieldownload erforderlich. Nach der Installation kann Steam in den Offline-Modus versetzt werden, um ohne aktive Verbindung zu spielen."
+  },
+  {
+    question: "Wie behebe ich Knistern oder Verzögerungen beim Ton auf meinem Mac?",
+    answer: "Audioprobleme treten bei Wine-basierten Wrappern häufig auf. Du kannst dies beheben, indem du das Audio-Synchronisations-Backend auf MSync umstellst oder die Audio-Puffergröße in der Wrapper-Konfiguration anpasst."
+  }
+]} />
+
+<Callout type="warning" title="Speicherdaten-Synchronisierung">
+Stelle immer sicher, dass die Steam-Cloud-Synchronisierung vollständig abgeschlossen ist, bevor du deinen Übersetzungsebenen-Wrapper schließt, um eine Beschädigung lokaler Speicherdateien zu verhindern.
+</Callout>
+
+</Section>

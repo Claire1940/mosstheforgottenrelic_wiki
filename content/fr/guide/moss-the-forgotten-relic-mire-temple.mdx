@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Temple de la fange dans Moss : La relique oubliée : Guide et solutions d'énigmes",
+  description: "Maîtrisez le chapitre du Temple de la fange dans Moss : La relique oubliée avec notre guide sur les énigmes environnementales, les parchemins cachés et les emplacements des portails du Jardin du Crépuscule.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d5a27/fff?text=Mire+Temple+Walkthrough",
+  date: "2026-07-16",
+  author: "Équipe Wiki de Moss : La relique oubliée",
+  keywords: "moss the forgotten relic, temple de la fange, guide, énigmes, parchemins, jardin du crépuscule"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Aperçu du Temple de la fange** : Le chapitre 3 du Livre I introduit des **plateformes multi-étapes** complexes et le premier portail du Jardin du Crépuscule.
+- **Double Contrôle** : Le succès nécessite la gestion simultanée des **mouvements de Quill** et de la **manipulation environnementale du Lecteur**.
+- **Mécanique Clé** : Concentrez-vous sur le **levage et la rotation des plateformes** à l'aide du curseur du Lecteur pour créer des passages pour Quill.
+- **Entrée Secrète** : Le premier **portail du Jardin du Crépuscule** est caché près du côté de la grande porte dans l'enceinte du temple.
+- **Conseil de Combat** : Utilisez le Lecteur pour **étourdir les ennemis Arcaniques** (semblables à des scarabées) avant que Quill ne les achève avec des combinaisons d'épée.
+</Callout>
+
+<Section icon={Map} title="Entrée dans le Temple de la fange de Moss : La relique oubliée">
+
+Le **Temple de la fange** de Moss : La relique oubliée représente le premier pic de complexité majeur du Livre I. En tant que chapitre 3 de l'aventure, il marque la transition entre la navigation forestière de base et des énigmes architecturales complexes qui exigent un lien profond entre Quill et le Lecteur. En entrant dans le Temple de la fange, les joueurs doivent naviguer à travers une série de ruines inondées et de mécanismes anciens restés dormants pendant des siècles.
+
+Cette section est cruciale car elle établit le « langage des énigmes » utilisé tout au long du reste du jeu. Vous rencontrerez des plaques de pression qui ne réagissent qu'à des poids spécifiques, des ponts rotatifs qui doivent être maintenus en place, et l'introduction du contenu de l'extension du Jardin du Crépuscule. L'atmosphère passe de la Clairière lumineuse à un environnement souterrain plus sombre aux teintes émeraude, soulignant le thème de la « Relique oubliée » de cette version 2026.
+
+| Type d'objectif | Objectif principal | Récompense / Résultat |
+| :--- | :--- | :--- |
+| **Quête principale** | Naviguer vers le cœur du temple | Progression vers la recherche de Sir Argus |
+| **Énigme** | Aligner les ponts rotatifs | Accès au sanctuaire supérieur |
+| **Secret** | Localiser le portail du Crépuscule | Entrée dans le DLC du Jardin du Crépuscule |
+| **Collection** | Trouver 5 parchemins cachés | Débloque des fragments de vitrail |
+
+<Callout type="tip" title="Conscience Environnementale">
+Dans le Temple de la fange, cherchez toujours des **marques de griffures** sur les rebords. Ces indices visuels indiquent où Quill peut grimper ou où le Lecteur peut faire glisser des blocs mobiles pour créer de nouveaux chemins.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mécaniques d'énigmes et interactions du Lecteur">
+
+Les énigmes au sein du **Temple de la fange** reposent lourdement sur la capacité du Lecteur à manipuler le monde physique pendant que Quill s'occupe de la plateforme. Contrairement aux chapitres précédents, le Temple de la fange nécessite de « maintenir » des mécanismes. Si le Lecteur relâche une plateforme rotative, elle reviendra souvent à son état par défaut, risquant de piéger Quill ou de la faire tomber dans la fange en dessous.
+
+La version non-VR de 2026 adapte ces interactions pour les manettes standard et les configurations clavier-souris. À l'aide du curseur du Lecteur, vous devez saisir les objets bleus brillants — marqués du symbole du Lecteur — pour les faire pivoter, les tirer ou les soulever. Cette double tâche est au cœur de l'expérience du Temple de la fange.
+
+<CardGrid cols={3}>
+  <Card title="Ponts Rotatifs">
+    - **Interaction** : Saisissez les icônes d'engrenage circulaires.
+    - **Fonction** : Fait pivoter les plateformes de 90 ou 180 degrés.
+    - **Stratégie** : Placez d'abord Quill sur le pont, puis faites-le pivoter.
+  </Card>
+  <Card title="Plaques de Pression">
+    - **Interaction** : Nécessite un poids (Quill ou Ennemi).
+    - **Fonction** : Ouvre des portes ou soulève des rebords éloignés.
+    - **Stratégie** : Utilisez le Lecteur pour traîner un ennemi Arcanique sur la plaque.
+  </Card>
+  <Card title="Blocs Mobiles">
+    - **Interaction** : Faites glisser les cubes de pierre en surbrillance.
+    - **Fonction** : Offre de la verticalité pour grimper.
+    - **Stratégie** : Positionnez les blocs près des murs griffés pour Quill.
+  </Card>
+</CardGrid>
+
+| Mécanique | Action du Lecteur | Action de Quill |
+| :--- | :--- | :--- |
+| **Ascenseur** | Maintenir le levier vers le haut | Se tenir sur la plateforme |
+| **Verrou de Porte** | Tirer la chaîne brillante | Se ruer à travers l'ouverture |
+| **Étourdissement d'Ennemi** | Saisir le scarabée Arcanique | Exécuter un coup de grâce à l'épée |
+
+<Callout type="warning" title="Séquences Chronométrées">
+Certaines plateformes du Temple de la fange sont soumises à un **minuteur**. Une fois déplacées par le Lecteur, elles peuvent se réinitialiser après 3 à 5 secondes. Assurez-vous que Quill est positionnée au bord du rebord de départ avant d'activer le mécanisme.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guide étape par étape du Temple de la fange">
+
+Pour terminer avec succès le **Temple de la fange**, suivez ces étapes séquentielles. Ce guide couvre le chemin de l'entrée jusqu'à la chambre finale du chapitre 3, vous assurant de ne manquer aucun point de progression critique.
+
+<Steps>
+  <Step num="1" title="La Porte d'Entrée">
+    En arrivant à l'extérieur du temple, vous verrez une grande porte verrouillée. Regardez sur la gauche pour trouver un bloc de pierre mobile. En tant que Lecteur, faites glisser le bloc vers le côté droit du mur. Passez à Quill et grimpez sur le bloc pour atteindre le levier supérieur. Tirer ce levier ouvre l'entrée principale.
+  </Step>
+  <Step num="2" title="La Première Salle de la Fange">
+    Le sol est inondé. Déplacez Quill vers la première plateforme fixe. Utilisez le Lecteur pour faire pivoter le pont central vers Quill. Traversez, puis faites pivoter à nouveau le pont pendant que Quill se tient dessus pour atteindre la sortie lointaine.
+  </Step>
+  <Step num="3" title="Manipulation Arcanique">
+    Vous rencontrerez une plaque de pression qui ouvre la sortie, mais elle se réinitialise lorsque Quill en descend. Localisez l'ennemi Arcanique de type scarabée dans la pièce. Utilisez le Lecteur pour saisir et maintenir l'ennemi, en le traînant directement sur la plaque. Cela maintient la porte ouverte, permettant à Quill de passer.
+  </Step>
+  <Step num="4" title="Le Portail du Crépuscule">
+    Avant de quitter le hub central, vérifiez le côté de la grande porte. Vous verrez un effet violet scintillant. Il s'agit du premier **portail du Jardin du Crépuscule**. Y entrer est facultatif mais recommandé pour obtenir de l'équipement amélioré qui facilite les énigmes ultérieures du Livre II.
+  </Step>
+  <Step num="5" title="L'Ascension Verticale">
+    Dans la dernière salle, vous devez soulever une série de trois ascenseurs. Déplacez Quill vers le premier ascenseur, soulevez-le avec le Lecteur, et sautez vers le deuxième. Répétez l'opération pour le troisième ascenseur, mais faites attention aux ennemis « Tic-tacs » à distance qui tirent depuis les balcons.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Point de Passage Atteint">
+Le jeu utilise un **système de sauvegarde automatique régulier**. Si Quill tombe pendant l'ascension verticale, vous recommencerez au début de cette pièce spécifique plutôt qu'au début du temple.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégies de combat pour le Chapitre 3">
+
+Le combat dans le **Temple de la fange** introduit la nécessité d'un contrôle de foule assisté par le Lecteur. Vous ferez face à des « Hurleurs » (scarabées de mêlée) et des « Tic-tacs » (unités explosives à distance). Dans les couloirs étroits du temple, se faire encercler est la menace principale.
+
+La fonction « Passer le combat » est disponible pour ceux qui préfèrent se concentrer sur les énigmes, mais pour ceux qui engagent la bataille, la synergie entre l'épée de Quill et la poigne du Lecteur est essentielle. En maintenant un Hurleur, le Lecteur l'empêche d'attaquer, permettant à Quill de se concentrer sur d'autres menaces ou d'infliger des dégâts massifs à la cible immobilisée.
+
+| Type d'ennemi | Attaque principale | Faiblesse | Stratégie |
+| :--- | :--- | :--- | :--- |
+| **Hurleur** | Coup de patte de mêlée | Vitesse de rotation lente | Esquiver derrière et frapper |
+| **Tic-tac** | Projectile à distance | Santé faible | Utiliser le Lecteur pour rediriger les tirs |
+| **Drone Forgé** | Tir rapide | Cœur brillant | Frapper après que le drone ait surchauffé |
+
+| Capacité de combat | Statut de déblocage | Utilité au combat |
+| :--- | :--- | :--- |
+| **Combo à l'épée** | Par défaut | Dégâts de base contre les scarabées |
+| **Roulade d'esquive** | Par défaut | Essentiel pour éviter les explosions des Tic-tacs |
+| **Soin du Lecteur** | Par défaut | Maintenir Quill pour restaurer sa santé |
+
+<Callout type="info" title="Soigner Quill">
+Si la santé de Quill est basse (indiquée par l'écran devenant grisâtre), utilisez le Lecteur pour **tendre la main et la toucher**. Maintenir le bouton d'interaction fera pulser une énergie verte, la soignant complètement. Faites cela dans un coin sûr, loin des ennemis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objets de collection et secrets du Temple de la fange">
+
+Le **Temple de la fange** contient plusieurs objets cachés nécessaires pour une complétion à 100 % et les succès de « Vitrail ». Ils sont souvent dissimulés au premier plan ou derrière des objets cassables qui semblent faire partie du décor.
+
+<Checklist
+  id="mire-temple-collectibles"
+  title="Liste de complétion du Chapitre 3 :"
+  items={[
+    "Collecter les 5 parchemins de Fragments Oubliés cachés dans le Temple de la fange",
+    "Casser tous les contenants de Poussière de Relique (tonneaux et pots) dans les salles inondées",
+    "Entrer dans le portail du Jardin du Crépuscule près de la porte",
+    "Trouver l'ensemble d'armure caché à l'intérieur de l'épreuve du Jardin du Crépuscule",
+    "Terminer le chapitre sans que Quill ne tombe dans l'eau"
+  ]}
+/>
+
+| Emplacement du parchemin | Indice | Condition |
+| :--- | :--- | :--- |
+| **Parchemin 1** | Derrière le pilier d'entrée | Casser la caisse en bois |
+| **Parchemin 2** | Balcon supérieur dans la première salle | Déplacer le bloc tout à fait à gauche |
+| **Parchemin 3** | Caché derrière le portail du Crépuscule | Marcher au-delà du scintillement du portail |
+| **Parchemin 4** | Sous le deuxième pont rotatif | Faire pivoter le pont pour révéler un trou |
+| **Parchemin 5** | Poutres de la chambre finale | Sauter depuis le troisième ascenseur à son apogée |
+
+<Callout type="tip" title="Collecte de Poussière de Relique">
+Ne négligez pas les pots et les tonneaux ! La **Poussière de Relique** est essentielle dans le Livre II pour ouvrir les Sanctuaires de Reliques. Le Temple de la fange est l'une des zones les plus denses en ressources du début de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Performance technique et accessibilité">
+
+La version 2026 de *Moss: The Forgotten Relic* inclut des mises à jour techniques significatives pour les plateformes non-VR. Jouer au **Temple de la fange** sur du matériel moderne offre un champ de vision beaucoup plus large, ce qui facilite en réalité la détection de certains parchemins cachés par rapport à la version VR originale.
+
+| Plateforme | Résolution cible | Fréquence d'images cible | Fonctionnalités |
+| :--- | :--- | :--- | :--- |
+| **PC / Steam** | 4K Ultra HD | 144 FPS | Support Ultrawide, Steam Cloud |
+| **Steam Deck** | 800p | 60 FPS | **Vérifié**, autonomie optimisée |
+| **PS5** | 4K | 60 FPS | Retour haptique DualSense |
+| **Switch 2** | 1080p | 60 FPS | Textures améliorées, chargement rapide |
+
+<Callout type="info" title="Accessibilité : Passer le combat">
+Si vous trouvez les combats dans le Temple de la fange trop difficiles, une invite apparaîtra après deux échecs vous permettant de **Passer le combat**. Cela vous permet de progresser dans l'histoire tout en devant résoudre les énigmes environnementales.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ du Temple de la fange">
+
+<FAQ items={[
+  {
+    question: "Où se trouve le portail du Jardin du Crépuscule dans le Temple de la fange ?",
+    answer: "Le portail est situé dans la zone du hub central du temple. Cherchez une distorsion violette scintillante sur le côté de la grande porte en pierre avant de vous diriger vers les dernières salles d'énigmes."
+  },
+  {
+    question: "Comment réussir l'énigme de la plaque de pression avec seulement Quill ?",
+    answer: "Vous ne pouvez pas la réussir avec Quill seule. Vous devez utiliser le Lecteur pour saisir un ennemi Arcanique proche (le scarabée) et le maintenir sur la plaque de pression pour garder la porte ouverte."
+  },
+  {
+    question: "J'ai manqué un parchemin dans le Temple de la fange. Puis-je revenir en arrière ?",
+    answer: "Oui. Utilisez l'option 'Sélection de chapitre' du menu principal. Elle vous indiquera exactement combien de parchemins vous avez collectés au chapitre 3, vous permettant de revenir et de trouver les fragments manquants."
+  },
+  {
+    question: "Le Temple de la fange de Moss : La relique oubliée nécessite-t-il la VR ?",
+    answer: "Non. L'édition 'The Forgotten Relic' de 2026 est entièrement optimisée pour les écrans standard, utilisant une caméra intelligente et des commandes à la manette traditionnelles pour Quill et le Lecteur."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Moss the Forgotten Relic Steam: Komplettlösung & Setup-Leitfaden",
+  description: "Meistere Moss: The Forgotten Relic auf Steam. Optimiere deine Einstellungen, löse komplexe Umgebungsrätsel, finde versteckte Schriftrollen und besiege Bosse.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/150228/fff?text=Moss+Steam+Guide",
+  date: "2026-07-16",
+  author: "moss the forgotten relic Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Steam-Release**: Spiele die neu optimierte Non-VR-Version von **moss the forgotten relic steam** ab dem 16. Juli 2026.
+- **Duale Steuerung**: Steuere Quill mit Standard-Bewegungstasten, während du als Leser Objekte in der Umgebung manipulierst.
+- **Integrierter DLC**: Genieße das komplette Abenteuer mit Buch I, Buch II und der „Twilight Garden“-Erweiterung.
+- **Optimierungstipps**: Erziele eine stabile Performance auf dem PC und dem Steam Deck mit unserer verifizierten Grafikkonfiguration.
+</Callout>
+
+<Section icon={Map} title="Moss the Forgotten Relic Steam-Launch und Plattformen">
+
+Polyarc Games veröffentlicht die **moss the forgotten relic steam**-Edition offiziell am 16. Juli 2026 zu einem Basispreis von 19,99 $. Dieser Release stellt einen riesigen Meilenstein für das Franchise dar, da vor dem Launch bereits über 100.000 Steam-Wunschlisteneinträge gesammelt wurden. Im Gegensatz zu früheren Teilen der Reihe ist dieses Paket eine dedizierte Flat-Screen-Neuinterpretation, die speziell für Standardmonitore und Handheld-Displays entwickelt wurde. Sie entfernt die Voraussetzung für ein Virtual-Reality-Headset vollständig und integriert fortschrittliche Rendering-Techniken sowie überarbeitete Steuerungsschemata.
+
+Die Zusammenstellung vereint drei gewaltige Inhalte: die ursprüngliche Moss-Kampagne, die „Twilight Garden“-Erweiterung und die vollständige Fortsetzung Moss: Buch II. Spieler können die gesamte Geschichte von Quill und dem Leser in einem einzigen, nahtlosen Paket erleben.
+
+| Plattform | Veröffentlichungsdatum | Preis | Hauptmerkmale |
+| :--- | :--- | :--- | :--- |
+| **Steam** | 16. Jul 2026 | 19,99 $ | Tastaturunterstützung, Steam Cloud, Errungenschaften, 4K-Auflösung |
+| **Steam Deck** | 16. Jul 2026 | 19,99 $ | Offiziell verifiziert, native Handheld-Steuerung, optimierte Benutzeroberfläche |
+| **PlayStation 5** | 16. Jul 2026 | 19,99 $ | Neu gestaltete Kamerapräsentation, verbesserte Haptik, Non-VR |
+| **Xbox Series X/S** | 16. Jul 2026 | 19,99 $ | Smart Delivery, 4K Ultra HD, 60 FPS+, Cloud-Spielstände |
+| **Nintendo Switch** | 16. Jul 2026 | 19,99 $ | Kostenloses Upgrade auf die native Switch-2-Version, Handheld-Modus |
+
+<Callout type="info" title="Kein VR erforderlich">
+Diese Flat-Screen-Edition wurde von Grund auf für Standard-Controller sowie Maus- und Tastatureingaben entwickelt. Du benötigst kein PlayStation VR-, HTC Vive- oder Oculus Rift-Headset, um zu spielen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Duales Steuerungssystem und Einsteiger-Guide">
+
+Die Kernmechanik dieses Abenteuers dreht sich um die einzigartige Partnerschaft zwischen zwei verschiedenen Wesen: Quill, einer tapferen jungen Maus, die für Plattform-Passagen und den Nahkampf zuständig ist, und dem Leser, einer riesigen magischen Präsenz, die direkt vom Spieler gesteuert wird. Um in dieser Welt erfolgreich zu sein, musst du beide Charaktere gleichzeitig koordinieren.
+
+Quill wird mit Standard-Richtungstasten zum Laufen, Springen, Ausweichen und Angreifen gesteuert. In der Zwischenzeit nutzt der Leser einen Mauszeiger oder den analogen Stick des Controllers, um schwere Blöcke zu greifen, antike Mechanismen zu drehen, Quill im Kampf zu heilen und feindliche Kräfte des Arkanen im Zaum zu halten.
+
+| Aktion | Tastatur & Maus | Controller (Xbox / PS) | Gameplay-Kontext |
+| :--- | :--- | :--- | :--- |
+| **Quill-Bewegung** | WASD | Linker Analogstick | Steuert Quills Gehen, Laufen und Klettern |
+| **Quill-Sprung** | Leertaste | A-Taste / Kreuz | Wird für Plattform-Passagen und das Überwinden kurzer Abgründe genutzt |
+| **Quill-Angriff** | Linksklick | X-Taste / Quadrat | Führt grundlegende Schwertstreiche und Nahkampf-Kombos aus |
+| **Quill-Ausweichen** | Umschalt (Shift) | B-Taste / Kreis | Weicht gegnerischen Angriffen aus und bewegt sich aus Gefahrenzonen |
+| **Leser-Interaktion** | Rechtsklick + Ziehen | Rechter Trigger + Analogstick | Bewegt Blöcke, heilt Quill und kontrolliert arkane Einheiten |
+
+<Steps>
+  <Step num="1" title="Wähle Buch I zum Starten">
+    Beginne deine Reise, indem du Buch I im Hauptmenü auswählst. Dies führt dich in der richtigen erzählerischen Reihenfolge an Quill und die grundlegenden Rätselmechaniken heran.
+  </Step>
+  <Step num="2" title="Meistere die duale Charaktersteuerung">
+    Übe, Quill mit der linken Hand zu bewegen, während du gleichzeitig mit der rechten Hand den magischen Cursor des Lesers steuerst, um Hindernisse aus dem Weg zu räumen.
+  </Step>
+  <Step num="3" title="Analysiere die Umgebung">
+    Suche nach Kratzspuren auf Vorsprüngen und Wänden. Diese visuellen Hinweise markieren kletterbare Oberflächen und bewegliche Rätselobjekte.
+  </Step>
+  <Step num="4" title="Nutze arkane Gegner">
+    Zerstöre nicht jeden Gegner sofort. Nutze den Cursor des Lesers, um käferartige arkane Einheiten festzuhalten und sie auf aktiven Druckplatten zu platzieren.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Lies die Umgebung">
+Achte auf visuelle Hinweise im Hintergrund. Die Entwickler haben Kratzer auf Wänden und Vorsprüngen von Hand gezeichnet, um genau anzuzeigen, wo Quill klettern oder springen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Komplette Komplettlösung und Kapitelverlauf">
+
+Die Erzählung ist wie ein lebendiges Märchenbuch aufgebaut. Für das stimmigste Erlebnis sollten Spieler zuerst Buch I abschließen, die Portale zum Zwielichtgarten betreten, sobald sie erscheinen, und dann direkt in die erweiterte Welt von Buch II übergehen.
+
+Das Spiel speichert zu Beginn jedes Diorama-Bildschirms automatisch. Wenn Quill im Kampf fällt oder einen Sprung verfehlt, erscheint sie sofort wieder am Eingang des aktuellen Raums, ohne dass Fortschritt verloren geht.
+
+| Buch & Abschnitt | Enthaltene Kapitel | Hauptziel | Gameplay-Fokus |
+| :--- | :--- | :--- | :--- |
+| **Buch I: Einleitung** | Kapitel 1 bis 2 | Verbindung zum Leser herstellen, das Zuhause verlassen | Grundlegende Bewegung, einfache Schalter, erste Kämpfe |
+| **Buch I: Ruinen** | Kapitel 3 bis 5 | Den Sumpftempel durchqueren, Portale finden | Druckplatten, Heben von Plattformen, Rätsellösen |
+| **Zwielichtgarten** | Portal 1 bis 3 | Optionale Prüfungen abschließen, Ausrüstung verdienen | Fortgeschrittene Herausforderungsräume, Enthüllung verborgener Pfade |
+| **Buch I: Finale** | Kapitel 6 bis 7 | Sarffogs Reich durchqueren | Schnelle Plattform-Passagen, Verfolgungsjagden, Bosskampf |
+| **Buch II: Erste Hälfte** | Kapitel 1 bis 4 | Verbündete sammeln, Naturkraft erlangen | Kletterranken wachsen lassen, größere Dioramen bewältigen |
+| **Buch II: Zweite Hälfte** | Kapitel 5 bis 9 | Das Pinnacle navigieren, Tylan besiegen | Rätsel mit aufgeladenen Waffen, Spiegel-Routen, finale Bosse |
+
+<Callout type="warning" title="Zugang zum Zwielichtgarten">
+Achte darauf, die versteckten Portale in den Kapiteln 3, 4 und 5 von Buch I zu betreten. Das frühzeitige Abschließen dieser Prüfungen belohnt dich mit fortschrittlicher Ausrüstung, die die finalen Kapitel erheblich erleichtert.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen, Bewegungsfähigkeiten und Kampfstrategien">
+
+Im Laufe der Reise erweitern sich Quills Kampfwerkzeuge und die magischen Fähigkeiten des Lesers erheblich. Buch II führt mehrere Waffen ein, die im laufenden Spiel gewechselt werden können, sodass du komplexe Umgebungsrätsel lösen und gepanzerte Gegner besiegen kannst.
+
+Der Leser kann auch direkt im Kampf assistieren. Indem du einen Gegner greifst, kannst du ihn daran hindern, Quill anzugreifen, oder ihn sogar dazu bringen, auf seine eigenen Verbündeten zu schießen.
+
+<CardGrid cols={3}>
+  <Card title="Das Nahkampfschwert">
+    - **Hauptwaffe** für schnelle Kämpfe aus nächster Nähe.
+    - In Buch II mit der mächtigen Fähigkeit **Schwert-Sprint** (Sword Dash) aufgewertet.
+    - Unerlässlich zum Durchtrennen von Seilen und Überwinden breiter Abgründe.
+  </Card>
+  <Card title="Das Fernkampf-Chakram">
+    - Erhalten während Sahimas Reise in Buch II.
+    - Perfekt, um weit entfernte Schalter und abgelegene Ziele zu treffen.
+    - Kann mit Unterstützung des Lesers für hohen Schaden aufgeladen werden.
+  </Card>
+  <Card title="Cariels schwerer Hammer">
+    - Langsame, schmetternde Angriffe, ideal für gepanzerte Gegner.
+    - Löst die **Hammerfalle** (Hammer Trap) aus, um schnelle Ziele zu verlangsamen.
+    - Zerstört schwere Barrikaden, die optionale Wege blockieren.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Barrierefreiheit im Kampf">
+Wenn du die Kämpfe oder Bossbegegnungen als zu schwierig empfindest, kannst du im Pausenmenü jederzeit die Option „Kampf überspringen“ (Skip Combat) aktivieren, um dich rein auf die Geschichte und die Rätsel zu konzentrieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sammelobjekte, technische Performance und FAQs">
+
+Für Komplettierer bietet das Spiel Dutzende von versteckten Sammelobjekten. Um diese Gegenstände zu finden, ist eine gründliche Erkundung jedes Dioramas erforderlich. Schaue hinter Strukturen im Vordergrund, untersuche hohe Vorsprünge und nutze die Kräfte des Lesers, um verborgene Pfade freizulegen.
+
+Auf der technischen Seite ist die Steam-Version hochgradig optimiert und benötigt nur 15 GB Speicherplatz. Sie ist offiziell für das Steam Deck verifiziert und läuft auf Handheld-Geräten mit stabilen 60 Bildern pro Sekunde bei optimierter Textlesbarkeit und Controller-Belegung.
+
+<Checklist
+  id="moss-collectibles-tracker"
+  title="Wichtige Sammelobjekte und Geheimnisse:"
+  items={[
+    "Sammle 31 Vergessene Fragment-Schriftrollen in Buch I, um das Buntglas-Kunstwerk wiederherzustellen",
+    "Finde alle 3 Portale zum Zwielichtgarten, die in den Kapiteln 3, 4 und 5 versteckt sind",
+    "Sammle 48 Buntglas-Fragmente in den 6 Hauptreichen von Buch II",
+    "Zerstöre jede Kiste und jedes Fass, um Reliktstaub zum Freischalten geheimer Rüstungsschreine zu sammeln",
+    "Nutze die Kapitelauswahl, um nach dem Abschluss der Hauptstory verpasste Gegenstände zu sammeln"
+  ]}
+/>
+
+<Callout type="tip" title="Steam Deck Grafikeinstellungen">
+Für eine optimale Akkulaufzeit auf dem Steam Deck stelle die In-Game-Auflösung auf 1280x800 ein, aktiviere FSR und begrenze die Bildwiederholrate des Systems auf 60 Hz. Dies sorgt für ein absolut flüssiges Spielerlebnis.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Benötigt Moss: The Forgotten Relic auf Steam ein VR-Headset?",
+    answer: "Nein, diese Version ist eine komplette Flat-Screen-Neuinterpretation der Originalspiele und kann vollständig mit einem Controller oder mit Tastatur und Maus gespielt werden."
+  },
+  {
+    question: "Kann ich Buch II sofort spielen, ohne Buch I beendet zu haben?",
+    answer: "Ja, beide Bücher sind von Anfang an freigeschaltet. Es wird jedoch dringend empfohlen, zuerst Buch I zu spielen, um die Geschichte zu verstehen und die Rätselmechaniken zu meistern."
+  },
+  {
+    question: "Was ist der Zweck der Barrierefreiheits-Option „Kampf überspringen“?",
+    answer: "„Kampf überspringen“ ermöglicht es dir, schwierige Kampfsequenzen und Bosskämpfe zu umgehen, um dich ganz auf die Geschichte und die Rätsel zu konzentrieren. Du musst jedoch weiterhin mit Gegnern interagieren, die zum Lösen von Umgebungsrätseln erforderlich sind."
+  },
+  {
+    question: "Wie lange dauert es, das gesamte Paket auf Steam durchzuspielen?",
+    answer: "Ein Standard-Durchgang von Buch I, Buch II und dem Zwielichtgarten-DLC dauert etwa 9 bis 10 Stunden. Das Sammeln aller Sammlerstücke und das Freischalten aller Errungenschaften fügt dem Spiel noch einige weitere Stunden hinzu."
+  }
+]} />
+
+</Section>

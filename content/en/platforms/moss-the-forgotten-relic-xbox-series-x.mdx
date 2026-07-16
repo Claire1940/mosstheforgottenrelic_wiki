@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Sparkles, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Moss: The Forgotten Relic: Gameplay Walkthrough & Tips",
+  description: "Master the mechanics of Moss: The Forgotten Relic with our detailed guide. Learn how to guide Quill, solve puzzles, and conquer the journey.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Moss+The+Forgotten+Relic",
+  date: "2026-07-16",
+  author: "moss the forgotten relic Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Moss: The Forgotten Relic** requires players to master the bond between the Reader and the hero, **Quill**.
+- Efficient **puzzle-solving** is essential for navigating the world and overcoming environmental obstacles.
+- Utilize **environmental manipulation** to clear paths and assist Quill in combat encounters.
+- Focus on **synchronization** to ensure both characters reach their objectives safely and efficiently.
+</Callout>
+
+<Section icon={Map} title="Understanding the World of Moss: The Forgotten Relic">
+
+In this immersive adventure, players step into the role of the Reader, acting as a guardian for the brave mouse, Quill. Your journey relies on your ability to observe the environment and influence the world around her.
+
+**Video Highlights:**
+- Discover the narrative connection between the Reader and Quill.
+- Observe the core mechanics of environmental interaction.
+- Witness the atmospheric world design and soundscapes.
+
+<YouTubeEmbed videoId="gWWNVfJ-K84" title="Moss The Forgotten Relic - Reveal Trailer | Xbox Series X|S" />
+
+The game emphasizes a cooperative dynamic where your perspective as the Reader allows you to move heavy objects, manipulate mechanisms, and heal Quill during intense moments. Mastering this perspective is the first step toward success.
+
+| Aspect | Description |
+| :--- | :--- |
+| Role | The Reader (Guardian) |
+| Protagonist | Quill the Mouse |
+| Core Mechanic | Environmental Manipulation |
+| Platform | Xbox Series X|S |
+
+<Callout type="tip" title="Pro Tip">
+Always scan the environment for glowing objects or mechanical levers; these are your primary tools for clearing the way for Quill.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Mechanics and Progression">
+
+Progression in the game is built upon overcoming increasingly complex puzzles that demand both logic and timing. As you advance, the challenges become more integrated with combat, requiring you to balance your attention between the two.
+
+<Steps>
+  <Step num="1" title="Environmental Scanning">
+    Before moving forward, look for interactive elements that can be shifted or activated.
+  </Step>
+  <Step num="2" title="Guiding Quill">
+    Use your influence to clear obstacles that prevent Quill from reaching the next area.
+  </Step>
+  <Step num="3" title="Combat Assistance">
+    During battles, use your powers to stun enemies or create defensive barriers for Quill.
+  </Step>
+  <Step num="4" title="Final Synchronization">
+    Ensure both characters are positioned correctly to trigger puzzle completions and exit the stage.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success Strategy">
+Prioritize keeping Quill at full health by using your healing influence whenever she takes damage during skirmishes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat and Puzzle Comparison">
+
+Players must adapt to different styles of play depending on the situation. Below is a comparison of how to approach different encounter types.
+
+<CardGrid cols={3}>
+  <Card title="Puzzle Focus">
+    - Requires patience
+    - Observe patterns
+    - Logical thinking
+  </Card>
+  <Card title="Combat Focus">
+    - Requires reflexes
+    - Strategic positioning
+    - Fast reaction
+  </Card>
+  <Card title="Hybrid Scenarios">
+    - Multi-tasking
+    - Balanced approach
+    - Resource management
+  </Card>
+</CardGrid>
+
+| Encounter Type | Recommended Strategy | Difficulty |
+| :--- | :--- | :--- |
+| Environmental Puzzles | Manipulate objects to create paths | Moderate |
+| Small Enemy Groups | Use stun/barrier to control flow | Easy |
+| Boss Encounters | Observe attack cycles and assist | Hard |
+
+<Callout type="warning" title="Watch Out">
+Do not neglect environmental hazards while focusing on combat; many enemies use the terrain to their advantage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Milestones">
+
+To fully experience the game, focus on these key objectives. Tracking your progress through these milestones will ensure you don't miss critical narrative beats or character growth opportunities.
+
+<Checklist
+  id="game-goals"
+  title="Key Progression Milestones:"
+  items={[
+    "Clear the initial forest trials",
+    "Master the manipulation of heavy stone objects",
+    "Defeat the first major boss encounter",
+    "Unlock all hidden lore scrolls in the base game"
+  ]}
+/>
+
+| Milestone | Requirement | Reward |
+| :--- | :--- | :--- |
+| Chapter 1 | Complete Tutorial | Basic Skill Unlock |
+| Chapter 3 | Defeat Guardian | New Ability |
+| Final Act | Complete Story | Game Completion |
+
+<Callout type="info" title="Note">
+The game rewards exploration. Many hidden paths contain lore that expands on the history of the world.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Moss: The Forgotten Relic a standalone game?",
+    answer: "Yes, it is designed to be accessible to new players while offering deep mechanics for those familiar with the series."
+  },
+  {
+    question: "Can I control Quill directly?",
+    answer: "You control Quill's movement, while your primary role as the Reader is to manipulate the environment to help her progress."
+  },
+  {
+    question: "Is it difficult for beginners?",
+    answer: "The game features a gradual learning curve, introducing mechanics slowly to ensure players are comfortable before increasing the difficulty."
+  },
+  {
+    question: "How do I save progress?",
+    answer: "The game uses an automatic checkpoint system that saves your progress after completing major objectives or entering new areas."
+  }
+]} />
+
+</Section>

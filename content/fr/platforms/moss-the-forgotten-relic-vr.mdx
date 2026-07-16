@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Moss : La relique oubliée VR : Guide de progression et configuration non-VR",
+  description: "Maîtrisez Moss : La relique oubliée avec notre guide sur les énigmes, les objets de collection et le combat. Explorez la réinvention non-VR de cette aventure VR classique.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f1714/fdfcf0?text=Moss+Forgotten+Relic+Guide",
+  date: "2026-07-16",
+  author: "Équipe Wiki de Moss : La relique oubliée",
+  keywords: "Moss, La relique oubliée, guide, soluce, non-VR, Quill, énigmes"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Moss : La relique oubliée VR** est une réinvention pour écran plat qui regroupe *Moss*, *Moss: Book II*, et le DLC *Twilight Garden*.
+- **Système de double contrôle** : Vous contrôlez simultanément Quill (mouvements/combat) et le Lecteur (interaction avec l'environnement).
+- **Aucun VR requis** : Bien que basée sur les classiques VR, cette version de 2026 est entièrement optimisée pour les manettes et le combo clavier/souris.
+- **Aventure complète** : Le pack offre environ 10 heures de jeu à travers deux livres interconnectés.
+- **Stratégie clé** : Observez toujours l'environnement à la recherche de "griffures" sur les corniches, qui indiquent les chemins que Quill peut escalader.
+</Callout>
+
+<Section icon={Map} title="Sortie et Plateformes de Moss : La relique oubliée VR">
+
+Le lancement officiel de **Moss : La relique oubliée VR** le 16 juillet 2026 marque une étape importante pour la franchise. Initialement célébré comme un sommet du jeu en réalité virtuelle, Polyarc Games a reconstruit l'expérience de fond en comble pour s'assurer que les joueurs sans casque puissent enfin vivre le lien entre Quill et le Lecteur. Cette version propose des visuels améliorés, une "Caméra de suivi intelligente" retravaillée et des commandes repensées qui traduisent la nature tactile de la VR en entrées traditionnelles.
+
+**Points forts de la vidéo :**
+- Aperçu de la transition des mécaniques VR vers l'écran plat.
+- Comparaison visuelle des environnements et de l'éclairage améliorés.
+- Démonstration du nouveau système de "Caméra de suivi intelligente".
+
+<YouTubeEmbed videoId="BLExKOhzpdk" title="Bande-annonce de lancement officielle de Moss : La relique oubliée" />
+
+Le jeu est proposé au prix compétitif de 19,99 $, offrant les deux aventures principales et tout le contenu des extensions dans un seul pack. Voici les détails de disponibilité par plateforme et les caractéristiques spécifiques de chaque version.
+
+| Plateforme | Date de sortie | Prix | Caractéristiques clés |
+| :--- | :--- | :--- | :--- |
+| **Steam** | 16 juillet 2026 | 19,99 $ | Support clavier/souris, Succès, Sauvegardes Cloud |
+| **Steam Deck** | 16 juillet 2026 | 19,99 $ | **Statut Vérifié**, optimisé pour le jeu portable |
+| **PlayStation 5** | 16 juillet 2026 | 19,99 $ | Commandes repensées, visuels 4K, Aucun PSVR requis |
+| **Xbox Series X|S** | 16 juillet 2026 | 19,99 $ | 4K Ultra HD, 60fps+, support Smart Delivery |
+| **Nintendo Switch** | 16 juillet 2026 | 19,99 $ | Sortie numérique, mise à jour gratuite vers Switch 2 |
+| **Switch 2** | 16 juillet 2026 | 19,99 $ | 60 FPS natif, textures améliorées, chargement rapide |
+
+<Callout type="success" title="Bonus de Lancement">
+Les propriétaires de la version Nintendo Switch reçoivent une mise à jour gratuite vers l'édition Nintendo Switch 2 sans frais supplémentaires, garantissant que votre progression soit transférée vers la console de nouvelle génération.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide du Débutant : Maîtriser le système de double contrôle">
+
+Le cœur de **Moss : La relique oubliée VR** réside dans le partenariat entre deux personnages distincts. Quill est la courageuse souris protagoniste que vous guidez à travers le monde, tandis que le Lecteur (vous) est une présence divine capable de manipuler l'environnement. Le succès dépend de votre capacité à coordonner ces deux rôles simultanément.
+
+<Callout type="tip" title="Conseil d'interaction">
+Le curseur du Lecteur peut faire plus que déplacer des blocs. Vous pouvez intervenir dans le monde pour soigner Quill en maintenant le bouton d'interaction sur elle, ou même étourdir les ennemis pour lui créer une ouverture.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Initialiser le lien">
+    Commencez par le Livre I. Bien que le Livre II soit accessible immédiatement, le premier livre établit le langage mécanique du jeu et introduit l'histoire dans l'ordre prévu.
+  </Step>
+  <Step num="2" title="Apprendre les commandes séparées">
+    Quill gère les phases de plateforme (courir, sauter, grimper) et le combat au corps à corps. Le Lecteur utilise un curseur pour saisir des blocs, faire pivoter des mécanismes et tirer des grilles lourdes. Entraînez-vous à déplacer Quill tout en faisant pivoter une plateforme pour maîtriser le flux.
+  </Step>
+  <Step num="3" title="Scanner les indices visuels">
+    Cherchez les marques de griffures blanches sur les rebords et les murs. Ce sont des indicateurs universels montrant que Quill peut grimper sur cette surface. Si un rebord est trop haut, cherchez un bloc à proximité que le Lecteur peut mettre en position.
+  </Step>
+  <Step num="4" title="Préparer l'itinéraire">
+    Avant de déplacer Quill dans une zone dangereuse, utilisez le Lecteur pour aligner les plateformes et activer les interrupteurs. Construire le chemin à l'avance évite les réinitialisations inutiles et maintient un bon rythme.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Conscience du combat">
+Ne battez pas tous les ennemis immédiatement. De nombreuses énigmes nécessitent d'utiliser le Lecteur pour maintenir un ennemi Arcanique (ressemblant à un scarabée) sur une plaque de pression afin de garder une porte ouverte pour Quill.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progression complète et ordre des chapitres">
+
+Le récit de **Moss : La relique oubliée VR** est divisé en deux livres principaux et un royaume d'extension caché. Suivre l'ordre chronologique est essentiel pour comprendre l'évolution des mécaniques et la menace croissante de l'Arcane.
+
+| Section | Chapitres | Objectif principal | Difficulté |
+| :--- | :--- | :--- | :--- |
+| **Livre I : Ouverture** | 1 - 2 | Rencontrer Quill et commencer le voyage pour retrouver Sir Argus. | Facile |
+| **Livre I : Ruines** | 3 - 5 | Naviguer dans le Temple de la Bourbe et la Cité Abandonnée. | Moyen |
+| **Twilight Garden** | Portails 1 - 3 | Terminer les épreuves optionnelles pour obtenir de l'équipement amélioré. | Difficile |
+| **Livre I : Final** | 6 - 7 | Affronter Sarffog et terminer la mission de sauvetage. | Difficile |
+| **Livre II : Partie 1** | 1 - 4 | Rassembler de nouveaux alliés et débloquer l'Harmonisation avec la Nature. | Moyen |
+| **Livre II : Partie 2** | 5 - 9 | Maîtriser le Marteau et le Chakram pour la bataille finale. | Très Difficile |
+
+<Callout type="info" title="Le Jardin du Crépuscule">
+Les portails du Jardin du Crépuscule (Twilight Garden) apparaissent pendant les chapitres 3, 4 et 5 du Livre I. Il est recommandé d'y entrer dès qu'ils apparaissent pour obtenir tôt les améliorations d'armure et d'arme.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Solutions aux énigmes et mécaniques environnementales">
+
+Les énigmes dans **Moss : La relique oubliée VR** fonctionnent souvent comme des "dioramas vivants". Si vous êtes bloqué, travaillez à rebours depuis la sortie. Identifiez ce qui bloque le chemin et déterminez quelle capacité du Lecteur peut l'éliminer.
+
+| Type d'énigme | Mécanique requise | Solution courante |
+| :--- | :--- | :--- |
+| **Corniche haute** | Mouvement du Lecteur | Faire glisser un bloc ou une statue sous le rebord griffé. |
+| **Pont rotatif** | Contrôle du Lecteur | Maintenir le mécanisme en place pendant que Quill traverse. |
+| **Plaque de pression** | Manipulation Arcanique | Étourdir un ennemi et le traîner sur l'interrupteur. |
+| **Plateforme de verre** | Pouvoir de révélation | Utiliser la capacité de révélation du Lecteur pour afficher les chemins cachés. |
+| **Pont de lianes** | Harmonisation Nature | Faire pousser du lierre pour relier deux plateformes déconnectées. |
+| **Grille lourde** | Marteau de Cariel | Briser le verrou blindé avec une frappe de marteau chargée. |
+
+<Callout type="tip" title="L'observation est la clé">
+Si une plateforme se réinitialise automatiquement lorsque vous la lâchez, cela signifie que le Lecteur doit continuer à la maintenir pendant que vous guidez Quill de l'autre main.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armes, capacités et secrets à collectionner">
+
+À mesure que vous progressez dans le Livre II, l'arsenal de Quill s'étoffe considérablement. Ces outils ne servent pas qu'au combat ; ils sont essentiels pour résoudre les énigmes environnementales et atteindre les objets cachés.
+
+<CardGrid cols={3}>
+  <Card title="La Charge à l'épée">
+    - **Déblocage** : Sanctuaire du Conservatoire
+    - **Combat** : Foncez à travers plusieurs ennemis
+    - **Utilité** : Franchir de grands gouffres et atteindre des fragments élevés
+  </Card>
+  <Card title="Le Chakram">
+    - **Déblocage** : Le voyage de Sahima
+    - **Combat** : Attaques à distance qui frappent deux fois
+    - **Utilité** : Activer des interrupteurs distants et couper des cordes
+  </Card>
+  <Card title="Le Marteau de Cariel">
+    - **Déblocage** : La Fonderie
+    - **Combat** : Énormes dégâts de zone (AOE)
+    - **Utilité** : Détruire les barrières blindées et les machines lourdes
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Chasse aux objets de collection">
+Trouver les 31 fragments du Livre I et les 48 fragments du Livre II restaure les vitraux de la bibliothèque, fournissant des informations plus approfondies sur l'univers de Moss.
+</Callout>
+
+<Checklist
+  id="collectible-checklist"
+  title="Objectifs pour les complétistes :"
+  items={[
+    "Trouver les 31 fragments oubliés du Livre I",
+    "Localiser les 3 portails du Jardin du Crépuscule",
+    "Collecter les 48 fragments de vitraux du Livre II",
+    "Ouvrir chaque sanctuaire de relique en utilisant la poussière collectée",
+    "Débloquer les 3 ensembles d'armures optionnels pour Quill"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Stratégies de Boss et performances techniques">
+
+Les rencontres de boss dans **Moss : La relique oubliée VR** sont des énigmes à étapes multiples. Vous ne pouvez pas simplement "forcer" ces combats ; vous devez utiliser l'environnement et les pouvoirs du Lecteur pour créer des ouvertures pour Quill.
+
+| Boss | Stratégie Phase 1 | Stratégie Phase 2 | Rôle du Lecteur |
+| :--- | :--- | :--- | :--- |
+| **Sarffog** | Esquiver le souffle de feu et grimper. | Naviguer sur des corniches étroites s'effondrant. | Déplacer les plateformes rapidement. |
+| **Le Gardien** | Éviter les zones d'écrasement orange. | Charger les Pièges à Marteau sur les points faibles. | Retenir le bras du boss. |
+| **Tylan** | Utiliser les Pièges à Marteau sur les frappes au sol. | Poursuite sur des plateformes mobiles. | Charger le Chakram pour la cloche. |
+
+<Callout type="warning" title="Note sur l'accessibilité">
+Si un combat de boss est trop difficile, vous pouvez utiliser l'option **Passer le combat** qui apparaît dans le menu. Cela vous permet de progresser dans l'histoire tout en conservant les éléments d'énigme.
+</Callout>
+
+**Résumé des performances techniques :**
+- **Steam Deck** : Vérifié à 60 FPS avec des réglages moyens-élevés.
+- **Nintendo Switch 2** : 1080p natif (docké) à 60 FPS.
+- **Stockage** : Nécessite environ 15 Go sur PC et 10,3 Go sur consoles.
+
+<FAQ items={[
+  {
+    question: "Ai-je besoin d'un casque VR pour jouer à Moss : La relique oubliée ?",
+    answer: "Non. Bien que les jeux originaux étaient exclusifs à la VR, Moss : La relique oubliée est spécifiquement conçu pour les manettes et écrans standards."
+  },
+  {
+    question: "Combien de temps faut-il pour terminer toute la collection ?",
+    answer: "Une partie standard prend environ 9 à 10 heures. Les complétistes cherchant chaque parchemin et fragment peuvent compter plus de 15 heures."
+  },
+  {
+    question: "Puis-je jouer au Livre II avant le Livre I ?",
+    answer: "Oui, les deux sont débloqués dès le départ, mais il est fortement recommandé de les faire dans l'ordre pour comprendre les mécaniques et l'histoire."
+  },
+  {
+    question: "Existe-t-il une édition physique du jeu ?",
+    answer: "En date de juillet 2026, le jeu est une sortie prioritairement numérique sur les boutiques Steam, PlayStation, Xbox et Nintendo pour 19,99 $."
+  }
+]} />
+
+</Section>

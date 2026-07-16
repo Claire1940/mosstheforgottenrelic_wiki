@@ -10,7 +10,16 @@
       "twitterDescription": "Explore the complete Moss: The Forgotten Relic walkthrough, puzzle solutions, collectibles, bosses, platforms, achievements, and performance tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "demo": "Demo",
+    "reviews": "Reviews",
+    "features": "Features",
+    "versions": "Versions",
+    "resources": "Resources"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -205,42 +214,67 @@
       "sections": [
         {
           "title": "Book I Opening",
-          "chapters": ["Chapter 1: The Clearing", "Chapter 2: Leaving Home"],
+          "chapters": [
+            "Chapter 1: The Clearing",
+            "Chapter 2: Leaving Home"
+          ],
           "objective": "Meet Quill, establish the Reader bond, return toward her home and begin the journey to find Sir Argus.",
           "mechanics": "Basic movement, climbing, jumping, movable blocks, simple switches, healing and early sword combat.",
           "spoilerNote": "Covers the story setup without revealing major encounters."
         },
         {
           "title": "Book I Temples and Ruins",
-          "chapters": ["Chapter 3: The Mire Temple", "Chapter 4: Last Respite", "Chapter 5: The Abandoned City"],
+          "chapters": [
+            "Chapter 3: The Mire Temple",
+            "Chapter 4: Last Respite",
+            "Chapter 5: The Abandoned City"
+          ],
           "objective": "Cross increasingly dangerous ruins, solve multi-stage platform puzzles and use Arcane enemies to operate mechanisms.",
           "mechanics": "Raising and rotating platforms, pressure plates, controlled Arcane enemies, timed crossings and collectible routes.",
           "spoilerNote": "These chapters contain the three portal opportunities connected to Twilight Garden."
         },
         {
           "title": "Twilight Garden Side Adventure",
-          "chapters": ["Portal 1: The Mire Temple", "Portal 2: Last Respite", "Portal 3: The Abandoned City"],
+          "chapters": [
+            "Portal 1: The Mire Temple",
+            "Portal 2: Last Respite",
+            "Portal 3: The Abandoned City"
+          ],
           "objective": "Enter the garden through all three portals, complete its trials and earn equipment and abilities that reveal hidden paths.",
           "mechanics": "Standalone challenge rooms, new puzzle interactions, hidden-path revelation and upgraded combat tools.",
           "spoilerNote": "The portals can be completed in any order, but entering them when first encountered keeps the side adventure aligned with Book I."
         },
         {
           "title": "Book I Finale",
-          "chapters": ["Chapter 6: Sarffog's Domain", "Chapter 7: The Castle"],
+          "chapters": [
+            "Chapter 6: Sarffog's Domain",
+            "Chapter 7: The Castle"
+          ],
           "objective": "Push through the final approach, combine Quill and Reader abilities and resolve the first book's rescue mission.",
           "mechanics": "Faster platforming, larger combat rooms, chase sequences and advanced Reader-assisted puzzles.",
           "spoilerNote": "Boss and ending details are hidden."
         },
         {
           "title": "Book II First Half",
-          "chapters": ["Chapter 1: The King's Glass", "Chapter 2: To Raise an Army", "Chapter 3: When One Door Shuts", "Chapter 4: The Starthing's Way"],
+          "chapters": [
+            "Chapter 1: The King's Glass",
+            "Chapter 2: To Raise an Army",
+            "Chapter 3: When One Door Shuts",
+            "Chapter 4: The Starthing's Way"
+          ],
           "objective": "Continue after Book I, gather allies and Glass-related leads, and unlock new ways to reshape routes through the environment.",
           "mechanics": "Nature Attunement for growing vines, larger dioramas, advanced Arcane manipulation and expanded objectives.",
           "spoilerNote": "Book II begins with a story recap and a short control refresher."
         },
         {
           "title": "Book II Second Half",
-          "chapters": ["Chapter 5: Not Welcome Here", "Chapter 6: The Serpent Slayer", "Chapter 7: Unfinished Business", "Chapter 8: From the Ashes", "Chapter 9: Tylan's Domain"],
+          "chapters": [
+            "Chapter 5: Not Welcome Here",
+            "Chapter 6: The Serpent Slayer",
+            "Chapter 7: Unfinished Business",
+            "Chapter 8: From the Ashes",
+            "Chapter 9: Tylan's Domain"
+          ],
           "objective": "Secure the remaining tools and allies, cross the late-game regions and complete Quill's campaign against the Arcane threat.",
           "mechanics": "Charged sword traversal, chakram switches, hammer puzzles, character switching, mirror routing and harder boss encounters.",
           "spoilerNote": "Final character outcomes and the ending are not described."
@@ -354,7 +388,14 @@
           "label": "Book I",
           "title": "Forgotten Fragment Scrolls",
           "target": "31 scroll fragments across six main chapters",
-          "locations": ["The Clearing", "Leaving Home", "The Mire Temple", "Last Respite", "The Abandoned City", "The Castle"],
+          "locations": [
+            "The Clearing",
+            "Leaving Home",
+            "The Mire Temple",
+            "Last Respite",
+            "The Abandoned City",
+            "The Castle"
+          ],
           "checklist": [
             "Inspect rooftops, rear ledges and platforms positioned above the normal route.",
             "Move Reader-controlled blocks into alternate positions to reach optional ledges.",
@@ -366,7 +407,11 @@
           "label": "Book I",
           "title": "Twilight Garden Secrets",
           "target": "Three hidden portals",
-          "locations": ["The Mire Temple", "Last Respite", "The Abandoned City"],
+          "locations": [
+            "The Mire Temple",
+            "Last Respite",
+            "The Abandoned City"
+          ],
           "checklist": [
             "Search the side of the large gate in The Mire Temple.",
             "Check behind the pillars near the beginning of Last Respite.",
@@ -378,7 +423,14 @@
           "label": "Book II",
           "title": "Stained-Glass Fragment Sets",
           "target": "48 Forgotten Fragments, with eight fragments assigned to each of six stained-glass areas",
-          "locations": ["Castle", "Sprite Realm", "Garden and Conservatory", "Mountains and Depths", "Foundry", "Pinnacle"],
+          "locations": [
+            "Castle",
+            "Sprite Realm",
+            "Garden and Conservatory",
+            "Mountains and Depths",
+            "Foundry",
+            "Pinnacle"
+          ],
           "checklist": [
             "Return to earlier rooms after obtaining Nature Attunement, Sword Dash, the Charged Chakram and Cariel's Hammer.",
             "Use growing vines and root bridges to reach high or previously disconnected platforms.",
@@ -681,125 +733,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Moss The Forgotten Relic Guides",
-      "description": "Complete gameplay guides from beginner controls to advanced puzzle, combat and exploration strategies across both books.",
-      "metaTitle": "Moss The Forgotten Relic Guides - Walkthrough & Strategies",
-      "metaDescription": "Complete Moss: The Forgotten Relic guides covering beginner tips, controls, puzzle solutions, collectibles, combat strategies and expert tactics for both books.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering controls, puzzle mechanics, exploration routes and combat encounters. Learn everything from first steps to advanced tactics in Moss: The Forgotten Relic.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Moss The Forgotten Relic Walkthrough & Guide",
+      "description": "Complete story walkthrough for Moss: The Forgotten Relic covering Book I, Twilight Garden and Book II, with puzzle solutions, boss tactics and chapter routes.",
+      "metaTitle": "Moss The Forgotten Relic Walkthrough - Book I, Book II & Twilight Garden",
+      "metaDescription": "Full Moss: The Forgotten Relic walkthrough with Book I, Twilight Garden and Book II routes, puzzle solutions, boss strategies and collectible checkpoints.",
+      "categoryLabel": "WALKTHROUGH",
+      "whatIs": "What is the Walkthrough?",
+      "whatIsDescription": "A chapter-by-chapter guide to Moss: The Forgotten Relic, the non-VR enhanced collection of Moss, Moss: Book II and the Twilight Garden DLC. It traces Quill and the Reader through every room, puzzle, boss fight and story beat across all three adventures.",
+      "why": "Why use the walkthrough?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the dual Quill and Reader control system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven chapter routes to solve puzzles and survive combat encounters",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for collectibles, boss fights and backtracking"
+        "step1Title": "Follow the Story Path",
+        "step1Description": "Move through Book I, Twilight Garden and Book II in order with clear room-by-room directions",
+        "step2Title": "Solve Every Puzzle",
+        "step2Description": "Get step-by-step solutions for platforms, pressure plates, enemy control and Reader interactions",
+        "step3Title": "Beat Each Boss",
+        "step3Description": "Learn enemy mechanics, boss phases and when Skip Combat keeps the story moving"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "puzzles": {
-      "title": "Moss The Forgotten Relic Puzzle Solutions",
-      "description": "Step-by-step solutions for environmental puzzles, platforms, pressure plates, enemy control and Reader interactions across both books.",
-      "metaTitle": "Moss The Forgotten Relic Puzzle Solutions & Step-by-Step Help",
-      "metaDescription": "Solve every Moss: The Forgotten Relic environmental puzzle with step-by-step guides covering movable blocks, rotating platforms, Arcane enemies and weapon mechanisms.",
-      "categoryLabel": "PUZZLE SOLUTIONS",
-      "whatIs": "What are Puzzle Solutions?",
-      "whatIsDescription": "Spoiler-light solutions for puzzle types repeated across both books. Each guide explains the required mechanic and the exact order of actions without revealing major story events.",
-      "why": "Why use puzzle guides?",
-      "whySteps": {
-        "step1Title": "Identify the Mechanic",
-        "step1Description": "Recognize whether a room needs Reader object movement, enemy control or a weapon switch",
-        "step2Title": "Follow the Steps",
-        "step2Description": "Apply ordered actions that prepare the route before sending Quill across",
-        "step3Title": "Reach Collectibles",
-        "step3Description": "Open optional paths to scrolls, Relic Dust and hidden areas"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Puzzle Guides"
-    },
-    "collectibles": {
-      "title": "Moss The Forgotten Relic Collectibles",
-      "description": "Track scrolls, Relic Dust, stained-glass rewards, Twilight Garden portals and secret armor areas across both books.",
-      "metaTitle": "Moss The Forgotten Relic Collectibles - Scrolls, Dust & Secrets",
-      "metaDescription": "Find every Moss: The Forgotten Relic collectible including Forgotten Fragments, Relic Dust, Twilight Garden portals, Relic Shrines and secret armor sets.",
-      "categoryLabel": "COLLECTIBLES & SECRETS",
-      "whatIs": "What are Collectibles?",
-      "whatIsDescription": "Guides to every hidden scroll, dust cache, stained-glass set and secret area. Track progress by book and chapter and confirm what is missing before cleanup.",
-      "why": "Why track collectibles?",
-      "whySteps": {
-        "step1Title": "Find Hidden Routes",
-        "step1Description": "Locate scrolls on upper ledges, rooftops and side paths away from the main route",
-        "step2Title": "Open Relic Shrines",
-        "step2Description": "Break containers for Relic Dust and unlock sealed shrine doors for armor sets",
-        "step3Title": "Confirm Progress",
-        "step3Description": "Use Chapter Select and the Objectives screen to review unfinished goals"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Collectible Guides"
-    },
-    "combat": {
-      "title": "Moss The Forgotten Relic Combat and Bosses",
-      "description": "Boss strategies, attack patterns, Reader tactics and combat tips for every major encounter in both books.",
-      "metaTitle": "Moss The Forgotten Relic Combat & Boss Guide",
-      "metaDescription": "Master Moss: The Forgotten Relic combat with boss strategies, attack patterns, Reader-assisted tactics and Skip Combat guidance for every major encounter.",
-      "categoryLabel": "COMBAT & BOSSES",
-      "whatIs": "What is the Combat Guide?",
-      "whatIsDescription": "Enemy behavior, boss attack patterns and Reader-assisted strategies. Learn when to dodge, control enemies, heal Quill and use the Skip Combat accessibility option.",
-      "why": "Why use the combat guide?",
-      "whySteps": {
-        "step1Title": "Read Attack Patterns",
-        "step1Description": "Recognize enemy and boss tells before committing to a dodge or attack",
-        "step2Title": "Combine Roles",
-        "step2Description": "Coordinate Quill's weapons with Reader healing and enemy control",
-        "step3Title": "Use Skip Combat",
-        "step3Description": "Bypass optional encounters while keeping puzzle-required enemies active"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Combat Guides"
-    },
-    "performance": {
-      "title": "Moss The Forgotten Relic Performance and Platforms",
-      "description": "Playtime estimates, Steam Deck verification, handheld performance, accessibility options and platform differences.",
-      "metaTitle": "Moss The Forgotten Relic Game Length, Performance & Accessibility",
-      "metaDescription": "Compare Moss: The Forgotten Relic playtime, Steam Deck status, Nintendo Switch 2 performance, PC features, subtitles, autosaving and accessibility options.",
-      "categoryLabel": "PERFORMANCE & ACCESSIBILITY",
-      "whatIs": "What is the Performance Guide?",
-      "whatIsDescription": "Technical details covering story length, collectible cleanup time, Steam Deck verification, console differences, subtitles, autosaving and accessibility features such as Skip Combat.",
-      "why": "Why check performance?",
-      "whySteps": {
-        "step1Title": "Plan Your Playtime",
-        "step1Description": "Estimate story length and collectible cleanup across both books",
-        "step2Title": "Pick a Platform",
-        "step2Description": "Compare Steam Deck, Switch 2, Xbox and PS5 performance and features",
-        "step3Title": "Use Accessibility",
-        "step3Description": "Enable Skip Combat, subtitles and the smart follow camera"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Performance Guides"
+      "all": "All Walkthroughs"
     },
     "release": {
-      "title": "Moss The Forgotten Relic Release Date, Price and Platforms",
-      "description": "Launch details covering the July 16, 2026 release, the $19.99 price and every supported platform.",
-      "metaTitle": "Moss The Forgotten Relic Release Date, Price & Platforms",
-      "metaDescription": "Moss: The Forgotten Relic releases July 16, 2026 for $19.99 on Steam, PS5, Xbox One, Xbox Series X|S, Nintendo Switch and Nintendo Switch 2.",
-      "categoryLabel": "RELEASE & PLATFORMS",
+      "title": "Moss The Forgotten Relic Release Date & Price",
+      "description": "Launch details for Moss: The Forgotten Relic, including the July 16, 2026 release date, the $19.99 price, free demo and physical edition availability.",
+      "metaTitle": "Moss The Forgotten Relic Release Date, Price & Physical Edition",
+      "metaDescription": "Moss: The Forgotten Relic launches July 16, 2026 for $19.99 on Steam, PS5, Xbox and Nintendo Switch. Get the release date, price and physical copy details.",
+      "categoryLabel": "RELEASE",
       "whatIs": "What is the Release Guide?",
-      "whatIsDescription": "Confirmed launch details for Moss: The Forgotten Relic, including the release date, price, free demo and availability across PC, PlayStation, Xbox and both Nintendo Switch generations.",
+      "whatIsDescription": "Confirmed launch information for Moss: The Forgotten Relic, Polyarc's non-VR enhanced collection bundling Moss, Moss: Book II and the Twilight Garden DLC. Covers the release date, the $19.99 launch price, the free demo and physical edition plans across Steam, PS5, Xbox, Nintendo Switch and Nintendo Switch 2.",
       "why": "Why check the release guide?",
       "whySteps": {
         "step1Title": "Confirm the Date",
-        "step1Description": "Verify the July 16, 2026 launch and the $19.99 launch price",
-        "step2Title": "Choose a Platform",
-        "step2Description": "Compare Steam, Steam Deck, PS5, Xbox and Switch availability",
+        "step1Description": "Verify the July 16, 2026 worldwide launch and the $19.99 launch price",
+        "step2Title": "Find Your Edition",
+        "step2Description": "Compare digital and physical release options across every supported platform",
         "step3Title": "Try the Demo",
-        "step3Description": "Download the free Steam Next Fest demo before buying"
+        "step3Description": "Download the free demo during Steam Next Fest and on PS5 before buying"
       },
       "featured": "Featured & Essential",
       "all": "All Release Guides"
+    },
+    "platforms": {
+      "title": "Moss The Forgotten Relic Platforms & VR Support",
+      "description": "Every platform Moss: The Forgotten Relic runs on, including Steam, PS5, Xbox, Nintendo Switch, Switch 2 and Mac, plus full VR and Meta Quest support details.",
+      "metaTitle": "Moss The Forgotten Relic Platforms - Steam, PS5, Xbox, Switch & VR",
+      "metaDescription": "Moss: The Forgotten Relic platforms explained: Steam, PS5, Xbox, Nintendo Switch, Switch 2 and Mac, with full details on VR and Meta Quest support.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What is the Platforms Guide?",
+      "whatIsDescription": "A complete breakdown of where you can play Moss: The Forgotten Relic. The collection runs as a non-VR enhanced edition on Steam, PS5, Xbox One, Xbox Series X|S, Nintendo Switch and Nintendo Switch 2, with no VR headset required.",
+      "why": "Why check the platforms guide?",
+      "whySteps": {
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare Steam, PS5, Xbox, Switch and Switch 2 availability in one place",
+        "step2Title": "Understand VR Support",
+        "step2Description": "Learn why this enhanced edition needs no VR headset and how it differs from the original",
+        "step3Title": "Check Device Features",
+        "step3Description": "See controller, Steam Deck, Mac and next-gen console support for each version"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
+    },
+    "demo": {
+      "title": "Moss The Forgotten Relic Demo & Free Trial",
+      "description": "How to play the free Moss: The Forgotten Relic demo, including Steam Next Fest access, the PS5 demo and the full content included in the trial.",
+      "metaTitle": "Moss The Forgotten Relic Demo - Free Steam Next Fest & PS5 Trial",
+      "metaDescription": "Download and play the free Moss: The Forgotten Relic demo. Get Steam Next Fest dates, PS5 demo access and the full list of content included in the trial.",
+      "categoryLabel": "DEMO",
+      "whatIs": "What is the Demo?",
+      "whatIsDescription": "The free playable demo for Moss: The Forgotten Relic, available during Steam Next Fest and on PlayStation 5. It lets you guide Quill and the Reader through an opening slice of the storybook adventure before the full $19.99 release.",
+      "why": "Why try the demo?",
+      "whySteps": {
+        "step1Title": "Play Before You Buy",
+        "step1Description": "Experience the opening chapters and core puzzle gameplay at no cost",
+        "step2Title": "Find Steam Next Fest",
+        "step2Description": "Get the exact dates and steps to download the demo during Steam Next Fest",
+        "step3Title": "Try on PS5",
+        "step3Description": "Download the PlayStation 5 demo and test controller support and performance"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Demo Guides"
+    },
+    "reviews": {
+      "title": "Moss The Forgotten Relic Reviews & Ratings",
+      "description": "Critical reception for Moss: The Forgotten Relic, including Metacritic scores, aggregate ratings, previews and the Nintendo Switch 2 review verdict.",
+      "metaTitle": "Moss The Forgotten Relic Reviews - Metacritic Score & Ratings",
+      "metaDescription": "Read Moss: The Forgotten Relic reviews, Metacritic scores and aggregate ratings, plus early previews and the Nintendo Switch 2 review verdict.",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "What are the Reviews?",
+      "whatIsDescription": "A roundup of critical and player reception for Moss: The Forgotten Relic, gathering review scores, Metacritic aggregates, hands-on previews and platform-specific verdicts such as the Nintendo Switch 2 review.",
+      "why": "Why read the reviews?",
+      "whySteps": {
+        "step1Title": "Check the Scores",
+        "step1Description": "See Metacritic and aggregate ratings across critics and players",
+        "step2Title": "Compare Platforms",
+        "step2Description": "Read platform-specific verdicts including the Nintendo Switch 2 review",
+        "step3Title": "Catch Early Impressions",
+        "step3Description": "Browse hands-on previews from before launch to set expectations"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Reviews"
+    },
+    "features": {
+      "title": "Moss The Forgotten Relic Features & Characters",
+      "description": "The standout features of Moss: The Forgotten Relic, from co-op and multiplayer options to ASL sign language support and the hero mouse Quill.",
+      "metaTitle": "Moss The Forgotten Relic Features - Co-op, Multiplayer, Sign Language & Quill",
+      "metaDescription": "Explore Moss: The Forgotten Relic features: co-op and multiplayer modes, ASL sign language support, accessibility options and the hero Quill the mouse.",
+      "categoryLabel": "FEATURES",
+      "whatIs": "What are the Features?",
+      "whatIsDescription": "A guide to the defining features of Moss: The Forgotten Relic, including its co-op and multiplayer options, ASL sign language accessibility, the dual Quill and Reader roles, and the charm of Quill the brave mouse hero.",
+      "why": "Why explore the features?",
+      "whySteps": {
+        "step1Title": "Play Together",
+        "step1Description": "Learn how co-op and multiplayer let a second player join the adventure",
+        "step2Title": "Use Accessibility Tools",
+        "step2Description": "Discover ASL sign language support and other accessibility options",
+        "step3Title": "Meet Quill",
+        "step3Description": "Understand the Quill and Reader duo at the heart of the storybook journey"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Feature Guides"
+    },
+    "versions": {
+      "title": "Moss The Forgotten Relic Games & Content",
+      "description": "Everything inside Moss: The Forgotten Relic, including the bundled Moss, Moss: Book II and Twilight Garden DLC, plus new-game, remake and sequel details.",
+      "metaTitle": "Moss The Forgotten Relic Games - Moss, Book II & Twilight Garden DLC",
+      "metaDescription": "See what is included in Moss: The Forgotten Relic: the Moss and Moss: Book II games, the Twilight Garden DLC, new game modes and remake and sequel details.",
+      "categoryLabel": "CONTENT",
+      "whatIs": "What is in the Collection?",
+      "whatIsDescription": "A breakdown of all the content bundled in Moss: The Forgotten Relic, Polyarc's enhanced non-VR collection that combines the original Moss, Moss: Book II and the Twilight Garden DLC into one complete adventure.",
+      "why": "Why check the content guide?",
+      "whySteps": {
+        "step1Title": "See What's Included",
+        "step1Description": "Get the full list of Moss, Moss: Book II and Twilight Garden DLC content",
+        "step2Title": "Compare to the Original",
+        "step2Description": "Understand the remake-style enhancements over the original VR release",
+        "step3Title": "Plan New Game Plus",
+        "step3Description": "Learn about new game modes and where the collection sits in the series sequel order"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Content Guides"
+    },
+    "resources": {
+      "title": "Moss The Forgotten Relic Trailers & Community",
+      "description": "Official Moss: The Forgotten Relic trailers and the active community hubs, including the launch trailer, gameplay trailer and the r/MossGame Reddit.",
+      "metaTitle": "Moss The Forgotten Relic Trailers, Videos & Reddit Community",
+      "metaDescription": "Watch the official Moss: The Forgotten Relic launch and gameplay trailers and join the r/MossGame Reddit community for news, tips and fan discussion.",
+      "categoryLabel": "RESOURCES",
+      "whatIs": "What are the Resources?",
+      "whatIsDescription": "A hub of official and community resources for Moss: The Forgotten Relic, collecting the launch and gameplay trailers from Polyarc alongside the active r/MossGame Reddit community for news, tips and player discussion.",
+      "why": "Why use the resources?",
+      "whySteps": {
+        "step1Title": "Watch the Trailers",
+        "step1Description": "Find the official launch and gameplay trailers from Polyarc in one place",
+        "step2Title": "Join the Community",
+        "step2Description": "Connect with players on the r/MossGame Reddit for news and tips",
+        "step3Title": "Stay Updated",
+        "step3Description": "Keep up with patch notes, events and community guides as the game grows"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Resources"
     }
   }
 }
