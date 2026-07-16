@@ -38,6 +38,24 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Moss 首页模块图标（Tools Grid 8 张导航卡 + 模块内卡片）
+  MonitorSmartphone: LucideIcons.MonitorSmartphone,
+  GraduationCap: LucideIcons.GraduationCap,
+  Route: LucideIcons.Route,
+  Puzzle: LucideIcons.Puzzle,
+  Scroll: LucideIcons.Scroll,
+  Sword: LucideIcons.Sword,
+  Skull: LucideIcons.Skull,
+  Gauge: LucideIcons.Gauge,
+  Swords: LucideIcons.Swords,
+  Disc3: LucideIcons.Disc3,
+  Sprout: LucideIcons.Sprout,
+  Hand: LucideIcons.Hand,
+  Lightbulb: LucideIcons.Lightbulb,
+  Map: LucideIcons.Map,
+  Compass: LucideIcons.Compass,
+  Trophy: LucideIcons.Trophy,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }

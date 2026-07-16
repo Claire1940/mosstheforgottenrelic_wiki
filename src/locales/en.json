@@ -52,696 +52,576 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Moss The Forgotten Relic",
+    "description": "A storybook puzzle adventure that combines Moss, the Twilight Garden content and Moss: Book II into one non-VR release for Steam, PlayStation 5, Xbox and both Nintendo Switch generations."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Moss The Forgotten Relic",
+    "titleHighlight": "Wiki",
+    "subtitle": "Jump straight to the release details, walkthrough, puzzle solutions, collectibles, weapons, boss strategies and performance tips.",
     "cards": [
       {
-        "icon": "BookOpen",
+        "icon": "MonitorSmartphone",
+        "title": "Release & Platforms",
+        "description": "Release date, $19.99 price and every supported platform."
+      },
+      {
+        "icon": "GraduationCap",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Dual controls, combat and the first environmental puzzles."
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Route",
+        "title": "Walkthrough",
+        "description": "Book I, Twilight Garden and Book II chapter order."
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Puzzle",
+        "title": "Puzzle Solutions",
+        "description": "Step-by-step solutions for environmental puzzles."
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Scroll",
+        "title": "Collectibles",
+        "description": "Scrolls, Relic Dust, secrets and hidden routes."
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Sword",
+        "title": "Weapons & Abilities",
+        "description": "Sword, chakram, hammer and Reader powers."
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Skull",
+        "title": "Bosses & Combat",
+        "description": "Boss attack patterns, strategies and Reader tactics."
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Gauge",
+        "title": "Game Length & Performance",
+        "description": "Playtime, Steam Deck, accessibility and features."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "releaseDatePricePlatforms": {
+      "title": "Moss The Forgotten Relic Release Date, Price and Platforms",
+      "intro": "Moss: The Forgotten Relic launches on July 16, 2026 for $19.99 across PC, PlayStation, Xbox and both Nintendo Switch generations. The flat-screen reimagining requires no VR headset and combines Moss, the Twilight Garden content and Moss: Book II.",
+      "platforms": [
+        {
+          "name": "Steam",
+          "release": "July 16, 2026",
+          "price": "$19.99",
+          "availability": "Windows PC",
+          "details": "Single-player with controller and mouse-and-keyboard support, Steam achievements, Steam Cloud and Family Sharing."
+        },
+        {
+          "name": "Steam Deck",
+          "release": "July 16, 2026",
+          "price": "$19.99 through the Steam version",
+          "availability": "Officially Steam Deck Verified",
+          "details": "No separate handheld edition is required. The standard Steam purchase can be played on Steam Deck."
+        },
+        {
+          "name": "PlayStation 5",
+          "release": "July 16, 2026",
+          "price": "$19.99",
+          "availability": "PlayStation 5 digital release",
+          "details": "Features redesigned controls, a new camera presentation and enhanced visuals. PlayStation VR is not required."
+        },
+        {
+          "name": "Xbox One",
+          "release": "July 16, 2026",
+          "price": "$19.99",
+          "availability": "Xbox One",
+          "details": "The Xbox listing includes Smart Delivery, Xbox achievements and Xbox cloud saves."
+        },
+        {
+          "name": "Xbox Series X|S",
+          "release": "July 16, 2026",
+          "price": "$19.99",
+          "availability": "Optimized for Xbox Series X|S",
+          "details": "Xbox lists 4K Ultra HD, 60 fps+, Smart Delivery, Xbox Play Anywhere, achievements and cloud saves."
+        },
+        {
+          "name": "Nintendo Switch",
+          "release": "July 16, 2026",
+          "price": "$19.99",
+          "availability": "Digital Nintendo Switch edition",
+          "details": "Nintendo Switch owners receive a free upgrade to the Nintendo Switch 2 version at no additional cost."
+        },
+        {
+          "name": "Nintendo Switch 2",
+          "release": "July 16, 2026",
+          "price": "$19.99",
+          "availability": "Native Nintendo Switch 2 edition",
+          "details": "Available as a native Switch 2 release and as a free upgrade for owners of the Nintendo Switch version."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Moss The Forgotten Relic Beginner Guide",
+      "intro": "Learn the dual-control system, solve the first environmental puzzles and survive early Arcane encounters. These steps focus on Book I and avoid major story spoilers.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Start with Book I",
+          "description": "The main menu allows access to Book I or Book II, but Book I introduces Quill, the Reader and the game's puzzle language in the intended story order.",
+          "tip": "Book II includes a recap and control refresher, but its puzzles and combat become more demanding."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Separate Quill and Reader Controls",
+          "description": "Use Quill's controls for running, jumping, climbing, dodging and sword attacks. Use the Reader cursor and interaction input to grab blocks, operate platforms, pull mechanisms and hold Arcane enemies.",
+          "tip": "Before attempting a busy room, identify which actions belong to Quill and which belong to the Reader."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Read the Environment",
+          "description": "Look for scratch marks on ledges, walls and movable surfaces. These visual marks commonly indicate where Quill can climb or where an object must be positioned.",
+          "tip": "Check foreground corners, upper ledges and routes partly hidden behind scenery."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Build the Route First",
+          "description": "Move blocks beneath ledges, align platforms and activate mechanisms before sending Quill across. Preparing the entire route reduces failed jumps and unnecessary resets.",
+          "tip": "If a platform returns to its original position, keep holding it with the Reader while Quill crosses."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Use Arcane Enemies as Puzzle Tools",
+          "description": "The Reader can hold or control beetle-like Arcane enemies. Move them onto pressure plates, use them to trigger switches or keep them still while Quill attacks.",
+          "tip": "Do not defeat every enemy immediately because some puzzles require an active Arcane unit."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Fight, Dodge and Heal",
+          "description": "Use short sword combinations, dodge away from visible attacks and create space before healing Quill through the Reader interaction. A Skip Combat option is also available during combat sections and boss encounters.",
+          "tip": "Hold nearby enemies with the Reader or move Quill to a safe corner before healing."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Collect Scrolls and Relic Dust",
+          "description": "Search optional routes for scrolls and break barrels, crates and pots for Relic Dust. Scrolls unlock stained-glass artwork, while Relic Dust becomes important for special areas and optional content in Book II.",
+          "tip": "The game autosaves regularly, and falling or being defeated usually returns Quill to the latest checkpoint or the beginning of the room."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+    "walkthroughChapterOrder": {
+      "title": "Moss The Forgotten Relic Walkthrough and Chapter Order",
+      "intro": "Follow the intended Book I, Twilight Garden and Book II route without revealing major endings. Each section lists its chapters, main objective and important mechanics.",
       "sections": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "title": "Book I Opening",
+          "chapters": ["Chapter 1: The Clearing", "Chapter 2: Leaving Home"],
+          "objective": "Meet Quill, establish the Reader bond, return toward her home and begin the journey to find Sir Argus.",
+          "mechanics": "Basic movement, climbing, jumping, movable blocks, simple switches, healing and early sword combat.",
+          "spoilerNote": "Covers the story setup without revealing major encounters."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "title": "Book I Temples and Ruins",
+          "chapters": ["Chapter 3: The Mire Temple", "Chapter 4: Last Respite", "Chapter 5: The Abandoned City"],
+          "objective": "Cross increasingly dangerous ruins, solve multi-stage platform puzzles and use Arcane enemies to operate mechanisms.",
+          "mechanics": "Raising and rotating platforms, pressure plates, controlled Arcane enemies, timed crossings and collectible routes.",
+          "spoilerNote": "These chapters contain the three portal opportunities connected to Twilight Garden."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "title": "Twilight Garden Side Adventure",
+          "chapters": ["Portal 1: The Mire Temple", "Portal 2: Last Respite", "Portal 3: The Abandoned City"],
+          "objective": "Enter the garden through all three portals, complete its trials and earn equipment and abilities that reveal hidden paths.",
+          "mechanics": "Standalone challenge rooms, new puzzle interactions, hidden-path revelation and upgraded combat tools.",
+          "spoilerNote": "The portals can be completed in any order, but entering them when first encountered keeps the side adventure aligned with Book I."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "title": "Book I Finale",
+          "chapters": ["Chapter 6: Sarffog's Domain", "Chapter 7: The Castle"],
+          "objective": "Push through the final approach, combine Quill and Reader abilities and resolve the first book's rescue mission.",
+          "mechanics": "Faster platforming, larger combat rooms, chase sequences and advanced Reader-assisted puzzles.",
+          "spoilerNote": "Boss and ending details are hidden."
         },
         {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "title": "Book II First Half",
+          "chapters": ["Chapter 1: The King's Glass", "Chapter 2: To Raise an Army", "Chapter 3: When One Door Shuts", "Chapter 4: The Starthing's Way"],
+          "objective": "Continue after Book I, gather allies and Glass-related leads, and unlock new ways to reshape routes through the environment.",
+          "mechanics": "Nature Attunement for growing vines, larger dioramas, advanced Arcane manipulation and expanded objectives.",
+          "spoilerNote": "Book II begins with a story recap and a short control refresher."
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "title": "Book II Second Half",
+          "chapters": ["Chapter 5: Not Welcome Here", "Chapter 6: The Serpent Slayer", "Chapter 7: Unfinished Business", "Chapter 8: From the Ashes", "Chapter 9: Tylan's Domain"],
+          "objective": "Secure the remaining tools and allies, cross the late-game regions and complete Quill's campaign against the Arcane threat.",
+          "mechanics": "Charged sword traversal, chakram switches, hammer puzzles, character switching, mirror routing and harder boss encounters.",
+          "spoilerNote": "Final character outcomes and the ending are not described."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+    "puzzleSolutions": {
+      "title": "Moss The Forgotten Relic Puzzle Solutions",
+      "intro": "Use these spoiler-light solutions for puzzle types repeated across both books. Each guide explains the required mechanic without revealing major story events.",
+      "puzzles": [
+        {
+          "puzzle": "Movable Block and High Ledge",
+          "mechanic": "Reader object movement",
+          "steps": [
+            "Find the ledge marked with visible scratches.",
+            "Use the Reader cursor to grab the highlighted block or statue.",
+            "Drag it directly beneath the ledge and release it on a flat surface.",
+            "Move Quill onto the block and jump or climb onto the ledge."
+          ],
+          "tip": "If Quill cannot climb, adjust the block until its top edge sits close to the scratched ledge."
+        },
+        {
+          "puzzle": "Raised or Rotating Platform Crossing",
+          "mechanic": "Reader platform control",
+          "steps": [
+            "Move Quill onto the safe starting platform.",
+            "Grab the movable platform with the Reader.",
+            "Raise, slide or rotate it until it connects the two walkable edges.",
+            "Keep holding the mechanism if it resets automatically.",
+            "Move Quill across before releasing the platform."
+          ],
+          "tip": "Some rooms require moving the same platform twice: once to carry Quill and again to create the exit route."
+        },
+        {
+          "puzzle": "Arcane Enemy on a Pressure Plate",
+          "mechanic": "Reader enemy control",
+          "steps": [
+            "Leave at least one beetle-like Arcane enemy alive.",
+            "Stun or grab it with the Reader interaction.",
+            "Drag the enemy onto the pressure plate or target mechanism.",
+            "Hold it in place until the gate, bridge or platform finishes moving.",
+            "Send Quill through before defeating or releasing the enemy."
+          ],
+          "tip": "If the mechanism turns off, center the enemy on the plate or continue holding it with the Reader."
+        },
+        {
+          "puzzle": "Timed Switch with Quill and an Arcane",
+          "mechanic": "Dual control",
+          "steps": [
+            "Place Quill beside the route that opens when the switch is active.",
+            "Control an Arcane enemy with the Reader and move it toward the switch.",
+            "Trigger the switch with the enemy.",
+            "Immediately guide Quill through the opened route while maintaining Reader control.",
+            "Release the enemy after Quill reaches a safe platform."
+          ],
+          "tip": "Position Quill before activating the switch so no time is wasted."
+        },
+        {
+          "puzzle": "Hidden Path or Glass Platform",
+          "mechanic": "Path-reveal ability",
+          "steps": [
+            "Look for a dead end, unreachable collectible or incomplete route.",
+            "Use the acquired reveal interaction on the nearby marked area.",
+            "Wait for the hidden glass platform or pathway to appear.",
+            "Move Quill across and search the surrounding area for optional collectibles."
+          ],
+          "tip": "Twilight Garden rewards and later abilities reveal paths that could not be accessed earlier."
+        },
+        {
+          "puzzle": "Vine Growth and Climbing Route",
+          "mechanic": "Nature Attunement",
+          "steps": [
+            "Locate the dormant plant or disconnected vine near the destination.",
+            "Use the Reader's Nature Attunement interaction to grow or redirect it.",
+            "Connect the vine to a wall, ledge or second plant until it forms a continuous route.",
+            "Guide Quill onto the vine and climb to the next platform."
+          ],
+          "tip": "If the vine stops short, look for another plant anchor or approach it from the opposite side."
+        },
+        {
+          "puzzle": "Sword, Chakram or Hammer Switch",
+          "mechanic": "Book II weapon puzzles",
+          "steps": [
+            "Identify whether the target is distant, heavy or connected to a traversal gap.",
+            "Use the charged sword ability for dash-based gaps and sword-related mechanisms.",
+            "Use the chakram when a switch must be struck from range.",
+            "Use the hammer on heavy objects and mechanisms that ignore lighter attacks.",
+            "Complete the opened route before the mechanism resets."
+          ],
+          "tip": "The target's distance, weight and shape usually indicate which weapon is required."
+        },
+        {
+          "puzzle": "Late-Game Mirror Routing",
+          "mechanic": "Light and reflection",
+          "steps": [
+            "Find the light source, each movable mirror and the final receiver.",
+            "Rotate the mirror closest to the source first.",
+            "Follow the beam and adjust each mirror in order.",
+            "Continue until the beam reaches the receiver.",
+            "Move Quill after the connected mechanism or route activates."
+          ],
+          "tip": "Work from the light source toward the receiver so the incorrectly aligned mirror is easy to identify."
+        }
+      ]
+    },
+    "scrollsDustSecrets": {
+      "title": "Moss The Forgotten Relic Scrolls, Dust and Secrets",
+      "intro": "Track Forgotten Fragments, Relic Dust, stained-glass rewards, Twilight Garden portals and secret armor areas across both books.",
       "groups": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "label": "Book I",
+          "title": "Forgotten Fragment Scrolls",
+          "target": "31 scroll fragments across six main chapters",
+          "locations": ["The Clearing", "Leaving Home", "The Mire Temple", "Last Respite", "The Abandoned City", "The Castle"],
+          "checklist": [
+            "Inspect rooftops, rear ledges and platforms positioned above the normal route.",
+            "Move Reader-controlled blocks into alternate positions to reach optional ledges.",
+            "Look behind buildings, gates, statues and foreground scenery before changing rooms.",
+            "Collecting the scroll fragments restores the stained-glass artwork shown between chapters."
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "label": "Book I",
+          "title": "Twilight Garden Secrets",
+          "target": "Three hidden portals",
+          "locations": ["The Mire Temple", "Last Respite", "The Abandoned City"],
+          "checklist": [
+            "Search the side of the large gate in The Mire Temple.",
+            "Check behind the pillars near the beginning of Last Respite.",
+            "Explore the side of the town shortly before entering the pub in The Abandoned City.",
+            "Completing the connected Twilight Garden route adds optional puzzles, equipment rewards and the Recast Commander encounter."
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "label": "Book II",
+          "title": "Stained-Glass Fragment Sets",
+          "target": "48 Forgotten Fragments, with eight fragments assigned to each of six stained-glass areas",
+          "locations": ["Castle", "Sprite Realm", "Garden and Conservatory", "Mountains and Depths", "Foundry", "Pinnacle"],
+          "checklist": [
+            "Return to earlier rooms after obtaining Nature Attunement, Sword Dash, the Charged Chakram and Cariel's Hammer.",
+            "Use growing vines and root bridges to reach high or previously disconnected platforms.",
+            "Reveal hidden glass platforms and inspect routes concealed behind foreground structures.",
+            "Use the hammer on armored mechanisms and heavy obstacles blocking collectible paths."
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "label": "Book II",
+          "title": "Relic Dust and Secret Armor",
+          "target": "Break containers and open all three Relic Shrines",
+          "locations": [],
+          "checklist": [
+            "Break every barrel, crate, pot and destructible container with Quill or the Reader.",
+            "Check both sides of bridges, elevators and room transitions because dust containers can sit outside the main camera focus.",
+            "Use collected dust to open sealed Relic Shrine doors.",
+            "Explore each shrine completely to obtain the optional armor sets stored inside."
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "label": "Progress Check",
+          "title": "How to Confirm Missing Collectibles",
+          "target": "Review progress before repeating complete sections",
+          "locations": [],
+          "checklist": [
+            "For Book I, open Chapter Select and inspect the collectible progress shown for each chapter.",
+            "For Book II, use the Objectives screen to review fragments, dust and other unfinished goals.",
+            "Finish the story before final cleanup so every traversal ability is available.",
+            "Revisit rooms containing unreachable ledges, inactive mechanisms, glass platforms or sealed shrine doors."
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "weaponsAbilities": {
+      "title": "Moss The Forgotten Relic Weapons and Abilities",
+      "intro": "Learn how the sword, chakram, hammer and Reader-assisted abilities connect combat, environmental puzzles and collectible backtracking.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "name": "Sword",
+          "category": "Melee Weapon",
+          "icon": "Swords",
+          "availability": "Quill's primary weapon throughout both books",
+          "combatUse": "Fast close-range swings and sweeping attacks against standard Arcane enemies.",
+          "ability": "Sword Dash",
+          "abilityUnlock": "Unlocked through a Relic Shrine in the Conservatory during Book II.",
+          "abilityUse": "Charge the sword with Reader assistance, then dash through enemies or across long gaps.",
+          "explorationUse": "Cross marked gaps, cut ropes and reach fragments that were inaccessible during the first visit."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "name": "Chakram",
+          "category": "Ranged Weapon",
+          "icon": "Disc3",
+          "availability": "Received during Book II through Quill's journey with Sahima",
+          "combatUse": "Strike distant enemies and hit targets on both the outward throw and returning path.",
+          "ability": "Charged Chakram",
+          "abilityUnlock": "Activated with Reader assistance after the weapon is obtained.",
+          "abilityUse": "Throw the charged weapon into distant surfaces or mechanisms, then recall it when needed.",
+          "explorationUse": "Open remote passages, trigger unreachable objects and clear routes that cannot be reached with the sword."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "name": "Cariel's Hammer",
+          "category": "Heavy Weapon",
+          "icon": "Hammer",
+          "availability": "Obtained in the Foundry during Book II",
+          "combatUse": "Slow, powerful strikes that are effective against armored Forged enemies.",
+          "ability": "Hammer Trap",
+          "abilityUnlock": "Charge the hammer and let the Reader position its magical impact area.",
+          "abilityUse": "Trigger the suspended hammer effect when enemies or boss weak points enter the marked zone.",
+          "explorationUse": "Smash machinery, armored barriers and heavy mechanisms required for later collectibles."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "name": "Nature Attunement",
+          "category": "Reader Traversal Power",
+          "icon": "Sprout",
+          "availability": "Acquired in the Sprite Realm during Book II",
+          "combatUse": "Primarily an exploration ability rather than a direct attack.",
+          "ability": "Grow Plants and Root Bridges",
+          "abilityUnlock": "Granted through the Sprite Realm story route.",
+          "abilityUse": "Grow climbable ivy, extend plant paths and connect roots across gaps.",
+          "explorationUse": "Creates new vertical routes and allows several earlier areas to be completed during backtracking."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "name": "Glass Platform Reveal",
+          "category": "Reader Exploration Power",
+          "icon": "Eye",
+          "availability": "Introduced as Book II expands Quill and the Reader's abilities",
+          "combatUse": "Helps reposition Quill around encounters containing hidden or magical terrain.",
+          "ability": "Reveal Hidden Platforms",
+          "abilityUnlock": "Used as later areas introduce glass-based paths and puzzles.",
+          "abilityUse": "Expose platforms that are invisible or unusable during an earlier visit.",
+          "explorationUse": "Opens optional routes leading to scroll fragments, shrine paths and secret areas."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "name": "Reader Interaction",
+          "category": "Core Support Ability",
+          "icon": "Hand",
+          "availability": "Available throughout the adventure and expanded during Book II",
+          "combatUse": "Stun or control enemies, reposition threats and heal Quill when she is out of immediate danger.",
+          "ability": "Manipulate the World",
+          "abilityUnlock": "Introduced during the opening tutorials of each book.",
+          "abilityUse": "Move blocks, rotate platforms, pull mechanisms, break containers and control selected Arcane enemies.",
+          "explorationUse": "Place enemies on pressure plates, aim their attacks at switches and create safe paths for Quill."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "bossesCombatGuide": {
+      "title": "Moss The Forgotten Relic Bosses and Combat Guide",
+      "intro": "Use Quill's dodges and weapons together with Reader healing, enemy control and environmental interactions to clear major encounters.",
+      "bosses": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "title": "Arcane and Forged Battle Rooms",
+          "encounter": "Mixed groups of Screechers, Tickers, Bombers, Scorchers and armored Forged enemies appear throughout both books.",
+          "attackPatterns": [
+            "Melee enemies rush or swipe when Quill remains close.",
+            "Ranged enemies fire toward Quill's current position.",
+            "Explosive enemies can damage nearby enemies when controlled or redirected."
+          ],
+          "strategy": [
+            "Dodge sideways rather than retreating into walls or foreground scenery.",
+            "Defeat ranged attackers first when they limit Quill's movement.",
+            "Use the Reader to stun, hold or reposition one enemy while Quill attacks another.",
+            "Use controlled enemies to activate switches, block attacks or damage other Forged units."
+          ],
+          "readerRole": "Control dangerous enemies, trigger charged weapon effects and heal Quill after moving her away from active attacks.",
+          "skipCombat": "Optional battle rooms can be bypassed through the encounter's Skip Combat prompt, although enemies required for puzzles still need to be manipulated."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "title": "Sarffog",
+          "encounter": "The giant serpent serves as the climactic threat of Book I.",
+          "attackPatterns": [
+            "Sarffog launches fiery attacks across Quill's route.",
+            "The encounter combines rapid climbing, platform movement and timed evasions.",
+            "Later sections require Quill to advance while the serpent pressures the available path."
+          ],
+          "strategy": [
+            "Keep Quill moving and wait for each fire attack to pass before committing to the next jump.",
+            "Use the Reader to operate environmental elements immediately when the route opens.",
+            "Avoid stopping on narrow platforms where the next attack can trap Quill.",
+            "Prioritize reaching the next safe level instead of attempting unnecessary attacks."
+          ],
+          "readerRole": "Maintain the escape route, protect Quill during transitions and react quickly to interactive objects in the arena.",
+          "skipCombat": "The Skip Combat option can be used when the encounter prompt is available."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "title": "The Warden",
+          "encounter": "A towering Foundry boss fought with Cariel's Hammer during Book II.",
+          "attackPatterns": [
+            "The Warden marks areas before slamming its fists or heated hammer into the arena.",
+            "Forged enemies enter while the Warden prepares later attacks.",
+            "Hammer strikes release expanding waves of heat across the platform."
+          ],
+          "strategy": [
+            "Move away from orange impact markers before each slam lands.",
+            "Charge Quill's hammer and position the Hammer Trap where the Warden's limb will remain exposed.",
+            "Jump over the expanding heat waves rather than attempting to outrun them.",
+            "When the Warden's hammer becomes vulnerable, use the Reader to hold it and attack its glowing weak points with Quill."
+          ],
+          "readerRole": "Activate Hammer Traps, restrain the boss weapon during vulnerable phases and help control smaller Forged enemies.",
+          "skipCombat": "The encounter supports the optional Skip Combat accessibility feature."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "title": "Tylan",
+          "encounter": "The owl Tylan is the final major boss at the Pinnacle in Book II.",
+          "attackPatterns": [
+            "Tylan performs repeated ground-pound attacks with a delayed final impact.",
+            "The encounter includes a fast platforming and chase section.",
+            "The final arena combines aerial attacks, environmental targets and short damage windows."
+          ],
+          "strategy": [
+            "Prepare a Hammer Trap before the final ground pound in each opening sequence.",
+            "During the chase, prioritize safe landings and avoid attacking unless the route is secure.",
+            "Use the Charged Chakram on the distant magical lantern.",
+            "Use Sword Dash to cut the opposite rope, then pull the bell into Tylan's path with the Reader.",
+            "Attack rapidly while Tylan is stunned against the bell, then reset for the next cycle."
+          ],
+          "readerRole": "Charge Quill's weapons, manipulate the bell and keep track of Tylan while Quill handles enemies and platforming.",
+          "skipCombat": "Players may use Skip Combat if they prefer to continue the story without completing the full boss sequence."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+    "gameLengthPerformanceAccessibility": {
+      "title": "Moss The Forgotten Relic Game Length, Performance and Accessibility",
+      "intro": "Compare story length, collectible cleanup, handheld performance, PC features, subtitles, autosaving and Skip Combat support.",
+      "rows": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "category": "Story Length",
+          "scope": "Book I",
+          "data": "About 4 hours",
+          "notes": "Covers the main story route without finding every scroll or dust container."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "category": "Story Length",
+          "scope": "Book II",
+          "data": "About 5.5 hours",
+          "notes": "Book II is larger, introduces more weapons and includes more complex puzzles and boss encounters."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "category": "Full Package",
+          "scope": "Book I and Book II",
+          "data": "Approximately 9-10 hours",
+          "notes": "Completing Twilight Garden paths, Relic Shrines, armor sets, scrolls and dust cleanup adds several additional hours."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "category": "Steam Deck",
+          "scope": "Steam",
+          "data": "Steam Deck Verified",
+          "notes": "The PC version supports Steam achievements, Steam Cloud, Family Sharing and approximately 15 GB of storage."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "category": "Handheld Performance",
+          "scope": "Nintendo Switch 2",
+          "data": "60 FPS in handheld and docked modes",
+          "notes": "Reviews report a crisp image, fast area loading and readable handheld text. The listed Switch 2 download size is 10.3 GB."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "category": "Nintendo Versions",
+          "scope": "Switch and Switch 2",
+          "data": "Separate native versions",
+          "notes": "Nintendo Switch purchasers receive access to the Switch 2 upgrade at no additional cost according to Polyarc's launch update."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "category": "Saving",
+          "scope": "All Platforms",
+          "data": "Regular autosaving",
+          "notes": "Deaths and failed jumps restart from a recent checkpoint, limiting lost progress."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "category": "Voice and Subtitles",
+          "scope": "All Platforms",
+          "data": "Fully voiced with optional subtitles",
+          "notes": "Steam lists ten supported interface and subtitle languages, with full voice support available in selected languages."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "category": "Accessibility",
+          "scope": "All Platforms",
+          "data": "Skip Combat",
+          "notes": "A prompt appears at combat encounters and can also be used during boss battles. It does not remove enemy interactions required for environmental puzzles."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "category": "Presentation",
+          "scope": "PC and Consoles",
+          "data": "Enhanced visuals and Smart Follow Camera",
+          "notes": "The flatscreen edition includes reworked visuals, new handcrafted cutscenes and a camera designed to keep Quill visible without VR movement."
         }
       ]
     }
@@ -749,31 +629,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Moss: The Forgotten Relic",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is Moss The Forgotten Relic a single-player game?",
+        "answer": "Yes. Moss: The Forgotten Relic is a single-player storybook adventure. The package combines Moss, the Twilight Garden content and Moss: Book II, and no VR headset is required."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Do I need a VR headset to play Moss The Forgotten Relic?",
+        "answer": "No. Moss: The Forgotten Relic is built for standard screens with redesigned controls and a new follow camera. It runs on Steam, PlayStation 5, Xbox and both Nintendo Switch generations without any VR equipment."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How much does Moss The Forgotten Relic cost and when does it release?",
+        "answer": "Moss: The Forgotten Relic releases on July 16, 2026 for $19.99. A free demo is available on Steam during Steam Next Fest so you can try the opening before launch."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is Moss The Forgotten Relic verified for Steam Deck?",
+        "answer": "Yes. The Steam version of Moss: The Forgotten Relic is officially Steam Deck Verified, and the same purchase runs on the handheld with no separate edition required."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How long is Moss The Forgotten Relic?",
+        "answer": "A normal story playthrough of Moss: The Forgotten Relic takes about nine to ten hours across Book I and Book II, with extra time for scroll fragments, Relic Dust and secret armor cleanup."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Can I skip combat in Moss The Forgotten Relic?",
+        "answer": "Yes. A Skip Combat prompt appears at combat encounters and during boss battles in Moss: The Forgotten Relic, while enemies required for environmental puzzles still need to be manipulated."
       }
     ]
   },
@@ -802,124 +682,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Moss The Forgotten Relic Guides",
+      "description": "Complete gameplay guides from beginner controls to advanced puzzle, combat and exploration strategies across both books.",
+      "metaTitle": "Moss The Forgotten Relic Guides - Walkthrough & Strategies",
+      "metaDescription": "Complete Moss: The Forgotten Relic guides covering beginner tips, controls, puzzle solutions, collectibles, combat strategies and expert tactics for both books.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering controls, puzzle mechanics, exploration routes and combat encounters. Learn everything from first steps to advanced tactics in Moss: The Forgotten Relic.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the dual Quill and Reader control system and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven chapter routes to solve puzzles and survive combat encounters",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for collectibles, boss fights and backtracking"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "puzzles": {
+      "title": "Moss The Forgotten Relic Puzzle Solutions",
+      "description": "Step-by-step solutions for environmental puzzles, platforms, pressure plates, enemy control and Reader interactions across both books.",
+      "metaTitle": "Moss The Forgotten Relic Puzzle Solutions & Step-by-Step Help",
+      "metaDescription": "Solve every Moss: The Forgotten Relic environmental puzzle with step-by-step guides covering movable blocks, rotating platforms, Arcane enemies and weapon mechanisms.",
+      "categoryLabel": "PUZZLE SOLUTIONS",
+      "whatIs": "What are Puzzle Solutions?",
+      "whatIsDescription": "Spoiler-light solutions for puzzle types repeated across both books. Each guide explains the required mechanic and the exact order of actions without revealing major story events.",
+      "why": "Why use puzzle guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Identify the Mechanic",
+        "step1Description": "Recognize whether a room needs Reader object movement, enemy control or a weapon switch",
+        "step2Title": "Follow the Steps",
+        "step2Description": "Apply ordered actions that prepare the route before sending Quill across",
+        "step3Title": "Reach Collectibles",
+        "step3Description": "Open optional paths to scrolls, Relic Dust and hidden areas"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Puzzle Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "collectibles": {
+      "title": "Moss The Forgotten Relic Collectibles",
+      "description": "Track scrolls, Relic Dust, stained-glass rewards, Twilight Garden portals and secret armor areas across both books.",
+      "metaTitle": "Moss The Forgotten Relic Collectibles - Scrolls, Dust & Secrets",
+      "metaDescription": "Find every Moss: The Forgotten Relic collectible including Forgotten Fragments, Relic Dust, Twilight Garden portals, Relic Shrines and secret armor sets.",
+      "categoryLabel": "COLLECTIBLES & SECRETS",
+      "whatIs": "What are Collectibles?",
+      "whatIsDescription": "Guides to every hidden scroll, dust cache, stained-glass set and secret area. Track progress by book and chapter and confirm what is missing before cleanup.",
+      "why": "Why track collectibles?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Find Hidden Routes",
+        "step1Description": "Locate scrolls on upper ledges, rooftops and side paths away from the main route",
+        "step2Title": "Open Relic Shrines",
+        "step2Description": "Break containers for Relic Dust and unlock sealed shrine doors for armor sets",
+        "step3Title": "Confirm Progress",
+        "step3Description": "Use Chapter Select and the Objectives screen to review unfinished goals"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Collectible Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "combat": {
+      "title": "Moss The Forgotten Relic Combat and Bosses",
+      "description": "Boss strategies, attack patterns, Reader tactics and combat tips for every major encounter in both books.",
+      "metaTitle": "Moss The Forgotten Relic Combat & Boss Guide",
+      "metaDescription": "Master Moss: The Forgotten Relic combat with boss strategies, attack patterns, Reader-assisted tactics and Skip Combat guidance for every major encounter.",
+      "categoryLabel": "COMBAT & BOSSES",
+      "whatIs": "What is the Combat Guide?",
+      "whatIsDescription": "Enemy behavior, boss attack patterns and Reader-assisted strategies. Learn when to dodge, control enemies, heal Quill and use the Skip Combat accessibility option.",
+      "why": "Why use the combat guide?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Read Attack Patterns",
+        "step1Description": "Recognize enemy and boss tells before committing to a dodge or attack",
+        "step2Title": "Combine Roles",
+        "step2Description": "Coordinate Quill's weapons with Reader healing and enemy control",
+        "step3Title": "Use Skip Combat",
+        "step3Description": "Bypass optional encounters while keeping puzzle-required enemies active"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Combat Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "performance": {
+      "title": "Moss The Forgotten Relic Performance and Platforms",
+      "description": "Playtime estimates, Steam Deck verification, handheld performance, accessibility options and platform differences.",
+      "metaTitle": "Moss The Forgotten Relic Game Length, Performance & Accessibility",
+      "metaDescription": "Compare Moss: The Forgotten Relic playtime, Steam Deck status, Nintendo Switch 2 performance, PC features, subtitles, autosaving and accessibility options.",
+      "categoryLabel": "PERFORMANCE & ACCESSIBILITY",
+      "whatIs": "What is the Performance Guide?",
+      "whatIsDescription": "Technical details covering story length, collectible cleanup time, Steam Deck verification, console differences, subtitles, autosaving and accessibility features such as Skip Combat.",
+      "why": "Why check performance?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Plan Your Playtime",
+        "step1Description": "Estimate story length and collectible cleanup across both books",
+        "step2Title": "Pick a Platform",
+        "step2Description": "Compare Steam Deck, Switch 2, Xbox and PS5 performance and features",
+        "step3Title": "Use Accessibility",
+        "step3Description": "Enable Skip Combat, subtitles and the smart follow camera"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Performance Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "release": {
+      "title": "Moss The Forgotten Relic Release Date, Price and Platforms",
+      "description": "Launch details covering the July 16, 2026 release, the $19.99 price and every supported platform.",
+      "metaTitle": "Moss The Forgotten Relic Release Date, Price & Platforms",
+      "metaDescription": "Moss: The Forgotten Relic releases July 16, 2026 for $19.99 on Steam, PS5, Xbox One, Xbox Series X|S, Nintendo Switch and Nintendo Switch 2.",
+      "categoryLabel": "RELEASE & PLATFORMS",
+      "whatIs": "What is the Release Guide?",
+      "whatIsDescription": "Confirmed launch details for Moss: The Forgotten Relic, including the release date, price, free demo and availability across PC, PlayStation, Xbox and both Nintendo Switch generations.",
+      "why": "Why check the release guide?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Confirm the Date",
+        "step1Description": "Verify the July 16, 2026 launch and the $19.99 launch price",
+        "step2Title": "Choose a Platform",
+        "step2Description": "Compare Steam, Steam Deck, PS5, Xbox and Switch availability",
+        "step3Title": "Try the Demo",
+        "step3Description": "Download the free Steam Next Fest demo before buying"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Release Guides"
     }
   }
 }
