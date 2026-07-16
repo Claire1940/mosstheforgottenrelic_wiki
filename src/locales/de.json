@@ -1,3 +1,897 @@
 {
-  "nav": {}
+  "seo": {
+    "home": {
+      "title": "Moss: The Forgotten Relic Wiki – Komplettlösung & Rätsel",
+      "description": "Entdecke die vollständige Moss: The Forgotten Relic Komplettlösung, Rätsellösungen, Sammelobjekte, Bosse, Steuerung, Plattformen, Erfolge und Performance-Tipps.",
+      "keywords": "Moss The Forgotten Relic, Komplettlösung, Rätsel, Sammelobjekte, Bosse, Erfolge, Steam",
+      "ogTitle": "Moss: The Forgotten Relic Wiki – Komplettlösung & Rätsel",
+      "ogDescription": "Entdecke die vollständige Moss: The Forgotten Relic Komplettlösung, Rätsellösungen, Sammelobjekte, Bosse, Steuerung, Plattformen, Erfolge und Performance-Tipps.",
+      "twitterTitle": "Moss: The Forgotten Relic Wiki – Komplettlösung & Rätsel",
+      "twitterDescription": "Entdecke die vollständige Moss: The Forgotten Relic Komplettlösung, Rätsellösungen, Sammelobjekte, Bosse, Plattformen, Erfolge und Performance-Tipps."
+    }
+  },
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Plattformen",
+    "demo": "Demo",
+    "reviews": "Reviews",
+    "features": "Features",
+    "versions": "Versionen",
+    "resources": "Ressourcen"
+  },
+  "common": {
+    "home": "Home",
+    "more": "Mehr",
+    "playNow": "Auf Steam spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die von dir gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Storybuch-Puzzle-Abenteuer",
+    "title": "Moss: The Forgotten Relic Wiki",
+    "description": "Führe Quill und den Leser durch ein lebendiges Fantasy-Storybuch voller Umgebungsrätsel, versteckter Geheimnisse, leichtem Kampf und zwei miteinander verbundenen Abenteuern.",
+    "getFreeCodesCTA": "Kostenlose Demo spielen",
+    "playOnSteamCTA": "Auf Steam spielen",
+    "stats": {
+      "stat1": {
+        "value": "16. Juli 2026",
+        "label": "Veröffentlichungsdatum"
+      },
+      "stat2": {
+        "value": "19,99 $",
+        "label": "Einführungspreis"
+      },
+      "stat3": {
+        "value": "100K+",
+        "label": "Steam-Wunschlisten"
+      },
+      "stat4": {
+        "value": "2 Spiele + DLC",
+        "label": "Komplettes Abenteuer"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Moss The Forgotten Relic",
+    "description": "Ein Bilderbuch-Puzzle-Abenteuer, das Moss, die Inhalte von Twilight Garden und Moss: Book II in einer Non-VR-Veröffentlichung für Steam, PlayStation 5, Xbox und beide Nintendo Switch-Generationen vereint."
+  },
+  "tools": {
+    "title": "Moss The Forgotten Relic",
+    "titleHighlight": "Wiki",
+    "subtitle": "Springen Sie direkt zu den Release-Details, der Komplettlösung, den Rätsellösungen, Sammelobjekten, Waffen, Boss-Strategien und Performance-Tipps.",
+    "cards": [
+      {
+        "icon": "MonitorSmartphone",
+        "title": "Release & Plattformen",
+        "description": "Release-Datum, Preis von 19,99 $ und jede unterstützte Plattform."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Einsteiger-Guide",
+        "description": "Dual-Steuerung, Kampf und die ersten Umgebungsrätsel."
+      },
+      {
+        "icon": "Route",
+        "title": "Komplettlösung",
+        "description": "Kapitelreihenfolge von Book I, Twilight Garden und Book II."
+      },
+      {
+        "icon": "Puzzle",
+        "title": "Rätsellösungen",
+        "description": "Schritt-für-Schritt-Lösungen für Umgebungsrätsel."
+      },
+      {
+        "icon": "Scroll",
+        "title": "Sammelobjekte",
+        "description": "Schriftrollen, Reliktstaub, Geheimnisse und versteckte Pfade."
+      },
+      {
+        "icon": "Sword",
+        "title": "Waffen & Fähigkeiten",
+        "description": "Schwert, Chakram, Hammer und Leser-Kräfte."
+      },
+      {
+        "icon": "Skull",
+        "title": "Bosse & Kampf",
+        "description": "Boss-Angriffsmuster, Strategien und Leser-Taktiken."
+      },
+      {
+        "icon": "Gauge",
+        "title": "Spiellänge & Performance",
+        "description": "Spielzeit, Steam Deck, Barrierefreiheit und Features."
+      }
+    ]
+  },
+  "modules": {
+    "releaseDatePricePlatforms": {
+      "title": "Moss The Forgotten Relic Release-Datum, Preis und Plattformen",
+      "intro": "Moss: The Forgotten Relic erscheint am 16. Juli 2026 für 19,99 $ auf PC, PlayStation, Xbox und beiden Nintendo Switch-Generationen. Die Flat-Screen-Neuauflage benötigt kein VR-Headset und vereint Moss, die Inhalte von Twilight Garden und Moss: Book II.",
+      "platforms": [
+        {
+          "name": "Steam",
+          "release": "16. Juli 2026",
+          "price": "19,99 $",
+          "availability": "Windows PC",
+          "details": "Einzelspieler mit Controller- sowie Maus- und Tastatur-Unterstützung, Steam-Errungenschaften, Steam Cloud und Familienfreigabe."
+        },
+        {
+          "name": "Steam Deck",
+          "release": "16. Juli 2026",
+          "price": "19,99 $ über die Steam-Version",
+          "availability": "---",
+          "details": "Offiziell für Steam Deck verifiziert"
+        },
+        {
+          "name": "Es ist keine separate Handheld-Edition erforderlich. Der Standard-Kauf auf Steam kann auf dem Steam Deck gespielt werden.",
+          "release": "PlayStation 5",
+          "price": "16. Juli 2026",
+          "availability": "19,99 $",
+          "details": "Digitale Veröffentlichung für PlayStation 5"
+        },
+        {
+          "name": "Bietet eine überarbeitete Steuerung, eine neue Kamerapräsentation und verbesserte Grafik. PlayStation VR ist nicht erforderlich.",
+          "release": "Xbox One",
+          "price": "16. Juli 2026",
+          "availability": "19,99 $",
+          "details": "Xbox One"
+        },
+        {
+          "name": "Der Xbox-Eintrag umfasst Smart Delivery, Xbox-Erfolge und Xbox-Cloud-Speicherstände.",
+          "release": "Xbox Series X|S",
+          "price": "16. Juli 2026",
+          "availability": "19,99 $",
+          "details": "Optimiert für Xbox Series X|S"
+        },
+        {
+          "name": "Xbox listet 4K Ultra HD, 60 fps+, Smart Delivery, Xbox Play Anywhere, Erfolge und Cloud-Speicherstände.",
+          "release": "Nintendo Switch",
+          "price": "16. Juli 2026",
+          "availability": "19,99 $",
+          "details": "Digitale Nintendo Switch-Edition"
+        },
+        {
+          "name": "Besitzer der Nintendo Switch-Version erhalten ein kostenloses Upgrade auf die Nintendo Switch 2-Version ohne zusätzliche Kosten.",
+          "release": "Nintendo Switch 2",
+          "price": "16. Juli 2026",
+          "availability": "19,99 $",
+          "details": "Native Nintendo Switch 2-Edition"
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Verfügbar als native Switch 2-Veröffentlichung und als kostenloses Upgrade für Besitzer der Nintendo Switch-Version.",
+      "intro": "Moss: The Forgotten Relic – Einsteiger-Guide",
+      "steps": [
+        {
+          "title": "Lerne das duale Steuerungssystem kennen, löse die ersten Umgebungsrätsel und überlebe frühe Begegnungen mit den Arkanen. Diese Schritte konzentrieren sich auf Book I und vermeiden große Story-Spoiler.",
+          "description": "Beginne mit Book I",
+          "tip": "Das Hauptmenü ermöglicht den Zugriff auf Book I oder Book II, aber Book I führt Quill, den Reader und die Rätselsprache des Spiels in der vorgesehenen Reihenfolge der Geschichte ein."
+        },
+        {
+          "title": "Book II enthält eine Zusammenfassung und eine Auffrischung der Steuerung, aber die Rätsel und Kämpfe werden anspruchsvoller.",
+          "description": "Getrennte Steuerung für Quill und den Reader",
+          "tip": "Nutze Quills Steuerung zum Laufen, Springen, Klettern, Ausweichen und für Schwertangriffe. Nutze den Reader-Cursor und Interaktionseingaben, um Blöcke zu greifen, Plattformen zu bedienen, Mechanismen zu ziehen und arkane Gegner festzuhalten."
+        },
+        {
+          "title": "Bevor du einen komplexen Raum betrittst, solltest du feststellen, welche Aktionen zu Quill und welche zum Reader gehören.",
+          "description": "Lies die Umgebung",
+          "tip": "Achte auf Kratzspuren an Vorsprüngen, Wänden und beweglichen Oberflächen. Diese visuellen Markierungen zeigen normalerweise an, wo Quill klettern kann oder wo ein Objekt positioniert werden muss."
+        },
+        {
+          "title": "Suche in den Ecken im Vordergrund, auf oberen Vorsprüngen und auf Wegen, die teilweise hinter der Kulisse verborgen sind.",
+          "description": "Baue zuerst die Route",
+          "tip": "Wenn eine Plattform in ihre ursprüngliche Position zurückkehrt, halte sie mit dem Leser weiter fest, während Quill sie überquert."
+        },
+        {
+          "title": "Nutze arkane Gegner als Rätselwerkzeuge",
+          "description": "Der Leser kann käferartige arkane Gegner festhalten oder steuern. Bewege sie auf Druckplatten, nutze sie zum Auslösen von Schaltern oder halte sie an Ort und Stelle, während Quill angreift.",
+          "tip": "Besiege nicht jeden Gegner sofort, da einige Rätsel eine aktive arkane Einheit erfordern."
+        },
+        {
+          "title": "Kämpfen, Ausweichen und Heilen",
+          "description": "Nutze kurze Schwertkombinationen, weiche sichtbaren Angriffen aus und verschaffe dir Platz, bevor du Quill durch die Interaktion mit dem Leser heilst. Eine Option zum Überspringen von Kämpfen ist während der Kampfabschnitte und Bossbegegnungen ebenfalls verfügbar.",
+          "tip": "Halte nahegelegene Gegner mit dem Leser fest oder bewege Quill in eine sichere Ecke, bevor du mit der Heilung beginnst."
+        },
+        {
+          "title": "Sammle Schriftrollen und Reliktstaub",
+          "description": "Suche auf optionalen Wegen nach Schriftrollen und zerstöre Fässer, Kisten und Töpfe für Reliktstaub. Schriftrollen schalten Buntglas-Kunstwerke frei, während Reliktstaub für Spezialgebiete und optionale Inhalte in Buch II wichtig wird.",
+          "tip": "Das Spiel speichert regelmäßig automatisch ab. Stürze oder Niederlagen bringen Quill normalerweise zum letzten Kontrollpunkt oder an den Anfang des Raumes zurück."
+        }
+      ]
+    },
+    "walkthroughChapterOrder": {
+      "title": "Moss: The Forgotten Relic – Komplettlösung und Kapitelreihenfolge",
+      "intro": "Folge dem vorgesehenen Weg durch Buch I, den Zwei-Welten-Garten und Buch II, ohne wichtige Enden zu verraten. Jeder Abschnitt listet seine Kapitel, das Hauptziel und wichtige Mechaniken auf.",
+      "sections": [
+        {
+          "title": "Buch I – Beginn",
+          "chapters": [
+            "Kapitel 1: Die Lichtung",
+            "Kapitel 2: Abschied von der Heimat"
+          ],
+          "objective": "Triff Quill, baue die Verbindung zum Leser auf, kehre zu ihrem Zuhause zurück und beginne die Reise, um Sir Argus zu finden.",
+          "mechanics": "Grundlegende Bewegung, Klettern, Springen, bewegliche Blöcke, einfache Schalter, Heilung und erster Schwertkampf.",
+          "spoilerNote": "Deckt den Einstieg in die Geschichte ab, ohne wichtige Begegnungen vorwegzunehmen."
+        },
+        {
+          "title": "Buch I – Tempel und Ruinen",
+          "chapters": [
+            "Kapitel 3: Der Sumpftempel",
+            "Kapitel 4: Letzte Zuflucht",
+            "Kapitel 5: Die verlassene Stadt"
+          ],
+          "objective": "Durchquere zunehmend gefährliche Ruinen, löse mehrstufige Plattformrätsel und nutze arkane Gegner, um Mechanismen zu betätigen.",
+          "mechanics": "Heben und Drehen von Plattformen, Druckplatten, kontrollierte arkane Gegner, zeitgesteuerte Überquerungen und Wege zu Sammlerstücken.",
+          "spoilerNote": "Diese Kapitel enthalten die drei Portal-Gelegenheiten, die mit dem Zwei-Welten-Garten verbunden sind."
+        },
+        {
+          "title": "Nebenabenteuer: Zwei-Welten-Garten",
+          "chapters": [
+            "Portal 1: Der Sumpftempel",
+            "Portal 2: Letzte Zuflucht",
+            "Portal 3: Die verlassene Stadt"
+          ],
+          "objective": "Betritt den Garten durch alle drei Portale, schließe seine Prüfungen ab und verdiene Ausrüstung sowie Fähigkeiten, die verborgene Pfade offenbaren.",
+          "mechanics": "Eigenständige Herausforderungsräume, neue Rätselinteraktionen, das Offenbaren verborgener Pfade und verbesserte Kampfwerkzeuge.",
+          "spoilerNote": "Die Portale können in beliebiger Reihenfolge absolviert werden. Wenn du sie jedoch direkt beim ersten Aufeinandertreffen betrittst, bleibt das Nebenabenteuer zeitlich auf Buch I abgestimmt."
+        },
+        {
+          "title": "Buch I – Finale",
+          "chapters": [
+            "Kapitel 6: Sarffogs Reich",
+            "Kapitel 7: Das Schloss"
+          ],
+          "objective": "Kämpfe dich durch den letzten Abschnitt, kombiniere die Fähigkeiten von Quill und dem Leser und schließe die Rettungsmission des ersten Buches ab.",
+          "mechanics": "Schnelleres Platforming, größere Kampfräume, Verfolgungsjagden und fortgeschrittene, vom Leser unterstützte Rätsel.",
+          "spoilerNote": "Details zu Bossen und dem Ende sind ausgeblendet."
+        },
+        {
+          "title": "Buch II – Erste Hälfte",
+          "chapters": [
+            "Kapitel 1: Das Glas des Königs",
+            "Kapitel 2: Eine Armee aufstellen",
+            "Kapitel 3: Wenn sich eine Tür schließt",
+            "Kapitel 4: Der Weg des Sternenwesens"
+          ],
+          "objective": "Setze die Reise nach Book I fort, sammle Verbündete sowie Hinweise zum Glas und schalte neue Wege frei, um die Umgebung umzugestalten.",
+          "mechanics": "Natureinklang zum Wachsenlassen von Ranken, größere Dioramen, fortgeschrittene Arcane-Manipulation und erweiterte Ziele.",
+          "spoilerNote": "Book II beginnt mit einer Rückblende der Geschichte und einer kurzen Auffrischung der Steuerung."
+        },
+        {
+          "title": "Book II Zweite Hälfte",
+          "chapters": [
+            "Kapitel 5: Hier nicht willkommen",
+            "Kapitel 6: Der Schlangentöter",
+            "Kapitel 7: Unerledigte Dinge",
+            "Kapitel 8: Aus der Asche",
+            "Kapitel 9: Tylans Domäne"
+          ],
+          "objective": "Sichere dir die verbleibenden Werkzeuge und Verbündeten, durchquere die Regionen des späten Spielverlaufs und schließe Quills Feldzug gegen die Bedrohung durch das Arcane ab.",
+          "mechanics": "Fortbewegung mit dem aufgeladenen Schwert, Chakram-Schalter, Hammer-Rätsel, Charakterwechsel, Spiegel-Routing und schwerere Bosskämpfe.",
+          "spoilerNote": "Die endgültigen Schicksale der Charaktere und das Ende werden nicht beschrieben."
+        }
+      ]
+    },
+    "puzzleSolutions": {
+      "title": "Moss: The Forgotten Relic Rätsellösungen",
+      "intro": "Nutze diese spoilerarmen Lösungen für Rätseltypen, die in beiden Büchern vorkommen. Jede Anleitung erklärt die erforderliche Mechanik, ohne wichtige Story-Ereignisse zu verraten.",
+      "puzzles": [
+        {
+          "puzzle": "Beweglicher Block und hoher Vorsprung",
+          "mechanic": "Objektbewegung durch den Reader",
+          "steps": [
+            "Suche den Vorsprung, der mit sichtbaren Kratzern markiert ist.",
+            "Benutze den Reader-Cursor, um den hervorgehobenen Block oder die Statue zu greifen.",
+            "Ziehe das Objekt direkt unter den Vorsprung und lasse es auf einer ebenen Fläche los.",
+            "Bewege Quill auf den Block und springe oder klettere auf den Vorsprung."
+          ],
+          "tip": "Falls Quill nicht klettern kann, rücke den Block zurecht, bis seine Oberkante nah am zerkratzten Vorsprung liegt."
+        },
+        {
+          "puzzle": "Überquerung erhöhter oder rotierender Plattformen",
+          "mechanic": "Plattformsteuerung durch den Reader",
+          "steps": [
+            "Bewege Quill auf die sichere Startplattform.",
+            "Greife die bewegliche Plattform mit dem Reader.",
+            "Hebe, schiebe oder drehe sie, bis sie die beiden begehbaren Kanten verbindet.",
+            "Halte den Mechanismus fest, falls er sich automatisch zurücksetzt.",
+            "Bewege Quill hinüber, bevor du die Plattform loslässt."
+          ],
+          "tip": "In einigen Räumen muss dieselbe Plattform zweimal bewegt werden: einmal, um Quill zu transportieren, und ein zweites Mal, um den Weg zum Ausgang zu schaffen."
+        },
+        {
+          "puzzle": "Arcane-Gegner auf einer Druckplatte",
+          "mechanic": "Gegnersteuerung durch den Reader",
+          "steps": [
+            "Lasse mindestens einen käferartigen Arcane-Gegner am Leben.",
+            "Betäube oder greife ihn mithilfe der Reader-Interaktion.",
+            "Ziehe den Gegner auf die Druckplatte oder den Zielmechanismus.",
+            "Halte ihn fest, bis das Tor, die Brücke oder die Plattform die Bewegung abgeschlossen hat.",
+            "Schicke Quill hindurch, bevor du den Gegner besiegst oder loslässt."
+          ],
+          "tip": "Falls sich der Mechanismus abschaltet, zentriere den Gegner auf der Platte oder halte ihn weiterhin mit dem Reader fest."
+        },
+        {
+          "puzzle": "Zeitgesteuerter Schalter mit Quill und einem Arkanen",
+          "mechanic": "Duale Steuerung",
+          "steps": [
+            "Platziere Quill neben dem Pfad, der sich öffnet, wenn der Schalter aktiv ist.",
+            "Steuere einen arkanen Gegner mit dem Leser und bewege ihn auf den Schalter zu.",
+            "Aktiviere den Schalter mit dem Gegner.",
+            "Führe Quill sofort über den geöffneten Pfad, während du die Kontrolle mit dem Leser aufrechterhältst.",
+            "Lass den Gegner los, sobald Quill eine sichere Plattform erreicht hat."
+          ],
+          "tip": "Positioniere Quill vor dem Aktivieren des Schalters, um keine Zeit zu verlieren."
+        },
+        {
+          "puzzle": "Verborgener Pfad oder Glasplattform",
+          "mechanic": "Pfadenthüllungs-Fähigkeit",
+          "steps": [
+            "Suche nach einer Sackgasse, einem unerreichbaren Sammlerstück oder einem unvollständigen Pfad.",
+            "Nutze die erhaltene Enthüllungs-Interaktion auf dem markierten Bereich in der Nähe.",
+            "Warte, bis die verborgene Glasplattform oder der Pfad erscheint.",
+            "Bewege Quill hinüber und suche die Umgebung nach optionalen Sammlerstücken ab."
+          ],
+          "tip": "Belohnungen aus dem Zwielichtgarten und spätere Fähigkeiten enthüllen Pfade, die zuvor nicht zugänglich waren."
+        },
+        {
+          "puzzle": "Rankenwachstum und Kletterpfad",
+          "mechanic": "Naturverbundenheit",
+          "steps": [
+            "Finde die ruhende Pflanze oder die getrennte Ranke in der Nähe des Ziels.",
+            "Nutze die Naturverbundenheit-Interaktion des Lesers, um sie wachsen zu lassen oder umzulenken.",
+            "Verbinde die Ranke mit einer Wand, einem Vorsprung oder einer zweiten Pflanze, bis sie einen durchgehenden Pfad bildet.",
+            "Führe Quill auf die Ranke und klettere zur nächsten Plattform."
+          ],
+          "tip": "Wenn die Ranke zu kurz ist, suche nach einem anderen Pflanzenanker oder nähere dich ihr von der gegenüberliegenden Seite."
+        },
+        {
+          "puzzle": "Schwert-, Chakram- oder Hammerschalter",
+          "mechanic": "Waffenrätsel aus Buch II",
+          "steps": [
+            "Stelle fest, ob das Ziel weit entfernt, schwer oder mit einem zu überwindenden Abgrund verbunden ist.",
+            "Nutze die aufgeladene Schwertfähigkeit für Spurt-Abgründe und schwertbezogene Mechanismen.",
+            "Nutze das Chakram, wenn ein Schalter aus der Ferne getroffen werden muss.",
+            "Nutze den Hammer bei schweren Objekten und Mechanismen, die leichtere Angriffe ignorieren.",
+            "Überwinde den geöffneten Pfad, bevor sich der Mechanismus zurücksetzt."
+          ],
+          "tip": "Die Entfernung, das Gewicht und die Form des Ziels weisen normalerweise darauf hin, welche Waffe benötigt wird."
+        },
+        {
+          "puzzle": "Spiegel-Pfadführung im späten Spiel",
+          "mechanic": "Licht und Reflexion",
+          "steps": [
+            "Finde die Lichtquelle, jeden beweglichen Spiegel und den Endempfänger.",
+            "Drehe zuerst den Spiegel, der der Quelle am nächsten ist.",
+            "Folge dem Strahl und richte jeden Spiegel der Reihe nach aus.",
+            "Fahre fort, bis der Strahl den Empfänger erreicht.",
+            "Bewege Quill, sobald sich der verbundene Mechanismus oder Pfad aktiviert."
+          ],
+          "tip": "Arbeite dich von der Lichtquelle zum Empfänger vor, damit falsch ausgerichtete Spiegel leicht zu erkennen sind."
+        }
+      ]
+    },
+    "scrollsDustSecrets": {
+      "title": "Moss The Forgotten Relic – Schriftrollen, Staub und Geheimnisse",
+      "intro": "Verfolge Vergessene Fragmente, Reliktstaub, Buntglas-Belohnungen, Portale zum Zwielichtgarten und geheime Rüstungsbereiche in beiden Büchern.",
+      "groups": [
+        {
+          "label": "Buch I",
+          "title": "Schriftrollen der Vergessenen Fragmente",
+          "target": "31 Schriftrollenfragmente in sechs Hauptkapiteln",
+          "locations": [
+            "Die Lichtung",
+            "Aufbruch von Zuhause",
+            "Der Sumpftempel",
+            "Letzte Zuflucht",
+            "Die verlassene Stadt",
+            "Die Burg"
+          ],
+          "checklist": [
+            "Untersuche Hausdächer, hintere Simse und Plattformen oberhalb des normalen Weges.",
+            "Bewege vom Leser gesteuerte Blöcke in alternative Positionen, um optionale Simse zu erreichen.",
+            "Schau hinter Gebäude, Tore, Statuen und Kulissen im Vordergrund, bevor du den Raum wechselst.",
+            "Das Sammeln der Schriftrollenfragmente stellt das Glasmalerei-Kunstwerk wieder her, das zwischen den Kapiteln gezeigt wird."
+          ]
+        },
+        {
+          "label": "Buch I",
+          "title": "Geheimnisse des Twilight Garden",
+          "target": "Drei versteckte Portale",
+          "locations": [
+            "Der Sumpftempel",
+            "Letzte Zuflucht",
+            "Die verlassene Stadt"
+          ],
+          "checklist": [
+            "Suche an der Seite des großen Tores im Sumpftempel.",
+            "Schau hinter die Säulen am Anfang der Letzten Zuflucht.",
+            "Erkunde den Rand der Stadt kurz vor dem Betreten des Wirtshauses in der verlassenen Stadt.",
+            "Das Abschließen der verbundenen Twilight Garden-Route fügt optionale Rätsel, Ausrüstungsbelohnungen und die Begegnung mit dem Recast Commander hinzu."
+          ]
+        },
+        {
+          "label": "Buch II",
+          "title": "Glasmalerei-Fragmentsätze",
+          "target": "48 Vergessene Fragmente, wobei jedem der sechs Glasmalerei-Bereiche acht Fragmente zugeordnet sind.",
+          "locations": [
+            "Burg",
+            "Sprite-Reich",
+            "Garten und Konservatorium",
+            "Berge und Tiefen",
+            "Gießerei",
+            "Gipfel"
+          ],
+          "checklist": [
+            "Kehre in frühere Räume zurück, nachdem du Nature Attunement, Sword Dash, das Charged Chakram und Cariels Hammer erhalten hast.",
+            "Nutze wachsende Ranken und Wurzelbrücken, um hohe oder zuvor nicht erreichbare Plattformen zu erreichen.",
+            "Enthülle versteckte Glasplattformen und untersuche Wege, die hinter Strukturen im Vordergrund verborgen sind.",
+            "Benutze den Hammer bei gepanzerten Mechanismen und schweren Hindernissen, die Pfade zu Sammelobjekten blockieren."
+          ]
+        },
+        {
+          "label": "Buch II",
+          "title": "Relic Dust und geheime Rüstung",
+          "target": "Zerstöre Behälter und öffne alle drei Relic Shrines",
+          "locations": [],
+          "checklist": [
+            "Zerstöre jedes Fass, jede Kiste, jeden Topf und jeden zerstörbaren Behälter mit Quill oder dem Leser.",
+            "Überprüfe beide Seiten von Brücken, Aufzügen und Raumübergängen, da sich Staubbehälter außerhalb des Hauptfokus der Kamera befinden können.",
+            "Nutze gesammelten Staub, um versiegelte Reliktschrein-Türen zu öffnen.",
+            "Erkunde jeden Schrein vollständig, um die darin gelagerten optionalen Rüstungssets zu erhalten."
+          ]
+        },
+        {
+          "label": "Fortschrittsprüfung",
+          "title": "So bestätigst du fehlende Sammelobjekte",
+          "target": "Überprüfe den Fortschritt, bevor du vollständige Abschnitte wiederholst.",
+          "locations": [],
+          "checklist": [
+            "Öffne für Book I die Kapitelauswahl und überprüfe den für jedes Kapitel angezeigten Sammelfortschritt.",
+            "Verwende für Book II den Ziele-Bildschirm, um Fragmente, Staub und andere unvollendete Ziele zu überprüfen.",
+            "Beende die Geschichte vor dem finalen Aufräumen, damit jede Fortbewegungsfähigkeit verfügbar ist.",
+            "Besuche Räume mit unerreichbaren Vorsprüngen, inaktiven Mechanismen, Glasplattformen oder versiegelten Schreintüren erneut."
+          ]
+        }
+      ]
+    },
+    "weaponsAbilities": {
+      "title": "Moss The Forgotten Relic Waffen und Fähigkeiten",
+      "intro": "Erfahre, wie das Schwert, das Chakram, der Hammer und die Reader-unterstützten Fähigkeiten Kampf, Umgebungsrätsel und Backtracking für Sammelobjekte miteinander verbinden.",
+      "items": [
+        {
+          "name": "Schwert",
+          "category": "Nahkampfwaffe",
+          "icon": "Schwerter",
+          "availability": "Quills Primärwaffe in beiden Büchern",
+          "combatUse": "Schnelle Schläge auf kurze Distanz und weite Angriffe gegen standardmäßige Arcane-Gegner.",
+          "ability": "Schwertsprint",
+          "abilityUnlock": "Freigeschaltet durch einen Reliktschrein im Konservatorium während Book II.",
+          "abilityUse": "Lade das Schwert mit Unterstützung des Readers auf und sprinte dann durch Gegner oder über große Abgründe.",
+          "explorationUse": "Überquere markierte Abgründe, schneide Seile durch und erreiche Fragmente, die beim ersten Besuch unzugänglich waren."
+        },
+        {
+          "name": "Chakram",
+          "category": "Fernkampfwaffe",
+          "icon": "Disc3",
+          "availability": "Erhalten während Book II auf Quills Reise mit Sahima",
+          "combatUse": "Triff weit entfernte Gegner und Ziele sowohl beim Hinwurf als auch auf dem Rückweg.",
+          "ability": "Geladenes Chakram",
+          "abilityUnlock": "Aktiviert mit Unterstützung des Readers, nachdem die Waffe erhalten wurde.",
+          "abilityUse": "Wirf die geladene Waffe auf weit entfernte Oberflächen oder Mechanismen und rufe sie bei Bedarf wieder zurück.",
+          "explorationUse": "Öffne entlegene Passagen, aktiviere unerreichbare Objekte und mache Wege frei, die mit dem Schwert nicht erreicht werden können."
+        },
+        {
+          "name": "Cariels Hammer",
+          "category": "Schwere Waffe",
+          "icon": "Hammer",
+          "availability": "Erhalten in der Gießerei während Book II",
+          "combatUse": "Langsame, kraftvolle Schläge, die effektiv gegen gepanzerte Forged-Gegner sind.",
+          "ability": "Hammerfalle",
+          "abilityUnlock": "Lade den Hammer auf und lass den Reader seinen magischen Wirkungsbereich positionieren.",
+          "abilityUse": "Löse den schwebenden Hammereffekt aus, wenn Gegner oder Boss-Schwachstellen die markierte Zone betreten.",
+          "explorationUse": "Zerschmettere Maschinen, gepanzerte Barrieren und schwere Mechanismen, die für spätere Sammelobjekte benötigt werden."
+        },
+        {
+          "name": "Natur-Einklang",
+          "category": "---",
+          "icon": "Bewegungsfähigkeit des Lesers",
+          "availability": "Spross",
+          "combatUse": "Erhalten im Reich der Sprites in Buch II",
+          "ability": "Primär eine Erkundungsfähigkeit und kein direkter Angriff.",
+          "abilityUnlock": "Pflanzen und Wurzelbrücken wachsen lassen",
+          "abilityUse": "Erhalten über den Handlungsverlauf im Reich der Sprites.",
+          "explorationUse": "Kletterbaren Efeu wachsen lassen, Pflanzenpfade erweitern und Wurzeln über Abgründe verbinden."
+        },
+        {
+          "name": "Schafft neue vertikale Routen und ermöglicht den Abschluss früherer Gebiete beim Backtracking.",
+          "category": "Glasplattform-Enthüllung",
+          "icon": "Erkundungsfähigkeit des Lesers",
+          "availability": "Auge",
+          "combatUse": "Eingeführt, als Buch II die Fähigkeiten von Quill und dem Leser erweitert",
+          "ability": "Hilft dabei, Quill in Kämpfen mit verborgenem oder magischem Terrain neu zu positionieren.",
+          "abilityUnlock": "Verborgene Plattformen enthüllen",
+          "abilityUse": "Wird genutzt, wenn spätere Gebiete Glaspfade und -rätsel einführen.",
+          "explorationUse": "Macht Plattformen sichtbar, die bei einem früheren Besuch unsichtbar oder unbrauchbar waren."
+        },
+        {
+          "name": "Öffnet optionale Wege zu Schriftrollenfragmenten, Schreinpfaden und Geheimgebieten.",
+          "category": "Leser-Interaktion",
+          "icon": "Kern-Unterstützungsfähigkeit",
+          "availability": "Hand",
+          "combatUse": "Während des gesamten Abenteuers verfügbar und in Buch II erweitert",
+          "ability": "Gegner betäuben oder kontrollieren, Bedrohungen umpositionieren und Quill heilen, wenn sie außer unmittelbarer Gefahr ist.",
+          "abilityUnlock": "Die Welt manipulieren",
+          "abilityUse": "Eingeführt während der einleitenden Tutorials jedes Buches.",
+          "explorationUse": "Blöcke bewegen, Plattformen drehen, Mechanismen ziehen, Behälter zerbrechen und ausgewählte arkane Gegner kontrollieren."
+        }
+      ]
+    },
+    "bossesCombatGuide": {
+      "title": "Gegner auf Druckplatten platzieren, ihre Angriffe auf Schalter lenken und sichere Pfade für Quill schaffen.",
+      "intro": "Moss: The Forgotten Relic – Boss- und Kampf-Leitfaden",
+      "bosses": [
+        {
+          "title": "Nutze Quills Ausweichmanöver und Waffen zusammen mit der Heilung des Lesers, Gegnerkontrolle und Umgebungsinteraktionen, um große Kämpfe zu bestehen.",
+          "encounter": "Kampfräume der Arkanen und Geschmiedeten",
+          "attackPatterns": [
+            "Gemischte Gruppen von Kreischern, Tickern, Bombern, Scorchern und gepanzerten Geschmiedeten erscheinen in beiden Büchern.",
+            "Nahkampfgegner stürmen vor oder schlagen zu, wenn Quill in der Nähe bleibt.",
+            "Fernkampfgegner feuern auf Quills aktuelle Position."
+          ],
+          "strategy": [
+            "Explosive Gegner können Feinde in der Nähe verletzen, wenn sie kontrolliert oder umgelenkt werden.",
+            "Weiche zur Seite aus, anstatt gegen Wände oder Kulissen im Vordergrund zurückzuweichen.",
+            "Besiege Fernkämpfer zuerst, wenn sie Quills Bewegungsfreiheit einschränken.",
+            "Nutze den Leser, um einen Gegner zu betäuben, festzuhalten oder umzupositionieren, während Quill einen anderen angreift."
+          ],
+          "readerRole": "Nutze kontrollierte Gegner, um Schalter zu aktivieren, Angriffe zu blocken oder andere Geschmiedete zu beschädigen.",
+          "skipCombat": "Kontrolliere gefährliche Gegner, löse aufgeladene Waffeneffekte aus und heile Quill, nachdem du sie von Angriffen weggeführt hast."
+        },
+        {
+          "title": "Optionale Kampfräume können über die Aufforderung „Kampf überspringen“ umgangen werden, auch wenn für Rätsel benötigte Gegner weiterhin manipuliert werden müssen.",
+          "encounter": "Die riesige Schlange dient als die alles entscheidende Bedrohung von Buch I.",
+          "attackPatterns": [
+            "Sarffog startet feurige Angriffe entlang Quills Route.",
+            "Die Begegnung kombiniert schnelles Klettern, Plattform-Bewegung und zeitlich abgepasstes Ausweichen.",
+            "Spätere Abschnitte erfordern, dass Quill voranschreitet, während die Schlange den verfügbaren Pfad unter Druck setzt."
+          ],
+          "strategy": [
+            "Halte Quill in Bewegung und warte, bis jeder Feuerangriff vorüber ist, bevor du den nächsten Sprung wagst.",
+            "Nutze den Leser, um Umgebungselemente sofort zu bedienen, sobald sich die Route öffnet.",
+            "Vermeide es, auf schmalen Plattformen stehen zu bleiben, wo der nächste Angriff Quill in die Falle locken kann.",
+            "Priorisiere das Erreichen der nächsten sicheren Ebene, anstatt unnötige Angriffe zu versuchen."
+          ],
+          "readerRole": "Halte den Fluchtweg offen, schütze Quill während der Übergänge und reagiere schnell auf interaktive Objekte in der Arena.",
+          "skipCombat": "Die Option „Kampf überspringen“ kann genutzt werden, wenn die entsprechende Aufforderung erscheint."
+        },
+        {
+          "title": "The Warden",
+          "encounter": "Ein gewaltiger Boss der Gießerei, der in Buch II mit Cariels Hammer bekämpft wird.",
+          "attackPatterns": [
+            "The Warden markiert Bereiche, bevor er seine Fäuste oder den erhitzten Hammer in die Arena schmettert.",
+            "Geschmiedete Gegner erscheinen, während The Warden spätere Angriffe vorbereitet.",
+            "Hammerschläge setzen sich ausbreitende Hitzewellen über die Plattform frei."
+          ],
+          "strategy": [
+            "Bewege dich von den orangefarbenen Einschlagsmarkierungen weg, bevor jeder Schlag landet.",
+            "Lade Quills Hammer auf und platziere die Hammerfalle dort, wo das Gliedmaß von The Warden exponiert bleibt.",
+            "Springe über die sich ausbreitenden Hitzewellen, anstatt zu versuchen, ihnen davonzulaufen.",
+            "Wenn der Hammer von The Warden verwundbar wird, nutze den Leser, um ihn festzuhalten, und greife mit Quill seine leuchtenden Schwachstellen an."
+          ],
+          "readerRole": "Aktiviere Hammerfallen, halte die Boss-Waffe während verwundbarer Phasen zurück und hilf dabei, kleinere Geschmiedete zu kontrollieren.",
+          "skipCombat": "Die Begegnung unterstützt die optionale Barrierefreiheitsfunktion „Kampf überspringen“."
+        },
+        {
+          "title": "Tylan",
+          "encounter": "Die Eule Tylan ist der letzte große Boss am Gipfel in Buch II.",
+          "attackPatterns": [
+            "Tylan führt wiederholte Bodenstampf-Angriffe mit einem verzögerten finalen Einschlag aus.",
+            "Die Begegnung beinhaltet einen schnellen Jump-’n’-Run- und Verfolgungsabschnitt.",
+            "Die finale Arena kombiniert Luftangriffe, Umgebungsziele und kurze Schadenszeitfenster."
+          ],
+          "strategy": [
+            "Bereite eine Hammerfalle vor dem finalen Bodenstampfer in jeder Eröffnungssequenz vor.",
+            "Priorisiere während der Verfolgung sichere Landungen und vermeide Angriffe, sofern die Route nicht sicher ist.",
+            "Benutze das aufgeladene Chakram auf der entfernten magischen Laterne.",
+            "Nutze den Schwertsprint, um das gegenüberliegende Seil zu durchtrennen, und ziehe dann die Glocke mit dem Leser in Tylans Weg.",
+            "Greife schnell an, während Tylan an der Glocke betäubt ist, und bereite dich dann auf den nächsten Zyklus vor."
+          ],
+          "readerRole": "Lade Quills Waffen auf, manipuliere die Glocke und behalte Tylan im Auge, während Quill sich um Gegner und Sprungpassagen kümmert.",
+          "skipCombat": "Spieler können „Kampf überspringen“ nutzen, wenn sie die Geschichte fortsetzen möchten, ohne die gesamte Boss-Sequenz abzuschließen."
+        }
+      ]
+    },
+    "gameLengthPerformanceAccessibility": {
+      "title": "Moss The Forgotten Relic Spiellänge, Performance und Barrierefreiheit",
+      "intro": "Vergleiche Story-Länge, Sammelobjekte-Vervollständigung, Handheld-Performance, PC-Funktionen, Untertitel, automatisches Speichern und Unterstützung für „Kampf überspringen“.",
+      "rows": [
+        {
+          "category": "Story-Länge",
+          "scope": "Buch I",
+          "data": "Etwa 4 Stunden",
+          "notes": "Deckt die Hauptstory ab, ohne jede Schriftrolle oder jeden Staubbehälter zu finden."
+        },
+        {
+          "category": "Story-Länge",
+          "scope": "Book II",
+          "data": "Etwa 5,5 Stunden",
+          "notes": "Book II ist umfangreicher, führt mehr Waffen ein und enthält komplexere Rätsel sowie Bosskämpfe."
+        },
+        {
+          "category": "Komplettpaket",
+          "scope": "Book I und Book II",
+          "data": "Ungefähr 9–10 Stunden",
+          "notes": "Das Abschließen der Pfade im Twilight Garden, der Reliktschreine, Rüstungssets, Schriftrollen und das Sammeln des restlichen Staubs bringt mehrere zusätzliche Stunden."
+        },
+        {
+          "category": "Steam Deck",
+          "scope": "Steam",
+          "data": "Steam Deck-verifiziert",
+          "notes": "Die PC-Version unterstützt Steam-Errungenschaften, Steam Cloud, die Familienfreigabe und benötigt etwa 15 GB Speicherplatz."
+        },
+        {
+          "category": "Handheld-Leistung",
+          "scope": "Nintendo Switch 2",
+          "data": "60 FPS im Handheld- und TV-Modus",
+          "notes": "Testberichte berichten von einem gestochen scharfen Bild, schnellem Laden von Gebieten und gut lesbarem Text im Handheld-Modus. Die angegebene Download-Größe für die Switch 2 beträgt 10,3 GB."
+        },
+        {
+          "category": "Nintendo-Versionen",
+          "scope": "Switch und Switch 2",
+          "data": "Separate native Versionen",
+          "notes": "Käufer der Nintendo Switch-Version erhalten laut dem Launch-Update von Polyarc ohne zusätzliche Kosten Zugriff auf das Upgrade für die Switch 2."
+        },
+        {
+          "category": "Speichern",
+          "scope": "Alle Plattformen",
+          "data": "Regelmäßiges automatisches Speichern",
+          "notes": "Bei Toden und misslungenen Sprüngen startet man an einem nahen Kontrollpunkt neu, was den Fortschrittsverlust in Grenzen hält."
+        },
+        {
+          "category": "Sprachausgabe und Untertitel",
+          "scope": "Alle Plattformen",
+          "data": "Vollständig vertont mit optionalen Untertiteln",
+          "notes": "Steam listet zehn unterstützte Sprachen für Benutzeroberfläche und Untertitel auf, wobei eine vollständige Sprachausgabe in ausgewählten Sprachen verfügbar ist."
+        },
+        {
+          "category": "Barrierefreiheit",
+          "scope": "Alle Plattformen",
+          "data": "Kämpfe überspringen",
+          "notes": "Eine Option erscheint bei Kampfbegegnungen und kann auch während Bosskämpfen genutzt werden. Dadurch werden keine Interaktionen mit Gegnern entfernt, die für Umgebungsrätsel erforderlich sind."
+        },
+        {
+          "category": "Präsentation",
+          "scope": "PC und Konsolen",
+          "data": "Verbesserte Grafik und Smart Follow-Kamera",
+          "notes": "Die Flatscreen-Edition enthält eine überarbeitete Grafik, neue handgefertigte Zwischensequenzen und eine Kamera, die so konzipiert ist, dass Quill auch ohne VR-Bewegung sichtbar bleibt."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über Moss: The Forgotten Relic wissen musst",
+    "questions": [
+      {
+        "question": "Ist Moss: The Forgotten Relic ein Singleplayer-Spiel?",
+        "answer": "Ja. Moss: The Forgotten Relic ist ein Singleplayer-Märchenbuch-Abenteuer. Das Paket kombiniert Moss, die Inhalte aus Twilight Garden und Moss: Book II, und es wird kein VR-Headset benötigt."
+      },
+      {
+        "question": "Benötige ich ein VR-Headset, um Moss The Forgotten Relic zu spielen?",
+        "answer": "Nein. Moss: The Forgotten Relic wurde für Standardbildschirme mit neu gestalteter Steuerung und einer neuen Verfolgungskamera entwickelt. Es läuft ohne jegliche VR-Ausrüstung auf Steam, PlayStation 5, Xbox und beiden Nintendo Switch-Generationen."
+      },
+      {
+        "question": "Wie viel kostet Moss The Forgotten Relic und wann erscheint es?",
+        "answer": "Moss: The Forgotten Relic erscheint am 16. Juli 2026 für 19,99 $. Eine kostenlose Demo ist während des Steam Next Fest auf Steam verfügbar, sodass du den Einstieg vor der Veröffentlichung ausprobieren kannst."
+      },
+      {
+        "question": "Ist Moss The Forgotten Relic für das Steam Deck verifiziert?",
+        "answer": "Ja. Die Steam-Version von Moss: The Forgotten Relic ist offiziell für das Steam Deck verifiziert, und derselbe Kauf läuft ohne separate Edition auf dem Handheld."
+      },
+      {
+        "question": "Wie lang ist Moss The Forgotten Relic?",
+        "answer": "Ein normaler Story-Durchgang von Moss: The Forgotten Relic dauert über Buch I und Buch II hinweg etwa neun bis zehn Stunden, mit zusätzlicher Zeit für Schriftrollenfragmente, Reliktstaub und das Vervollständigen der geheimen Rüstung."
+      },
+      {
+        "question": "Kann ich Kämpfe in Moss The Forgotten Relic überspringen?",
+        "answer": "Ja. Bei Kampfbegegnungen und während Bosskämpfen in Moss: The Forgotten Relic erscheint eine Aufforderung zum Überspringen des Kampfes, während Gegner, die für Umgebungspuzzles benötigt werden, weiterhin manipuliert werden müssen."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, deine Reise in Moss: The Forgotten Relic zu beginnen?",
+    "description": "Tritt der Moss-Community auf Discord bei, um Komplettlösungen, Rätsellösungen, Guides für Sammlerstücke und die neuesten Updates zu erhalten!",
+    "joinCommunity": "Discord beitreten",
+    "joinGame": "Auf Steam spielen"
+  },
+  "footer": {
+    "title": "Moss: The Forgotten Relic Wiki",
+    "description": "Deine zentrale Anlaufstelle für Komplettlösungen, Rätsellösungen, Sammlerstücke, Kämpfe, Erfolge und Performance-Guides zu Moss: The Forgotten Relic.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam-Community",
+    "steamStore": "Steam-Shop",
+    "about": "Über",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Moss: The Forgotten Relic Wiki. Nicht mit Polyarc Games verbunden.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
+  },
+  "pages": {
+    "guide": {
+      "title": "Moss The Forgotten Relic Komplettlösung & Guide",
+      "description": "Vollständige Story-Komplettlösung für Moss: The Forgotten Relic, die Buch I, Twilight Garden und Buch II abdeckt, mit Rätsellösungen, Bosstaktiken und Kapitelrouten.",
+      "metaTitle": "Moss The Forgotten Relic Komplettlösung - Buch I, Buch II & Twilight Garden",
+      "metaDescription": "Vollständige Komplettlösung für Moss: The Forgotten Relic mit Routen für Buch I, Twilight Garden und Buch II, Rätsellösungen, Bossstrategien und Checkpoints für Sammlerstücke.",
+      "categoryLabel": "KOMPLETTLÖSUNG",
+      "whatIs": "Was ist die Komplettlösung?",
+      "whatIsDescription": "Eine kapitelweise Anleitung für Moss: The Forgotten Relic, die verbesserte Non-VR-Sammlung von Moss, Moss: Book II und dem Twilight Garden-DLC. Sie begleitet Quill und den Leser durch jeden Raum, jedes Rätsel, jeden Bosskampf und jeden Handlungsabschnitt in allen drei Abenteuern.",
+      "why": "Warum sollte man die Komplettlösung nutzen?",
+      "whySteps": {
+        "step1Title": "Dem Story-Pfad folgen",
+        "step1Description": "Bewege dich der Reihe nach durch Buch I, Twilight Garden und Buch II mit klaren Wegbeschreibungen von Raum zu Raum",
+        "step2Title": "Löse jedes Rätsel",
+        "step2Description": "Erhalte Schritt-für-Schritt-Lösungen für Plattformen, Druckplatten, Gegnerkontrolle und Leser-Interaktionen",
+        "step3Title": "Besiege jeden Boss",
+        "step3Description": "Lerne Gegnermechaniken, Bossphasen und wann „Kampf überspringen“ die Geschichte vorantreibt"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Komplettlösungen"
+    },
+    "release": {
+      "title": "Moss: The Forgotten Relic – Release-Datum & Preis",
+      "description": "Details zum Launch von Moss: The Forgotten Relic, einschließlich des Release-Datums am 16. Juli 2026, des Preises von 19,99 $, der kostenlosen Demo und der Verfügbarkeit der physischen Edition.",
+      "metaTitle": "Moss: The Forgotten Relic – Release-Datum, Preis & physische Edition",
+      "metaDescription": "Moss: The Forgotten Relic erscheint am 16. Juli 2026 für 19,99 $ auf Steam, PS5, Xbox und Nintendo Switch. Erhalte Details zu Release-Datum, Preis und der physischen Version.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "Was ist der Release-Guide?",
+      "whatIsDescription": "Bestätigte Launch-Informationen für Moss: The Forgotten Relic, Polyarcs verbesserte Nicht-VR-Sammlung, die Moss, Moss: Book II und den Twilight Garden DLC bündelt. Enthält das Release-Datum, den Launch-Preis von 19,99 $, die kostenlose Demo und Pläne für die physische Edition auf Steam, PS5, Xbox, Nintendo Switch und Nintendo Switch 2.",
+      "why": "Warum den Release-Guide lesen?",
+      "whySteps": {
+        "step1Title": "Bestätige das Datum",
+        "step1Description": "Überprüfe den weltweiten Launch am 16. Juli 2026 und den Launch-Preis von 19,99 $.",
+        "step2Title": "Finde deine Edition",
+        "step2Description": "Vergleiche digitale und physische Release-Optionen auf jeder unterstützten Plattform.",
+        "step3Title": "Probiere die Demo aus",
+        "step3Description": "Lade die kostenlose Demo während des Steam Next Fest und auf PS5 herunter, bevor du kaufst."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Release-Guides"
+    },
+    "platforms": {
+      "title": "Moss: The Forgotten Relic – Plattformen & VR-Unterstützung",
+      "description": "Jede Plattform, auf der Moss: The Forgotten Relic läuft, einschließlich Steam, PS5, Xbox, Nintendo Switch, Switch 2 und Mac, plus Details zur vollen VR- und Meta-Quest-Unterstützung.",
+      "metaTitle": "Moss: The Forgotten Relic Plattformen – Steam, PS5, Xbox, Switch & VR",
+      "metaDescription": "Moss: The Forgotten Relic Plattformen erklärt: Steam, PS5, Xbox, Nintendo Switch, Switch 2 und Mac, mit vollständigen Details zur VR- und Meta-Quest-Unterstützung.",
+      "categoryLabel": "PLATTFORMEN",
+      "whatIs": "Was ist der Plattform-Guide?",
+      "whatIsDescription": "Eine komplette Übersicht, wo du Moss: The Forgotten Relic spielen kannst. Die Sammlung läuft als verbesserte Nicht-VR-Edition auf Steam, PS5, Xbox One, Xbox Series X|S, Nintendo Switch und Nintendo Switch 2, wobei kein VR-Headset erforderlich ist.",
+      "why": "Warum den Plattform-Guide lesen?",
+      "whySteps": {
+        "step1Title": "Wähle deine Plattform",
+        "step1Description": "Vergleiche die Verfügbarkeit für Steam, PS5, Xbox, Switch und Switch 2 an einem Ort.",
+        "step2Title": "VR-Unterstützung verstehen",
+        "step2Description": "Erfahre, warum diese verbesserte Edition kein VR-Headset benötigt und wie sie sich vom Original unterscheidet.",
+        "step3Title": "Gerätefunktionen prüfen",
+        "step3Description": "Sieh dir die Unterstützung für Controller, Steam Deck, Mac und Next-Gen-Konsolen für jede Version an."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Plattform-Guides"
+    },
+    "demo": {
+      "title": "Moss: The Forgotten Relic – Demo & kostenlose Testversion",
+      "description": "So spielst du die kostenlose Demo von Moss: The Forgotten Relic, einschließlich des Zugangs zum Steam Next Fest, der PS5-Demo und der im Trial enthaltenen Inhalte.",
+      "metaTitle": "Moss: The Forgotten Relic Demo – Kostenloser Steam Next Fest & PS5 Trial",
+      "metaDescription": "Lade die kostenlose Demo von Moss: The Forgotten Relic herunter und spiele sie. Erfahre die Termine zum Steam Next Fest, den Zugang zur PS5-Demo und die vollständige Liste der in der Testversion enthaltenen Inhalte.",
+      "categoryLabel": "DEMO",
+      "whatIs": "Was ist die Demo?",
+      "whatIsDescription": "Die kostenlose spielbare Demo für Moss: The Forgotten Relic, verfügbar während des Steam Next Fest und auf PlayStation 5. Sie ermöglicht es dir, Quill und den Reader durch einen ersten Abschnitt des Bilderbuch-Abenteuers zu führen, bevor die Vollversion für 19,99 $ erscheint.",
+      "why": "Warum die Demo ausprobieren?",
+      "whySteps": {
+        "step1Title": "Spielen vor dem Kauf",
+        "step1Description": "Erlebe die ersten Kapitel und das grundlegende Rätsel-Gameplay kostenlos",
+        "step2Title": "Steam Next Fest finden",
+        "step2Description": "Erhalte die genauen Termine und Schritte zum Herunterladen der Demo während des Steam Next Fest",
+        "step3Title": "Auf PS5 ausprobieren",
+        "step3Description": "Lade die PlayStation 5-Demo herunter und teste die Controller-Unterstützung sowie die Performance"
+      },
+      "featured": "Highlights & Wichtiges",
+      "all": "Alle Demo-Guides"
+    },
+    "reviews": {
+      "title": "Moss The Forgotten Relic Rezensionen & Bewertungen",
+      "description": "Die Kritiken zu Moss: The Forgotten Relic, einschließlich Metacritic-Scores, aggregierten Bewertungen, Previews und dem Testurteil für die Nintendo Switch 2.",
+      "metaTitle": "Moss The Forgotten Relic Rezensionen – Metacritic-Score & Bewertungen",
+      "metaDescription": "Lies Rezensionen zu Moss: The Forgotten Relic, Metacritic-Scores und aggregierte Bewertungen sowie frühe Previews und das Testurteil für die Nintendo Switch 2.",
+      "categoryLabel": "REZENSIONEN",
+      "whatIs": "Was sagen die Rezensionen?",
+      "whatIsDescription": "Eine Zusammenfassung der Kritiker- und Spielerresonanz für Moss: The Forgotten Relic, bestehend aus Wertungen, Metacritic-Aggregaten, Hands-on-Previews und plattformspezifischen Urteilen wie dem Nintendo Switch 2-Test.",
+      "why": "Warum die Rezensionen lesen?",
+      "whySteps": {
+        "step1Title": "Wertungen prüfen",
+        "step1Description": "Sieh dir Metacritic- und aggregierte Bewertungen von Kritikern und Spielern an",
+        "step2Title": "Plattformen vergleichen",
+        "step2Description": "Lies plattformspezifische Urteile, einschließlich des Tests für die Nintendo Switch 2",
+        "step3Title": "Erste Eindrücke sammeln",
+        "step3Description": "Durchstöbere Hands-on-Previews von vor der Veröffentlichung, um die Erwartungen abzugleichen"
+      },
+      "featured": "Highlights & Wichtiges",
+      "all": "Alle Rezensionen"
+    },
+    "features": {
+      "title": "Moss The Forgotten Relic Features & Charaktere",
+      "description": "Die herausragenden Features von Moss: The Forgotten Relic, von Koop- und Multiplayer-Optionen bis hin zur ASL-Gebärdensprachunterstützung und der Heldenmaus Quill.",
+      "metaTitle": "Moss The Forgotten Relic Features – Koop, Multiplayer, Gebärdensprache & Quill",
+      "metaDescription": "Entdecke die Features von Moss: The Forgotten Relic: Koop- und Multiplayer-Modi, ASL-Gebärdensprachunterstützung, Barrierefreiheitsoptionen und die Heldin Quill.",
+      "categoryLabel": "FEATURES",
+      "whatIs": "Was sind die Features?",
+      "whatIsDescription": "Ein Guide zu den prägenden Features von Moss: The Forgotten Relic, einschließlich der Koop- und Multiplayer-Optionen, der ASL-Barrierefreiheit, der Doppelrolle von Quill und Reader sowie dem Charme der tapferen Heldenmaus Quill.",
+      "why": "Warum die Features erkunden?",
+      "whySteps": {
+        "step1Title": "Gemeinsam spielen",
+        "step1Description": "Erfahre, wie ein zweiter Spieler im Koop- und Multiplayer-Modus am Abenteuer teilnehmen kann",
+        "step2Title": "Barrierefreiheits-Tools nutzen",
+        "step2Description": "Entdecke die Unterstützung für ASL-Gebärdensprache und andere Barrierefreiheitsoptionen",
+        "step3Title": "Lerne Quill kennen",
+        "step3Description": "Verstehe das Duo aus Quill und dem Leser im Herzen dieser Reise durch das Märchenbuch"
+      },
+      "featured": "Ausgewählt & Unverzichtbar",
+      "all": "Alle Feature-Guides"
+    },
+    "versions": {
+      "title": "Moss The Forgotten Relic – Spiele & Inhalte",
+      "description": "Alles in Moss: The Forgotten Relic, einschließlich der enthaltenen Spiele Moss, Moss: Book II und dem Twilight Garden DLC, sowie Details zu New Game, Remake und Sequel.",
+      "metaTitle": "Moss The Forgotten Relic – Spiele: Moss, Book II & Twilight Garden DLC",
+      "metaDescription": "Sieh dir an, was in Moss: The Forgotten Relic enthalten ist: die Spiele Moss und Moss: Book II, der Twilight Garden DLC, neue Spielmodi sowie Details zu Remake und Sequel.",
+      "categoryLabel": "INHALT",
+      "whatIs": "Was ist in der Sammlung enthalten?",
+      "whatIsDescription": "Eine Übersicht aller in Moss: The Forgotten Relic enthaltenen Inhalte – Polyarcs verbesserte Non-VR-Sammlung, die das originale Moss, Moss: Book II und den Twilight Garden DLC zu einem kompletten Abenteuer vereint.",
+      "why": "Warum den Inhalts-Guide lesen?",
+      "whySteps": {
+        "step1Title": "Sieh dir an, was enthalten ist",
+        "step1Description": "Erhalte die vollständige Liste der Inhalte von Moss, Moss: Book II und dem Twilight Garden DLC",
+        "step2Title": "Vergleiche es mit dem Original",
+        "step2Description": "Verstehe die Verbesserungen im Remake-Stil gegenüber der ursprünglichen VR-Veröffentlichung",
+        "step3Title": "Plane New Game Plus",
+        "step3Description": "Erfahre mehr über neue Spielmodi und wo sich die Sammlung in der Reihenfolge der Fortsetzungen einordnet"
+      },
+      "featured": "Ausgewählt & Unverzichtbar",
+      "all": "Alle Inhalts-Guides"
+    },
+    "resources": {
+      "title": "Moss The Forgotten Relic – Trailer & Community",
+      "description": "Offizielle Trailer zu Moss: The Forgotten Relic und die aktiven Community-Hubs, einschließlich des Launch-Trailers, Gameplay-Trailers und des r/MossGame-Reddits.",
+      "metaTitle": "Moss The Forgotten Relic – Trailer, Videos & Reddit-Community",
+      "metaDescription": "Schau dir die offiziellen Launch- und Gameplay-Trailer zu Moss: The Forgotten Relic an und tritt der r/MossGame-Reddit-Community bei, um Neuigkeiten, Tipps und Fan-Diskussionen zu erhalten.",
+      "categoryLabel": "RESSOURCEN",
+      "whatIs": "Was sind die Ressourcen?",
+      "whatIsDescription": "Eine Anlaufstelle für offizielle und Community-Ressourcen zu Moss: The Forgotten Relic, die Launch- und Gameplay-Trailer von Polyarc sowie die aktive r/MossGame-Reddit-Community für Neuigkeiten, Tipps und Spielerdiskussionen vereint.",
+      "why": "Warum die Ressourcen nutzen?",
+      "whySteps": {
+        "step1Title": "Schau dir die Trailer an",
+        "step1Description": "Finde die offiziellen Launch- und Gameplay-Trailer von Polyarc an einem Ort",
+        "step2Title": "Tritt der Community bei",
+        "step2Description": "Tausche dich mit Spielern auf dem r/MossGame-Reddit aus, um Neuigkeiten und Tipps zu erhalten",
+        "step3Title": "Bleib auf dem Laufenden",
+        "step3Description": "Bleib auf dem Laufenden über Patchnotizen, Events und Community-Guides, während das Spiel wächst"
+      },
+      "featured": "Ausgewählt & Unverzichtbar",
+      "all": "Alle Ressourcen"
+    }
+  }
 }

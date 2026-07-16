@@ -1,3 +1,897 @@
 {
-  "nav": {}
+  "seo": {
+    "home": {
+      "title": "Wiki Moss : La relique oubliée - Solution & Énigmes",
+      "description": "Explorez la solution complète de Moss : La relique oubliée, la résolution des énigmes, les objets de collection, les boss, les commandes, les plateformes, les succès et les conseils de performance.",
+      "keywords": "Moss : La relique oubliée, solution, énigmes, objets de collection, boss, succès, Steam",
+      "ogTitle": "Wiki Moss : La relique oubliée - Solution & Énigmes",
+      "ogDescription": "Explorez la solution complète de Moss : La relique oubliée, la résolution des énigmes, les objets de collection, les boss, les commandes, les plateformes, les succès et les conseils de performance.",
+      "twitterTitle": "Wiki Moss : La relique oubliée - Solution & Énigmes",
+      "twitterDescription": "Explorez la solution complète de Moss : La relique oubliée, la résolution des énigmes, les objets de collection, les boss, les plateformes, les succès et les conseils de performance."
+    }
+  },
+  "nav": {
+    "guide": "Guide",
+    "release": "Sortie",
+    "platforms": "Plateformes",
+    "demo": "Démo",
+    "reviews": "Avis",
+    "features": "Fonctionnalités",
+    "versions": "Versions",
+    "resources": "Ressources"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer sur Steam",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles similaires",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles bientôt disponibles"
+  },
+  "hero": {
+    "badge": "Jeu d'aventure et d'énigmes dans un livre de contes",
+    "title": "Wiki Moss : La relique oubliée",
+    "description": "Guidez Quill et le Lecteur à travers un livre de contes fantastique et vivant, rempli d'énigmes environnementales, de secrets cachés, de combats légers et de deux aventures connectées.",
+    "getFreeCodesCTA": "Jouer à la démo gratuite",
+    "playOnSteamCTA": "Jouer sur Steam",
+    "stats": {
+      "stat1": {
+        "value": "16 juil. 2026",
+        "label": "Date de sortie"
+      },
+      "stat2": {
+        "value": "19,99 $",
+        "label": "Prix de lancement"
+      },
+      "stat3": {
+        "value": "100k+",
+        "label": "Listes de souhaits Steam"
+      },
+      "stat4": {
+        "value": "2 jeux + DLC",
+        "label": "Aventure complète"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Moss : La relique oubliée",
+    "description": "Une aventure d'énigmes digne d'un livre de contes qui combine Moss, le contenu de Twilight Garden et Moss: Book II en une seule version non VR pour Steam, PlayStation 5, Xbox et les deux générations de Nintendo Switch."
+  },
+  "tools": {
+    "title": "Moss : La relique oubliée",
+    "titleHighlight": "Wiki",
+    "subtitle": "Accédez directement aux détails de la sortie, à la solution complète, aux solutions des énigmes, aux objets de collection, aux armes, aux stratégies de boss et aux conseils de performance.",
+    "cards": [
+      {
+        "icon": "MonitorSmartphone",
+        "title": "Sortie & Plateformes",
+        "description": "Date de sortie, prix de 19,99 $ et toutes les plateformes prises en charge."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guide du débutant",
+        "description": "Commandes doubles, combat et premières énigmes environnementales."
+      },
+      {
+        "icon": "Route",
+        "title": "Solution complète",
+        "description": "Ordre des chapitres pour le Livre I, Twilight Garden et le Livre II."
+      },
+      {
+        "icon": "Puzzle",
+        "title": "Solutions des énigmes",
+        "description": "Solutions étape par étape pour les énigmes environnementales."
+      },
+      {
+        "icon": "Scroll",
+        "title": "Objets de collection",
+        "description": "Parchemins, poussière de relique, secrets et chemins cachés."
+      },
+      {
+        "icon": "Sword",
+        "title": "Armes & Capacités",
+        "description": "Épée, chakram, marteau et pouvoirs du Lecteur."
+      },
+      {
+        "icon": "Skull",
+        "title": "Boss & Combat",
+        "description": "Schémas d'attaque des boss, stratégies et tactiques du Lecteur."
+      },
+      {
+        "icon": "Gauge",
+        "title": "Durée de vie & Performances",
+        "description": "Temps de jeu, Steam Deck, accessibilité et fonctionnalités."
+      }
+    ]
+  },
+  "modules": {
+    "releaseDatePricePlatforms": {
+      "title": "Date de sortie, prix et plateformes de Moss : La relique oubliée",
+      "intro": "Moss : La relique oubliée sort le 16 juillet 2026 au prix de 19,99 $ sur PC, PlayStation, Xbox et les deux générations de Nintendo Switch. Cette réadaptation sur écran plat ne nécessite aucun casque VR et combine Moss, le contenu de Twilight Garden et Moss: Book II.",
+      "platforms": [
+        {
+          "name": "Steam",
+          "release": "16 juillet 2026",
+          "price": "19,99 $",
+          "availability": "PC Windows",
+          "details": "Solo avec prise en charge de la manette et du clavier/souris, succès Steam, Steam Cloud et partage familial."
+        },
+        {
+          "name": "Steam Deck",
+          "release": "16 juillet 2026",
+          "price": "19,99 $ via la version Steam",
+          "availability": "Officiellement vérifié sur Steam Deck",
+          "details": "Aucune édition portable séparée n'est requise. L'achat Steam standard peut être utilisé sur Steam Deck."
+        },
+        {
+          "name": "PlayStation 5",
+          "release": "16 juillet 2026",
+          "price": "19,99 $",
+          "availability": "Sortie numérique PlayStation 5",
+          "details": "Propose des commandes repensées, une nouvelle présentation de caméra et des graphismes améliorés. Le PlayStation VR n'est pas requis."
+        },
+        {
+          "name": "Xbox One",
+          "release": "16 juillet 2026",
+          "price": "19,99 $",
+          "availability": "Xbox One",
+          "details": "La fiche Xbox inclut le Smart Delivery, les succès Xbox et les sauvegardes cloud Xbox."
+        },
+        {
+          "name": "Xbox Series X|S",
+          "release": "16 juillet 2026",
+          "price": "19,99 $",
+          "availability": "Optimisé pour Xbox Series X|S",
+          "details": "Xbox indique 4K Ultra HD, 60 FPS+, Smart Delivery, Xbox Play Anywhere, succès et sauvegardes cloud."
+        },
+        {
+          "name": "Nintendo Switch",
+          "release": "16 juillet 2026",
+          "price": "19,99 $",
+          "availability": "Édition numérique Nintendo Switch",
+          "details": "Les détenteurs de la version Nintendo Switch bénéficient d'une mise à jour gratuite vers la version Nintendo Switch 2 sans frais supplémentaires."
+        },
+        {
+          "name": "Nintendo Switch 2",
+          "release": "16 juillet 2026",
+          "price": "19,99 $",
+          "availability": "Édition native Nintendo Switch 2",
+          "details": "Disponible en version native Switch 2 et sous forme de mise à jour gratuite pour les détenteurs de la version Nintendo Switch."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guide du débutant pour Moss : La relique oubliée",
+      "intro": "Apprenez le système de double commande, résolvez les premières énigmes environnementales et survivez aux premières rencontres avec l'Arcane. Ces étapes se concentrent sur le Livre I et évitent les spoilers majeurs.",
+      "steps": [
+        {
+          "title": "Commencez par le Livre I",
+          "description": "Le menu principal permet d'accéder au Livre I ou au Livre II, mais le Livre I introduit Quill, le Lecteur et les mécaniques d'énigmes dans l'ordre narratif prévu.",
+          "tip": "Le Livre II inclut un récapitulatif et un rappel des commandes, mais ses énigmes et ses combats deviennent plus exigeants."
+        },
+        {
+          "title": "Commandes séparées pour Quill et le Lecteur",
+          "description": "Utilisez les commandes de Quill pour courir, sauter, grimper, esquiver et attaquer à l'épée. Utilisez le curseur du Lecteur et les touches d'interaction pour saisir des blocs, manipuler des plateformes, actionner des mécanismes et immobiliser les ennemis de l'Arcane.",
+          "tip": "Avant d'aborder une salle complexe, identifiez les actions qui incombent à Quill et celles qui reviennent au Lecteur."
+        },
+        {
+          "title": "Observez l'environnement",
+          "description": "Cherchez des traces de griffures sur les rebords, les murs et les surfaces mobiles. Ces repères visuels indiquent généralement où Quill peut grimper ou où un objet doit être placé.",
+          "tip": "Vérifiez les coins au premier plan, les rebords en hauteur et les chemins partiellement cachés par le décor."
+        },
+        {
+          "title": "Préparez le chemin d'abord",
+          "description": "Déplacez les blocs sous les corniches, alignez les plateformes et activez les mécanismes avant d'y envoyer Quill. Préparer l'itinéraire complet réduit les sauts ratés et les réinitialisations inutiles.",
+          "tip": "Si une plateforme retourne à sa position d'origine, continuez de la maintenir avec le Lecteur pendant que Quill traverse."
+        },
+        {
+          "title": "Utilisez les ennemis arcaniques comme outils de résolution d'énigmes",
+          "description": "Le Lecteur peut maintenir ou contrôler les ennemis arcaniques semblables à des scarabées. Déplacez-les sur des plaques de pression, utilisez-les pour activer des interrupteurs ou immobilisez-les pendant que Quill attaque.",
+          "tip": "Ne battez pas tous les ennemis immédiatement, car certaines énigmes nécessitent une unité arcanique active."
+        },
+        {
+          "title": "Combattez, esquivez et soignez",
+          "description": "Utilisez des enchaînements à l'épée courte, esquivez les attaques visibles et créez de l'espace avant de soigner Quill grâce à l'interaction du Lecteur. Une option pour passer les combats est également disponible lors des phases de combat et des affrontements de boss.",
+          "tip": "Maintenez les ennemis proches avec le Lecteur ou déplacez Quill dans un coin sûr avant de la soigner."
+        },
+        {
+          "title": "Collectez les parchemins et la poussière de relique",
+          "description": "Explorez les chemins optionnels à la recherche de parchemins et brisez les tonneaux, les caisses et les pots pour obtenir de la poussière de relique. Les parchemins déverrouillent des vitraux, tandis que la poussière de relique devient importante pour des zones spéciales et du contenu optionnel dans le Livre II.",
+          "tip": "Le jeu sauvegarde automatiquement à intervalles réguliers, et tomber ou être vaincu ramène généralement Quill au dernier point de passage ou au début de la pièce."
+        }
+      ]
+    },
+    "walkthroughChapterOrder": {
+      "title": "Solution complète et ordre des chapitres de Moss : La relique oubliée",
+      "intro": "Suivez l'itinéraire prévu pour le Livre I, le Jardin du Crépuscule et le Livre II sans révéler les fins majeures. Chaque section liste ses chapitres, son objectif principal et ses mécaniques importantes.",
+      "sections": [
+        {
+          "title": "Introduction du Livre I",
+          "chapters": [
+            "Chapitre 1 : La clairière",
+            "Chapitre 2 : Le départ"
+          ],
+          "objective": "Rencontrez Quill, établissez le lien avec le Lecteur, retournez vers sa maison et commencez le voyage pour retrouver Messire Argus.",
+          "mechanics": "Mouvements de base, escalade, saut, blocs mobiles, interrupteurs simples, soin et premiers combats à l'épée.",
+          "spoilerNote": "Couvre la mise en place de l'histoire sans révéler les affrontements majeurs."
+        },
+        {
+          "title": "Temples et ruines du Livre I",
+          "chapters": [
+            "Chapitre 3 : Le temple du bourbier",
+            "Chapitre 4 : Dernier répit",
+            "Chapitre 5 : La ville abandonnée"
+          ],
+          "objective": "Traversez des ruines de plus en plus dangereuses, résolvez des énigmes de plateformes à plusieurs étapes et utilisez les ennemis arcaniques pour actionner des mécanismes.",
+          "mechanics": "Plateformes élévatrices et rotatives, plaques de pression, ennemis arcaniques contrôlés, traversées chronométrées et chemins vers les objets de collection.",
+          "spoilerNote": "Ces chapitres contiennent les trois portails menant au Jardin du Crépuscule."
+        },
+        {
+          "title": "Aventure secondaire du Jardin du Crépuscule",
+          "chapters": [
+            "Portail 1 : Le temple du bourbier",
+            "Portail 2 : Dernier répit",
+            "Portail 3 : La ville abandonnée"
+          ],
+          "objective": "Pénétrez dans le jardin par les trois portails, terminez ses épreuves et obtenez des équipements et des capacités qui révèlent des passages secrets.",
+          "mechanics": "Salles de défi indépendantes, nouvelles interactions d'énigmes, révélation de passages secrets et outils de combat améliorés.",
+          "spoilerNote": "Les portails peuvent être terminés dans n'importe quel ordre, mais y pénétrer dès que vous les croisez permet de garder l'aventure secondaire alignée avec le Livre I."
+        },
+        {
+          "title": "Final du Livre I",
+          "chapters": [
+            "Chapitre 6 : Le domaine de Sarffog",
+            "Chapitre 7 : Le château"
+          ],
+          "objective": "Progressez dans l'approche finale, combinez les capacités de Quill et du Lecteur, et menez à bien la mission de sauvetage du premier livre.",
+          "mechanics": "Phases de plateformes plus rapides, arènes de combat plus vastes, séquences de poursuite et énigmes avancées avec l'aide du Lecteur.",
+          "spoilerNote": "Les détails sur les boss et la fin sont masqués."
+        },
+        {
+          "title": "Première moitié du Livre II",
+          "chapters": [
+            "Chapitre 1 : Le verre du roi",
+            "Chapitre 2 : Lever une armée",
+            "Chapitre 3 : Quand une porte se ferme",
+            "Chapitre 4 : La Voie de l'Étoilé"
+          ],
+          "objective": "Continuez après le Livre I, rassemblez des alliés et des pistes liées au Verre, et débloquez de nouveaux moyens de remodeler les chemins à travers l'environnement.",
+          "mechanics": "Harmonie avec la nature pour faire pousser des lianes, des dioramas plus vastes, une manipulation avancée de l'Arcane et des objectifs élargis.",
+          "spoilerNote": "Le Livre II commence par un récapitulatif de l'histoire et un court rappel des commandes."
+        },
+        {
+          "title": "Seconde moitié du Livre II",
+          "chapters": [
+            "Chapitre 5 : Pas les bienvenus ici",
+            "Chapitre 6 : Le Tueur de serpent",
+            "Chapitre 7 : Affaires en suspens",
+            "Chapitre 8 : Des cendres",
+            "Chapitre 9 : Le domaine de Tylan"
+          ],
+          "objective": "Obtenez les derniers outils et alliés, traversez les régions de fin de jeu et terminez la campagne de Quill contre la menace de l'Arcane.",
+          "mechanics": "Déplacement à l'épée chargée, interrupteurs au chakram, énigmes au marteau, changement de personnage, parcours de miroirs et combats de boss plus ardus.",
+          "spoilerNote": "Le sort final des personnages et la fin ne sont pas décrits."
+        }
+      ]
+    },
+    "puzzleSolutions": {
+      "title": "Solutions des énigmes de Moss : La relique oubliée",
+      "intro": "Utilisez ces solutions sans trop de spoilers pour les types d'énigmes récurrents dans les deux livres. Chaque guide explique le mécanisme requis sans révéler les événements majeurs de l'histoire.",
+      "puzzles": [
+        {
+          "puzzle": "Bloc mobile et corniche élevée",
+          "mechanic": "Déplacement d'objets par le Lecteur",
+          "steps": [
+            "Trouvez la corniche marquée par des éraflures visibles.",
+            "Utilisez le curseur du Lecteur pour saisir le bloc ou la statue en surbrillance.",
+            "Faites-le glisser directement sous la corniche et relâchez-le sur une surface plane.",
+            "Déplacez Quill sur le bloc et sautez ou grimpez sur la corniche."
+          ],
+          "tip": "Si Quill ne peut pas grimper, ajustez le bloc jusqu'à ce que son bord supérieur soit proche de la corniche éraflée."
+        },
+        {
+          "puzzle": "Traversée de plateforme surélevée ou rotative",
+          "mechanic": "Contrôle des plateformes par le Lecteur",
+          "steps": [
+            "Déplacez Quill sur la plateforme de départ sécurisée.",
+            "Saisissez la plateforme mobile avec le Lecteur.",
+            "Soulevez-la, faites-la glisser ou pivoter jusqu'à ce qu'elle relie les deux bords praticables.",
+            "Maintenez le mécanisme s'il se réinitialise automatiquement.",
+            "Faites traverser Quill avant de relâcher la plateforme."
+          ],
+          "tip": "Certaines salles nécessitent de déplacer la même plateforme deux fois : une fois pour transporter Quill et une seconde pour créer la voie de sortie."
+        },
+        {
+          "puzzle": "Ennemi de l'Arcane sur une plaque de pression",
+          "mechanic": "Contrôle des ennemis par le Lecteur",
+          "steps": [
+            "Laissez au moins un ennemi de l'Arcane semblable à un scarabée en vie.",
+            "Étourdissez-le ou saisissez-le avec l'interaction du Lecteur.",
+            "Faites glisser l'ennemi sur la plaque de pression ou le mécanisme cible.",
+            "Maintenez-le en place jusqu'à ce que la porte, le pont ou la plateforme ait fini de bouger.",
+            "Faites passer Quill avant de vaincre ou de relâcher l'ennemi."
+          ],
+          "tip": "Si le mécanisme se désactive, centrez l'ennemi sur la plaque ou continuez à le maintenir avec le Lecteur."
+        },
+        {
+          "puzzle": "Interrupteur chronométré avec Quill et un Arcane",
+          "mechanic": "Double contrôle",
+          "steps": [
+            "Placez Quill à côté du chemin qui s'ouvre lorsque l'interrupteur est activé.",
+            "Contrôlez un ennemi arcane avec le Lecteur et déplacez-le vers l'interrupteur.",
+            "Déclenchez l'interrupteur avec l'ennemi.",
+            "Guidez immédiatement Quill à travers le chemin ouvert tout en maintenant le contrôle du Lecteur.",
+            "Relâchez l'ennemi une fois que Quill a atteint une plateforme sûre."
+          ],
+          "tip": "Positionnez Quill avant d'activer l'interrupteur pour ne pas perdre de temps."
+        },
+        {
+          "puzzle": "Chemin caché ou plateforme de verre",
+          "mechanic": "Capacité de révélation de chemin",
+          "steps": [
+            "Cherchez une impasse, un objet de collection inaccessible ou un chemin incomplet.",
+            "Utilisez l'interaction de révélation acquise sur la zone marquée à proximité.",
+            "Attendez que la plateforme de verre ou le chemin caché apparaisse.",
+            "Faites traverser Quill et fouillez la zone environnante à la recherche d'objets de collection optionnels."
+          ],
+          "tip": "Les récompenses du Jardin du Crépuscule et les capacités ultérieures révèlent des chemins qui étaient inaccessibles auparavant."
+        },
+        {
+          "puzzle": "Croissance de lianes et chemin d'escalade",
+          "mechanic": "Harmonisation avec la nature",
+          "steps": [
+            "Localisez la plante en dormance ou la liane détachée près de la destination.",
+            "Utilisez l'interaction d'harmonisation avec la nature du Lecteur pour la faire pousser ou la rediriger.",
+            "Connectez la liane à un mur, un rebord ou une seconde plante jusqu'à ce qu'elle forme un chemin continu.",
+            "Guidez Quill sur la liane et grimpez jusqu'à la plateforme suivante."
+          ],
+          "tip": "Si la liane est trop courte, cherchez un autre point d'ancrage végétal ou approchez-la du côté opposé."
+        },
+        {
+          "puzzle": "Interrupteur pour épée, chakram ou marteau",
+          "mechanic": "Énigmes d'armes du Livre II",
+          "steps": [
+            "Identifiez si la cible est éloignée, lourde ou liée à un vide à franchir.",
+            "Utilisez la capacité d'épée chargée pour les passages nécessitant une ruée et les mécanismes liés à l'épée.",
+            "Utilisez le chakram lorsqu'un interrupteur doit être frappé à distance.",
+            "Utilisez le marteau sur les objets lourds et les mécanismes qui ignorent les attaques plus légères.",
+            "Terminez le chemin ouvert avant que le mécanisme ne se réinitialise."
+          ],
+          "tip": "La distance, le poids et la forme de la cible indiquent généralement quelle arme est requise."
+        },
+        {
+          "puzzle": "Orientation des miroirs en fin de jeu",
+          "mechanic": "Lumière et réflexion",
+          "steps": [
+            "Trouvez la source de lumière, chaque miroir mobile et le récepteur final.",
+            "Faites pivoter en premier le miroir le plus proche de la source.",
+            "Suivez le faisceau et ajustez chaque miroir dans l'ordre.",
+            "Continuez jusqu'à ce que le faisceau atteigne le récepteur.",
+            "Déplacez Quill après l'activation du mécanisme ou du chemin connecté."
+          ],
+          "tip": "Travaillez depuis la source de lumière vers le récepteur afin que le miroir mal aligné soit facile à identifier."
+        }
+      ]
+    },
+    "scrollsDustSecrets": {
+      "title": "Moss : La relique oubliée - Parchemins, Poussière et Secrets",
+      "intro": "Suivez les fragments oubliés, la poussière de relique, les récompenses de vitraux, les portails du Jardin du Crépuscule et les zones d'armure secrète à travers les deux livres.",
+      "groups": [
+        {
+          "label": "Livre I",
+          "title": "Parchemins de fragments oubliés",
+          "target": "31 fragments de parchemin répartis sur six chapitres principaux",
+          "locations": [
+            "La Clairière",
+            "Le Départ",
+            "Le Temple du Marais",
+            "Dernier Répit",
+            "La Ville Abandonnée",
+            "Le Château"
+          ],
+          "checklist": [
+            "Inspectez les toits, les rebords arrière et les plateformes situées au-dessus de l'itinéraire normal.",
+            "Déplacez les blocs contrôlés par le Lecteur vers d'autres positions pour atteindre des rebords optionnels.",
+            "Regardez derrière les bâtiments, les grilles, les statues et les éléments de décor au premier plan avant de changer de pièce.",
+            "Rassembler les fragments de parchemin restaure le vitrail affiché entre les chapitres."
+          ]
+        },
+        {
+          "label": "Livre I",
+          "title": "Secrets du Jardin du Crépuscule",
+          "target": "Trois portails cachés",
+          "locations": [
+            "Le Temple du Marais",
+            "Dernier Répit",
+            "La Ville Abandonnée"
+          ],
+          "checklist": [
+            "Fouillez le côté de la grande porte dans le Temple du Marais.",
+            "Regardez derrière les piliers près du début du Dernier Répit.",
+            "Explorez les abords de la ville juste avant d'entrer dans la taverne de la Ville Abandonnée.",
+            "Terminer le chemin lié du Jardin du Crépuscule ajoute des énigmes optionnelles, des récompenses d'équipement et l'affrontement contre le Commandant Refondu."
+          ]
+        },
+        {
+          "label": "Livre II",
+          "title": "Ensembles de fragments de vitrail",
+          "target": "48 fragments oubliés, avec huit fragments attribués à chacune des six zones de vitraux",
+          "locations": [
+            "Château",
+            "Royaume des Sprites",
+            "Jardin et Conservatoire",
+            "Montagnes et Profondeurs",
+            "Fonderie",
+            "La Cime"
+          ],
+          "checklist": [
+            "Retournez dans les pièces précédentes après avoir obtenu l'Harmonisation avec la nature, la Ruée à l'épée, le Chakram chargé et le Marteau de Cariel.",
+            "Utilisez les lianes grimpantes et les ponts de racines pour atteindre des plateformes surélevées ou auparavant isolées.",
+            "Révélez les plateformes de verre cachées et inspectez les chemins dissimulés derrière les structures au premier plan.",
+            "Utilisez le marteau sur les mécanismes blindés et les obstacles lourds bloquant l'accès aux objets de collection."
+          ]
+        },
+        {
+          "label": "Livre II",
+          "title": "Poussière de relique et armure secrète",
+          "target": "Brisez les contenants et ouvrez les trois sanctuaires de reliques",
+          "locations": [],
+          "checklist": [
+            "Brisez chaque tonneau, caisse, pot et contenant destructible avec Quill ou le Lecteur.",
+            "Vérifiez les deux côtés des ponts, des ascenseurs et des transitions de pièces, car les conteneurs de poussière peuvent se trouver hors du champ de la caméra principale.",
+            "Utilisez la poussière collectée pour ouvrir les portes scellées des sanctuaires de reliques.",
+            "Explorez entièrement chaque sanctuaire pour obtenir les ensembles d'armure optionnels qui y sont stockés."
+          ]
+        },
+        {
+          "label": "Vérification de la progression",
+          "title": "Comment confirmer les objets de collection manquants",
+          "target": "Vérifiez votre progression avant de recommencer des sections entières",
+          "locations": [],
+          "checklist": [
+            "Pour le Livre I, ouvrez la Sélection de chapitre et inspectez la progression des objets de collection affichée pour chaque chapitre.",
+            "Pour le Livre II, utilisez l'écran des Objectifs pour passer en revue les fragments, la poussière et les autres objectifs non terminés.",
+            "Terminez l'histoire avant le nettoyage final afin que toutes les capacités de déplacement soient disponibles.",
+            "Retournez dans les pièces contenant des rebords inaccessibles, des mécanismes inactifs, des plateformes en verre ou des portes de sanctuaire scellées."
+          ]
+        }
+      ]
+    },
+    "weaponsAbilities": {
+      "title": "Armes et capacités de Moss : La relique oubliée",
+      "intro": "Découvrez comment l'épée, le chakram, le marteau et les capacités assistées par le Lecteur lient le combat, les énigmes environnementales et le retour sur vos pas pour les objets de collection.",
+      "items": [
+        {
+          "name": "Épée",
+          "category": "Arme de mêlée",
+          "icon": "Épées",
+          "availability": "L'arme principale de Quill tout au long des deux livres",
+          "combatUse": "Des coups rapides à courte portée et des attaques balayées contre les ennemis standards de l'Arcane.",
+          "ability": "Ruée à l'épée",
+          "abilityUnlock": "Déverrouillée via un sanctuaire de relique dans le Conservatoire au cours du Livre II.",
+          "abilityUse": "Chargez l'épée avec l'aide du Lecteur, puis ruez-vous à travers les ennemis ou par-dessus de larges fossés.",
+          "explorationUse": "Traversez les fossés marqués, coupez les cordes et atteignez les fragments qui étaient inaccessibles lors de votre première visite."
+        },
+        {
+          "name": "Chakram",
+          "category": "Arme à distance",
+          "icon": "Disc3",
+          "availability": "Obtenu au cours du Livre II lors du voyage de Quill avec Sahima",
+          "combatUse": "Frappez les ennemis éloignés et touchez les cibles aussi bien au lancer qu'au retour.",
+          "ability": "Chakram chargé",
+          "abilityUnlock": "Activé avec l'aide du Lecteur après avoir obtenu l'arme.",
+          "abilityUse": "Lancez l'arme chargée sur des surfaces ou des mécanismes éloignés, puis rappelez-la en cas de besoin.",
+          "explorationUse": "Ouvrez des passages à distance, déclenchez des objets inaccessibles et libérez des voies impossibles à atteindre avec l'épée."
+        },
+        {
+          "name": "Marteau de Cariel",
+          "category": "Arme lourde",
+          "icon": "Marteau",
+          "availability": "Obtenu dans la Fonderie au cours du Livre II",
+          "combatUse": "Des frappes lentes et puissantes, efficaces contre les ennemis Forgés blindés.",
+          "ability": "Piège au marteau",
+          "abilityUnlock": "Chargez le marteau et laissez le Lecteur positionner sa zone d'impact magique.",
+          "abilityUse": "Déclenchez l'effet de marteau suspendu lorsque des ennemis ou les points faibles d'un boss pénètrent dans la zone marquée.",
+          "explorationUse": "Fracassez les machines, les barrières blindées et les mécanismes lourds requis pour les futurs objets de collection."
+        },
+        {
+          "name": "Harmonie avec la nature",
+          "category": "Pouvoir de déplacement du Lecteur",
+          "icon": "Pousse",
+          "availability": "Acquis dans le Royaume des Sprites au cours du Livre II",
+          "combatUse": "Principalement une capacité d'exploration plutôt qu'une attaque directe.",
+          "ability": "Faire pousser des plantes et des ponts de racines",
+          "abilityUnlock": "Obtenu via la trame narrative du Royaume des Sprites.",
+          "abilityUse": "Faire pousser du lierre grimpant, étendre les chemins de plantes et relier les racines par-dessus les vides.",
+          "explorationUse": "Crée de nouvelles voies verticales et permet de terminer plusieurs zones précédentes lors de retours en arrière."
+        },
+        {
+          "name": "Révélation de plateformes de verre",
+          "category": "Pouvoir d'exploration du Lecteur",
+          "icon": "Œil",
+          "availability": "Introduit alors que le Livre II étend les capacités de Quill et du Lecteur",
+          "combatUse": "Aide à repositionner Quill lors des affrontements comportant des terrains cachés ou magiques.",
+          "ability": "Révéler les plateformes cachées",
+          "abilityUnlock": "Utilisé lorsque les zones ultérieures introduisent des chemins et des énigmes en verre.",
+          "abilityUse": "Révèle les plateformes invisibles ou inutilisables lors d'une visite précédente.",
+          "explorationUse": "Ouvre des itinéraires optionnels menant à des fragments de parchemins, des chemins de sanctuaires et des zones secrètes."
+        },
+        {
+          "name": "Interaction du Lecteur",
+          "category": "Capacité de soutien principale",
+          "icon": "Main",
+          "availability": "Disponible tout au long de l'aventure et étendue dans le Livre II",
+          "combatUse": "Étourdir ou contrôler les ennemis, repositionner les menaces et soigner Quill lorsqu'elle est hors de danger immédiat.",
+          "ability": "Manipuler le monde",
+          "abilityUnlock": "Introduit lors des tutoriels d'ouverture de chaque livre.",
+          "abilityUse": "Déplacer des blocs, faire pivoter des plateformes, tirer des mécanismes, briser des conteneurs et contrôler certains ennemis arcaniques.",
+          "explorationUse": "Placer les ennemis sur des plaques de pression, diriger leurs attaques vers des interrupteurs et créer des chemins sûrs pour Quill."
+        }
+      ]
+    },
+    "bossesCombatGuide": {
+      "title": "Guide des boss et du combat de Moss : La relique oubliée",
+      "intro": "Utilisez les esquives et les armes de Quill ainsi que les soins du Lecteur, le contrôle des ennemis et les interactions environnementales pour surmonter les affrontements majeurs.",
+      "bosses": [
+        {
+          "title": "Salles de combat des Arcanes et des Forgés",
+          "encounter": "Des groupes mixtes de Screechers, Tickers, Bombers, Scorchers et de Forgés blindés apparaissent tout au long des deux livres.",
+          "attackPatterns": [
+            "Les ennemis de mêlée chargent ou frappent lorsque Quill reste à proximité.",
+            "Les ennemis à distance tirent en direction de la position actuelle de Quill.",
+            "Les ennemis explosifs peuvent blesser les ennemis proches lorsqu'ils sont contrôlés ou redirigés."
+          ],
+          "strategy": [
+            "Esquivez sur les côtés plutôt que de reculer contre les murs ou le décor au premier plan.",
+            "Éliminez d'abord les attaquants à distance lorsqu'ils limitent les mouvements de Quill.",
+            "Utilisez le Lecteur pour étourdir, retenir ou repositionner un ennemi pendant que Quill en attaque un autre.",
+            "Utilisez les ennemis contrôlés pour activer des interrupteurs, bloquer des attaques ou infliger des dégâts à d'autres unités de Forgés."
+          ],
+          "readerRole": "Contrôlez les ennemis dangereux, déclenchez les effets d'armes chargées et soignez Quill après l'avoir éloignée des attaques actives.",
+          "skipCombat": "Les salles de combat optionnelles peuvent être évitées grâce à l'option Passer le combat, bien que les ennemis requis pour les énigmes doivent tout de même être manipulés."
+        },
+        {
+          "title": "Sarffog",
+          "encounter": "Le serpent géant constitue la menace ultime du Livre I.",
+          "attackPatterns": [
+            "Sarffog lance des attaques enflammées sur le chemin de Quill.",
+            "L'affrontement combine escalade rapide, déplacements sur plateformes et esquives synchronisées.",
+            "Les sections suivantes obligent Quill à progresser tandis que le serpent exerce une pression sur le chemin disponible."
+          ],
+          "strategy": [
+            "Gardez Quill en mouvement et attendez que chaque attaque de feu passe avant de tenter le saut suivant.",
+            "Utilisez le Lecteur pour actionner les éléments de l'environnement dès que la voie se libère.",
+            "Évitez de vous arrêter sur les plateformes étroites où la prochaine attaque pourrait piéger Quill.",
+            "Privilégiez l'accès au prochain niveau sûr plutôt que de tenter des attaques inutiles."
+          ],
+          "readerRole": "Maintenez la voie d'évacuation, protégez Quill pendant les transitions et réagissez rapidement aux objets interactifs dans l'arène.",
+          "skipCombat": "L'option Passer le combat peut être utilisée lorsque l'invite d'affrontement apparaît."
+        },
+        {
+          "title": "Le Gardien",
+          "encounter": "Un imposant boss de la Fonderie affronté avec le marteau de Cariel dans le Livre II.",
+          "attackPatterns": [
+            "Le Gardien marque des zones avant d'abattre ses poings ou son marteau chauffé à blanc dans l'arène.",
+            "Des ennemis forgés entrent en scène pendant que le Gardien prépare ses attaques suivantes.",
+            "Les coups de marteau libèrent des ondes de chaleur qui se propagent sur la plateforme."
+          ],
+          "strategy": [
+            "Éloignez-vous des marqueurs d'impact orange avant chaque coup.",
+            "Chargez le marteau de Quill et placez le piège à marteau là où le membre du Gardien restera exposé.",
+            "Sautez par-dessus les ondes de chaleur qui se propagent plutôt que d'essayer de les distancer.",
+            "Lorsque le marteau du Gardien devient vulnérable, utilisez le Lecteur pour le retenir et attaquez ses points faibles lumineux avec Quill."
+          ],
+          "readerRole": "Activez les pièges à marteau, retenez l'arme du boss pendant ses phases de vulnérabilité et aidez à contrôler les plus petits ennemis forgés.",
+          "skipCombat": "L'affrontement prend en charge la fonctionnalité d'accessibilité optionnelle Passer le combat."
+        },
+        {
+          "title": "Tylan",
+          "encounter": "Le hibou Tylan est le dernier boss majeur au Sommet dans le Livre II.",
+          "attackPatterns": [
+            "Tylan effectue des attaques répétées d'écrasement au sol avec un impact final retardé.",
+            "L'affrontement comprend une section rapide de plateforme et de poursuite.",
+            "L'arène finale combine attaques aériennes, cibles environnementales et courtes fenêtres de dégâts."
+          ],
+          "strategy": [
+            "Préparez un piège à marteau avant l'écrasement au sol final de chaque séquence d'ouverture.",
+            "Pendant la poursuite, donnez la priorité aux réceptions sûres et évitez d'attaquer à moins que la voie ne soit sécurisée.",
+            "Utilisez le chakram chargé sur la lanterne magique au loin.",
+            "Utilisez la ruée à l'épée pour couper la corde opposée, puis tirez la cloche sur la trajectoire de Tylan avec le Lecteur.",
+            "Attaquez rapidement pendant que Tylan est étourdi contre la cloche, puis préparez-vous pour le cycle suivant."
+          ],
+          "readerRole": "Chargez les armes de Quill, manipulez la cloche et gardez un œil sur Tylan pendant que Quill s'occupe des ennemis et des plateformes.",
+          "skipCombat": "Les joueurs peuvent utiliser l'option Passer le combat s'ils préfèrent poursuivre l'histoire sans terminer toute la séquence du boss."
+        }
+      ]
+    },
+    "gameLengthPerformanceAccessibility": {
+      "title": "Durée de vie, performances et accessibilité de Moss : La relique oubliée",
+      "intro": "Comparez la durée de l'histoire, la récupération des objets de collection, les performances en mode portable, les fonctionnalités PC, les sous-titres, la sauvegarde automatique et la prise en charge de l'option Passer le combat.",
+      "rows": [
+        {
+          "category": "Durée de l'histoire",
+          "scope": "Livre I",
+          "data": "Environ 4 heures",
+          "notes": "Couvre la trame principale de l'histoire sans trouver tous les parchemins ou réceptacles de poussière."
+        },
+        {
+          "category": "Durée de l'histoire",
+          "scope": "Livre II",
+          "data": "Environ 5,5 heures",
+          "notes": "Le Livre II est plus vaste, introduit plus d'armes et propose des énigmes ainsi que des combats de boss plus complexes."
+        },
+        {
+          "category": "Pack complet",
+          "scope": "Livre I et Livre II",
+          "data": "Environ 9 à 10 heures",
+          "notes": "Terminer les sentiers du Jardin du Crépuscule, les Sanctuaires de Reliques, les ensembles d'armures, les parchemins et la collecte de poussière ajoute plusieurs heures supplémentaires."
+        },
+        {
+          "category": "Steam Deck",
+          "scope": "Steam",
+          "data": "Validé sur Steam Deck",
+          "notes": "La version PC prend en charge les succès Steam, le Steam Cloud, le partage familial et nécessite environ 15 Go d'espace de stockage."
+        },
+        {
+          "category": "Performances en mode portable",
+          "scope": "Nintendo Switch 2",
+          "data": "60 FPS en modes portable et téléviseur",
+          "notes": "Les critiques font état d'une image nette, de chargements de zones rapides et d'un texte lisible en mode portable. La taille de téléchargement indiquée pour la Switch 2 est de 10,3 Go."
+        },
+        {
+          "category": "Versions Nintendo",
+          "scope": "Switch et Switch 2",
+          "data": "Versions natives distinctes",
+          "notes": "Selon la mise à jour de lancement de Polyarc, les acheteurs de la version Nintendo Switch bénéficient de la mise à niveau vers la Switch 2 sans frais supplémentaires."
+        },
+        {
+          "category": "Sauvegarde",
+          "scope": "Toutes les plateformes",
+          "data": "Sauvegarde automatique régulière",
+          "notes": "Les morts et les sauts manqués font recommencer depuis un point de passage récent, limitant ainsi la perte de progression."
+        },
+        {
+          "category": "Voix et sous-titres",
+          "scope": "Toutes les plateformes",
+          "data": "Entièrement doublé avec sous-titres optionnels",
+          "notes": "Steam répertorie dix langues d'interface et de sous-titres prises en charge, avec un doublage complet disponible dans certaines langues."
+        },
+        {
+          "category": "Accessibilité",
+          "scope": "Toutes les plateformes",
+          "data": "Passer les combats",
+          "notes": "Une invite apparaît lors des affrontements et peut également être utilisée pendant les combats de boss. Cela ne supprime pas les interactions avec les ennemis nécessaires aux énigmes environnementales."
+        },
+        {
+          "category": "Présentation",
+          "scope": "PC et consoles",
+          "data": "Visuels améliorés et caméra de suivi intelligente",
+          "notes": "L'édition pour écran plat comprend des visuels retravaillés, de nouvelles cinématiques faites à la main et une caméra conçue pour garder Quill visible sans les mouvements de la VR."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Foire aux",
+    "titleHighlight": "Questions",
+    "subtitle": "Tout ce que vous devez savoir sur Moss : La relique oubliée",
+    "questions": [
+      {
+        "question": "Moss : La relique oubliée est-il un jeu solo ?",
+        "answer": "Oui. Moss : La relique oubliée est une aventure narrative en solo. Le pack combine Moss, le contenu du Jardin du Crépuscule et Moss : Livre II, et aucun casque VR n'est requis."
+      },
+      {
+        "question": "Ai-je besoin d'un casque VR pour jouer à Moss : La relique oubliée ?",
+        "answer": "Non. Moss : La relique oubliée est conçu pour les écrans standards avec des commandes repensées et une nouvelle caméra de suivi. Il fonctionne sur Steam, PlayStation 5, Xbox et les deux générations de Nintendo Switch sans aucun équipement VR."
+      },
+      {
+        "question": "Combien coûte Moss : La relique oubliée et quand sort-il ?",
+        "answer": "Moss : La relique oubliée sortira le 16 juillet 2026 au prix de 19,99 $. Une démo gratuite est disponible sur Steam pendant le Steam Next Fest afin que vous puissiez essayer le début du jeu avant son lancement."
+      },
+      {
+        "question": "Moss : La relique oubliée est-il validé sur Steam Deck ?",
+        "answer": "Oui. La version Steam de Moss : La relique oubliée est officiellement validée sur Steam Deck, et le même achat fonctionne sur la console portable sans qu'une édition distincte ne soit nécessaire."
+      },
+      {
+        "question": "Quelle est la durée de vie de Moss : La relique oubliée ?",
+        "answer": "Une partie standard de l'histoire de Moss : La relique oubliée prend environ neuf à dix heures sur l'ensemble du Livre I et du Livre II, avec du temps supplémentaire pour les fragments de parchemin, la poussière de relique et la recherche des armures secrètes."
+      },
+      {
+        "question": "Est-il possible de passer les combats dans Moss : La relique oubliée ?",
+        "answer": "Oui. Une option « Passer le combat » apparaît lors des affrontements et des combats de boss dans Moss : La relique oubliée, bien que les ennemis nécessaires à la résolution des énigmes environnementales doivent toujours être manipulés."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à commencer votre voyage dans Moss : La relique oubliée ?",
+    "description": "Rejoignez la communauté Moss sur Discord pour découvrir des guides de jeu, des solutions d'énigmes, des guides d'objets de collection et les dernières actualités !",
+    "joinCommunity": "Rejoindre Discord",
+    "joinGame": "Jouer sur Steam"
+  },
+  "footer": {
+    "title": "Wiki Moss : La relique oubliée",
+    "description": "Votre hub de ressources complet pour les guides de jeu, solutions d'énigmes, objets de collection, combats, succès et guides de performance de Moss : La relique oubliée.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Mentions légales",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Communauté Steam",
+    "steamStore": "Boutique Steam",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Wiki Moss : La relique oubliée. Non affilié à Polyarc Games.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guide de jeu et solution pour Moss : La relique oubliée",
+      "description": "Solution complète de l'histoire de Moss : La relique oubliée couvrant le Livre I, Le Jardin du Crépuscule et le Livre II, avec des solutions d'énigmes, des tactiques de boss et les parcours par chapitre.",
+      "metaTitle": "Solution de Moss : La relique oubliée - Livre I, Livre II et Le Jardin du Crépuscule",
+      "metaDescription": "Solution complète de Moss : La relique oubliée avec les parcours du Livre I, du Jardin du Crépuscule et du Livre II, les solutions d'énigmes, les stratégies de boss et l'emplacement des objets de collection.",
+      "categoryLabel": "SOLUTION",
+      "whatIs": "Qu'est-ce que la solution ?",
+      "whatIsDescription": "Un guide chapitre par chapitre de Moss : La relique oubliée, la collection améliorée hors VR qui regroupe Moss, Moss : Livre II et le DLC Le Jardin du Crépuscule. Il accompagne Quill et le Lecteur à travers chaque pièce, énigme, combat de boss et étape de l'histoire au cours de ces trois aventures.",
+      "why": "Pourquoi utiliser la solution ?",
+      "whySteps": {
+        "step1Title": "Suivre le chemin de l'histoire",
+        "step1Description": "Parcourez le Livre I, Le Jardin du Crépuscule et le Livre II dans l'ordre grâce à des indications claires, pièce par pièce",
+        "step2Title": "Résoudre chaque énigme",
+        "step2Description": "Obtenez des solutions étape par étape pour les plateformes, les plaques de pression, le contrôle des ennemis et les interactions avec le Lecteur",
+        "step3Title": "Vaincre chaque boss",
+        "step3Description": "Découvrez les mécaniques des ennemis, les phases des boss et quand l'option Passer le combat permet de poursuivre l'histoire"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Toutes les soluces"
+    },
+    "release": {
+      "title": "Date de sortie et prix de Moss : La relique oubliée",
+      "description": "Détails du lancement de Moss : La relique oubliée, y compris la date de sortie le 16 juillet 2026, le prix de 19,99 $, la démo gratuite et la disponibilité de l'édition physique.",
+      "metaTitle": "Date de sortie, prix et édition physique de Moss : La relique oubliée",
+      "metaDescription": "Moss : La relique oubliée sortira le 16 juillet 2026 au prix de 19,99 $ sur Steam, PS5, Xbox et Nintendo Switch. Retrouvez tous les détails sur la date de sortie, le prix et la version physique.",
+      "categoryLabel": "SORTIE",
+      "whatIs": "Qu'est-ce que le guide de sortie ?",
+      "whatIsDescription": "Informations de lancement confirmées pour Moss : La relique oubliée, la collection améliorée non-VR de Polyarc regroupant Moss, Moss: Book II et le DLC Twilight Garden. Couvre la date de sortie, le prix de lancement de 19,99 $, la démo gratuite et les projets d'édition physique sur Steam, PS5, Xbox, Nintendo Switch et Nintendo Switch 2.",
+      "why": "Pourquoi consulter le guide de sortie ?",
+      "whySteps": {
+        "step1Title": "Confirmer la date",
+        "step1Description": "Vérifiez le lancement mondial le 16 juillet 2026 et le prix de lancement de 19,99 $",
+        "step2Title": "Trouver votre édition",
+        "step2Description": "Comparez les options de sortie numérique et physique sur toutes les plateformes prises en charge",
+        "step3Title": "Essayer la démo",
+        "step3Description": "Téléchargez la démo gratuite pendant le Steam Next Fest et sur PS5 avant d'acheter"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides de sortie"
+    },
+    "platforms": {
+      "title": "Plateformes et support VR de Moss : La relique oubliée",
+      "description": "Toutes les plateformes sur lesquelles tourne Moss : La relique oubliée, y compris Steam, PS5, Xbox, Nintendo Switch, Switch 2 et Mac, ainsi que les détails complets sur le support VR et Meta Quest.",
+      "metaTitle": "Plateformes de Moss : La relique oubliée - Steam, PS5, Xbox, Switch et VR",
+      "metaDescription": "Les plateformes de Moss : La relique oubliée expliquées : Steam, PS5, Xbox, Nintendo Switch, Switch 2 et Mac, avec tous les détails sur le support VR et Meta Quest.",
+      "categoryLabel": "PLATEFORMES",
+      "whatIs": "Qu'est-ce que le guide des plateformes ?",
+      "whatIsDescription": "Un aperçu complet des plateformes pour jouer à Moss : La relique oubliée. La collection fonctionne comme une édition améliorée non-VR sur Steam, PS5, Xbox One, Xbox Series X|S, Nintendo Switch et Nintendo Switch 2, sans casque VR requis.",
+      "why": "Pourquoi consulter le guide des plateformes ?",
+      "whySteps": {
+        "step1Title": "Choisir votre plateforme",
+        "step1Description": "Comparez la disponibilité sur Steam, PS5, Xbox, Switch et Switch 2 en un seul endroit",
+        "step2Title": "Comprendre le support VR",
+        "step2Description": "Découvrez pourquoi cette édition améliorée ne nécessite aucun casque VR et en quoi elle diffère de l'originale",
+        "step3Title": "Vérifier les fonctionnalités des appareils",
+        "step3Description": "Découvrez la prise en charge des manettes, du Steam Deck, du Mac et des consoles de nouvelle génération pour chaque version"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides des plateformes"
+    },
+    "demo": {
+      "title": "Démo et essai gratuit de Moss : La relique oubliée",
+      "description": "Comment jouer à la démo gratuite de Moss : La relique oubliée, y compris l'accès au Steam Next Fest, la démo PS5 et le contenu complet inclus dans l'essai.",
+      "metaTitle": "Démo de Moss : La relique oubliée - Essai gratuit Steam Next Fest et PS5",
+      "metaDescription": "---",
+      "categoryLabel": "Téléchargez et jouez à la démo gratuite de Moss : La relique oubliée. Obtenez les dates du Steam Next Fest, l'accès à la démo PS5 et la liste complète du contenu inclus dans l'essai.",
+      "whatIs": "DÉMO",
+      "whatIsDescription": "Qu'est-ce que la démo ?",
+      "why": "La démo jouable gratuite de Moss : La relique oubliée, disponible pendant le Steam Next Fest et sur PlayStation 5. Elle vous permet de guider Quill et le Reader à travers un premier aperçu de cette aventure tirée d'un livre de contes avant la sortie complète à 19,99 $.",
+      "whySteps": {
+        "step1Title": "Pourquoi essayer la démo ?",
+        "step1Description": "Jouer avant d'acheter",
+        "step2Title": "Découvrez gratuitement les premiers chapitres et le gameplay de base axé sur les énigmes",
+        "step2Description": "Trouver le Steam Next Fest",
+        "step3Title": "Obtenez les dates exactes et les étapes pour télécharger la démo pendant le Steam Next Fest",
+        "step3Description": "Essayer sur PS5"
+      },
+      "featured": "Téléchargez la démo PlayStation 5 et testez la compatibilité de la manette ainsi que les performances",
+      "all": "En vedette et essentiel"
+    },
+    "reviews": {
+      "title": "Tous les guides de la démo",
+      "description": "Avis et notes de Moss : La relique oubliée",
+      "metaTitle": "L'accueil critique de Moss : La relique oubliée, incluant les scores Metacritic, les notes globales, les aperçus et le verdict du test sur Nintendo Switch 2.",
+      "metaDescription": "Avis sur Moss : La relique oubliée - Scores Metacritic et notes",
+      "categoryLabel": "Lisez les avis sur Moss : La relique oubliée, les scores Metacritic et les notes globales, ainsi que les premiers aperçus et le verdict du test sur Nintendo Switch 2.",
+      "whatIs": "AVIS",
+      "whatIsDescription": "Que disent les avis ?",
+      "why": "Un tour d'horizon de l'accueil critique et des joueurs pour Moss : La relique oubliée, regroupant les notes de tests, les agrégateurs Metacritic, les premiers essais et les verdicts par plateforme comme le test Nintendo Switch 2.",
+      "whySteps": {
+        "step1Title": "Pourquoi lire les avis ?",
+        "step1Description": "Consulter les notes",
+        "step2Title": "Découvrez les notes Metacritic et les évaluations globales des critiques et des joueurs",
+        "step2Description": "Comparer les plateformes",
+        "step3Title": "Lisez les verdicts par plateforme, incluant le test sur Nintendo Switch 2",
+        "step3Description": "Découvrir les premières impressions"
+      },
+      "featured": "Parcourez les aperçus d'avant-lancement pour savoir à quoi vous attendre",
+      "all": "En vedette et essentiel"
+    },
+    "features": {
+      "title": "Tous les avis",
+      "description": "Caractéristiques et personnages de Moss : La relique oubliée",
+      "metaTitle": "Les caractéristiques marquantes de Moss : La relique oubliée, des options coop et multijoueur au support de la langue des signes ASL, sans oublier l'héroïne Quill.",
+      "metaDescription": "Caractéristiques de Moss : La relique oubliée - Coop, multijoueur, langue des signes et Quill",
+      "categoryLabel": "Explorez les caractéristiques de Moss : La relique oubliée : modes coop et multijoueur, support de la langue des signes ASL, options d'accessibilité et Quill, la souris héroïque.",
+      "whatIs": "CARACTÉRISTIQUES",
+      "whatIsDescription": "Quelles sont les caractéristiques ?",
+      "why": "Un guide des caractéristiques emblématiques de Moss : La relique oubliée, incluant ses options coop et multijoueur, l'accessibilité en langue des signes ASL, les rôles du duo Quill et Reader, et le charme de la courageuse petite souris Quill.",
+      "whySteps": {
+        "step1Title": "Pourquoi explorer les caractéristiques ?",
+        "step1Description": "Jouer ensemble",
+        "step2Title": "Découvrez comment la coop et le multijoueur permettent à un second joueur de rejoindre l'aventure",
+        "step2Description": "Découvrez la prise en charge de la langue des signes américaine (ASL) et d'autres options d'accessibilité",
+        "step3Title": "Rencontrez Quill",
+        "step3Description": "Comprenez le duo formé par Quill et le Lecteur au cœur de ce voyage conté"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les guides de fonctionnalités"
+    },
+    "versions": {
+      "title": "Jeux et contenus de Moss : La relique oubliée",
+      "description": "Tout le contenu de Moss : La relique oubliée, y compris la compilation de Moss, Moss : Livre II et le DLC Twilight Garden, ainsi que des détails sur la nouvelle partie, le remake et la suite.",
+      "metaTitle": "Jeux de Moss : La relique oubliée - Moss, Livre II et le DLC Twilight Garden",
+      "metaDescription": "Découvrez ce qui est inclus dans Moss : La relique oubliée : les jeux Moss et Moss : Livre II, le DLC Twilight Garden, les nouveaux modes de jeu ainsi que des détails sur le remake et la suite.",
+      "categoryLabel": "CONTENU",
+      "whatIs": "Que contient la collection ?",
+      "whatIsDescription": "Une présentation détaillée de tout le contenu inclus dans Moss : La relique oubliée, la collection non-VR améliorée de Polyarc qui regroupe le Moss original, Moss : Livre II et le DLC Twilight Garden en une seule et unique aventure complète.",
+      "why": "Pourquoi consulter le guide de contenu ?",
+      "whySteps": {
+        "step1Title": "Découvrir le contenu inclus",
+        "step1Description": "Obtenir la liste complète du contenu de Moss, Moss : Livre II et du DLC Twilight Garden",
+        "step2Title": "Comparer avec l'original",
+        "step2Description": "Comprendre les améliorations de type remake par rapport à la version VR originale",
+        "step3Title": "Planifier une Nouvelle Partie Plus",
+        "step3Description": "En savoir plus sur les nouveaux modes de jeu et la place de cette collection dans la chronologie de la série"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les guides de contenu"
+    },
+    "resources": {
+      "title": "Bandes-annonces et communauté de Moss : La relique oubliée",
+      "description": "Les bandes-annonces officielles de Moss : La relique oubliée et les hubs communautaires actifs, y compris la bande-annonce de lancement, la bande-annonce de gameplay et le Reddit r/MossGame.",
+      "metaTitle": "Bandes-annonces, vidéos et communauté Reddit de Moss : La relique oubliée",
+      "metaDescription": "Regardez les bandes-annonces officielles de lancement et de gameplay de Moss : La relique oubliée et rejoignez la communauté Reddit r/MossGame pour des actualités, des conseils et des discussions entre fans.",
+      "categoryLabel": "RESSOURCES",
+      "whatIs": "Que sont les ressources ?",
+      "whatIsDescription": "Un hub de ressources officielles et communautaires pour Moss : La relique oubliée, regroupant les bandes-annonces de lancement et de gameplay de Polyarc ainsi que la communauté active Reddit r/MossGame pour des actualités, des conseils et des discussions entre joueurs.",
+      "why": "Pourquoi utiliser les ressources ?",
+      "whySteps": {
+        "step1Title": "Regarder les bandes-annonces",
+        "step1Description": "Retrouver les bandes-annonces officielles de lancement et de gameplay de Polyarc au même endroit",
+        "step2Title": "Rejoindre la communauté",
+        "step2Description": "Échanger avec des joueurs sur le Reddit r/MossGame pour obtenir des actualités et des conseils",
+        "step3Title": "Rester informé",
+        "step3Description": "Suivre les notes de mise à jour, les événements et les guides communautaires au fil de l'évolution du jeu"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Toutes les ressources"
+    }
+  }
 }

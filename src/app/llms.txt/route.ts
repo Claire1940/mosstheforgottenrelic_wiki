@@ -6,7 +6,7 @@ export const dynamic = 'force-static'
 
 export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.mosstheforgottenrelic.wiki'
-  const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Lucid Blocks Wiki'
+  const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Moss: The Forgotten Relic Wiki'
 
   const lines: string[] = []
   lines.push(`# ${siteName}`)
