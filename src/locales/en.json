@@ -10,14 +10,7 @@
       "twitterDescription": "Explore the complete Moss: The Forgotten Relic walkthrough, puzzle solutions, collectibles, bosses, platforms, achievements, and performance tips."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
