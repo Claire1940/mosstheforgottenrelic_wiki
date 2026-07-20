@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Layers } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Moteur de jeu de Moss : La relique oubliée : Spécifications techniques et guide de performance",
+  description: "Explorez les bases de l'Unreal Engine de Moss : La relique oubliée. Découvrez les performances des plateformes, les améliorations visuelles et l'implémentation technique pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Moss+The+Forgotten+Relic+Engine",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de Moss : La relique oubliée"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Moteur de jeu de Moss : La relique oubliée** : Le jeu est développé sous **Unreal Engine**, spécifiquement optimisé pour adapter les mécaniques de RV (réalité virtuelle) aux écrans traditionnels.
+- **Fidélité visuelle** : Propose des textures haute résolution, un éclairage avancé et une physique affinée pour les interactions environnementales.
+- **Compatibilité des plateformes** : Optimisé pour **PlayStation 5, Xbox Series X/S, Nintendo Switch** et **PC** (Windows).
+- **Mécanique centrale** : Un mélange unique de jeu de plateforme à la troisième personne et de manipulation environnementale à la première personne.
+- **Système de combat** : Introduit le **Marteau de Cariel**, une arme lourde nécessitant une gestion précise de l'endurance et de l'inertie.
+</Callout>
+
+<Section icon={Cpu} title="Implémentation de l'Unreal Engine et aperçu technique">
+
+La publication des détails du **moteur de jeu de Moss : La relique oubliée** confirme que Polyarc poursuit sa longue collaboration avec l'**Unreal Engine** pour propulser cette compilation définitive. Conçue à l'origine pour la réalité virtuelle, l'architecture du moteur a été considérablement retravaillée pour prendre en charge un rendu haute fidélité sur les écrans plats traditionnels. Cette transition a nécessité une réécriture complète de la couche d'interaction, passant d'entrées 6DOF contrôlées par le mouvement à un système sophistiqué de curseur basé sur la physique qui préserve la sensation tactile de l'expérience RV originale.
+
+**Points forts de la vidéo :**
+- **Configuration initiale** : Ajustement du gamma et de la luminosité pour les environnements sombres et atmosphériques.
+- **Performances du moteur** : Observation de la stabilité des IPS (images par seconde) lors des séquences de chargement intensives.
+- **Interaction environnementale** : Comment le moteur gère les objets basés sur la physique comme l'herbe et les pots cassables.
+- **Mécaniques de combat** : Rendu en temps réel des barres de posture des ennemis et des effets de parade.
+
+<YouTubeEmbed videoId="pk-fVUwubHo" title="FIRST TIME EVER Moss The Forgotten Relic" />
+
+Le moteur utilise les **systèmes d'éclairage avancés d'Unreal** pour créer l'esthétique de livre de contes qui définit la série. Dans *La relique oubliée*, l'illumination globale a été calculée avec une plus grande précision pour garantir que les ombres dans la serre et la salle du trône apportent de la profondeur sans sacrifier la visibilité. Les modèles de personnages, en particulier Quill, bénéficient d'un nombre de polygones accru et d'ombrages de fourrure améliorés, rendant la petite protagoniste plus vivante que jamais.
+
+| Fonctionnalité technique | Détail d'implémentation | Impact sur les performances |
+| :--- | :--- | :--- |
+| **API de rendu** | DirectX 12 / Vulkan | Élevé - Permet un ombrage avancé |
+| **Moteur physique** | Chaos Physics (Personnalisé) | Moyen - Gère les énigmes environnementales |
+| **Moteur audio** | Unreal Audio Engine | Faible - Prise en charge du son 3D spatial |
+| **Système d'animation** | Skeletal Mesh / IK Rig | Moyen - Fluidifie les transitions entre les actions |
+
+<Callout type="tip" title="Conseil de pro">
+Si vous rencontrez des micro-saccades sur la version PC, assurez-vous de lancer le jeu en **Mode Plein écran** plutôt qu'en Fenêtré sans bordure. En effet, l'implémentation de l'Unreal Engine dans cette version donne la priorité à l'accès exclusif au GPU pour un meilleur rythme des images (frame pacing).
+</Callout>
+
+</Section>
+
+<Section icon={Layers} title="Performances des plateformes et résolutions cibles">
+
+Le **moteur de jeu de Moss : La relique oubliée** est conçu pour s'adapter à une grande variété de configurations matérielles, de la PlayStation 5 haute performance à la Nintendo Switch portable. Polyarc a mis en œuvre un système de mise à l'échelle dynamique de la résolution (DRS) qui donne la priorité à la fluidité, en particulier lors des combats intenses où le timing des parades est crucial. Sur les consoles de génération actuelle, le jeu vise un rendu 4K natif, tandis que la version Switch utilise le FSR (FidelityFX Super Resolution) pour maintenir un taux stable de 30 IPS en mode portable.
+
+<CardGrid cols={3}>
+  <Card title="PlayStation 5 / Xbox Series X">
+    - **Résolution** : 4K native (2160p)
+    - **Taux de rafraîchissement** : 60 IPS stables
+    - **Fonctionnalités** : Reflets en lancer de rayons (ray-tracing), retours haptiques
+  </Card>
+  <Card title="PC (Windows)">
+    - **Résolution** : Prise en charge jusqu'à la 8K
+    - **Taux de rafraîchissement** : Débloqué
+    - **Fonctionnalités** : DLSS 3.5, prise en charge des écrans ultra-larges
+  </Card>
+  <Card title="Nintendo Switch / Switch 2">
+    - **Résolution** : 720p (Portable) / 1080p (Station d'accueil)
+    - **Taux de rafraîchissement** : 30 IPS / 60 IPS (Switch 2)
+    - **Fonctionnalités** : Ombres optimisées, prise en charge de l'écran tactile
+  </Card>
+</CardGrid>
+
+La capacité du moteur à gérer simultanément « Le Lecteur » (l'avatar à la première personne du joueur) et Quill (le personnage à la troisième personne) témoigne des capacités de rendu multithread d'Unreal. Dans *La relique oubliée*, le moteur doit afficher le monde à grande échelle du point de vue du Lecteur tout en conservant les détails complexes des énigmes à petite échelle que Quill parcourt. Ce rendu à double perspective est plus gourmand en ressources que les jeux à la troisième personne standards, mais il a été optimisé grâce à une technique d'occlusion culling agressive.
+
+| Plateforme | IPS cible | Vitesse de chargement | Préréglage visuel |
+| :--- | :--- | :--- | :--- |
+| **PS5** | 60 IPS | **Ultra rapide (< 3 s)** | Ultra |
+| **Xbox Series S** | 60 IPS | Rapide (< 5 s) | Élevé |
+| **Switch** | 30 IPS | Modérée (< 15 s) | Bas/Moyen |
+| **PC (Haut de gamme)** | 144+ IPS | **Instantané** | Cinématique |
+
+<Callout type="warning" title="Avertissement de performance">
+Sur Nintendo Switch, certaines zones à forte densité de végétation, comme la Serre, peuvent subir des baisses de résolution temporaires dues au système de mise à l'échelle dynamique. Cela est prévu pour maintenir un temps de latence minimal lors de la résolution des énigmes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de combat et configuration des touches">
+
+Un changement important dans le **moteur de jeu de Moss : La relique oubliée** est l'adaptation des interactions RV aux manettes standard. Le moteur utilise désormais un système de « Main virtuelle » assigné au stick analogique droit ou à la souris, permettant aux joueurs d'interagir avec le monde et de manipuler des objets tout en contrôlant simultanément Quill avec le stick gauche. Ce schéma de contrôle hybride est essentiel pour les nouveaux combats introduits dans cette version.
+
+L'introduction du **Marteau de Cariel** ajoute une nouvelle dimension aux combats basés sur la physique. Le moteur calcule le poids et l'inertie du marteau, ce qui signifie que les balancements ont un temps de préparation (wind-up) et une phase de récupération. Les joueurs doivent maîtriser le système de « Barre de posture », où des coups successifs ou des parades réussies peuvent briser la garde d'un ennemi, ouvrant la voie à une attaque critique infligeant des dégâts massifs.
+
+<Steps>
+  <Step num="1" title="Verrouillage de cible">
+    Activez le verrouillage de la caméra sur la cible pour rester concentré sur les ennemis dangereux comme les Sentinelles arcaniques.
+  </Step>
+  <Step num="2" title="Accumulation de posture">
+    Enchaînez les attaques de mêlée ou les parades pour remplir la barre de posture de l'ennemi. Parer est plus efficace mais plus risqué.
+  </Step>
+  <Step num="3" title="Gestion de l'endurance">
+    Surveillez l'endurance de Quill ; les coups de marteau lourds consomment plus d'énergie que les attaques à l'épée standard.
+  </Step>
+  <Step num="4" title="Exécution critique">
+    Une fois la barre de posture brisée, déclenchez une attaque critique en appuyant sur le bouton d'interaction pendant que l'ennemi est étourdi.
+  </Step>
+</Steps>
+
+| Action | Touche (Manette) | Touche (PC) | Effet |
+| :--- | :--- | :--- | :--- |
+| **Déplacer Quill** | Stick gauche | ZQSD / WASD | Déplacement du personnage |
+| **Interagir (Lecteur)** | Gâchette droite | Clic gauche | Manipuler l'environnement |
+| **Attaquer** | Carré / X | Clic droit | Mêlée standard |
+| **Parer** | L1 / LB | Maj gauche | Annuler les dégâts / Dégâts de posture |
+| **Esquiver** | Rond / B | Barre d'espace | Manœuvre d'esquive |
+
+<Callout type="success" title="Conseil de combat">
+Les parades réussies dans le **moteur de jeu de Moss : La relique oubliée** ne consomment pas d'endurance. Si vous manquez d'endurance, concentrez-vous sur le timing de vos parades plutôt que sur l'esquive pour rester dans le combat.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuration système requise et optimisation">
+
+Pour les joueurs sur PC, le **moteur de jeu de Moss : La relique oubliée** nécessite un processeur multicœur moderne pour gérer simultanément les simulations physiques et la recherche de chemin de l'IA. Bien que le jeu soit visuellement époustouflant, il est bien optimisé pour les configurations de milieu de gamme. La configuration minimale vise une expérience en 1080p à 30 IPS, tandis que les spécifications recommandées sont orientées vers du 1440p à 60 IPS.
+
+<CardGrid cols={2}>
+  <Card title="Configuration minimale requise">
+    - **Système d'exploitation** : Windows 10 (64 bits)
+    - **Processeur** : Intel i5-8400 / AMD Ryzen 5 2600
+    - **Mémoire vive** : 8 Go
+    - **Carte graphique** : GTX 1060 (6 Go) / RX 580
+    - **Stockage** : 25 Go sur SSD
+  </Card>
+  <Card title="Configuration recommandée">
+    - **Système d'exploitation** : Windows 11
+    - **Processeur** : Intel i7-12700 / AMD Ryzen 7 5800X
+    - **Mémoire vive** : 16 Go
+    - **Carte graphique** : RTX 3070 / RX 6800
+    - **Stockage** : 25 Go sur SSD NVMe
+  </Card>
+</CardGrid>
+
+Pour optimiser les performances sur les PC plus anciens, les joueurs doivent d'abord se concentrer sur la réduction de la **Qualité des ombres** et de la **Qualité des effets**. Ces paramètres ont le plus grand impact sur le pipeline de rendu de l'Unreal Engine en raison de l'éclairage complexe des environnements fantastiques. De plus, désactiver le « Mode Streamer » dans les paramètres peut réduire légèrement la charge du processeur si vous ne diffusez pas activement votre partie.
+
+<Checklist
+  id="pc-optimization"
+  title="Étapes d'optimisation sur PC :"
+  items={[
+    "Activer la planification de l'exécution d'un GPU à accélération matérielle dans Windows",
+    "Mettre à jour vers les derniers pilotes Game Ready (version de juillet 2026)",
+    "Régler le mode de gestion de l'alimentation sur « Performances maximales privilégiées »",
+    "Désactiver la synchronisation verticale (V-Sync) si vous utilisez un écran compatible G-Sync ou FreeSync",
+    "Installer le jeu sur un SSD pour minimiser les saccades liées au chargement des textures (texture streaming)"
+  ]}
+/>
+
+<Callout type="info" title="Note technique">
+Le jeu utilise une quantité importante de VRAM pour ses textures haute résolution. Si vous possédez une carte graphique avec moins de 6 Go de VRAM, il est fortement recommandé de régler la Qualité des textures sur « Moyenne » pour éviter les chutes de FPS lors des transitions de scènes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion et FAQ">
+
+Le **moteur de jeu de Moss : La relique oubliée** représente un modèle d'adaptation d'un concept initialement conçu pour la RV à un public plus large. En tirant parti de la puissance de l'Unreal Engine, Polyarc a veillé à ce que le charme, la maniabilité et le défi de l'aventure de Quill restent intacts, quelle que soit la plateforme. Que vous soyez un fan de la première heure ou un nouveau venu, les améliorations techniques de cette version de 2026 offrent l'expérience la plus fluide que la série ait jamais connue.
+
+<FAQ items={[
+  {
+    question: "Quel moteur de jeu utilise Moss : La relique oubliée ?",
+    answer: "Le jeu est développé à l'aide d'une version fortement personnalisée de l'Unreal Engine, optimisée pour les performances multiplateformes et les interactions environnementales basées sur la physique."
+  },
+  {
+    question: "Le jeu prend-il en charge les 120 IPS sur consoles ?",
+    answer: "Actuellement, Moss : La relique oubliée vise un taux stable de 60 IPS sur PS5 et Xbox Series X. Il n'y a pas de mode 120 IPS officiel pour le moment."
+  },
+  {
+    question: "Puis-je jouer au jeu sans casque de réalité virtuelle (RV) ?",
+    answer: "Oui, La relique oubliée est spécifiquement conçue pour les écrans traditionnels et est entièrement jouable avec une manette standard ou un ensemble clavier/souris."
+  },
+  {
+    question: "Y a-t-il une différence de contenu entre les versions PC et consoles ?",
+    answer: "Non, le contenu est identique sur toutes les plateformes, bien que la version PC propose des préréglages graphiques plus élevés et des taux de rafraîchissement débloqués."
+  }
+]} />
+
+<Callout type="tip" title="Dernier conseil">
+Cherchez toujours les parchemins cachés en déplaçant la caméra (le point de vue du Lecteur). Le moteur dissimule de nombreux objets de collection derrière des éléments de premier plan qui ne deviennent visibles que lorsque vous vous penchez ou modifiez votre angle de vue.
+</Callout>
+
+</Section>

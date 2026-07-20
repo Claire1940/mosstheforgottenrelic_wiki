@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Layers } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Moss the Forgotten Relic Game Engine: Technical Specs & Performance Guide",
+  description: "Explore the Unreal Engine foundation of Moss: The Forgotten Relic. Learn about platform performance, visual upgrades, and technical implementation for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Moss+The+Forgotten+Relic+Engine",
+  date: "2026-07-21",
+  author: "moss the forgotten relic Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Moss the forgotten relic game engine**: The game is built on **Unreal Engine**, specifically optimized for transitioning VR mechanics to flat-screen devices.
+- **Visual Fidelity**: Features high-resolution textures, advanced lighting, and refined physics for environmental interactions.
+- **Platform Support**: Optimized for **PlayStation 5, Xbox Series X/S, Nintendo Switch**, and **PC** (Windows).
+- **Core Mechanic**: A unique blend of third-person platforming and first-person environmental manipulation.
+- **Combat System**: Introduces the **Hammer of Cariel**, a heavy weapon requiring precise stamina and momentum management.
+</Callout>
+
+<Section icon={Cpu} title="Unreal Engine Implementation and Technical Overview">
+
+The release of **moss the forgotten relic game engine** details confirms that Polyarc has continued its long-standing relationship with **Unreal Engine** to power this definitive compilation. Originally designed for virtual reality, the engine architecture has been significantly overhauled to support high-fidelity rendering on traditional flat-screen displays. This transition required a complete rewrite of the interaction layer, moving from motion-controlled 6DOF inputs to a sophisticated physics-based cursor system that maintains the tactile feel of the original VR experience.
+
+**Video Highlights:**
+- **Initial Setup**: Adjusting gamma and brightness for the dark, atmospheric environments.
+- **Engine Performance**: Observing FPS stability during high-load loading sequences.
+- **Environmental Interaction**: How the engine handles physics-based objects like grass and breakable pots.
+- **Combat Mechanics**: Real-time rendering of enemy posture bars and parry effects.
+
+<YouTubeEmbed videoId="pk-fVUwubHo" title="FIRST TIME EVER Moss The Forgotten Relic" />
+
+The engine utilizes **Unreal's advanced lighting systems** to create the storybook aesthetic that defines the series. In *The Forgotten Relic*, the global illumination has been baked with higher precision to ensure that shadows in the greenhouse and throne room areas provide depth without sacrificing visibility. The character models, specifically Quill, feature increased polygon counts and improved fur shaders, making the tiny protagonist appear more lifelike than ever before.
+
+| Technical Feature | Implementation Detail | Performance Impact |
+| :--- | :--- | :--- |
+| **Rendering API** | DirectX 12 / Vulkan | High - Enables advanced shading |
+| **Physics Engine** | Chaos Physics (Customized) | Medium - Manages environmental puzzles |
+| **Audio Engine** | Unreal Audio Engine | Low - Supports spatial 3D sound |
+| **Animation System** | Skeletal Mesh / IK Rig | Medium - Smooths transition between actions |
+
+<Callout type="tip" title="Pro Tip">
+If you experience micro-stuttering on the PC version, ensure you are running the game in **Fullscreen Mode** rather than Borderless Windowed, as the Unreal Engine implementation in this build prioritizes exclusive GPU access for better frame pacing.
+</Callout>
+
+</Section>
+
+<Section icon={Layers} title="Platform Performance and Resolution Targets">
+
+The **moss the forgotten relic game engine** is designed to scale across a wide variety of hardware, from the high-performance PlayStation 5 to the portable Nintendo Switch. Polyarc has implemented a dynamic resolution scaling (DRS) system that prioritizes frame rate, especially during intense combat encounters where parrying timing is critical. On current-gen consoles, the game targets a native 4K output, while the Switch version utilizes FSR (FidelityFX Super Resolution) to maintain a stable 30 FPS in handheld mode.
+
+<CardGrid cols={3}>
+  <Card title="PlayStation 5 / Xbox Series X">
+    - **Resolution**: Native 4K (2160p)
+    - **Frame Rate**: Stable 60 FPS
+    - **Features**: Ray-traced reflections, haptic feedback
+  </Card>
+  <Card title="PC (Windows)">
+    - **Resolution**: Up to 8K supported
+    - **Frame Rate**: Unlocked
+    - **Features**: DLSS 3.5, Ultra-wide support
+  </Card>
+  <Card title="Nintendo Switch / Switch 2">
+    - **Resolution**: 720p (Handheld) / 1080p (Docked)
+    - **Frame Rate**: 30 FPS / 60 FPS (Switch 2)
+    - **Features**: Optimized shaders, touch screen support
+  </Card>
+</CardGrid>
+
+The engine's ability to handle "The Reader" (the player's first-person avatar) and Quill (the third-person character) simultaneously is a testament to Unreal's multi-threaded rendering capabilities. In *The Forgotten Relic*, the engine must render the large-scale world from the Reader's perspective while maintaining the intricate details of the small-scale puzzles Quill navigates. This dual-perspective rendering is more resource-intensive than standard third-person games but has been optimized through aggressive occlusion culling.
+
+| Platform | Target FPS | Loading Speed | Visual Preset |
+| :--- | :--- | :--- | :--- |
+| **PS5** | 60 FPS | **Ultra Fast (< 3s)** | Ultra |
+| **Xbox Series S** | 60 FPS | Fast (< 5s) | High |
+| **Switch** | 30 FPS | Moderate (< 15s) | Low/Medium |
+| **PC (High-End)** | 144+ FPS | **Instant** | Cinematic |
+
+<Callout type="warning" title="Performance Warning">
+On the Nintendo Switch, certain areas with dense foliage, such as the Greenhouse, may see temporary resolution drops due to the dynamic scaling system. This is intended to keep the input lag minimal for puzzle solving.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics and Input Mapping">
+
+A significant change in the **moss the forgotten relic game engine** is the adaptation of VR interactions to standard controllers. The engine now uses a "Virtual Hand" system mapped to the right analog stick or mouse, allowing players to reach into the world and manipulate objects while simultaneously controlling Quill with the left stick. This hybrid control scheme is essential for the new combat encounters introduced in this version.
+
+The introduction of the **Hammer of Cariel** adds a new layer of physics-based combat. The engine calculates the weight and momentum of the hammer, meaning swings have a wind-up time and a recovery phase. Players must master the "Posture Bar" system, where successive hits or successful parries can break an enemy's guard, leading to a massive damage critical strike.
+
+<Steps>
+  <Step num="1" title="Target Locking">
+    Toggle the camera target lock to keep the focus on dangerous enemies like the Arcane Sentinels.
+  </Step>
+  <Step num="2" title="Posture Building">
+    Execute melee attacks or parries to fill the enemy's posture bar. Parrying is more effective but riskier.
+  </Step>
+  <Step num="3" title="Stamina Management">
+    Monitor Quill's endurance; heavy hammer swings consume more energy than standard sword strikes.
+  </Step>
+  <Step num="4" title="Critical Execution">
+    Once the posture bar breaks, launch a critical attack by pressing the interact button while the enemy is stunned.
+  </Step>
+</Steps>
+
+| Action | Control (Controller) | Control (PC) | Effect |
+| :--- | :--- | :--- | :--- |
+| **Move Quill** | Left Stick | WASD | Character Navigation |
+| **Interact (Reader)** | Right Trigger | Left Click | Manipulate Environment |
+| **Attack** | Square / X | Right Click | Standard Melee |
+| **Parry** | L1 / LB | Left Shift | Negate Damage / Posture DMG |
+| **Dodge** | Circle / B | Spacebar | Evasive Maneuver |
+
+<Callout type="success" title="Combat Tip">
+Successful parries in the **moss the forgotten relic game engine** consume no endurance. If you find yourself low on stamina, focus on timing your parries rather than dodging to stay in the fight.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="System Requirements and Optimization">
+
+For PC players, the **moss the forgotten relic game engine** requires a modern multi-core processor to handle the simultaneous physics simulations and AI pathfinding. While the game is visually stunning, it is well-optimized for mid-range hardware. The minimum requirements target a 1080p 30 FPS experience, whereas the recommended specs are geared toward 1440p 60 FPS.
+
+<CardGrid cols={2}>
+  <Card title="Minimum Requirements">
+    - **OS**: Windows 10 (64-bit)
+    - **CPU**: Intel i5-8400 / AMD Ryzen 5 2600
+    - **RAM**: 8 GB
+    - **GPU**: GTX 1060 (6GB) / RX 580
+    - **Storage**: 25 GB SSD
+  </Card>
+  <Card title="Recommended Requirements">
+    - **OS**: Windows 11
+    - **CPU**: Intel i7-12700 / AMD Ryzen 7 5800X
+    - **RAM**: 16 GB
+    - **GPU**: RTX 3070 / RX 6800
+    - **Storage**: 25 GB NVMe SSD
+  </Card>
+</CardGrid>
+
+To optimize performance on older PCs, players should focus on lowering the **Shadow Quality** and **Effects Quality** first. These settings have the highest impact on the Unreal Engine's rendering pipeline due to the complex lighting in the fantasy environments. Additionally, disabling "Streamer Mode" in the settings can slightly reduce CPU overhead if you are not actively broadcasting your gameplay.
+
+<Checklist
+  id="pc-optimization"
+  title="PC Optimization Steps:"
+  items={[
+    "Enable Hardware-Accelerated GPU Scheduling in Windows",
+    "Update to the latest Game Ready drivers (July 2026 release)",
+    "Set Power Management to 'Prefer Maximum Performance'",
+    "Turn off V-Sync if using a G-Sync or FreeSync monitor",
+    "Install the game on an SSD to minimize texture streaming hitches"
+  ]}
+/>
+
+<Callout type="info" title="Technical Note">
+The game uses a significant amount of VRAM for its high-resolution textures. If you have a GPU with less than 6GB of VRAM, it is highly recommended to set the Texture Quality to 'Medium' to avoid frame drops during scene transitions.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion and FAQ">
+
+The **moss the forgotten relic game engine** represents a masterclass in adapting VR-centric design for a broader audience. By leveraging the power of Unreal Engine, Polyarc has ensured that the charm, tactility, and challenge of Quill's adventure remain intact, regardless of the platform. Whether you are a returning fan or a newcomer, the technical refinements in this 2026 release provide the smoothest experience the series has ever seen.
+
+<FAQ items={[
+  {
+    question: "What game engine does Moss: The Forgotten Relic use?",
+    answer: "The game is built using a heavily customized version of Unreal Engine, optimized for cross-platform performance and physics-based environmental interaction."
+  },
+  {
+    question: "Does the game support 120 FPS on consoles?",
+    answer: "Currently, Moss: The Forgotten Relic targets a stable 60 FPS on PS5 and Xbox Series X. There is no official 120 FPS mode at this time."
+  },
+  {
+    question: "Can I play the game without a VR headset?",
+    answer: "Yes, The Forgotten Relic is specifically designed for flat-screen devices and is fully playable with a standard controller or mouse and keyboard."
+  },
+  {
+    question: "Is there a difference in content between the PC and Console versions?",
+    answer: "No, the content is identical across all platforms, though the PC version offers higher graphical presets and unlocked frame rates."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Always look for hidden scrolls by moving the camera (The Reader's perspective). The engine hides many collectibles behind foreground objects that only become visible when you lean or shift your view.
+</Callout>
+
+</Section>

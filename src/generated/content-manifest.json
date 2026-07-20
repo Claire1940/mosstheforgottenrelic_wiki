@@ -14,8 +14,16 @@
         "file": "moss-the-forgotten-relic-full-demo"
       },
       {
+        "slug": "moss-the-forgotten-relic-ps5-demo",
+        "file": "moss-the-forgotten-relic-ps5-demo"
+      },
+      {
         "slug": "moss-the-forgotten-relic-steam-next-fest",
         "file": "moss-the-forgotten-relic-steam-next-fest"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-demo",
+        "file": "moss-the-forgotten-relic-switch-2-demo"
       }
     ],
     "features": [
@@ -50,6 +58,10 @@
         "file": "moss-the-forgotten-relic-demo-walkthrough"
       },
       {
+        "slug": "moss-the-forgotten-relic-game-engine",
+        "file": "moss-the-forgotten-relic-game-engine"
+      },
+      {
         "slug": "moss-the-forgotten-relic-gameplay-walkthrough",
         "file": "moss-the-forgotten-relic-gameplay-walkthrough"
       },
@@ -60,6 +72,10 @@
       {
         "slug": "moss-the-forgotten-relic-mire-temple",
         "file": "moss-the-forgotten-relic-mire-temple"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-trophy-guide",
+        "file": "moss-the-forgotten-relic-trophy-guide"
       }
     ],
     "platforms": [
@@ -72,8 +88,16 @@
         "file": "moss-the-forgotten-relic-meta-quest"
       },
       {
+        "slug": "moss-the-forgotten-relic-nintendo-switch-release-date",
+        "file": "moss-the-forgotten-relic-nintendo-switch-release-date"
+      },
+      {
         "slug": "moss-the-forgotten-relic-nintendo-switch",
         "file": "moss-the-forgotten-relic-nintendo-switch"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-on-switch",
+        "file": "moss-the-forgotten-relic-on-switch"
       },
       {
         "slug": "moss-the-forgotten-relic-platforms",
@@ -126,6 +150,14 @@
         "file": "moss-the-forgotten-relic-release-date"
       },
       {
+        "slug": "moss-the-forgotten-relic-switch-2-physical",
+        "file": "moss-the-forgotten-relic-switch-2-physical"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-price",
+        "file": "moss-the-forgotten-relic-switch-2-price"
+      },
+      {
         "slug": "moss-the-forgotten-relic-switch-2-release-date",
         "file": "moss-the-forgotten-relic-switch-2-release-date"
       }
@@ -168,12 +200,20 @@
         "file": "moss-the-forgotten-relic-new-game"
       },
       {
+        "slug": "moss-the-forgotten-relic-physical",
+        "file": "moss-the-forgotten-relic-physical"
+      },
+      {
         "slug": "moss-the-forgotten-relic-remake",
         "file": "moss-the-forgotten-relic-remake"
       },
       {
         "slug": "moss-the-forgotten-relic-sequel",
         "file": "moss-the-forgotten-relic-sequel"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-physical-copy",
+        "file": "moss-the-forgotten-relic-switch-2-physical-copy"
       }
     ]
   },
@@ -192,8 +232,16 @@
         "file": "moss-the-forgotten-relic-full-demo"
       },
       {
+        "slug": "moss-the-forgotten-relic-ps5-demo",
+        "file": "moss-the-forgotten-relic-ps5-demo"
+      },
+      {
         "slug": "moss-the-forgotten-relic-steam-next-fest",
         "file": "moss-the-forgotten-relic-steam-next-fest"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-demo",
+        "file": "moss-the-forgotten-relic-switch-2-demo"
       }
     ],
     "features": [
@@ -228,6 +276,10 @@
         "file": "moss-the-forgotten-relic-demo-walkthrough"
       },
       {
+        "slug": "moss-the-forgotten-relic-game-engine",
+        "file": "moss-the-forgotten-relic-game-engine"
+      },
+      {
         "slug": "moss-the-forgotten-relic-gameplay-walkthrough",
         "file": "moss-the-forgotten-relic-gameplay-walkthrough"
       },
@@ -238,6 +290,10 @@
       {
         "slug": "moss-the-forgotten-relic-mire-temple",
         "file": "moss-the-forgotten-relic-mire-temple"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-trophy-guide",
+        "file": "moss-the-forgotten-relic-trophy-guide"
       }
     ],
     "platforms": [
@@ -250,8 +306,16 @@
         "file": "moss-the-forgotten-relic-meta-quest"
       },
       {
+        "slug": "moss-the-forgotten-relic-nintendo-switch-release-date",
+        "file": "moss-the-forgotten-relic-nintendo-switch-release-date"
+      },
+      {
         "slug": "moss-the-forgotten-relic-nintendo-switch",
         "file": "moss-the-forgotten-relic-nintendo-switch"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-on-switch",
+        "file": "moss-the-forgotten-relic-on-switch"
       },
       {
         "slug": "moss-the-forgotten-relic-platforms",
@@ -304,6 +368,14 @@
         "file": "moss-the-forgotten-relic-release-date"
       },
       {
+        "slug": "moss-the-forgotten-relic-switch-2-physical",
+        "file": "moss-the-forgotten-relic-switch-2-physical"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-price",
+        "file": "moss-the-forgotten-relic-switch-2-price"
+      },
+      {
         "slug": "moss-the-forgotten-relic-switch-2-release-date",
         "file": "moss-the-forgotten-relic-switch-2-release-date"
       }
@@ -346,12 +418,20 @@
         "file": "moss-the-forgotten-relic-new-game"
       },
       {
+        "slug": "moss-the-forgotten-relic-physical",
+        "file": "moss-the-forgotten-relic-physical"
+      },
+      {
         "slug": "moss-the-forgotten-relic-remake",
         "file": "moss-the-forgotten-relic-remake"
       },
       {
         "slug": "moss-the-forgotten-relic-sequel",
         "file": "moss-the-forgotten-relic-sequel"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-physical-copy",
+        "file": "moss-the-forgotten-relic-switch-2-physical-copy"
       }
     ]
   },
@@ -370,8 +450,16 @@
         "file": "moss-the-forgotten-relic-full-demo"
       },
       {
+        "slug": "moss-the-forgotten-relic-ps5-demo",
+        "file": "moss-the-forgotten-relic-ps5-demo"
+      },
+      {
         "slug": "moss-the-forgotten-relic-steam-next-fest",
         "file": "moss-the-forgotten-relic-steam-next-fest"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-demo",
+        "file": "moss-the-forgotten-relic-switch-2-demo"
       }
     ],
     "features": [
@@ -406,6 +494,10 @@
         "file": "moss-the-forgotten-relic-demo-walkthrough"
       },
       {
+        "slug": "moss-the-forgotten-relic-game-engine",
+        "file": "moss-the-forgotten-relic-game-engine"
+      },
+      {
         "slug": "moss-the-forgotten-relic-gameplay-walkthrough",
         "file": "moss-the-forgotten-relic-gameplay-walkthrough"
       },
@@ -416,6 +508,10 @@
       {
         "slug": "moss-the-forgotten-relic-mire-temple",
         "file": "moss-the-forgotten-relic-mire-temple"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-trophy-guide",
+        "file": "moss-the-forgotten-relic-trophy-guide"
       }
     ],
     "platforms": [
@@ -428,8 +524,16 @@
         "file": "moss-the-forgotten-relic-meta-quest"
       },
       {
+        "slug": "moss-the-forgotten-relic-nintendo-switch-release-date",
+        "file": "moss-the-forgotten-relic-nintendo-switch-release-date"
+      },
+      {
         "slug": "moss-the-forgotten-relic-nintendo-switch",
         "file": "moss-the-forgotten-relic-nintendo-switch"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-on-switch",
+        "file": "moss-the-forgotten-relic-on-switch"
       },
       {
         "slug": "moss-the-forgotten-relic-platforms",
@@ -482,6 +586,14 @@
         "file": "moss-the-forgotten-relic-release-date"
       },
       {
+        "slug": "moss-the-forgotten-relic-switch-2-physical",
+        "file": "moss-the-forgotten-relic-switch-2-physical"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-price",
+        "file": "moss-the-forgotten-relic-switch-2-price"
+      },
+      {
         "slug": "moss-the-forgotten-relic-switch-2-release-date",
         "file": "moss-the-forgotten-relic-switch-2-release-date"
       }
@@ -524,12 +636,20 @@
         "file": "moss-the-forgotten-relic-new-game"
       },
       {
+        "slug": "moss-the-forgotten-relic-physical",
+        "file": "moss-the-forgotten-relic-physical"
+      },
+      {
         "slug": "moss-the-forgotten-relic-remake",
         "file": "moss-the-forgotten-relic-remake"
       },
       {
         "slug": "moss-the-forgotten-relic-sequel",
         "file": "moss-the-forgotten-relic-sequel"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-physical-copy",
+        "file": "moss-the-forgotten-relic-switch-2-physical-copy"
       }
     ]
   },
@@ -548,8 +668,16 @@
         "file": "moss-the-forgotten-relic-full-demo"
       },
       {
+        "slug": "moss-the-forgotten-relic-ps5-demo",
+        "file": "moss-the-forgotten-relic-ps5-demo"
+      },
+      {
         "slug": "moss-the-forgotten-relic-steam-next-fest",
         "file": "moss-the-forgotten-relic-steam-next-fest"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-demo",
+        "file": "moss-the-forgotten-relic-switch-2-demo"
       }
     ],
     "features": [
@@ -584,6 +712,10 @@
         "file": "moss-the-forgotten-relic-demo-walkthrough"
       },
       {
+        "slug": "moss-the-forgotten-relic-game-engine",
+        "file": "moss-the-forgotten-relic-game-engine"
+      },
+      {
         "slug": "moss-the-forgotten-relic-gameplay-walkthrough",
         "file": "moss-the-forgotten-relic-gameplay-walkthrough"
       },
@@ -594,6 +726,10 @@
       {
         "slug": "moss-the-forgotten-relic-mire-temple",
         "file": "moss-the-forgotten-relic-mire-temple"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-trophy-guide",
+        "file": "moss-the-forgotten-relic-trophy-guide"
       }
     ],
     "platforms": [
@@ -606,8 +742,16 @@
         "file": "moss-the-forgotten-relic-meta-quest"
       },
       {
+        "slug": "moss-the-forgotten-relic-nintendo-switch-release-date",
+        "file": "moss-the-forgotten-relic-nintendo-switch-release-date"
+      },
+      {
         "slug": "moss-the-forgotten-relic-nintendo-switch",
         "file": "moss-the-forgotten-relic-nintendo-switch"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-on-switch",
+        "file": "moss-the-forgotten-relic-on-switch"
       },
       {
         "slug": "moss-the-forgotten-relic-platforms",
@@ -660,6 +804,14 @@
         "file": "moss-the-forgotten-relic-release-date"
       },
       {
+        "slug": "moss-the-forgotten-relic-switch-2-physical",
+        "file": "moss-the-forgotten-relic-switch-2-physical"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-price",
+        "file": "moss-the-forgotten-relic-switch-2-price"
+      },
+      {
         "slug": "moss-the-forgotten-relic-switch-2-release-date",
         "file": "moss-the-forgotten-relic-switch-2-release-date"
       }
@@ -702,12 +854,20 @@
         "file": "moss-the-forgotten-relic-new-game"
       },
       {
+        "slug": "moss-the-forgotten-relic-physical",
+        "file": "moss-the-forgotten-relic-physical"
+      },
+      {
         "slug": "moss-the-forgotten-relic-remake",
         "file": "moss-the-forgotten-relic-remake"
       },
       {
         "slug": "moss-the-forgotten-relic-sequel",
         "file": "moss-the-forgotten-relic-sequel"
+      },
+      {
+        "slug": "moss-the-forgotten-relic-switch-2-physical-copy",
+        "file": "moss-the-forgotten-relic-switch-2-physical-copy"
       }
     ]
   }
